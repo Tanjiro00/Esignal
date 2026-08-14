@@ -293,6 +293,7 @@ class DemandFeedService:
         key = _openai_key(self._settings)
         model = _openai_model(self._settings)
         verdicts = []
+        failures = 0
         for item in items[:VERIFY_BATCH]:
             request = build_request(item)
             try:
@@ -300,7 +301,9 @@ class DemandFeedService:
                     "https://api.openai.com/v1/chat/completions",
                     {
                         "model": model,
-                        "temperature": 0,
+                        # Temperature is deliberately not sent: newer models
+                        # reject any value but their default, and a rejected
+                        # request drops the item silently.
                         "response_format": {"type": "json_object"},
                         "messages": [
                             {"role": "system", "content": _instructions()},
@@ -310,9 +313,14 @@ class DemandFeedService:
                     key,
                 )
                 raw = answer["choices"][0]["message"]["content"]
-            except Exception:  # noqa: BLE001 - a failed verdict simply drops the item
+            except Exception as error:  # noqa: BLE001 - one bad call must not stop the pass
+                failures += 1
+                if failures <= 3:
+                    print(f"verification failed: {type(error).__name__}: {error}", flush=True)
                 continue
             verdicts.append(parse_response(item, raw))
+        if failures:
+            print(f"verification failures: {failures}/{min(len(items), VERIFY_BATCH)}", flush=True)
         return apply_verifications(items, verdicts)
 
     # ------------------------------------------------------------------ storage
