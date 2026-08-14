@@ -1,0 +1,45 @@
+{
+  "contents": {
+    "twoColumnSearchResultsRenderer": {
+      "primaryContents": {
+        "sectionListRenderer": {
+          "contents": [
+            {
+              "itemSectionRenderer": {
+                "contents": [
+                  {
+                    "videoRenderer": {
+                      "videoId": "abc123xyz89",
+                      "title": {
+                        "runs": [
+                          {
+                            "text": "Agent workflow fixture"
+                          }
+                        ]
+                      },
+                      "ownerText": {
+                        "runs": [
+                          {
+                            "text": "Fixture AI",
+                            "navigationEndpoint": {
+                              "browseEndpoint": {
+                                "browseId": "UCFIXTURE00000000000001"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      "publishedTimeText": {
+                        "simpleText": "2 days ago"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

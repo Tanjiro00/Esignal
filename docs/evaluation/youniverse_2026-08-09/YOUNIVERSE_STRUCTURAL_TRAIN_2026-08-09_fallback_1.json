@@ -1,0 +1,4282 @@
+{
+  "ai_artifact_sha256": "1fdebb9e1a579e153e8b3ccdaef5819c4bbba75bee293861d50599820b009532",
+  "baseline_artifact_sha256": "19c8f725b21e8c81375dd94abb1103ecceee9822834256ce576ec9c00f629376",
+  "checkpoints": [
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-01-03T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-01-10T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-01-17T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-01-24T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-01-31T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-02-07T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-02-14T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-02-21T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2016-02-28T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-799a42258bb43a0d00"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 1.0,
+          "distinct_channel_count": 3,
+          "evidence_titles": [
+            "Google DeepMind - The machines are winning",
+            "Google's Deepmind Wants to Bring Machine Learning to Health Care",
+            "Cyber Dump 08 / Linux Mint, Passphrase, Passive Wifi, Deepmind AI"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=4SGqFhtOTsY",
+            "https://www.youtube.com/watch?v=Gm17ecBbRTg",
+            "https://www.youtube.com/watch?v=DSpGBqwlQLs"
+          ],
+          "evidence_video_ids": [
+            "4SGqFhtOTsY",
+            "Gm17ecBbRTg",
+            "DSpGBqwlQLs"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 8,
+          "label": "DeepMind creator activity",
+          "lead_days": null,
+          "median_outlier_ratio": 0.8575,
+          "new_channel_share": 0.875,
+          "new_future_channel_count": 3,
+          "new_recent_channel_count": 2,
+          "outlier_video_count": 0,
+          "rank": 1,
+          "recent_video_count": 2,
+          "score": 12.2,
+          "supply_growth": 1.333,
+          "topic_key": "micro-v7-799a42258bb43a0d00"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-799a42258bb43a0d00"
+        ],
+        "channels": [
+          "micro-v7-799a42258bb43a0d00"
+        ],
+        "method": [
+          "micro-v7-799a42258bb43a0d00"
+        ],
+        "random": [
+          "micro-v7-799a42258bb43a0d00"
+        ],
+        "supply": [
+          "micro-v7-799a42258bb43a0d00"
+        ]
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-03-06T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 2,
+      "checkpoint_at": "2016-03-13T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-43ebe23c671726cf73",
+        "micro-v7-bf8257c05810a74052"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 1.0,
+          "distinct_channel_count": 4,
+          "evidence_titles": [
+            "Google AlphaGo Program Beats 'Go' Champ",
+            "AlphaGo beats Lee Sedol again, in match 2",
+            "Lee Sedol beats AlphaGo!",
+            "Lee beats AlphaGo in Game 4",
+            "Alphago beats Lee Sedol in third game"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=l7ngy56GY6k",
+            "https://www.youtube.com/watch?v=4pkwQoOepa4",
+            "https://www.youtube.com/watch?v=nA2Pb62V-1M",
+            "https://www.youtube.com/watch?v=XZotQte2HbY",
+            "https://www.youtube.com/watch?v=ugqo1alrOdU",
+            "https://www.youtube.com/watch?v=viNZD7Wh6Hg"
+          ],
+          "evidence_video_ids": [
+            "l7ngy56GY6k",
+            "4pkwQoOepa4",
+            "nA2Pb62V-1M",
+            "XZotQte2HbY",
+            "ugqo1alrOdU",
+            "viNZD7Wh6Hg"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 1,
+          "label": "AlphaGo capability wave",
+          "lead_days": null,
+          "median_outlier_ratio": 31.5753,
+          "new_channel_share": 0.0,
+          "new_future_channel_count": 0,
+          "new_recent_channel_count": 4,
+          "outlier_video_count": 1,
+          "rank": 1,
+          "recent_video_count": 6,
+          "score": 33.0,
+          "supply_growth": 0.111,
+          "topic_key": "micro-v7-bf8257c05810a74052"
+        },
+        {
+          "baseline_coverage": 1.0,
+          "distinct_channel_count": 7,
+          "evidence_titles": [
+            "Lee Sedol loses 2nd Go match to AlphaGo",
+            "AlphaGo computer beating champion is \"terrific accomplishment\", Zach Lynch",
+            "AlphaGo 3-0 Lee Sedol, AlphaGo wins DeepMind Challenge",
+            "Chinese world champion: AlphaGo can't beat me",
+            "AlphaGo has underscored advances in A.I."
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=CZuEQsGiUss",
+            "https://www.youtube.com/watch?v=0bZJyKEH8Xw",
+            "https://www.youtube.com/watch?v=53YLZBSS0cc",
+            "https://www.youtube.com/watch?v=CN_7TT8OszE",
+            "https://www.youtube.com/watch?v=chiIU3729Kw",
+            "https://www.youtube.com/watch?v=gb9-dQXJAgA",
+            "https://www.youtube.com/watch?v=_OV0Hlj8Fb8",
+            "https://www.youtube.com/watch?v=s4QsxOcL5EE",
+            "https://www.youtube.com/watch?v=tpJ_HnXGr8M"
+          ],
+          "evidence_video_ids": [
+            "CZuEQsGiUss",
+            "0bZJyKEH8Xw",
+            "53YLZBSS0cc",
+            "CN_7TT8OszE",
+            "chiIU3729Kw",
+            "gb9-dQXJAgA",
+            "_OV0Hlj8Fb8",
+            "s4QsxOcL5EE",
+            "tpJ_HnXGr8M"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 8,
+          "label": "AlphaGo creator activity",
+          "lead_days": null,
+          "median_outlier_ratio": 1.8698,
+          "new_channel_share": 0.875,
+          "new_future_channel_count": 7,
+          "new_recent_channel_count": 5,
+          "outlier_video_count": 3,
+          "rank": 2,
+          "recent_video_count": 7,
+          "score": 31.5,
+          "supply_growth": 0.593,
+          "topic_key": "micro-v7-43ebe23c671726cf73"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-43ebe23c671726cf73",
+          "micro-v7-bf8257c05810a74052"
+        ],
+        "channels": [
+          "micro-v7-43ebe23c671726cf73",
+          "micro-v7-bf8257c05810a74052"
+        ],
+        "method": [
+          "micro-v7-bf8257c05810a74052",
+          "micro-v7-43ebe23c671726cf73"
+        ],
+        "random": [
+          "micro-v7-bf8257c05810a74052",
+          "micro-v7-43ebe23c671726cf73"
+        ],
+        "supply": [
+          "micro-v7-43ebe23c671726cf73",
+          "micro-v7-bf8257c05810a74052"
+        ]
+      }
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2016-03-20T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-3601a261facbd80274"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 0,
+          "distinct_channel_count": 4,
+          "evidence_titles": [
+            "Match 4 - Google DeepMind Challenge Match: Lee Sedol vs AlphaGo",
+            "AlphaGo vs Lee Se-dol: Human Finally Beats Computer in Fourth Try",
+            "AlphaGo vs Lee Sedol 9p, game 5 w/ Kim Myungwan 9p commenting!",
+            "Man VS Machine: Lee Se-dol fights fifth game against AlphaGo",
+            "Match 5 - Google DeepMind Challenge Match: Lee Sedol vs AlphaGo"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=vFr3K2DORc8",
+            "https://www.youtube.com/watch?v=6ZugVil2v4w",
+            "https://www.youtube.com/watch?v=EitoPhtGWJQ",
+            "https://www.youtube.com/watch?v=l-GsfyVCBu0",
+            "https://www.youtube.com/watch?v=CkyVB4Nm9ac",
+            "https://www.youtube.com/watch?v=MnFXNyuLwRo",
+            "https://www.youtube.com/watch?v=qUAmTYHEyM8",
+            "https://www.youtube.com/watch?v=SMqjGNqfU6I",
+            "https://www.youtube.com/watch?v=yCALyQRN3hw",
+            "https://www.youtube.com/watch?v=w4mw5Tf18OA",
+            "https://www.youtube.com/watch?v=5Zs--5fEV9o",
+            "https://www.youtube.com/watch?v=hC5WWMxRxek",
+            "https://www.youtube.com/watch?v=mzpW10DPHeQ"
+          ],
+          "evidence_video_ids": [
+            "vFr3K2DORc8",
+            "6ZugVil2v4w",
+            "EitoPhtGWJQ",
+            "l-GsfyVCBu0",
+            "CkyVB4Nm9ac",
+            "MnFXNyuLwRo",
+            "qUAmTYHEyM8",
+            "SMqjGNqfU6I",
+            "yCALyQRN3hw",
+            "w4mw5Tf18OA",
+            "5Zs--5fEV9o",
+            "hC5WWMxRxek",
+            "mzpW10DPHeQ"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 0,
+          "label": "AlphaGo performance comparisons",
+          "lead_days": null,
+          "median_outlier_ratio": null,
+          "new_channel_share": 0,
+          "new_future_channel_count": 0,
+          "new_recent_channel_count": 2,
+          "outlier_video_count": 0,
+          "rank": 1,
+          "recent_video_count": 4,
+          "score": 4.2,
+          "supply_growth": 0.0,
+          "topic_key": "micro-v7-3601a261facbd80274"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-3601a261facbd80274"
+        ],
+        "channels": [
+          "micro-v7-3601a261facbd80274"
+        ],
+        "method": [
+          "micro-v7-3601a261facbd80274"
+        ],
+        "random": [
+          "micro-v7-3601a261facbd80274"
+        ],
+        "supply": [
+          "micro-v7-3601a261facbd80274"
+        ]
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-03-27T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-04-03T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-04-10T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-04-17T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-04-24T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-05-01T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-05-08T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2016-05-15T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-254a7d40a45a395dc5"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 1.0,
+          "distinct_channel_count": 3,
+          "evidence_titles": [
+            "Marchesa and IBM Watson design the cognitive dress",
+            "Artificial Intelligence: A Deep Talk (David Kenny, IBM Watson & Stefan Winners) | DLDnyc 16",
+            "Kosol Ouch, Pol Pot survivor, introduces \"IBM Watson\", benevolent AI from 2026 & a parallel universe"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=6AtAibldNYY",
+            "https://www.youtube.com/watch?v=1QwPqeEkj28",
+            "https://www.youtube.com/watch?v=RP9rUdrqddQ"
+          ],
+          "evidence_video_ids": [
+            "6AtAibldNYY",
+            "1QwPqeEkj28",
+            "RP9rUdrqddQ"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 4,
+          "label": "IBM Watson creator activity",
+          "lead_days": null,
+          "median_outlier_ratio": 5.1498,
+          "new_channel_share": 0.0,
+          "new_future_channel_count": 0,
+          "new_recent_channel_count": 2,
+          "outlier_video_count": 2,
+          "rank": 1,
+          "recent_video_count": 2,
+          "score": 10.5,
+          "supply_growth": 0.667,
+          "topic_key": "micro-v7-254a7d40a45a395dc5"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-254a7d40a45a395dc5"
+        ],
+        "channels": [
+          "micro-v7-254a7d40a45a395dc5"
+        ],
+        "method": [
+          "micro-v7-254a7d40a45a395dc5"
+        ],
+        "random": [
+          "micro-v7-254a7d40a45a395dc5"
+        ],
+        "supply": [
+          "micro-v7-254a7d40a45a395dc5"
+        ]
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-05-22T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-05-29T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-06-05T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-06-12T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-06-19T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-06-26T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-07-03T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-07-10T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2016-07-17T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-254a7d40a45a395dc5"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 1.0,
+          "distinct_channel_count": 6,
+          "evidence_titles": [
+            "Help us! Team Eazl and Tanmay Bakshi Need Ideas for IBM Watson Apps",
+            "IBM Watson IoT and AT&T power innovation with integrated capabilities",
+            "Help us! Team Eazl and Tanmay Bakshi Need Ideas for IBM Watson Apps",
+            "IBM Watson | Full Q&A | Oxford Union",
+            "Pokemon Go and IBM Watson IoT"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=K564rXrlZbc",
+            "https://www.youtube.com/watch?v=-mg9f-1JVxM",
+            "https://www.youtube.com/watch?v=voAOTLrhgNM",
+            "https://www.youtube.com/watch?v=K7LJl39cCjM",
+            "https://www.youtube.com/watch?v=LNZLp6ErARQ",
+            "https://www.youtube.com/watch?v=_gFpbx3SKS4",
+            "https://www.youtube.com/watch?v=rXVoRyIGGhU",
+            "https://www.youtube.com/watch?v=wB7imgUQ26Y"
+          ],
+          "evidence_video_ids": [
+            "K564rXrlZbc",
+            "-mg9f-1JVxM",
+            "voAOTLrhgNM",
+            "K7LJl39cCjM",
+            "LNZLp6ErARQ",
+            "_gFpbx3SKS4",
+            "rXVoRyIGGhU",
+            "wB7imgUQ26Y"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 4,
+          "label": "IBM Watson creator activity",
+          "lead_days": null,
+          "median_outlier_ratio": 1.6788,
+          "new_channel_share": 0.5,
+          "new_future_channel_count": 2,
+          "new_recent_channel_count": 3,
+          "outlier_video_count": 1,
+          "rank": 1,
+          "recent_video_count": 5,
+          "score": 29.9,
+          "supply_growth": 0.381,
+          "topic_key": "micro-v7-254a7d40a45a395dc5"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-254a7d40a45a395dc5"
+        ],
+        "channels": [
+          "micro-v7-254a7d40a45a395dc5"
+        ],
+        "method": [
+          "micro-v7-254a7d40a45a395dc5"
+        ],
+        "random": [
+          "micro-v7-254a7d40a45a395dc5"
+        ],
+        "supply": [
+          "micro-v7-254a7d40a45a395dc5"
+        ]
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-07-24T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-07-31T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-08-07T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-08-14T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2016-08-21T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-032da884e92201830d"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 0.9286,
+          "distinct_channel_count": 6,
+          "evidence_titles": [
+            "TensorFlow with Eli Bixby (GCP Podcast Episode #31)",
+            "TensorFlow Tutorial #05 Ensemble Learning",
+            "\"Large-Scale Deep Learning with TensorFlow,\" Jeff Dean",
+            "Learning TensorFlow",
+            "TensorFlow in 5 Minutes (tutorial)"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=CvspEt8kSIg",
+            "https://www.youtube.com/watch?v=oYbVFhK_olY",
+            "https://www.youtube.com/watch?v=pnSBZ6TEVjY",
+            "https://www.youtube.com/watch?v=BhpvH5DuVu8",
+            "https://www.youtube.com/watch?v=PwAGxqrXSCs",
+            "https://www.youtube.com/watch?v=Lx8JUJROkh0",
+            "https://www.youtube.com/watch?v=p_WNQTGl0VQ",
+            "https://www.youtube.com/watch?v=AVKZrPCW91A",
+            "https://www.youtube.com/watch?v=vzoe2G5g-w4",
+            "https://www.youtube.com/watch?v=bvHgESVuS6Q",
+            "https://www.youtube.com/watch?v=2FmcHiLCwTU"
+          ],
+          "evidence_video_ids": [
+            "CvspEt8kSIg",
+            "oYbVFhK_olY",
+            "pnSBZ6TEVjY",
+            "BhpvH5DuVu8",
+            "PwAGxqrXSCs",
+            "Lx8JUJROkh0",
+            "p_WNQTGl0VQ",
+            "AVKZrPCW91A",
+            "vzoe2G5g-w4",
+            "bvHgESVuS6Q",
+            "2FmcHiLCwTU"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 14,
+          "label": "TensorFlow creator activity",
+          "lead_days": null,
+          "median_outlier_ratio": 1.4187,
+          "new_channel_share": 0.1429,
+          "new_future_channel_count": 2,
+          "new_recent_channel_count": 2,
+          "outlier_video_count": 1,
+          "rank": 1,
+          "recent_video_count": 2,
+          "score": 11.4,
+          "supply_growth": 1.556,
+          "topic_key": "micro-v7-032da884e92201830d"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "channels": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "method": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "random": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "supply": [
+          "micro-v7-032da884e92201830d"
+        ]
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-08-28T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-09-04T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-09-11T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-09-18T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-09-25T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-10-02T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-10-09T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-10-16T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-10-23T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2016-10-30T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-254a7d40a45a395dc5"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 1.0,
+          "distinct_channel_count": 7,
+          "evidence_titles": [
+            "IBM Watson: The Power of Artificial Intelligence",
+            "Staples\u2019 \u201cEasy Button\u201d Comes to Life with IBM Watson",
+            "IBM Watson London Hackathon Recap",
+            "ARM mbed cloud with IBM Watson Internet of Things",
+            "IBM Watson IoT Platform and Blockchain:  a supply chain use case"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=bYtVaQxJ994",
+            "https://www.youtube.com/watch?v=BboMdklIgzw",
+            "https://www.youtube.com/watch?v=qqnvWc4Zeg8",
+            "https://www.youtube.com/watch?v=z0BTZ6C8RAc",
+            "https://www.youtube.com/watch?v=BpmvF8KPyag",
+            "https://www.youtube.com/watch?v=kuCeqPugQyM",
+            "https://www.youtube.com/watch?v=xa5U5dipdMY",
+            "https://www.youtube.com/watch?v=PIuemoDf--s"
+          ],
+          "evidence_video_ids": [
+            "bYtVaQxJ994",
+            "BboMdklIgzw",
+            "qqnvWc4Zeg8",
+            "z0BTZ6C8RAc",
+            "BpmvF8KPyag",
+            "kuCeqPugQyM",
+            "xa5U5dipdMY",
+            "PIuemoDf--s"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 7,
+          "label": "IBM Watson creator activity",
+          "lead_days": null,
+          "median_outlier_ratio": 1.3385,
+          "new_channel_share": 0.5714,
+          "new_future_channel_count": 4,
+          "new_recent_channel_count": 3,
+          "outlier_video_count": 2,
+          "rank": 1,
+          "recent_video_count": 5,
+          "score": 19.0,
+          "supply_growth": 0.667,
+          "topic_key": "micro-v7-254a7d40a45a395dc5"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-254a7d40a45a395dc5"
+        ],
+        "channels": [
+          "micro-v7-254a7d40a45a395dc5"
+        ],
+        "method": [
+          "micro-v7-254a7d40a45a395dc5"
+        ],
+        "random": [
+          "micro-v7-254a7d40a45a395dc5"
+        ],
+        "supply": [
+          "micro-v7-254a7d40a45a395dc5"
+        ]
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-11-06T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-11-13T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-11-20T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-11-27T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-12-04T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-12-11T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-12-18T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2016-12-25T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-01-01T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-01-08T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-01-15T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-01-22T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-01-29T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-02-05T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-02-12T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-02-19T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-02-26T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2017-03-05T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-da280517e86b229ac5"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 1.0,
+          "distinct_channel_count": 4,
+          "evidence_titles": [
+            "IBM Watson IoT Edge Analytics Part 7: Anomaly detection using Z-Score",
+            "Voice-controlled Home Automation from Scratch Using IBM Watson, Docker, IFTTT, and Serverless",
+            "IBM Watson: Implementing a Facebook Messenger Chatbot, Powered by Watson Conversation, using ngrok",
+            "Build an AI Twitter Bot Powered with IBM Watson -No Coding! (Course Trailer)"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=j_K1-rGWRQ4",
+            "https://www.youtube.com/watch?v=xM1b8Au4pa4",
+            "https://www.youtube.com/watch?v=Z58O5xU57WA",
+            "https://www.youtube.com/watch?v=z7okL51YSZs"
+          ],
+          "evidence_video_ids": [
+            "j_K1-rGWRQ4",
+            "xM1b8Au4pa4",
+            "Z58O5xU57WA",
+            "z7okL51YSZs"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 3,
+          "label": "IBM Watson practical implementations",
+          "lead_days": null,
+          "median_outlier_ratio": 0.9995,
+          "new_channel_share": 0.0,
+          "new_future_channel_count": 0,
+          "new_recent_channel_count": 2,
+          "outlier_video_count": 1,
+          "rank": 1,
+          "recent_video_count": 3,
+          "score": 14.1,
+          "supply_growth": 0.5,
+          "topic_key": "micro-v7-da280517e86b229ac5"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-da280517e86b229ac5"
+        ],
+        "channels": [
+          "micro-v7-da280517e86b229ac5"
+        ],
+        "method": [
+          "micro-v7-da280517e86b229ac5"
+        ],
+        "random": [
+          "micro-v7-da280517e86b229ac5"
+        ],
+        "supply": [
+          "micro-v7-da280517e86b229ac5"
+        ]
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-03-12T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-03-19T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-03-26T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-04-02T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-04-09T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2017-04-16T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-43ebe23c671726cf73"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 1.0,
+          "distinct_channel_count": 4,
+          "evidence_titles": [
+            "Super Mario Maker - Ke Jie runs from Alphago (y) by xLeoSpec",
+            "Exploring the mysteries of Go with AlphaGo and China's top players",
+            "Here we 'Go' again: Humans to battle Google AlphaGo AI in ancient game (CNET News)",
+            "Demis Hassabis on AlphaGo: its legacy and the 'Future of Go Summit' in Wuzhen, China",
+            "Man vs. AI again! World's best Go player Ke Jie to take on Google's AlphaGo in May"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=heBcetWEtRA",
+            "https://www.youtube.com/watch?v=f_r9smp4-0U",
+            "https://www.youtube.com/watch?v=tEx_rWGlfro",
+            "https://www.youtube.com/watch?v=uvtRWWzuybo",
+            "https://www.youtube.com/watch?v=tdtPY1J3jA4"
+          ],
+          "evidence_video_ids": [
+            "heBcetWEtRA",
+            "f_r9smp4-0U",
+            "tEx_rWGlfro",
+            "uvtRWWzuybo",
+            "tdtPY1J3jA4"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 23,
+          "label": "AlphaGo creator activity",
+          "lead_days": null,
+          "median_outlier_ratio": 3.6533,
+          "new_channel_share": 0.4348,
+          "new_future_channel_count": 4,
+          "new_recent_channel_count": 3,
+          "outlier_video_count": 12,
+          "rank": 1,
+          "recent_video_count": 4,
+          "score": 9.9,
+          "supply_growth": 3.833,
+          "topic_key": "micro-v7-43ebe23c671726cf73"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-43ebe23c671726cf73"
+        ],
+        "channels": [
+          "micro-v7-43ebe23c671726cf73"
+        ],
+        "method": [
+          "micro-v7-43ebe23c671726cf73"
+        ],
+        "random": [
+          "micro-v7-43ebe23c671726cf73"
+        ],
+        "supply": [
+          "micro-v7-43ebe23c671726cf73"
+        ]
+      }
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2017-04-23T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-254a7d40a45a395dc5"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 1.0,
+          "distinct_channel_count": 4,
+          "evidence_titles": [
+            "IBM Watson: Watson, Cognitive, and AI, with my Mentor, Rob High!",
+            "SIX Leverages IBM Watson for the First Cognitive Security Operations Center in Switzerland",
+            "IBM Watson: Talking about and Demo of IBM Watson VR powered by Unity, with Michael Ludden!",
+            "Hijacking IoT with IBM Watson",
+            "Story Of IBM Watson"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=A_W90CQbSdE",
+            "https://www.youtube.com/watch?v=Q6Lc8URUrxg",
+            "https://www.youtube.com/watch?v=mDy1XQDB_PE",
+            "https://www.youtube.com/watch?v=G3_aCxtzfFk",
+            "https://www.youtube.com/watch?v=zOf3jJ8iZwU"
+          ],
+          "evidence_video_ids": [
+            "A_W90CQbSdE",
+            "Q6Lc8URUrxg",
+            "mDy1XQDB_PE",
+            "G3_aCxtzfFk",
+            "zOf3jJ8iZwU"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 2,
+          "label": "IBM Watson creator activity",
+          "lead_days": null,
+          "median_outlier_ratio": 1.8263,
+          "new_channel_share": 0.5,
+          "new_future_channel_count": 1,
+          "new_recent_channel_count": 2,
+          "outlier_video_count": 1,
+          "rank": 1,
+          "recent_video_count": 2,
+          "score": 9.8,
+          "supply_growth": 0.333,
+          "topic_key": "micro-v7-254a7d40a45a395dc5"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-254a7d40a45a395dc5"
+        ],
+        "channels": [
+          "micro-v7-254a7d40a45a395dc5"
+        ],
+        "method": [
+          "micro-v7-254a7d40a45a395dc5"
+        ],
+        "random": [
+          "micro-v7-254a7d40a45a395dc5"
+        ],
+        "supply": [
+          "micro-v7-254a7d40a45a395dc5"
+        ]
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-04-30T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2017-05-07T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-032da884e92201830d"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 1.0,
+          "distinct_channel_count": 6,
+          "evidence_titles": [
+            "Raspberry Pi Android Things TensorFlow Machine Learning Demo1",
+            "How to Generate Images with Tensorflow (LIVE)",
+            "TensorFlow Tutorial #16 Reinforcement Learning",
+            "Course Preview: TensorFlow: Getting Started",
+            "Chris Fregly - High-Performance Distributed Tensorflow"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=2cfwNKCBceg",
+            "https://www.youtube.com/watch?v=K29QaWGYb1c",
+            "https://www.youtube.com/watch?v=ZgbnbTs3fAA",
+            "https://www.youtube.com/watch?v=jEsLkDaZXDo",
+            "https://www.youtube.com/watch?v=lRNB_uaQEtQ",
+            "https://www.youtube.com/watch?v=tseYeDyb37o",
+            "https://www.youtube.com/watch?v=w-amua-cIPw",
+            "https://www.youtube.com/watch?v=yEmfOZj0gi0",
+            "https://www.youtube.com/watch?v=yWv_6AmjfPQ",
+            "https://www.youtube.com/watch?v=IueR2_LfGQ4",
+            "https://www.youtube.com/watch?v=iz-TZOEKXzA",
+            "https://www.youtube.com/watch?v=Vz5l886eptw",
+            "https://www.youtube.com/watch?v=CiMjlh8HLa8",
+            "https://www.youtube.com/watch?v=Bd-sSJC6UMM"
+          ],
+          "evidence_video_ids": [
+            "2cfwNKCBceg",
+            "K29QaWGYb1c",
+            "ZgbnbTs3fAA",
+            "jEsLkDaZXDo",
+            "lRNB_uaQEtQ",
+            "tseYeDyb37o",
+            "w-amua-cIPw",
+            "yEmfOZj0gi0",
+            "yWv_6AmjfPQ",
+            "IueR2_LfGQ4",
+            "iz-TZOEKXzA",
+            "Vz5l886eptw",
+            "CiMjlh8HLa8",
+            "Bd-sSJC6UMM"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 12,
+          "label": "TensorFlow creator activity",
+          "lead_days": null,
+          "median_outlier_ratio": 2.5573,
+          "new_channel_share": 0.25,
+          "new_future_channel_count": 3,
+          "new_recent_channel_count": 2,
+          "outlier_video_count": 5,
+          "rank": 1,
+          "recent_video_count": 2,
+          "score": 9.9,
+          "supply_growth": 1.6,
+          "topic_key": "micro-v7-032da884e92201830d"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "channels": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "method": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "random": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "supply": [
+          "micro-v7-032da884e92201830d"
+        ]
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-05-14T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-05-21T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2017-05-28T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-43ebe23c671726cf73"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 1.0,
+          "distinct_channel_count": 7,
+          "evidence_titles": [
+            "\u4e2d\u56fd\u4e4c\u9547\u00b7\u56f4\u68cb\u5cf0\u4f1a\uff1aAlphaGo \u914d\u5bf9\u8d5b & \u56e2\u961f\u8d5b",
+            "LIVE Ke Jie 9p [W] vs. AlphaGo [B], Game 3: Commentary by Ryan Li 1p",
+            "\u4e2d\u56fd\u4e4c\u9547\u00b7\u56f4\u68cb\u5cf0\u4f1a, \u67ef\u6d01\u5bf9\u9635 AlphaGo\uff1a\u7b2c\u4e09\u5c40",
+            "The Future of Go Summit, Match Three: Ke Jie & AlphaGo",
+            "AlphaGo Wins - How Close is AI?"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=yMRuYeOLf0o",
+            "https://www.youtube.com/watch?v=5kIQ0F8iN8U",
+            "https://www.youtube.com/watch?v=OlqRIWAkWZo",
+            "https://www.youtube.com/watch?v=Z-HL5nppBnM",
+            "https://www.youtube.com/watch?v=cupxZ2Mz6VI",
+            "https://www.youtube.com/watch?v=efbOGC0_Ac8",
+            "https://www.youtube.com/watch?v=lCs5rnRZB3Q",
+            "https://www.youtube.com/watch?v=rFNgHXjIJo4",
+            "https://www.youtube.com/watch?v=uPBzDk-OmoU",
+            "https://www.youtube.com/watch?v=0t2KJe06oGs",
+            "https://www.youtube.com/watch?v=1U1p4Mwis60",
+            "https://www.youtube.com/watch?v=5fOmbqjH7zI",
+            "https://www.youtube.com/watch?v=ck3ow5Fx-jk",
+            "https://www.youtube.com/watch?v=BejQlR0sLUI",
+            "https://www.youtube.com/watch?v=GNBMtmoRAj4",
+            "https://www.youtube.com/watch?v=Jba44QMIbAc",
+            "https://www.youtube.com/watch?v=KrPYHvXdILU",
+            "https://www.youtube.com/watch?v=V-_Cu6Hwp5U",
+            "https://www.youtube.com/watch?v=g1IRapW3l60",
+            "https://www.youtube.com/watch?v=Atnhct3KgV8",
+            "https://www.youtube.com/watch?v=hhWJ7ns79zg",
+            "https://www.youtube.com/watch?v=ru0E7N0-kFE",
+            "https://www.youtube.com/watch?v=qDW0dhcOBhA"
+          ],
+          "evidence_video_ids": [
+            "yMRuYeOLf0o",
+            "5kIQ0F8iN8U",
+            "OlqRIWAkWZo",
+            "Z-HL5nppBnM",
+            "cupxZ2Mz6VI",
+            "efbOGC0_Ac8",
+            "lCs5rnRZB3Q",
+            "rFNgHXjIJo4",
+            "uPBzDk-OmoU",
+            "0t2KJe06oGs",
+            "1U1p4Mwis60",
+            "5fOmbqjH7zI",
+            "ck3ow5Fx-jk",
+            "BejQlR0sLUI",
+            "GNBMtmoRAj4",
+            "Jba44QMIbAc",
+            "KrPYHvXdILU",
+            "V-_Cu6Hwp5U",
+            "g1IRapW3l60",
+            "Atnhct3KgV8",
+            "hhWJ7ns79zg",
+            "ru0E7N0-kFE",
+            "qDW0dhcOBhA"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 6,
+          "label": "AlphaGo creator activity",
+          "lead_days": null,
+          "median_outlier_ratio": 1.079,
+          "new_channel_share": 0.5,
+          "new_future_channel_count": 3,
+          "new_recent_channel_count": 3,
+          "outlier_video_count": 1,
+          "rank": 1,
+          "recent_video_count": 22,
+          "score": 23.2,
+          "supply_growth": 0.174,
+          "topic_key": "micro-v7-43ebe23c671726cf73"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-43ebe23c671726cf73"
+        ],
+        "channels": [
+          "micro-v7-43ebe23c671726cf73"
+        ],
+        "method": [
+          "micro-v7-43ebe23c671726cf73"
+        ],
+        "random": [
+          "micro-v7-43ebe23c671726cf73"
+        ],
+        "supply": [
+          "micro-v7-43ebe23c671726cf73"
+        ]
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-06-04T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-06-11T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2017-06-18T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-032da884e92201830d"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 1.0,
+          "distinct_channel_count": 8,
+          "evidence_titles": [
+            "Self-Driving R/C Cars Built on TensorFlow",
+            "On-Device Machine Learning: TensorFlow on Android (Next '17 Rewind)",
+            "TensorFlow On Spark: Scalable TensorFlow Learning on Spark Clusters - Andy Feng & Lee Yang",
+            "dotAI 2017 - Yufeng Guo - On-device machine learning: TensorFlow on Android",
+            "A Guide to Running Tensorflow Models on Android"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=vaJOlKxyKhA",
+            "https://www.youtube.com/watch?v=iYQNU2O8k3g",
+            "https://www.youtube.com/watch?v=5DknTFbcGVM",
+            "https://www.youtube.com/watch?v=9ziVGkt8Gg4",
+            "https://www.youtube.com/watch?v=OzAdKMPgUt4",
+            "https://www.youtube.com/watch?v=25ISTLhz0ys",
+            "https://www.youtube.com/watch?v=tOj53RRgtmg",
+            "https://www.youtube.com/watch?v=k-_QrtVexKg",
+            "https://www.youtube.com/watch?v=IxWfAcrZQhc",
+            "https://www.youtube.com/watch?v=X3jKLNyKRhg",
+            "https://www.youtube.com/watch?v=kFWKdLOxykE"
+          ],
+          "evidence_video_ids": [
+            "vaJOlKxyKhA",
+            "iYQNU2O8k3g",
+            "5DknTFbcGVM",
+            "9ziVGkt8Gg4",
+            "OzAdKMPgUt4",
+            "25ISTLhz0ys",
+            "tOj53RRgtmg",
+            "k-_QrtVexKg",
+            "IxWfAcrZQhc",
+            "X3jKLNyKRhg",
+            "kFWKdLOxykE"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 6,
+          "label": "TensorFlow creator activity",
+          "lead_days": null,
+          "median_outlier_ratio": 2.1162,
+          "new_channel_share": 0.3333,
+          "new_future_channel_count": 2,
+          "new_recent_channel_count": 2,
+          "outlier_video_count": 1,
+          "rank": 1,
+          "recent_video_count": 3,
+          "score": 15.1,
+          "supply_growth": 0.8,
+          "topic_key": "micro-v7-032da884e92201830d"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "channels": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "method": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "random": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "supply": [
+          "micro-v7-032da884e92201830d"
+        ]
+      }
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2017-06-25T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-254a7d40a45a395dc5"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 1.0,
+          "distinct_channel_count": 5,
+          "evidence_titles": [
+            "Fast Forward: IBM Watson's VP Offering Management and Stategy, Mark Simpson",
+            "Star Trek: Bridge Crew - IBM Watson Trailer",
+            "Star Trek - Bridge Crew VR IBM Watson interactive speech - PC PS4",
+            "IBM Watson Data Analytics Demo",
+            "IBM Watson : An Immersive Experience Demo"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=nSJPRW-WlrI",
+            "https://www.youtube.com/watch?v=jGLxMb97rMI",
+            "https://www.youtube.com/watch?v=6hDkkELJTZU",
+            "https://www.youtube.com/watch?v=VUPHqgrquOQ",
+            "https://www.youtube.com/watch?v=-ADecdJeZgQ",
+            "https://www.youtube.com/watch?v=md1ueturTHo"
+          ],
+          "evidence_video_ids": [
+            "nSJPRW-WlrI",
+            "jGLxMb97rMI",
+            "6hDkkELJTZU",
+            "VUPHqgrquOQ",
+            "-ADecdJeZgQ",
+            "md1ueturTHo"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 3,
+          "label": "IBM Watson creator activity",
+          "lead_days": null,
+          "median_outlier_ratio": 0.8525,
+          "new_channel_share": 1.0,
+          "new_future_channel_count": 3,
+          "new_recent_channel_count": 3,
+          "outlier_video_count": 0,
+          "rank": 1,
+          "recent_video_count": 4,
+          "score": 31.0,
+          "supply_growth": 0.333,
+          "topic_key": "micro-v7-254a7d40a45a395dc5"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-254a7d40a45a395dc5"
+        ],
+        "channels": [
+          "micro-v7-254a7d40a45a395dc5"
+        ],
+        "method": [
+          "micro-v7-254a7d40a45a395dc5"
+        ],
+        "random": [
+          "micro-v7-254a7d40a45a395dc5"
+        ],
+        "supply": [
+          "micro-v7-254a7d40a45a395dc5"
+        ]
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-07-02T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-07-09T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2017-07-16T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-799a42258bb43a0d00"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 1.0,
+          "distinct_channel_count": 5,
+          "evidence_titles": [
+            "Google's DeepMind AI Just Taught Itself To Walk",
+            "Google\u2019s DeepMind Teaches Itself Parkour",
+            "Google's DeepMind AI Just Learned To Walk On Its Own",
+            "Googles DeepMind AI just taught itself to walk - parody",
+            "DeepMind's AI Has Learned to Walk"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=gn4nRCC9TwQ",
+            "https://www.youtube.com/watch?v=t1CWvbPScVY",
+            "https://www.youtube.com/watch?v=M4K8XWf8C4Q",
+            "https://www.youtube.com/watch?v=ZfyqjWlDlKg",
+            "https://www.youtube.com/watch?v=gbYiKMisbME"
+          ],
+          "evidence_video_ids": [
+            "gn4nRCC9TwQ",
+            "t1CWvbPScVY",
+            "M4K8XWf8C4Q",
+            "ZfyqjWlDlKg",
+            "gbYiKMisbME"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 3,
+          "label": "DeepMind creator activity",
+          "lead_days": null,
+          "median_outlier_ratio": 1.0396,
+          "new_channel_share": 0.6667,
+          "new_future_channel_count": 2,
+          "new_recent_channel_count": 5,
+          "outlier_video_count": 0,
+          "rank": 1,
+          "recent_video_count": 5,
+          "score": 13.2,
+          "supply_growth": 0.4,
+          "topic_key": "micro-v7-799a42258bb43a0d00"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-799a42258bb43a0d00"
+        ],
+        "channels": [
+          "micro-v7-799a42258bb43a0d00"
+        ],
+        "method": [
+          "micro-v7-799a42258bb43a0d00"
+        ],
+        "random": [
+          "micro-v7-799a42258bb43a0d00"
+        ],
+        "supply": [
+          "micro-v7-799a42258bb43a0d00"
+        ]
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-07-23T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-07-30T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-08-06T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2017-08-13T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-ce03096fb975f2b41c"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 1.0,
+          "distinct_channel_count": 5,
+          "evidence_titles": [
+            "Dendi, SumaiL and Arteezy versus OpenAI Bot - The International 2017 Dota 2",
+            "Dota 2 Dendi vs OpenAI (Bot) - 1v1 - TI7",
+            "DENDI 1v1 vs IMBA OpenAI BOT - TI7 Dota 2",
+            "Dendi vs OpenAI at The International 7 | 1v1 SF",
+            "TI7 OpenAI Bot VS Pros"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=5zaJ58q9vuI",
+            "https://www.youtube.com/watch?v=7U4-wvhgx0w",
+            "https://www.youtube.com/watch?v=EnvMBtt_4Fg",
+            "https://www.youtube.com/watch?v=ugZlcKDOiao",
+            "https://www.youtube.com/watch?v=1sKRGVZxggs"
+          ],
+          "evidence_video_ids": [
+            "5zaJ58q9vuI",
+            "7U4-wvhgx0w",
+            "EnvMBtt_4Fg",
+            "ugZlcKDOiao",
+            "1sKRGVZxggs"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 6,
+          "label": "OpenAI performance comparisons",
+          "lead_days": null,
+          "median_outlier_ratio": 1.0689,
+          "new_channel_share": 0.5,
+          "new_future_channel_count": 3,
+          "new_recent_channel_count": 5,
+          "outlier_video_count": 0,
+          "rank": 1,
+          "recent_video_count": 5,
+          "score": 23.1,
+          "supply_growth": 0.8,
+          "topic_key": "micro-v7-ce03096fb975f2b41c"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-ce03096fb975f2b41c"
+        ],
+        "channels": [
+          "micro-v7-ce03096fb975f2b41c"
+        ],
+        "method": [
+          "micro-v7-ce03096fb975f2b41c"
+        ],
+        "random": [
+          "micro-v7-ce03096fb975f2b41c"
+        ],
+        "supply": [
+          "micro-v7-ce03096fb975f2b41c"
+        ]
+      }
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2017-08-20T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-3189ea759b56d115c9"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 1.0,
+          "distinct_channel_count": 4,
+          "evidence_titles": [
+            "RX Vega launch, LG V30 details, OpenAI beats Dota 2 pros",
+            "GAME OVER! Musk's OpenAI Beats World's Best DOTA 2 Players1",
+            "Elon Musk OpenAI Beats Human World Champ",
+            "OpenAI's Bot Beats DOTA World Champion Dendi | Two Minute Papers #180"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=WMEN57tILNE",
+            "https://www.youtube.com/watch?v=bGoUDQ43qvQ",
+            "https://www.youtube.com/watch?v=jE9grGxnTAk",
+            "https://www.youtube.com/watch?v=cLC_GHZCOVQ"
+          ],
+          "evidence_video_ids": [
+            "WMEN57tILNE",
+            "bGoUDQ43qvQ",
+            "jE9grGxnTAk",
+            "cLC_GHZCOVQ"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 3,
+          "label": "OpenAI capability wave",
+          "lead_days": null,
+          "median_outlier_ratio": 0.5116,
+          "new_channel_share": 1.0,
+          "new_future_channel_count": 2,
+          "new_recent_channel_count": 4,
+          "outlier_video_count": 0,
+          "rank": 1,
+          "recent_video_count": 4,
+          "score": 17.8,
+          "supply_growth": 0.5,
+          "topic_key": "micro-v7-3189ea759b56d115c9"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-3189ea759b56d115c9"
+        ],
+        "channels": [
+          "micro-v7-3189ea759b56d115c9"
+        ],
+        "method": [
+          "micro-v7-3189ea759b56d115c9"
+        ],
+        "random": [
+          "micro-v7-3189ea759b56d115c9"
+        ],
+        "supply": [
+          "micro-v7-3189ea759b56d115c9"
+        ]
+      }
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2017-08-27T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-d77957724f262d6dd1"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 1.0,
+          "distinct_channel_count": 8,
+          "evidence_titles": [
+            "Humans took Revenge on OpenAI DOTA bot for beating Dendi! (Whole Scene in 1 Video :)",
+            "WTF This is OpenAI Bot \u2014 Miracle 1200 GPM, 70k DMG 30 Kills in 30 min",
+            "OpenAI(Bot) Plays Dazzle Mid",
+            "Miracle- Pudge is not Human !! - He is OpenAI Bot Dota 2",
+            "Miracle - OpenAI BOT??? 38-0 [Undefeated] Dota 2"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=IOUOuWkaE-o",
+            "https://www.youtube.com/watch?v=ioNdtTwwBxU",
+            "https://www.youtube.com/watch?v=70QVjlVXooc",
+            "https://www.youtube.com/watch?v=hlr96omi6NI",
+            "https://www.youtube.com/watch?v=khP_l4RJA5o",
+            "https://www.youtube.com/watch?v=tSotbpaKJTI",
+            "https://www.youtube.com/watch?v=RIvmvL5_DY8",
+            "https://www.youtube.com/watch?v=mdX1_KLc4Xg",
+            "https://www.youtube.com/watch?v=Y5-TvxDSP6I",
+            "https://www.youtube.com/watch?v=iskodt5XEXI",
+            "https://www.youtube.com/watch?v=FkdkW3y0-YA"
+          ],
+          "evidence_video_ids": [
+            "IOUOuWkaE-o",
+            "ioNdtTwwBxU",
+            "70QVjlVXooc",
+            "hlr96omi6NI",
+            "khP_l4RJA5o",
+            "tSotbpaKJTI",
+            "RIvmvL5_DY8",
+            "mdX1_KLc4Xg",
+            "Y5-TvxDSP6I",
+            "iskodt5XEXI",
+            "FkdkW3y0-YA"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 3,
+          "label": "OpenAI creator activity",
+          "lead_days": null,
+          "median_outlier_ratio": 0.2856,
+          "new_channel_share": 0.3333,
+          "new_future_channel_count": 1,
+          "new_recent_channel_count": 7,
+          "outlier_video_count": 0,
+          "rank": 1,
+          "recent_video_count": 9,
+          "score": 29.4,
+          "supply_growth": 0.182,
+          "topic_key": "micro-v7-d77957724f262d6dd1"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-d77957724f262d6dd1"
+        ],
+        "channels": [
+          "micro-v7-d77957724f262d6dd1"
+        ],
+        "method": [
+          "micro-v7-d77957724f262d6dd1"
+        ],
+        "random": [
+          "micro-v7-d77957724f262d6dd1"
+        ],
+        "supply": [
+          "micro-v7-d77957724f262d6dd1"
+        ]
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-09-03T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-09-10T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-09-17T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-09-24T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-10-01T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-10-08T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-10-15T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-10-22T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2017-10-29T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-032da884e92201830d"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 1.0,
+          "distinct_channel_count": 9,
+          "evidence_titles": [
+            "Introduction to TensorFlow Lattice",
+            "Deep Learning on AWS with TensorFlow - 2017 AWS Online Tech Talks",
+            "Unity3D Machine Learning Setup for ML-Agents on Windows 10 with Tensorflow",
+            "Natural Language Understanding at Scale with Spark Native NLP, Spark ML &TensorFlow with Alex Thomas",
+            "Alejandro Solano - Introduction to TensorFlow"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=4dDM7IvPEqQ",
+            "https://www.youtube.com/watch?v=umGJ30-15_A",
+            "https://www.youtube.com/watch?v=elPTCt45ZGo",
+            "https://www.youtube.com/watch?v=ue6_fDVKi8Q",
+            "https://www.youtube.com/watch?v=kaPheQxIsPY",
+            "https://www.youtube.com/watch?v=vTAMSm06baA",
+            "https://www.youtube.com/watch?v=qxicgknzUG8",
+            "https://www.youtube.com/watch?v=k5X12mdEvb8",
+            "https://www.youtube.com/watch?v=02BnRq8H1rM"
+          ],
+          "evidence_video_ids": [
+            "4dDM7IvPEqQ",
+            "umGJ30-15_A",
+            "elPTCt45ZGo",
+            "ue6_fDVKi8Q",
+            "kaPheQxIsPY",
+            "vTAMSm06baA",
+            "qxicgknzUG8",
+            "k5X12mdEvb8",
+            "02BnRq8H1rM"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 40,
+          "label": "TensorFlow creator activity",
+          "lead_days": null,
+          "median_outlier_ratio": 1.0392,
+          "new_channel_share": 0.425,
+          "new_future_channel_count": 7,
+          "new_recent_channel_count": 3,
+          "outlier_video_count": 9,
+          "rank": 1,
+          "recent_video_count": 4,
+          "score": 17.5,
+          "supply_growth": 4.444,
+          "topic_key": "micro-v7-032da884e92201830d"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "channels": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "method": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "random": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "supply": [
+          "micro-v7-032da884e92201830d"
+        ]
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-11-05T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-11-12T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-11-19T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-11-26T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-12-03T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2017-12-10T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-799a42258bb43a0d00"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 1.0,
+          "distinct_channel_count": 4,
+          "evidence_titles": [
+            "Richard Sutton of DeepMind & Steve Jurvetson Discuss The Future of AI",
+            "Cray and SUSE: AI Meets Supercomputing: Is DeepMind HAL?",
+            "Outrageous Artificial Intelligence: (Game 1) DeepMind\u2019s AlphaZero crushes Stockfish Chess WC",
+            "Outrageous Artificial Intelligence (Game 2): DeepMind\u2019s AlphaZero crushes Stockfish",
+            "Outrageous Artificial Intelligence: (Game 3) : DeepMind\u2019s AlphaZero crushes Stockfish Chess computer"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=2HIcloy_OYk",
+            "https://www.youtube.com/watch?v=QqLcniN2VAk",
+            "https://www.youtube.com/watch?v=nvgn_GsM6NE",
+            "https://www.youtube.com/watch?v=M3B318ybLqA",
+            "https://www.youtube.com/watch?v=dY3VimPpngI",
+            "https://www.youtube.com/watch?v=JPEefHPZNr4"
+          ],
+          "evidence_video_ids": [
+            "2HIcloy_OYk",
+            "QqLcniN2VAk",
+            "nvgn_GsM6NE",
+            "M3B318ybLqA",
+            "dY3VimPpngI",
+            "JPEefHPZNr4"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 6,
+          "label": "DeepMind creator activity",
+          "lead_days": null,
+          "median_outlier_ratio": 6.5083,
+          "new_channel_share": 0.0,
+          "new_future_channel_count": 0,
+          "new_recent_channel_count": 2,
+          "outlier_video_count": 6,
+          "rank": 1,
+          "recent_video_count": 4,
+          "score": 15.2,
+          "supply_growth": 0.8,
+          "topic_key": "micro-v7-799a42258bb43a0d00"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-799a42258bb43a0d00"
+        ],
+        "channels": [
+          "micro-v7-799a42258bb43a0d00"
+        ],
+        "method": [
+          "micro-v7-799a42258bb43a0d00"
+        ],
+        "random": [
+          "micro-v7-799a42258bb43a0d00"
+        ],
+        "supply": [
+          "micro-v7-799a42258bb43a0d00"
+        ]
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-12-17T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-12-24T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2017-12-31T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2018-01-07T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2018-01-14T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2018-01-21T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2018-01-28T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2018-02-04T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-032da884e92201830d"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 1.0,
+          "distinct_channel_count": 6,
+          "evidence_titles": [
+            "TensorFlow Tutorial #19 Hyper-Parameter Optimization",
+            "Print Statements in TensorFlow (AI Adventures)",
+            "TensorFlow for Poets 2: Optimize for Mobile with Kaz Sato (GDD India '17)",
+            "AWS DevDays Nordics  - Deep Learning with Apache MXNet & Tensorflow",
+            "HOW ARTIFICIAL INTELLIGENCE CREATES ART | Adobe, TensorFlow, Magenta & Sony"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=1_RDOanC5I8",
+            "https://www.youtube.com/watch?v=CB5LEiRdtsQ",
+            "https://www.youtube.com/watch?v=DDv89XKdFy8",
+            "https://www.youtube.com/watch?v=tpvyxzfrBBc",
+            "https://www.youtube.com/watch?v=vgDZIPgc_ko",
+            "https://www.youtube.com/watch?v=oaxf3rk0KGM",
+            "https://www.youtube.com/watch?v=pCJEMfujekA",
+            "https://www.youtube.com/watch?v=MoVSN1bKKIE",
+            "https://www.youtube.com/watch?v=t7AbPzVa3Kc",
+            "https://www.youtube.com/watch?v=VKdsh2UvNqc"
+          ],
+          "evidence_video_ids": [
+            "1_RDOanC5I8",
+            "CB5LEiRdtsQ",
+            "DDv89XKdFy8",
+            "tpvyxzfrBBc",
+            "vgDZIPgc_ko",
+            "oaxf3rk0KGM",
+            "pCJEMfujekA",
+            "MoVSN1bKKIE",
+            "t7AbPzVa3Kc",
+            "VKdsh2UvNqc"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 24,
+          "label": "TensorFlow creator activity",
+          "lead_days": null,
+          "median_outlier_ratio": 0.5659,
+          "new_channel_share": 0.25,
+          "new_future_channel_count": 5,
+          "new_recent_channel_count": 2,
+          "outlier_video_count": 3,
+          "rank": 1,
+          "recent_video_count": 3,
+          "score": 13.9,
+          "supply_growth": 1.6,
+          "topic_key": "micro-v7-032da884e92201830d"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "channels": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "method": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "random": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "supply": [
+          "micro-v7-032da884e92201830d"
+        ]
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2018-02-11T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2018-02-18T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2018-02-25T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2018-03-04T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2018-03-11T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-254a7d40a45a395dc5"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 1.0,
+          "distinct_channel_count": 4,
+          "evidence_titles": [
+            "Deliver an unrivaled experience for your customers with IBM Watson and Salesforce",
+            "IBM Watson Classroom",
+            "Vive Pro / Windows VR Course / IBM Watson THIS WEEK in AR/VR w/ FusedVR",
+            "Will IBM Watson Replace Service Workers?",
+            "MIT Quest for Intelligence Launch: MIT\u2013IBM Watson AI Lab"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=7d9cdV1pTKI",
+            "https://www.youtube.com/watch?v=OWLhL44WsI0",
+            "https://www.youtube.com/watch?v=FBV0SOS606M",
+            "https://www.youtube.com/watch?v=MY46ze6c9L4",
+            "https://www.youtube.com/watch?v=oDWmvzhZt4g"
+          ],
+          "evidence_video_ids": [
+            "7d9cdV1pTKI",
+            "OWLhL44WsI0",
+            "FBV0SOS606M",
+            "MY46ze6c9L4",
+            "oDWmvzhZt4g"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 5,
+          "label": "IBM Watson creator activity",
+          "lead_days": null,
+          "median_outlier_ratio": 0.6098,
+          "new_channel_share": 0.6,
+          "new_future_channel_count": 3,
+          "new_recent_channel_count": 2,
+          "outlier_video_count": 0,
+          "rank": 1,
+          "recent_video_count": 2,
+          "score": 14.3,
+          "supply_growth": 0.833,
+          "topic_key": "micro-v7-254a7d40a45a395dc5"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-254a7d40a45a395dc5"
+        ],
+        "channels": [
+          "micro-v7-254a7d40a45a395dc5"
+        ],
+        "method": [
+          "micro-v7-254a7d40a45a395dc5"
+        ],
+        "random": [
+          "micro-v7-254a7d40a45a395dc5"
+        ],
+        "supply": [
+          "micro-v7-254a7d40a45a395dc5"
+        ]
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2018-03-18T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2018-03-25T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2018-04-01T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-032da884e92201830d"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 1.0,
+          "distinct_channel_count": 7,
+          "evidence_titles": [
+            "TensorFlow Tutorial #22 Image Captioning",
+            "Announcing the TensorFlow YouTube Channel!",
+            "How to install TensorFlow on Anaconda on Windows OS",
+            "TensorFlow Tutorial #23 Time-Series Prediction",
+            "DL Workspace: Running TensorFlow"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=SsyKPAVkpF0",
+            "https://www.youtube.com/watch?v=LAKBdJgPi3A",
+            "https://www.youtube.com/watch?v=Rk8LiZOINSE",
+            "https://www.youtube.com/watch?v=l_JMRYChXJI",
+            "https://www.youtube.com/watch?v=rnv8oTKx2m0",
+            "https://www.youtube.com/watch?v=sWApuYwlyKY",
+            "https://www.youtube.com/watch?v=er8RQZoX3yk",
+            "https://www.youtube.com/watch?v=BegNyY9EtPE",
+            "https://www.youtube.com/watch?v=Wd_NnsNuq8A",
+            "https://www.youtube.com/watch?v=ao1LElYmvjc",
+            "https://www.youtube.com/watch?v=f_Rexuvl4ds",
+            "https://www.youtube.com/watch?v=-5uhd-Y4D9A",
+            "https://www.youtube.com/watch?v=NMPufa4IA3A",
+            "https://www.youtube.com/watch?v=mQ0DDlRjAic",
+            "https://www.youtube.com/watch?v=rEmduNnC5rI",
+            "https://www.youtube.com/watch?v=vI2Y3I-JI2Q",
+            "https://www.youtube.com/watch?v=uCSTpOLMC48",
+            "https://www.youtube.com/watch?v=BXgBOwDYsNg",
+            "https://www.youtube.com/watch?v=8wLG8-C-i9A",
+            "https://www.youtube.com/watch?v=6f67zrH-_IE",
+            "https://www.youtube.com/watch?v=rjxO04yF60A"
+          ],
+          "evidence_video_ids": [
+            "SsyKPAVkpF0",
+            "LAKBdJgPi3A",
+            "Rk8LiZOINSE",
+            "l_JMRYChXJI",
+            "rnv8oTKx2m0",
+            "sWApuYwlyKY",
+            "er8RQZoX3yk",
+            "BegNyY9EtPE",
+            "Wd_NnsNuq8A",
+            "ao1LElYmvjc",
+            "f_Rexuvl4ds",
+            "-5uhd-Y4D9A",
+            "NMPufa4IA3A",
+            "mQ0DDlRjAic",
+            "rEmduNnC5rI",
+            "vI2Y3I-JI2Q",
+            "uCSTpOLMC48",
+            "BXgBOwDYsNg",
+            "8wLG8-C-i9A",
+            "6f67zrH-_IE",
+            "rjxO04yF60A"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 32,
+          "label": "TensorFlow creator activity",
+          "lead_days": null,
+          "median_outlier_ratio": 1.4482,
+          "new_channel_share": 0.2812,
+          "new_future_channel_count": 6,
+          "new_recent_channel_count": 2,
+          "outlier_video_count": 7,
+          "rank": 1,
+          "recent_video_count": 4,
+          "score": 21.5,
+          "supply_growth": 1.067,
+          "topic_key": "micro-v7-032da884e92201830d"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "channels": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "method": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "random": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "supply": [
+          "micro-v7-032da884e92201830d"
+        ]
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2018-04-08T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2018-04-15T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2018-04-22T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2018-04-29T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-c19401aea279bec46e"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 1.0,
+          "distinct_channel_count": 3,
+          "evidence_titles": [
+            "TensorFlow.js Quick Start",
+            "Tensorflow.js Explained",
+            "Live Stream #134: Introduction to Tensorflow.js"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=Y_XM3Bu-4yc",
+            "https://www.youtube.com/watch?v=Nc8kZABv-KE",
+            "https://www.youtube.com/watch?v=2v5XteIQ8XM"
+          ],
+          "evidence_video_ids": [
+            "Y_XM3Bu-4yc",
+            "Nc8kZABv-KE",
+            "2v5XteIQ8XM"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 19,
+          "label": "TensorFlow.js creator activity",
+          "lead_days": null,
+          "median_outlier_ratio": 0.9184,
+          "new_channel_share": 0.2105,
+          "new_future_channel_count": 4,
+          "new_recent_channel_count": 2,
+          "outlier_video_count": 1,
+          "rank": 1,
+          "recent_video_count": 2,
+          "score": 9.6,
+          "supply_growth": 3.167,
+          "topic_key": "micro-v7-c19401aea279bec46e"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-c19401aea279bec46e"
+        ],
+        "channels": [
+          "micro-v7-c19401aea279bec46e"
+        ],
+        "method": [
+          "micro-v7-c19401aea279bec46e"
+        ],
+        "random": [
+          "micro-v7-c19401aea279bec46e"
+        ],
+        "supply": [
+          "micro-v7-c19401aea279bec46e"
+        ]
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2018-05-06T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2018-05-13T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2018-05-20T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-c63877fef4de4f7574"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 0,
+          "distinct_channel_count": 2,
+          "evidence_titles": [
+            "Deep Learning with PyTorch: Computer Vision Motivation| packtpub.com",
+            "Deep Learning with PyTorch: The Course Overview | packtpub.com",
+            "Deep Learning with PyTorch: Reinforcement Learning Motivation| packtpub.com",
+            "Deep Learning with PyTorch: Sequence Models Motivation| packtpub.com",
+            "PyTorch by Example"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=VZyTt1FvmfU",
+            "https://www.youtube.com/watch?v=YTISTuW1nFM",
+            "https://www.youtube.com/watch?v=i2DjVin-hk0",
+            "https://www.youtube.com/watch?v=sQAoQZ5Q8wU",
+            "https://www.youtube.com/watch?v=sXgJ7nbnUGo",
+            "https://www.youtube.com/watch?v=yxc6kLC_HdM",
+            "https://www.youtube.com/watch?v=FMvzxN6a5mI"
+          ],
+          "evidence_video_ids": [
+            "VZyTt1FvmfU",
+            "YTISTuW1nFM",
+            "i2DjVin-hk0",
+            "sQAoQZ5Q8wU",
+            "sXgJ7nbnUGo",
+            "yxc6kLC_HdM",
+            "FMvzxN6a5mI"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 0,
+          "label": "PyTorch creator activity",
+          "lead_days": null,
+          "median_outlier_ratio": null,
+          "new_channel_share": 0,
+          "new_future_channel_count": 0,
+          "new_recent_channel_count": 2,
+          "outlier_video_count": 0,
+          "rank": 1,
+          "recent_video_count": 7,
+          "score": 7.5,
+          "supply_growth": 0.0,
+          "topic_key": "micro-v7-c63877fef4de4f7574"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-c63877fef4de4f7574"
+        ],
+        "channels": [
+          "micro-v7-c63877fef4de4f7574"
+        ],
+        "method": [
+          "micro-v7-c63877fef4de4f7574"
+        ],
+        "random": [
+          "micro-v7-c63877fef4de4f7574"
+        ],
+        "supply": [
+          "micro-v7-c63877fef4de4f7574"
+        ]
+      }
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2018-05-27T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-ae576c50b33ea6cadd"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 0,
+          "distinct_channel_count": 3,
+          "evidence_titles": [
+            "A Call For A Simple Life | Google Duplex IS Here",
+            "Google Duplex - The Future is Here!!!",
+            "Google Duplex - The Future is Here!\ud83d\udd25"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=Q7LrCuZQG-g",
+            "https://www.youtube.com/watch?v=XYuiWN8MxO8",
+            "https://www.youtube.com/watch?v=S_XhiGnPTfw"
+          ],
+          "evidence_video_ids": [
+            "Q7LrCuZQG-g",
+            "XYuiWN8MxO8",
+            "S_XhiGnPTfw"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 0,
+          "label": "Google Duplex release wave",
+          "lead_days": null,
+          "median_outlier_ratio": null,
+          "new_channel_share": 0,
+          "new_future_channel_count": 0,
+          "new_recent_channel_count": 2,
+          "outlier_video_count": 0,
+          "rank": 1,
+          "recent_video_count": 2,
+          "score": 12.5,
+          "supply_growth": 0.0,
+          "topic_key": "micro-v7-ae576c50b33ea6cadd"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-ae576c50b33ea6cadd"
+        ],
+        "channels": [
+          "micro-v7-ae576c50b33ea6cadd"
+        ],
+        "method": [
+          "micro-v7-ae576c50b33ea6cadd"
+        ],
+        "random": [
+          "micro-v7-ae576c50b33ea6cadd"
+        ],
+        "supply": [
+          "micro-v7-ae576c50b33ea6cadd"
+        ]
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2018-06-03T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2018-06-10T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2018-06-17T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2018-06-24T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2018-07-01T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-9ea3bf36f1783aaf00"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 1.0,
+          "distinct_channel_count": 5,
+          "evidence_titles": [
+            "Google Duplex: The Good, The Bad, And The Crazy",
+            "Why we should be excited about GOOGLE DUPLEX and how AI is developing",
+            "Talking to Google Duplex",
+            "Google Duplex being prepped for a summer rollout",
+            "Steven's week 95: News about Facebook, Snapchat & Google Duplex!"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=voBtuvfYmTg",
+            "https://www.youtube.com/watch?v=C5mPMW3lFqs",
+            "https://www.youtube.com/watch?v=HffdAnf6Aqw",
+            "https://www.youtube.com/watch?v=yTXKMyvO_No",
+            "https://www.youtube.com/watch?v=lJvOFtfwYFU"
+          ],
+          "evidence_video_ids": [
+            "voBtuvfYmTg",
+            "C5mPMW3lFqs",
+            "HffdAnf6Aqw",
+            "yTXKMyvO_No",
+            "lJvOFtfwYFU"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 3,
+          "label": "Google Duplex creator activity",
+          "lead_days": null,
+          "median_outlier_ratio": 1.2717,
+          "new_channel_share": 0.6667,
+          "new_future_channel_count": 2,
+          "new_recent_channel_count": 2,
+          "outlier_video_count": 1,
+          "rank": 1,
+          "recent_video_count": 3,
+          "score": 19.9,
+          "supply_growth": 0.4,
+          "topic_key": "micro-v7-9ea3bf36f1783aaf00"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-9ea3bf36f1783aaf00"
+        ],
+        "channels": [
+          "micro-v7-9ea3bf36f1783aaf00"
+        ],
+        "method": [
+          "micro-v7-9ea3bf36f1783aaf00"
+        ],
+        "random": [
+          "micro-v7-9ea3bf36f1783aaf00"
+        ],
+        "supply": [
+          "micro-v7-9ea3bf36f1783aaf00"
+        ]
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2018-07-08T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2018-07-15T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2018-07-22T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 2,
+      "checkpoint_at": "2018-07-29T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-032da884e92201830d",
+        "micro-v7-254a7d40a45a395dc5"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 1.0,
+          "distinct_channel_count": 4,
+          "evidence_titles": [
+            "AI Cafe Ep.2: AI - How is it meaningful for humans? Featuring Rob High, CTO & VP IBM Watson",
+            "IBM Watson IoT Rome\u00a0Fab Lab: NAO Robot",
+            "IBM Watson Reportedly Recommended 'Unsafe and Incorrect' Cancer Treatments",
+            "A Sentiment Analysis App Built on IBM Watson... WatermelonBlock Review"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=QckIFQQ1lm8",
+            "https://www.youtube.com/watch?v=3RGhELXfvOw",
+            "https://www.youtube.com/watch?v=XbD7teXfH2w",
+            "https://www.youtube.com/watch?v=5imlAByi6s0"
+          ],
+          "evidence_video_ids": [
+            "QckIFQQ1lm8",
+            "3RGhELXfvOw",
+            "XbD7teXfH2w",
+            "5imlAByi6s0"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 9,
+          "label": "IBM Watson creator activity",
+          "lead_days": null,
+          "median_outlier_ratio": 0.5892,
+          "new_channel_share": 0.6667,
+          "new_future_channel_count": 1,
+          "new_recent_channel_count": 2,
+          "outlier_video_count": 2,
+          "rank": 1,
+          "recent_video_count": 2,
+          "score": 24.3,
+          "supply_growth": 1.5,
+          "topic_key": "micro-v7-254a7d40a45a395dc5"
+        },
+        {
+          "baseline_coverage": 1.0,
+          "distinct_channel_count": 11,
+          "evidence_titles": [
+            "Minigo: Building a Go AI with Kubernetes and TensorFlow (Cloud Next '18)",
+            "Getting Started with TensorFlow with Manoranjan Padhy",
+            "The Hitchhiker's Guide to Tensorflow - Introduction to Machine Learning and Tensorflow",
+            "justforfunc live: getting started with Tensorflow Go",
+            "Predicting Sales during Hurricanes for a Home Improvement Retailer via TensorFlow (Cloud Next '18)"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=BBIA6Wcu2j4",
+            "https://www.youtube.com/watch?v=Zt4OlQNJ83w",
+            "https://www.youtube.com/watch?v=DAt8xZQ9rZU",
+            "https://www.youtube.com/watch?v=616dCIMICXc",
+            "https://www.youtube.com/watch?v=bgPpa8Nkgd0",
+            "https://www.youtube.com/watch?v=wUqluLlGg4g",
+            "https://www.youtube.com/watch?v=tYYVSEHq-io",
+            "https://www.youtube.com/watch?v=45MbmHQ5iMY",
+            "https://www.youtube.com/watch?v=WkG2d5N1Eig",
+            "https://www.youtube.com/watch?v=KC4201o83W0",
+            "https://www.youtube.com/watch?v=MR7w8ARAS2Y",
+            "https://www.youtube.com/watch?v=VAkLSLuJCgc",
+            "https://www.youtube.com/watch?v=yyidrHJS26Y",
+            "https://www.youtube.com/watch?v=Qra8Aqxu_fo",
+            "https://www.youtube.com/watch?v=uIqioa2hmpo",
+            "https://www.youtube.com/watch?v=5JYKmMt3yf8",
+            "https://www.youtube.com/watch?v=skJitN1vZG0",
+            "https://www.youtube.com/watch?v=tNHGBhzOUms"
+          ],
+          "evidence_video_ids": [
+            "BBIA6Wcu2j4",
+            "Zt4OlQNJ83w",
+            "DAt8xZQ9rZU",
+            "616dCIMICXc",
+            "bgPpa8Nkgd0",
+            "wUqluLlGg4g",
+            "tYYVSEHq-io",
+            "45MbmHQ5iMY",
+            "WkG2d5N1Eig",
+            "KC4201o83W0",
+            "MR7w8ARAS2Y",
+            "VAkLSLuJCgc",
+            "yyidrHJS26Y",
+            "Qra8Aqxu_fo",
+            "uIqioa2hmpo",
+            "5JYKmMt3yf8",
+            "skJitN1vZG0",
+            "tNHGBhzOUms"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 20,
+          "label": "TensorFlow creator activity",
+          "lead_days": null,
+          "median_outlier_ratio": 0.9213,
+          "new_channel_share": 0.2,
+          "new_future_channel_count": 3,
+          "new_recent_channel_count": 2,
+          "outlier_video_count": 3,
+          "rank": 2,
+          "recent_video_count": 10,
+          "score": 14.5,
+          "supply_growth": 0.833,
+          "topic_key": "micro-v7-032da884e92201830d"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-032da884e92201830d",
+          "micro-v7-254a7d40a45a395dc5"
+        ],
+        "channels": [
+          "micro-v7-032da884e92201830d",
+          "micro-v7-254a7d40a45a395dc5"
+        ],
+        "method": [
+          "micro-v7-254a7d40a45a395dc5",
+          "micro-v7-032da884e92201830d"
+        ],
+        "random": [
+          "micro-v7-032da884e92201830d",
+          "micro-v7-254a7d40a45a395dc5"
+        ],
+        "supply": [
+          "micro-v7-032da884e92201830d",
+          "micro-v7-254a7d40a45a395dc5"
+        ]
+      }
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2018-08-05T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-ce03096fb975f2b41c"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 1.0,
+          "distinct_channel_count": 3,
+          "evidence_titles": [
+            "OpenAI First Real Test vs HUMAN Team, 5v5 vs Pro Team, 99.95% Best Players Dota 2",
+            "OpenAI vs HUMANS - FINAL SHOWMATCH - 2.9% CHANCE DOTA 2",
+            "OpenAI vs HUMANS - AI vs 99.95% BEST PLAYERS 5v5 DOTA 2",
+            "OpenAI 5v5 vs Dota TOP 0,05% players \u2014 FIRST game vs pro team"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=Y03svwpi7hY",
+            "https://www.youtube.com/watch?v=_QQYaVUODkE",
+            "https://www.youtube.com/watch?v=eaBYhLttETw",
+            "https://www.youtube.com/watch?v=lc1fl5bdZdA"
+          ],
+          "evidence_video_ids": [
+            "Y03svwpi7hY",
+            "_QQYaVUODkE",
+            "eaBYhLttETw",
+            "lc1fl5bdZdA"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 15,
+          "label": "OpenAI performance comparisons",
+          "lead_days": null,
+          "median_outlier_ratio": 0.6244,
+          "new_channel_share": 0.5333,
+          "new_future_channel_count": 7,
+          "new_recent_channel_count": 3,
+          "outlier_video_count": 0,
+          "rank": 1,
+          "recent_video_count": 4,
+          "score": 36.4,
+          "supply_growth": 2.5,
+          "topic_key": "micro-v7-ce03096fb975f2b41c"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-ce03096fb975f2b41c"
+        ],
+        "channels": [
+          "micro-v7-ce03096fb975f2b41c"
+        ],
+        "method": [
+          "micro-v7-ce03096fb975f2b41c"
+        ],
+        "random": [
+          "micro-v7-ce03096fb975f2b41c"
+        ],
+        "supply": [
+          "micro-v7-ce03096fb975f2b41c"
+        ]
+      }
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2018-08-12T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-d77957724f262d6dd1"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 1.0,
+          "distinct_channel_count": 4,
+          "evidence_titles": [
+            "OpenAI + DOTA2: 180 Years of Learning Per Day",
+            "OpenAI's Dactyl improves Dexterity of Robotic Hands without Human Input",
+            "FIRST pro team with OpenAI STRAT \u2014 creeps skip fast push tactics by TNC.Tiger",
+            "Dota 2: What Can We Learn From OpenAI Five? | Pro Dota 2 Guides"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=yEOEqaEgu94",
+            "https://www.youtube.com/watch?v=XYoS68yJVmw",
+            "https://www.youtube.com/watch?v=8vE_qHzhKXU",
+            "https://www.youtube.com/watch?v=rTtg_DdOqPQ"
+          ],
+          "evidence_video_ids": [
+            "yEOEqaEgu94",
+            "XYoS68yJVmw",
+            "8vE_qHzhKXU",
+            "rTtg_DdOqPQ"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 7,
+          "label": "OpenAI creator activity",
+          "lead_days": null,
+          "median_outlier_ratio": 1.1138,
+          "new_channel_share": 1.0,
+          "new_future_channel_count": 5,
+          "new_recent_channel_count": 2,
+          "outlier_video_count": 2,
+          "rank": 1,
+          "recent_video_count": 2,
+          "score": 14.1,
+          "supply_growth": 1.167,
+          "topic_key": "micro-v7-d77957724f262d6dd1"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-d77957724f262d6dd1"
+        ],
+        "channels": [
+          "micro-v7-d77957724f262d6dd1"
+        ],
+        "method": [
+          "micro-v7-d77957724f262d6dd1"
+        ],
+        "random": [
+          "micro-v7-d77957724f262d6dd1"
+        ],
+        "supply": [
+          "micro-v7-d77957724f262d6dd1"
+        ]
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2018-08-19T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2018-08-26T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2018-09-02T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2018-09-09T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2018-09-16T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2018-09-23T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2018-09-30T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2018-10-07T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2018-10-14T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2018-10-21T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2018-10-28T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2018-11-04T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2018-11-11T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2018-11-18T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-2d37ef5f2b4f7b8322"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 1.0,
+          "distinct_channel_count": 3,
+          "evidence_titles": [
+            "Learn Computer Vision with Python and OpenCV : Contrast Enhance Hist Equal | packtpub.com",
+            "Learn Computer Vision with Python and OpenCV : The Course Overview | packtpub.com",
+            "Learn Computer Vision with Python and OpenCV : Getting Started with Videos | packtpub.com",
+            "Taking a Look at Computer Vision\u2019s Object Detection #TWiCognitive",
+            "Android Studio Tutorial - Detect Adult Content with Azure Computer Vision"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=OYKBiWEsi9w",
+            "https://www.youtube.com/watch?v=Yj3YKAhbE5E",
+            "https://www.youtube.com/watch?v=efmGalPhXq4",
+            "https://www.youtube.com/watch?v=x5EDKW3t1Bk",
+            "https://www.youtube.com/watch?v=Fi-f9QMTx_Q",
+            "https://www.youtube.com/watch?v=Jr8fmb7b0lA"
+          ],
+          "evidence_video_ids": [
+            "OYKBiWEsi9w",
+            "Yj3YKAhbE5E",
+            "efmGalPhXq4",
+            "x5EDKW3t1Bk",
+            "Fi-f9QMTx_Q",
+            "Jr8fmb7b0lA"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 2,
+          "label": "Computer vision practical implementations",
+          "lead_days": null,
+          "median_outlier_ratio": 0.3991,
+          "new_channel_share": 0.5,
+          "new_future_channel_count": 1,
+          "new_recent_channel_count": 2,
+          "outlier_video_count": 0,
+          "rank": 1,
+          "recent_video_count": 2,
+          "score": 16.1,
+          "supply_growth": 0.222,
+          "topic_key": "micro-v7-2d37ef5f2b4f7b8322"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-2d37ef5f2b4f7b8322"
+        ],
+        "channels": [
+          "micro-v7-2d37ef5f2b4f7b8322"
+        ],
+        "method": [
+          "micro-v7-2d37ef5f2b4f7b8322"
+        ],
+        "random": [
+          "micro-v7-2d37ef5f2b4f7b8322"
+        ],
+        "supply": [
+          "micro-v7-2d37ef5f2b4f7b8322"
+        ]
+      }
+    }
+  ],
+  "code_sha256": "e65589464d4bbb4d233651cca09be7ec139930dca973e2d2ffe78dc655553904",
+  "dataset_version": "youniverse-v1.1-en",
+  "gate": {
+    "checks": {
+      "beats_base_rate": false,
+      "complete_followup": true,
+      "future_video_baseline_coverage": true,
+      "holdout_split": false,
+      "median_lead": false,
+      "not_worse_than_each_simple_baseline": true,
+      "outcome_baseline_coverage": true,
+      "positive_outcome_support": false,
+      "precision_at_10": false
+    },
+    "verdict": "TRAIN_DIAGNOSTIC"
+  },
+  "generated_at": "2026-08-09T18:49:42.393731+00:00",
+  "metrics": {
+    "candidate_base_rate_percent": 0.0,
+    "candidate_topics": 33,
+    "checkpoint_count": 151,
+    "fired_candidate_topics": 0,
+    "rankings": {
+      "acceleration": {
+        "fired": 0,
+        "future_video_baseline_coverage_percent": 99.66,
+        "median_lead_days": null,
+        "precision_at_10_percent": 0.0,
+        "prediction_outcome_baseline_coverage_percent": 100.0,
+        "predictions": 33,
+        "recall_percent": null
+      },
+      "channels": {
+        "fired": 0,
+        "future_video_baseline_coverage_percent": 99.66,
+        "median_lead_days": null,
+        "precision_at_10_percent": 0.0,
+        "prediction_outcome_baseline_coverage_percent": 100.0,
+        "predictions": 33,
+        "recall_percent": null
+      },
+      "method": {
+        "fired": 0,
+        "future_video_baseline_coverage_percent": 99.66,
+        "median_lead_days": null,
+        "precision_at_10_percent": 0.0,
+        "prediction_outcome_baseline_coverage_percent": 100.0,
+        "predictions": 33,
+        "recall_percent": null
+      },
+      "random": {
+        "fired": 0,
+        "future_video_baseline_coverage_percent": 99.66,
+        "median_lead_days": null,
+        "precision_at_10_percent": 0.0,
+        "prediction_outcome_baseline_coverage_percent": 100.0,
+        "predictions": 33,
+        "recall_percent": null
+      },
+      "supply": {
+        "fired": 0,
+        "future_video_baseline_coverage_percent": 99.66,
+        "median_lead_days": null,
+        "precision_at_10_percent": 0.0,
+        "prediction_outcome_baseline_coverage_percent": 100.0,
+        "predictions": 33,
+        "recall_percent": null
+      }
+    }
+  },
+  "outcome_version": "future-topic-supply-channel-outlier-42d-v1",
+  "policy": {
+    "active_window_days": 35,
+    "episode_cooldown_days": 42,
+    "maximum_active_videos": 25,
+    "minimum_channels": 2,
+    "minimum_future_videos": 3,
+    "minimum_median_outlier_ratio": 2,
+    "minimum_new_channel_share": 0.5,
+    "minimum_new_future_channels": 3,
+    "minimum_new_recent_channels": 2,
+    "minimum_outcome_baseline_coverage": 0.8,
+    "minimum_outlier_ratio": 3,
+    "minimum_outlier_videos": 3,
+    "minimum_recent_channels": 2,
+    "minimum_recent_videos": 2,
+    "minimum_specificity": 70,
+    "minimum_thesis_support": 0.8,
+    "minimum_videos": 3,
+    "outcome_horizon_days": 42,
+    "recent_window_days": 7,
+    "structural_lookback_days": 180,
+    "supply_growth_threshold": 3,
+    "top_k": 10
+  },
+  "replay_version": "youniverse-structural-replay-v1.1-filtered-schema",
+  "split": "train",
+  "taxonomy_version": "microtopic-clustering-v7.1-format-neutral-historical-ai",
+  "timeseries_artifact_sha256": "d09347f47c502d413139a1137f4f61e8061aea7c24b13144b51596ad1513d604",
+  "topic_identity_count": 114,
+  "video_count": 18090
+}

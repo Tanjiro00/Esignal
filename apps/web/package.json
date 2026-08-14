@@ -1,0 +1,41 @@
+{
+  "name": "@earlysignal/web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.90.20",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.468.0",
+    "next": "16.2.12",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.62.0",
+    "@tailwindcss/postcss": "4.3.3",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "eslint": "^9.39.0",
+    "eslint-config-next": "16.2.12",
+    "jsdom": "^26.1.0",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "tailwindcss": "4.3.3",
+    "typescript": "^5.8.2",
+    "vitest": "^3.2.4"
+  }
+}

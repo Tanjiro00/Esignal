@@ -1,0 +1,63 @@
+{
+  "evaluated": [
+    {
+      "feasibility": {
+        "at_least_50_candidate_episodes": false,
+        "at_least_50_method_predictions": false,
+        "at_least_80_percent_future_video_coverage": true,
+        "at_least_80_percent_prediction_episode_coverage": true
+      },
+      "report_sha256": "245e10c0de5f795f5e7117eb32ce0e8881619bc1d578ead337566da0944e5828",
+      "variant": {
+        "episode_cooldown_days": 42,
+        "maximum_active_videos": 25,
+        "minimum_channels": 3,
+        "name": "primary",
+        "recent_window_days": 7
+      }
+    },
+    {
+      "feasibility": {
+        "at_least_50_candidate_episodes": false,
+        "at_least_50_method_predictions": false,
+        "at_least_80_percent_future_video_coverage": true,
+        "at_least_80_percent_prediction_episode_coverage": true
+      },
+      "report_sha256": "4ea2132e04012123d2957e179648f43075ccb95685da6b744ca7139ae1643c43",
+      "variant": {
+        "episode_cooldown_days": 42,
+        "maximum_active_videos": 25,
+        "minimum_channels": 2,
+        "name": "fallback_1",
+        "recent_window_days": 7
+      }
+    },
+    {
+      "feasibility": {
+        "at_least_50_candidate_episodes": true,
+        "at_least_50_method_predictions": true,
+        "at_least_80_percent_future_video_coverage": true,
+        "at_least_80_percent_prediction_episode_coverage": true
+      },
+      "report_sha256": "69f30215b60e0da106b13069162deab4ce2cdd60042a5e6284ba52178d537a79",
+      "variant": {
+        "episode_cooldown_days": 42,
+        "maximum_active_videos": 25,
+        "minimum_channels": 3,
+        "name": "fallback_2",
+        "recent_window_days": 14
+      }
+    }
+  ],
+  "frozen_at": "2026-08-09T18:51:49.345549+00:00",
+  "schema_version": "youniverse-train-policy-selection-v1",
+  "selected": {
+    "episode_cooldown_days": 42,
+    "maximum_active_videos": 25,
+    "minimum_channels": 3,
+    "name": "fallback_2",
+    "recent_window_days": 14
+  },
+  "selection_rule": "first preregistered variant with >=50 candidate episodes, >=50 method predictions and >=80% required episode and future-video baseline coverage; otherwise primary",
+  "selection_uses_ranking_quality": false
+}

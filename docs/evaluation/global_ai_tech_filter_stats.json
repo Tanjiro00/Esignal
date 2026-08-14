@@ -1,0 +1,18 @@
+{
+  "accepted_rows": 20060,
+  "dataset_version": "illinois-global-youtube-trending-v1",
+  "first_collection_at": "2022-07-10 00:00:00",
+  "last_collection_at": "2025-06-30 18:00:00",
+  "row_counts": {
+    "accepted": 20060,
+    "category": 23177,
+    "language": 36008431,
+    "total": 71940519,
+    "train_accepted": 15126,
+    "vertical": 35888851
+  },
+  "train_accepted_rows": 15126,
+  "unique_channels": 112,
+  "unique_regions": 72,
+  "unique_videos": 168
+}

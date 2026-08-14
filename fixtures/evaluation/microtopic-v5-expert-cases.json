@@ -1,0 +1,73 @@
+{
+  "version": "microtopic-v5-expert-fixtures-v1",
+  "cases": [
+    {
+      "label": "should_split",
+      "documents": [
+        {
+          "id": "split-1",
+          "title": "Claude Code Guardrails for Private Repositories",
+          "description": "A developer guide to safe permissions and controlled autonomous execution.",
+          "entities": ["Claude Code", "Coding agents"]
+        },
+        {
+          "id": "split-2",
+          "title": "Claude Code for Beginners Without Coding",
+          "description": "A no-code introduction for non-technical beginners.",
+          "entities": ["Claude Code", "Coding agents"]
+        }
+      ]
+    },
+    {
+      "label": "should_merge",
+      "documents": [
+        {
+          "id": "merge-1",
+          "title": "No-Code AI Agents for Recurring Business Tasks",
+          "description": "Business teams automate repetitive operations without coding.",
+          "entities": ["AI agents"]
+        },
+        {
+          "id": "merge-2",
+          "title": "Automate Recurring Company Work With AI Agents — No Code",
+          "description": "A tutorial for business teams replacing manual recurring tasks.",
+          "entities": ["AI agents"]
+        }
+      ]
+    },
+    {
+      "label": "should_reject",
+      "documents": [
+        {
+          "id": "reject-1",
+          "title": "A New AI Model Release Changed Everything",
+          "description": "Generic release commentary without a named product or workflow.",
+          "entities": ["AI models"]
+        }
+      ]
+    },
+    {
+      "label": "valid_microtopic",
+      "documents": [
+        {
+          "id": "valid-1",
+          "title": "No-Code AI Agents for Recurring Business Tasks",
+          "description": "Business teams automate repetitive operations without coding.",
+          "entities": ["AI agents"]
+        },
+        {
+          "id": "valid-2",
+          "title": "AI Agents Without Coding for Weekly Operations",
+          "description": "A business tutorial for recurring team workflows.",
+          "entities": ["AI agents"]
+        },
+        {
+          "id": "valid-3",
+          "title": "Build a No-Code AI Agent for Repetitive Company Work",
+          "description": "Business teams replace a recurring manual task.",
+          "entities": ["AI agents"]
+        }
+      ]
+    }
+  ]
+}

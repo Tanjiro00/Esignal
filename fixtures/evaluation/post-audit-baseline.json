@@ -1,0 +1,828 @@
+{
+  "fixture_version": "post-audit-baseline-v1",
+  "captured_at": "2026-07-29",
+  "product_behavior_changed": false,
+  "authoritative_inputs": [
+    {
+      "path": "CREATOR_TREND_INTELLIGENCE_SCRAPING_FIRST_MVP_CODEX_SPEC.md",
+      "sha256": "62df5225a45e8075ab557d5a45015af4de93cbb96a80d690d4a6ede22a0a9538"
+    },
+    {
+      "path": "EARLYSIGNAL_POST_AUDIT_IMPLEMENTATION_PLAN_RU.md",
+      "sha256": "5bc8f4e0ce75360b76190ff20ea5c777565130b718a77f84f97f4495e9a4983a"
+    },
+    {
+      "path": "docs/EARLYSIGNAL_FULL_PROJECT_AUDIT_PACKAGE_RU.md",
+      "sha256": "0691eec62032d4f6d6e879072b3666f8d404fd0bfa8521527bb3fafc2672bf63"
+    }
+  ],
+  "database": {
+    "alembic_head": "3e7a1c9d5b42"
+  },
+  "visual_baseline": {
+    "capture_mode": "fresh-local-deterministic-demo",
+    "screenshots": [
+      {
+        "surface": "01-today-desktop",
+        "route": "/today",
+        "path": "docs/post-audit-baseline/screenshots/01-today-desktop.jpg",
+        "width": 1440,
+        "height": 1000,
+        "sha256": "bcae876ff4cafb1815ed9de041dd382cdb8c0c3dafc57c3a87752e285f93097b"
+      },
+      {
+        "surface": "02-opportunities-desktop",
+        "route": "/opportunities",
+        "path": "docs/post-audit-baseline/screenshots/02-opportunities-desktop.jpg",
+        "width": 1440,
+        "height": 1000,
+        "sha256": "6fab0f171cd2bce80ace1998e5c3dee9f330332eab72f7443de574d76a65564b"
+      },
+      {
+        "surface": "03-evidence-desktop",
+        "route": "/opportunities/{signal_id}?section=evidence",
+        "path": "docs/post-audit-baseline/screenshots/03-evidence-desktop.jpg",
+        "width": 1440,
+        "height": 1000,
+        "sha256": "f7e50a477e89bb68b42ca65d8f49a060622e520098101770fd91677254247604"
+      },
+      {
+        "surface": "04-content-gap-desktop",
+        "route": "/opportunities/{signal_id}",
+        "path": "docs/post-audit-baseline/screenshots/04-content-gap-desktop.jpg",
+        "width": 1440,
+        "height": 1000,
+        "sha256": "72e6f3872360d49371fd0c9832ac1c5fd19023d3e563a4e7cb033b8c3be6dd41",
+        "state": "Content gap tab selected"
+      },
+      {
+        "surface": "05-briefs-desktop",
+        "route": "/briefs",
+        "path": "docs/post-audit-baseline/screenshots/05-briefs-desktop.jpg",
+        "width": 1440,
+        "height": 1000,
+        "sha256": "3165ae2adedfe9b46e7ad880c793506aa440341420191585c574cfd24118062d"
+      },
+      {
+        "surface": "06-results-desktop",
+        "route": "/results",
+        "path": "docs/post-audit-baseline/screenshots/06-results-desktop.jpg",
+        "width": 1440,
+        "height": 1000,
+        "sha256": "2b29604383c0886a6acc49795a80016f85abd814400664b3cf1328defc110f28"
+      },
+      {
+        "surface": "07-settings-desktop",
+        "route": "/settings",
+        "path": "docs/post-audit-baseline/screenshots/07-settings-desktop.jpg",
+        "width": 1440,
+        "height": 1000,
+        "sha256": "1b4ef0d9a241e5205ee48fa7d5704e6c62a0f06df407676b9d59bfe32e5418c5"
+      },
+      {
+        "surface": "08-onboarding-desktop",
+        "route": "/onboarding",
+        "path": "docs/post-audit-baseline/screenshots/08-onboarding-desktop.jpg",
+        "width": 1440,
+        "height": 1000,
+        "sha256": "c6519aa82bfbbaae1a7cf16bd8c6895fff9805ef72faff73413ab78278c62d5e"
+      },
+      {
+        "surface": "09-login-desktop",
+        "route": "/login",
+        "path": "docs/post-audit-baseline/screenshots/09-login-desktop.jpg",
+        "width": 1440,
+        "height": 1000,
+        "sha256": "01738dfa80613be66d844434402d69ee75aaa521f2d7df0e80fb7e99db520e0b"
+      },
+      {
+        "surface": "10-admin-operations-desktop",
+        "route": "/admin/operations",
+        "path": "docs/post-audit-baseline/screenshots/10-admin-operations-desktop.jpg",
+        "width": 1440,
+        "height": 1000,
+        "sha256": "e5221c55d69560fd54866934bfbb4a6cdf53e81f8fd09665c2a0bb9fbff8c28d"
+      },
+      {
+        "surface": "11-admin-providers-desktop",
+        "route": "/admin/providers",
+        "path": "docs/post-audit-baseline/screenshots/11-admin-providers-desktop.jpg",
+        "width": 1440,
+        "height": 1000,
+        "sha256": "860225275f88a92958448b6c31e061ae0909bbf13cce0a3ac8478cf2ca583e01"
+      },
+      {
+        "surface": "12-admin-review-desktop",
+        "route": "/admin/review",
+        "path": "docs/post-audit-baseline/screenshots/12-admin-review-desktop.jpg",
+        "width": 1440,
+        "height": 1000,
+        "sha256": "ba2b1fb6c60842e36cfbdf35bde9bb5decf25917faf3143b670698e72674376e"
+      },
+      {
+        "surface": "13-today-mobile",
+        "route": "/today",
+        "path": "docs/post-audit-baseline/screenshots/13-today-mobile.jpg",
+        "width": 390,
+        "height": 844,
+        "sha256": "48efa8a7c627260eb2ce43a86330587c699db90bd097e51226320c1bc481f037"
+      },
+      {
+        "surface": "14-opportunity-detail-mobile",
+        "route": "/opportunities/{signal_id}?section=decision",
+        "path": "docs/post-audit-baseline/screenshots/14-opportunity-detail-mobile.jpg",
+        "width": 390,
+        "height": 844,
+        "sha256": "48ab15ee925c3509ecd08739cb59191b9c63453aa697f361a9959a19c00703af"
+      }
+    ],
+    "mobile_horizontal_overflow": false
+  },
+  "metrics": {
+    "demo": {
+      "source": "fresh earlysignal-e2e.db after visual capture",
+      "counts": {
+        "workspaces": 1,
+        "users": 1,
+        "youtube_channels": 50,
+        "youtube_videos": 300,
+        "video_snapshots": 1200,
+        "topics": 5,
+        "active_topics": 5,
+        "signals": 5,
+        "active_signals": 5,
+        "comments": 15,
+        "transcripts": 10,
+        "briefs": 2,
+        "published_outcomes": 1,
+        "llm_runs": 0,
+        "provider_fetches": 4,
+        "signal_actions": 2,
+        "signal_reviews": 5
+      }
+    },
+    "production": {
+      "source": "read-only same-day production audit documented in docs/EARLYSIGNAL_FULL_PROJECT_AUDIT_PACKAGE_RU.md section 18",
+      "counts": {
+        "workspaces": 4,
+        "users": 4,
+        "youtube_channels": 584,
+        "youtube_videos": 6780,
+        "video_snapshots": 12580,
+        "live_topics": 122,
+        "live_signals": 66,
+        "approved_live_signals": 1,
+        "comments": 3548,
+        "transcripts": 28,
+        "briefs": 2,
+        "published_outcomes": 1,
+        "llm_runs": 2306,
+        "provider_fetches": 4693
+      }
+    }
+  },
+  "api_contract": {
+    "prefix": "/api/v1",
+    "openapi_version": "3.1.0",
+    "application_version": "0.1.0",
+    "operation_count": 96,
+    "openapi_sha256": "bfe915b4d08a74d8eea044d693487e29bf6ddfb81ee8e1a005074881e8fa760d",
+    "operations": [
+      {
+        "method": "GET",
+        "path": "/api/v1/admin/demand-intelligence/metrics",
+        "operation_id": "demand_intelligence_metrics_api_v1_admin_demand_intelligence_metrics_get"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/admin/demand-intelligence/run",
+        "operation_id": "run_demand_intelligence_api_v1_admin_demand_intelligence_run_post"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/admin/demand/reclassify",
+        "operation_id": "reclassify_comment_demand_api_v1_admin_demand_reclassify_post"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/admin/demand/relevance/{relevance_id}/override",
+        "operation_id": "override_comment_relevance_api_v1_admin_demand_relevance__relevance_id__override_post"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/admin/discovery-queries",
+        "operation_id": "discovery_queries_api_v1_admin_discovery_queries_get"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/admin/discovery-queries",
+        "operation_id": "create_discovery_query_api_v1_admin_discovery_queries_post"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/admin/discovery-queries/{query_id}/run",
+        "operation_id": "run_discovery_query_api_v1_admin_discovery_queries__query_id__run_post"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/admin/discovery-runs",
+        "operation_id": "discovery_runs_api_v1_admin_discovery_runs_get"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/admin/evaluation/candidates",
+        "operation_id": "evaluation_candidates_api_v1_admin_evaluation_candidates_get"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/admin/evaluation/export",
+        "operation_id": "export_evaluation_labels_api_v1_admin_evaluation_export_get"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/admin/evaluation/feedback/export",
+        "operation_id": "export_decision_feedback_api_v1_admin_evaluation_feedback_export_get"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/admin/evaluation/report",
+        "operation_id": "evaluation_report_api_v1_admin_evaluation_report_get"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/admin/evaluation/topics/{topic_id}/label",
+        "operation_id": "label_evaluation_topic_api_v1_admin_evaluation_topics__topic_id__label_post"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/admin/monitored-channels",
+        "operation_id": "monitored_channels_api_v1_admin_monitored_channels_get"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/admin/monitored-channels",
+        "operation_id": "add_monitored_channel_api_v1_admin_monitored_channels_post"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/admin/monitored-channels/{channel_id}/run",
+        "operation_id": "run_monitored_channel_api_v1_admin_monitored_channels__channel_id__run_post"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/admin/operations/readiness",
+        "operation_id": "operations_readiness_api_v1_admin_operations_readiness_get"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/admin/provider-fetches",
+        "operation_id": "provider_fetches_api_v1_admin_provider_fetches_get"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/admin/provider-fetches/{fetch_id}",
+        "operation_id": "provider_fetch_detail_api_v1_admin_provider_fetches__fetch_id__get"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/admin/provider-fetches/{fetch_id}/replay",
+        "operation_id": "replay_provider_fetch_api_v1_admin_provider_fetches__fetch_id__replay_post"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/admin/provider-routing/decisions",
+        "operation_id": "provider_routing_decisions_api_v1_admin_provider_routing_decisions_get"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/admin/provider-routing/events",
+        "operation_id": "provider_operations_events_api_v1_admin_provider_routing_events_get"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/admin/provider-routing/metrics",
+        "operation_id": "provider_routing_metrics_api_v1_admin_provider_routing_metrics_get"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/admin/providers",
+        "operation_id": "providers_api_v1_admin_providers_get"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/admin/providers/benchmark",
+        "operation_id": "run_provider_benchmark_api_v1_admin_providers_benchmark_post"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/admin/providers/benchmark/latest",
+        "operation_id": "latest_provider_benchmark_api_v1_admin_providers_benchmark_latest_get"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/admin/providers/health-check",
+        "operation_id": "run_health_check_api_v1_admin_providers_health_check_post"
+      },
+      {
+        "method": "PATCH",
+        "path": "/api/v1/admin/providers/{provider}/{capability}",
+        "operation_id": "update_provider_api_v1_admin_providers__provider___capability__patch"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/admin/providers/{provider}/{capability}/reset-circuit",
+        "operation_id": "reset_provider_circuit_api_v1_admin_providers__provider___capability__reset_circuit_post"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/admin/query-expansion/run",
+        "operation_id": "run_query_expansion_api_v1_admin_query_expansion_run_post"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/admin/query-suggestions",
+        "operation_id": "query_suggestions_api_v1_admin_query_suggestions_get"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/admin/query-suggestions/{suggestion_id}/actions",
+        "operation_id": "transition_query_suggestion_api_v1_admin_query_suggestions__suggestion_id__actions_post"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/admin/review/signals",
+        "operation_id": "admin_signal_review_queue_api_v1_admin_review_signals_get"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/admin/review/signals/{signal_id}",
+        "operation_id": "admin_signal_review_detail_api_v1_admin_review_signals__signal_id__get"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/admin/review/signals/{signal_id}/actions",
+        "operation_id": "admin_signal_review_action_api_v1_admin_review_signals__signal_id__actions_post"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/admin/review/signals/{signal_id}/approve",
+        "operation_id": "admin_signal_review_approve_api_v1_admin_review_signals__signal_id__approve_post"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/admin/review/signals/{signal_id}/reject",
+        "operation_id": "admin_signal_review_reject_api_v1_admin_review_signals__signal_id__reject_post"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/admin/review/signals/{signal_id}/request-merge",
+        "operation_id": "admin_signal_review_merge_api_v1_admin_review_signals__signal_id__request_merge_post"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/admin/review/signals/{signal_id}/request-split",
+        "operation_id": "admin_signal_review_split_api_v1_admin_review_signals__signal_id__request_split_post"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/admin/topic-intelligence/metrics",
+        "operation_id": "topic_intelligence_metrics_api_v1_admin_topic_intelligence_metrics_get"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/admin/topic-intelligence/run",
+        "operation_id": "run_topic_intelligence_api_v1_admin_topic_intelligence_run_post"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/admin/transcript-intelligence/metrics",
+        "operation_id": "transcript_intelligence_metrics_api_v1_admin_transcript_intelligence_metrics_get"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/admin/transcript-intelligence/run",
+        "operation_id": "run_transcript_intelligence_api_v1_admin_transcript_intelligence_run_post"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/admin/video-intelligence/metrics",
+        "operation_id": "video_intelligence_metrics_api_v1_admin_video_intelligence_metrics_get"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/admin/video-intelligence/run",
+        "operation_id": "run_video_intelligence_api_v1_admin_video_intelligence_run_post"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/admin/video-intelligence/schedule",
+        "operation_id": "schedule_video_snapshots_api_v1_admin_video_intelligence_schedule_post"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/admin/video-intelligence/videos",
+        "operation_id": "video_intelligence_videos_api_v1_admin_video_intelligence_videos_get"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/admin/workspaces",
+        "operation_id": "create_private_beta_workspace_api_v1_admin_workspaces_post"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/auth/change-password",
+        "operation_id": "change_password_api_v1_auth_change_password_post"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/auth/login",
+        "operation_id": "login_api_v1_auth_login_post"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/auth/logout",
+        "operation_id": "logout_api_v1_auth_logout_post"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/auth/me",
+        "operation_id": "me_api_v1_auth_me_get"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/auth/register",
+        "operation_id": "register_api_v1_auth_register_post"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/context",
+        "operation_id": "workspace_context_api_v1_context_get"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/demo/context",
+        "operation_id": "demo_context_api_v1_demo_context_get"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/oauth/youtube/callback",
+        "operation_id": "youtube_oauth_callback_api_v1_oauth_youtube_callback_get"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/workspaces/{workspace_id}/analytics/events",
+        "operation_id": "create_product_event_api_v1_workspaces__workspace_id__analytics_events_post"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/workspaces/{workspace_id}/analytics/summary",
+        "operation_id": "analytics_summary_api_v1_workspaces__workspace_id__analytics_summary_get"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/workspaces/{workspace_id}/briefs",
+        "operation_id": "briefs_api_v1_workspaces__workspace_id__briefs_get"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/workspaces/{workspace_id}/briefs/{brief_id}",
+        "operation_id": "brief_detail_api_v1_workspaces__workspace_id__briefs__brief_id__get"
+      },
+      {
+        "method": "PATCH",
+        "path": "/api/v1/workspaces/{workspace_id}/briefs/{brief_id}",
+        "operation_id": "update_brief_api_v1_workspaces__workspace_id__briefs__brief_id__patch"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/workspaces/{workspace_id}/channel-profile",
+        "operation_id": "channel_profile_api_v1_workspaces__workspace_id__channel_profile_get"
+      },
+      {
+        "method": "PUT",
+        "path": "/api/v1/workspaces/{workspace_id}/channel-profile",
+        "operation_id": "update_channel_profile_api_v1_workspaces__workspace_id__channel_profile_put"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/workspaces/{workspace_id}/channels",
+        "operation_id": "workspace_channels_api_v1_workspaces__workspace_id__channels_get"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/workspaces/{workspace_id}/channels",
+        "operation_id": "add_workspace_channel_api_v1_workspaces__workspace_id__channels_post"
+      },
+      {
+        "method": "PATCH",
+        "path": "/api/v1/workspaces/{workspace_id}/channels/{channel_id}",
+        "operation_id": "update_workspace_channel_api_v1_workspaces__workspace_id__channels__channel_id__patch"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/workspaces/{workspace_id}/digest/generate",
+        "operation_id": "generate_digest_api_v1_workspaces__workspace_id__digest_generate_post"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/workspaces/{workspace_id}/digest/latest",
+        "operation_id": "latest_digest_api_v1_workspaces__workspace_id__digest_latest_get"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/workspaces/{workspace_id}/digest/subscription",
+        "operation_id": "digest_subscription_api_v1_workspaces__workspace_id__digest_subscription_get"
+      },
+      {
+        "method": "PUT",
+        "path": "/api/v1/workspaces/{workspace_id}/digest/subscription",
+        "operation_id": "update_digest_subscription_api_v1_workspaces__workspace_id__digest_subscription_put"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/workspaces/{workspace_id}/oauth/youtube",
+        "operation_id": "youtube_oauth_status_api_v1_workspaces__workspace_id__oauth_youtube_get"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/workspaces/{workspace_id}/oauth/youtube/disconnect",
+        "operation_id": "disconnect_youtube_oauth_api_v1_workspaces__workspace_id__oauth_youtube_disconnect_post"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/workspaces/{workspace_id}/oauth/youtube/start",
+        "operation_id": "start_youtube_oauth_api_v1_workspaces__workspace_id__oauth_youtube_start_post"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/workspaces/{workspace_id}/oauth/youtube/sync",
+        "operation_id": "sync_youtube_analytics_api_v1_workspaces__workspace_id__oauth_youtube_sync_post"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/workspaces/{workspace_id}/onboarding",
+        "operation_id": "onboarding_status_api_v1_workspaces__workspace_id__onboarding_get"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/workspaces/{workspace_id}/onboarding/auto-setup",
+        "operation_id": "auto_setup_onboarding_api_v1_workspaces__workspace_id__onboarding_auto_setup_post"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/workspaces/{workspace_id}/onboarding/complete",
+        "operation_id": "complete_onboarding_api_v1_workspaces__workspace_id__onboarding_complete_post"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/workspaces/{workspace_id}/onboarding/prepare-digest",
+        "operation_id": "prepare_onboarding_digest_api_v1_workspaces__workspace_id__onboarding_prepare_digest_post"
+      },
+      {
+        "method": "PATCH",
+        "path": "/api/v1/workspaces/{workspace_id}/onboarding/workspace",
+        "operation_id": "update_onboarding_workspace_api_v1_workspaces__workspace_id__onboarding_workspace_patch"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/workspaces/{workspace_id}/opportunities/{signal_id}/decision-card",
+        "operation_id": "opportunity_decision_card_api_v1_workspaces__workspace_id__opportunities__signal_id__decision_card_get"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/workspaces/{workspace_id}/outcomes",
+        "operation_id": "outcomes_api_v1_workspaces__workspace_id__outcomes_get"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/workspaces/{workspace_id}/outcomes",
+        "operation_id": "create_outcome_api_v1_workspaces__workspace_id__outcomes_post"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/workspaces/{workspace_id}/outcomes/suggestions",
+        "operation_id": "outcome_suggestions_api_v1_workspaces__workspace_id__outcomes_suggestions_get"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/workspaces/{workspace_id}/outcomes/suggestions/{suggestion_id}/confirm",
+        "operation_id": "confirm_outcome_suggestion_api_v1_workspaces__workspace_id__outcomes_suggestions__suggestion_id__confirm_post"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/workspaces/{workspace_id}/outcomes/suggestions/{suggestion_id}/reject",
+        "operation_id": "reject_outcome_suggestion_api_v1_workspaces__workspace_id__outcomes_suggestions__suggestion_id__reject_post"
+      },
+      {
+        "method": "PATCH",
+        "path": "/api/v1/workspaces/{workspace_id}/outcomes/{outcome_id}/association",
+        "operation_id": "correct_outcome_association_api_v1_workspaces__workspace_id__outcomes__outcome_id__association_patch"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/workspaces/{workspace_id}/outcomes/{outcome_id}/unlink",
+        "operation_id": "unlink_outcome_api_v1_workspaces__workspace_id__outcomes__outcome_id__unlink_post"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/workspaces/{workspace_id}/signals",
+        "operation_id": "signal_feed_api_v1_workspaces__workspace_id__signals_get"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/workspaces/{workspace_id}/signals/{signal_id}",
+        "operation_id": "signal_detail_api_v1_workspaces__workspace_id__signals__signal_id__get"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/workspaces/{workspace_id}/signals/{signal_id}/actions",
+        "operation_id": "create_signal_action_api_v1_workspaces__workspace_id__signals__signal_id__actions_post"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/workspaces/{workspace_id}/signals/{signal_id}/briefs",
+        "operation_id": "create_brief_api_v1_workspaces__workspace_id__signals__signal_id__briefs_post"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/workspaces/{workspace_id}/signals/{signal_id}/earlyness",
+        "operation_id": "signal_earlyness_api_v1_workspaces__workspace_id__signals__signal_id__earlyness_get"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/workspaces/{workspace_id}/signals/{signal_id}/packaging",
+        "operation_id": "signal_packaging_api_v1_workspaces__workspace_id__signals__signal_id__packaging_get"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/workspaces/{workspace_id}/signals/{signal_id}/packaging/copy",
+        "operation_id": "record_packaging_copy_api_v1_workspaces__workspace_id__signals__signal_id__packaging_copy_post"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/workspaces/{workspace_id}/signals/{signal_id}/packaging/regenerate",
+        "operation_id": "regenerate_packaging_api_v1_workspaces__workspace_id__signals__signal_id__packaging_regenerate_post"
+      },
+      {
+        "method": "GET",
+        "path": "/health",
+        "operation_id": "health_health_get"
+      }
+    ]
+  },
+  "feature_flags": {
+    "defaults": [
+      {
+        "name": "FEATURE_EARLYNESS_TIMELINE",
+        "default": false
+      },
+      {
+        "name": "FEATURE_SIGNAL_REVIEW_QUEUE",
+        "default": false
+      },
+      {
+        "name": "FEATURE_COMMENT_TOPIC_RELEVANCE",
+        "default": false
+      },
+      {
+        "name": "FEATURE_DECISION_EXPERIENCE",
+        "default": false
+      },
+      {
+        "name": "FEATURE_MICROTOPIC_CONTENT_GAP",
+        "default": false
+      },
+      {
+        "name": "FEATURE_FEEDBACK_EVALUATION",
+        "default": false
+      },
+      {
+        "name": "FEATURE_TOPIC_SNAPSHOT_BUCKETS",
+        "default": false
+      },
+      {
+        "name": "FEATURE_CHANNEL_PROFILE_FEASIBILITY_V2",
+        "default": false
+      },
+      {
+        "name": "FEATURE_OUTCOME_SUGGESTIONS",
+        "default": false
+      },
+      {
+        "name": "FEATURE_SIGNAL_PACKAGING",
+        "default": false
+      },
+      {
+        "name": "FEATURE_YOUTUBE_OAUTH_ANALYTICS",
+        "default": false
+      },
+      {
+        "name": "FEATURE_QUERY_EXPANSION",
+        "default": false
+      },
+      {
+        "name": "FEATURE_UX_TODAY_HOME_V1",
+        "default": false
+      },
+      {
+        "name": "FEATURE_UX_DECISION_CARD_V1",
+        "default": false
+      },
+      {
+        "name": "FEATURE_UX_SIMPLE_SCORES_V1",
+        "default": false
+      },
+      {
+        "name": "FEATURE_UX_SIMPLIFIED_NAVIGATION_V1",
+        "default": false
+      },
+      {
+        "name": "FEATURE_UX_ONBOARDING_V2",
+        "default": false
+      },
+      {
+        "name": "FEATURE_UX_OPPORTUNITY_DETAIL_V2",
+        "default": false
+      },
+      {
+        "name": "FEATURE_UX_BRIEF_V2",
+        "default": false
+      },
+      {
+        "name": "FEATURE_UX_RESULTS_V2",
+        "default": false
+      },
+      {
+        "name": "FEATURE_LLM_INTELLIGENCE",
+        "default": false
+      }
+    ],
+    "demo_enabled": [
+      "FEATURE_CHANNEL_PROFILE_FEASIBILITY_V2",
+      "FEATURE_COMMENT_TOPIC_RELEVANCE",
+      "FEATURE_DECISION_EXPERIENCE",
+      "FEATURE_EARLYNESS_TIMELINE",
+      "FEATURE_FEEDBACK_EVALUATION",
+      "FEATURE_MICROTOPIC_CONTENT_GAP",
+      "FEATURE_OUTCOME_SUGGESTIONS",
+      "FEATURE_QUERY_EXPANSION",
+      "FEATURE_SIGNAL_PACKAGING",
+      "FEATURE_SIGNAL_REVIEW_QUEUE",
+      "FEATURE_TOPIC_SNAPSHOT_BUCKETS",
+      "FEATURE_UX_BRIEF_V2",
+      "FEATURE_UX_DECISION_CARD_V1",
+      "FEATURE_UX_ONBOARDING_V2",
+      "FEATURE_UX_OPPORTUNITY_DETAIL_V2",
+      "FEATURE_UX_RESULTS_V2",
+      "FEATURE_UX_SIMPLE_SCORES_V1",
+      "FEATURE_UX_SIMPLIFIED_NAVIGATION_V1",
+      "FEATURE_UX_TODAY_HOME_V1"
+    ],
+    "production_enabled": [
+      "FEATURE_CHANNEL_PROFILE_FEASIBILITY_V2",
+      "FEATURE_COMMENT_TOPIC_RELEVANCE",
+      "FEATURE_DECISION_EXPERIENCE",
+      "FEATURE_EARLYNESS_TIMELINE",
+      "FEATURE_FEEDBACK_EVALUATION",
+      "FEATURE_LLM_INTELLIGENCE",
+      "FEATURE_MICROTOPIC_CONTENT_GAP",
+      "FEATURE_OUTCOME_SUGGESTIONS",
+      "FEATURE_QUERY_EXPANSION",
+      "FEATURE_SIGNAL_PACKAGING",
+      "FEATURE_TOPIC_SNAPSHOT_BUCKETS",
+      "FEATURE_UX_BRIEF_V2",
+      "FEATURE_UX_DECISION_CARD_V1",
+      "FEATURE_UX_ONBOARDING_V2",
+      "FEATURE_UX_OPPORTUNITY_DETAIL_V2",
+      "FEATURE_UX_RESULTS_V2",
+      "FEATURE_UX_SIMPLE_SCORES_V1",
+      "FEATURE_UX_SIMPLIFIED_NAVIGATION_V1",
+      "FEATURE_UX_TODAY_HOME_V1",
+      "FEATURE_YOUTUBE_OAUTH_ANALYTICS"
+    ],
+    "production_disabled": [
+      "FEATURE_SIGNAL_REVIEW_QUEUE"
+    ]
+  },
+  "release_policy": {
+    "mandatory_human_review": false,
+    "review_queue_feature_flag": "FEATURE_SIGNAL_REVIEW_QUEUE",
+    "production_review_queue_enabled": false,
+    "current_decision_version": "signal-decision-v1",
+    "current_bucket_version": "score-to-user-bucket-v1",
+    "decisions": [
+      "Act",
+      "Watch",
+      "Skip"
+    ],
+    "automatic_release_change_in_slice_0": false,
+    "note": "Review infrastructure remains available for QA and shadow evaluation but is not a production release gate."
+  },
+  "privacy": {
+    "secrets_included": false,
+    "raw_payloads_included": false,
+    "comment_text_included": false,
+    "credentials_included": false
+  },
+  "content_sha256": "633f67c39eab5a83bc399f0d12903c918548fa8e87385cc54415053446620d52"
+}

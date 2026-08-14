@@ -1,0 +1,482 @@
+{
+  "checkpoints": [
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-07-07T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-07-14T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-07-21T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-07-28T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-08-04T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-08-11T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-08-18T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-08-25T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-09-01T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-09-08T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-09-15T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-09-22T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-09-29T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-10-06T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-10-13T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-10-20T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-10-27T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-11-03T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-11-10T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-11-17T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-11-24T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-12-01T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-12-08T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-12-15T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-12-22T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-12-29T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2025-01-05T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2025-01-12T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2025-01-19T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2025-01-26T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2025-02-02T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "country_count_30d": 6,
+          "distinct_channels_30d": 5,
+          "evidence_titles": [
+            "China's DeepSeek triggers global tech sell-off",
+            "Big Tech in panic mode... Did DeepSeek R1 just pop the AI bubble?",
+            "Deepseek R1 Explained by a Retired Microsoft Engineer",
+            "DeepSeek is a Game Changer for AI - Computerphile",
+            "China’s DeepSeek Sparks Global AI Race"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=-KK8SuvwoRQ",
+            "https://www.youtube.com/watch?v=Nl7aCUsWykg",
+            "https://www.youtube.com/watch?v=V-Fla5hxMRg",
+            "https://www.youtube.com/watch?v=gY4Z-9QlZ64",
+            "https://www.youtube.com/watch?v=r3TpcHebtxM"
+          ],
+          "evidence_video_ids": [
+            "-KK8SuvwoRQ",
+            "Nl7aCUsWykg",
+            "V-Fla5hxMRg",
+            "gY4Z-9QlZ64",
+            "r3TpcHebtxM"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "label": "DeepSeek market activity",
+          "lead_days": null,
+          "max_country_count": 6,
+          "max_new_channels": 0,
+          "max_new_countries": 0,
+          "max_new_video_share": 0.0,
+          "max_supply_growth": 1.0,
+          "rank": 1,
+          "score": 28.5,
+          "topic_key": "micro-v6-bb02b3efa447951963",
+          "video_count_7d": 5
+        }
+      ]
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2025-02-09T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2025-02-16T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2025-02-23T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2025-03-02T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2025-03-09T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2025-03-16T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2025-03-23T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2025-03-30T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2025-04-06T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2025-04-13T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2025-04-20T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2025-04-27T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2025-05-04T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2025-05-11T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2025-05-18T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2025-05-25T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2025-06-01T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2025-06-08T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    }
+  ],
+  "code_sha256": "9e3f9b57a68f4c76a51f1e5a65e91f1a14de9cc837e6b2717dbc3f5f02a1aa0a",
+  "dataset_version": "illinois-global-youtube-trending-v1",
+  "feature_limitations": [
+    "No non-Trending upload universe or channel subscriber baseline.",
+    "No unbiased per-channel outlier ratio, search demand, comments, or transcripts.",
+    "Unavailable production features are fixed at neutral or zero values.",
+    "The replay validates cross-market diffusion ranking, not the complete production stack."
+  ],
+  "filtered_sha256": "6439761a16750de25d68c0b8aa1595cee66a6249e109a2e2a847392cddc8e30d",
+  "first_observed_at": "2022-07-10T00:00:00+00:00",
+  "gate": {
+    "checks": {
+      "beats_base_rate": false,
+      "complete_followup": true,
+      "holdout_split": true,
+      "median_lead": false,
+      "not_worse_than_each_simple_baseline": true,
+      "positive_outcome_support": false,
+      "precision_at_10": false
+    },
+    "verdict": "INSUFFICIENT_OUTCOME_SUPPORT"
+  },
+  "generated_at": "2026-08-09T13:20:41.574534+00:00",
+  "last_observed_at": "2025-06-29T18:00:00+00:00",
+  "metrics": {
+    "candidate_base_rate_percent": 0.0,
+    "candidate_topics": 1,
+    "checkpoint_count": 49,
+    "fired_candidate_topics": 0,
+    "rankings": {
+      "countries": {
+        "fired": 0,
+        "median_lead_days": null,
+        "precision_at_10_percent": 0.0,
+        "predictions": 1,
+        "recall_percent": null
+      },
+      "method": {
+        "fired": 0,
+        "median_lead_days": null,
+        "precision_at_10_percent": 0.0,
+        "predictions": 1,
+        "recall_percent": null
+      },
+      "random": {
+        "fired": 0,
+        "median_lead_days": null,
+        "precision_at_10_percent": 0.0,
+        "predictions": 1,
+        "recall_percent": null
+      },
+      "supply": {
+        "fired": 0,
+        "median_lead_days": null,
+        "precision_at_10_percent": 0.0,
+        "predictions": 1,
+        "recall_percent": null
+      },
+      "velocity": {
+        "fired": 0,
+        "median_lead_days": null,
+        "precision_at_10_percent": 0.0,
+        "predictions": 1,
+        "recall_percent": null
+      },
+      "view_growth": {
+        "fired": 0,
+        "median_lead_days": null,
+        "precision_at_10_percent": 0.0,
+        "predictions": 1,
+        "recall_percent": null
+      }
+    },
+    "split": "holdout"
+  },
+  "outcome_version": "cross-market-new-supply-country-diffusion-21d-v1",
+  "policy": {
+    "lookback_days": 30,
+    "minimum_channels": 3,
+    "minimum_new_channels": 3,
+    "minimum_new_countries": 5,
+    "minimum_new_video_share": 0.5,
+    "minimum_recent_channels": 2,
+    "minimum_total_countries": 8,
+    "minimum_videos": 3,
+    "outcome_horizon_days": 21,
+    "recent_supply_days": 7,
+    "supply_growth_threshold": 3,
+    "top_k": 10
+  },
+  "replay_version": "global-cross-market-replay-v1",
+  "source_sha256": "4cda61820acd16f329e5b075887b26fb9d8526acd8ed5e4fb213c7d64ed6665f",
+  "split": "holdout",
+  "taxonomy_version": "microtopic-clustering-v6-subject-event",
+  "topic_identity_count": 45,
+  "video_count": 168
+}

@@ -1,0 +1,1430 @@
+{
+  "analysis_boundary": "March-May training checkpoints only. June was already consumed by v1 and is not a holdout for this challenger.",
+  "baseline": {
+    "base_rate": 0.137037,
+    "episodes": 270,
+    "examples": [
+      {
+        "active_videos": 8,
+        "channels": 5,
+        "checkpoint_at": "2026-05-03T23:59:59+00:00",
+        "evidence_titles": [
+          "DeepSeek V4 - The Best Open Source  AI",
+          "[FREE] 4 AI Tools You Can Run Locally ! (RTX 3070 / 8GB VRAM)",
+          "[RANKING] 20 Local AI Models \u2014 8GB VRAM Tier List (Qwen3.5, Gemma 4, DeepSeek)",
+          "[FREE] Local AI Content Creation (LTX2.3 + RTX 3070)",
+          "DeepSeek V4 is free and it's changing everything"
+        ],
+        "evidence_video_ids": [
+          "pDnwVnNdBSE",
+          "q-KaY-wF2Uw",
+          "TBHl3h9-CRY",
+          "enTKXksf2Nc",
+          "JtnlY_7ZrLY"
+        ],
+        "future_videos": 0,
+        "label": "DeepSeek V4 - The Best Open Source AI",
+        "new_future_channels": 0,
+        "outcome": false
+      },
+      {
+        "active_videos": 6,
+        "channels": 6,
+        "checkpoint_at": "2026-03-01T23:59:59+00:00",
+        "evidence_titles": [
+          "Did Seedance 2.0 take the top spot for AI video ?",
+          "The 10 Most INSANE AI Films Created by Seedance 2.0",
+          "Seedance 2.0 Pro AI Video Generator",
+          "How To Create Hyper Realistic AI UGC Videos With Seedance 2.0",
+          "AI Film Trailer made entirely with Seedance 2.0 in CapCut"
+        ],
+        "evidence_video_ids": [
+          "1HjJb8vhlfk",
+          "KQIUp7H9Bkc",
+          "VlVfSGKSMBU",
+          "IL9mJUQQckM",
+          "rYeuidNfMJE"
+        ],
+        "future_videos": 5,
+        "label": "Did Seedance 2.0 take the top spot for AI video ?",
+        "new_future_channels": 2,
+        "outcome": false
+      },
+      {
+        "active_videos": 6,
+        "channels": 5,
+        "checkpoint_at": "2026-03-01T23:59:59+00:00",
+        "evidence_titles": [
+          "How I\u2019d Break Into Tech in 2026 (After the AI Layoffs)",
+          "How to Go From Software Engineer to AI Engineer in 2026?",
+          "The Simplest AI Career Pivot That Actually Works in 2026",
+          "Future of software engineering in AI era",
+          "How to Become an AI Engineer in 2026 (A Brutally Honest Roadmap)"
+        ],
+        "evidence_video_ids": [
+          "Xt1T2UAEq0Q",
+          "-Qt279gpemQ",
+          "6xPlpSnd7qY",
+          "a83mfwd_6nU",
+          "Wir1HY5beeg"
+        ],
+        "future_videos": 5,
+        "label": "How I\u2019d Break Into Tech in 2026 After the AI Layoffs",
+        "new_future_channels": 4,
+        "outcome": false
+      },
+      {
+        "active_videos": 6,
+        "channels": 6,
+        "checkpoint_at": "2026-03-01T23:59:59+00:00",
+        "evidence_titles": [
+          "Hollywood\u2019s AI Slop Crisis",
+          "The end of Hollywood? Industry rocked by AI-generated videos of Cruise, Pitt, and other big stars",
+          "Hollywood's AI Gamble: From Lawsuits to Licensing Deals",
+          "AI Celebrity Clones Are Here\u2014Law Can\u2019t Keep Up",
+          "A discussion of a celebrity-likeness viral AI video with SAG-AFTRA President Sean Astin"
+        ],
+        "evidence_video_ids": [
+          "AMLW0_FvhVs",
+          "OWQ691dNx0g",
+          "BpJWu-XRIQs",
+          "A5laNtLb6xc",
+          "pbraWZfWxE8"
+        ],
+        "future_videos": 1,
+        "label": "Hollywood\u2019s AI Slop Crisis",
+        "new_future_channels": 1,
+        "outcome": false
+      },
+      {
+        "active_videos": 6,
+        "channels": 6,
+        "checkpoint_at": "2026-04-12T23:59:59+00:00",
+        "evidence_titles": [
+          "Gemma 4   Google just made AI free forever",
+          "Gemma 4 on Raspberry Pi 5: A Surprisingly Usable Local AI Setup",
+          "Suddenly Local AI Is Impossible to Ignore (But There's a Catch)",
+          "Google just casually disrupted the open-source AI narrative\u2026",
+          "Gemma 4 + Ollama = FREE Claude Code"
+        ],
+        "evidence_video_ids": [
+          "hk6go5jioTk",
+          "kZhAj8--t8w",
+          "BNL5k84CIAg",
+          "-01ZCTt-CJw",
+          "eehsSUlXZN4"
+        ],
+        "future_videos": 0,
+        "label": "Gemma 4 Google just made AI free forever",
+        "new_future_channels": 0,
+        "outcome": false
+      },
+      {
+        "active_videos": 6,
+        "channels": 6,
+        "checkpoint_at": "2026-05-24T23:59:59+00:00",
+        "evidence_titles": [
+          "Seedance 2.0 \u2013 The Ultimate AI Video Tool of 2026!",
+          "SEEDANCE 2.0 - The best AI for video in 2026! Full test of AI VIDEO generation",
+          "Seedance 2.0 Omni Feature Is A Superpower For AI Video Creation",
+          "SeeGen AI Review: Try Seedance 2.0 with Free Credits",
+          "Green Screen with Seedance 2.0 vs \ud835\uddde\ud835\uddf9\ud835\uddf6\ud835\uddfb\ud835\uddf4 \ud835\udfef.\ud835\udfec vs \ud835\uddea\ud835\uddee\ud835\uddfb \ud835\udfee.\ud835\udfed | Only 7 months of evolution in AI engines"
+        ],
+        "evidence_video_ids": [
+          "8KtoSlyn7YA",
+          "9N7Fc4xj8lk",
+          "qgxA7p8T3G0",
+          "jX4Kg2gMosA",
+          "6CidPOIdDDY"
+        ],
+        "future_videos": 27,
+        "label": "Seedance 2.0 The Ultimate AI Video Tool of 2026!",
+        "new_future_channels": 20,
+        "outcome": true
+      },
+      {
+        "active_videos": 5,
+        "channels": 3,
+        "checkpoint_at": "2026-03-01T23:59:59+00:00",
+        "evidence_titles": [
+          "How to Make AI Video | Beginners Tutorial (2026)",
+          "Create Your First AI Video | Tutorial for Beginners",
+          "How to Start Making AI Videos in 2026!",
+          "Image to Video AI | Step-by-Step Beginners Tutorial (2026)",
+          "Make Realistic AI Videos"
+        ],
+        "evidence_video_ids": [
+          "1m-u2DIBI2s",
+          "uvyKai4-Yi0",
+          "A1HtEkRugiY",
+          "_R9Q5zXmbec",
+          "vJoYL5Wt76k"
+        ],
+        "future_videos": 13,
+        "label": "How to Make AI Video 2026",
+        "new_future_channels": 10,
+        "outcome": true
+      },
+      {
+        "active_videos": 5,
+        "channels": 4,
+        "checkpoint_at": "2026-03-01T23:59:59+00:00",
+        "evidence_titles": [
+          "My top 6 tips & ways of using Claude Code efficiently",
+          "Every Claude Code Concept Explained for Normal People",
+          "How I use Claude Code (Meta Staff Engineer Tips)",
+          "His Claude Code Workflow Is Insane",
+          "CLAUDE CODE FULL COURSE 4 HOURS: Build & Sell (2026)"
+        ],
+        "evidence_video_ids": [
+          "WwdIYp5fuxY",
+          "ZlDnsf_DOzg",
+          "mZzhfPle9QU",
+          "WpQZlKiy3zo",
+          "QoQBzR1NIqI"
+        ],
+        "future_videos": 3,
+        "label": "My top 6 tips & ways of using Claude Code efficiently",
+        "new_future_channels": 0,
+        "outcome": false
+      },
+      {
+        "active_videos": 5,
+        "channels": 5,
+        "checkpoint_at": "2026-03-01T23:59:59+00:00",
+        "evidence_titles": [
+          "Open Source AI Economics: Why Big Tech Gives Models Away? | The New Default",
+          "Open Source AI In 17 Minutes",
+          "AI Price Collapse: Why Models Are Suddenly Cheap?",
+          "OpenAI Will Fail. Here's Why",
+          "Watch an AI Swarm Build Working Software (Open Source)"
+        ],
+        "evidence_video_ids": [
+          "9d29to37eiE",
+          "1uCE0uoKXL8",
+          "uuKY03lQ6js",
+          "QHmQkvgYpQo",
+          "Ae0W5M6We84"
+        ],
+        "future_videos": 3,
+        "label": "Open Source AI Economics Why Big Tech Gives Models Away? The New Default",
+        "new_future_channels": 2,
+        "outcome": false
+      },
+      {
+        "active_videos": 5,
+        "channels": 5,
+        "checkpoint_at": "2026-03-01T23:59:59+00:00",
+        "evidence_titles": [
+          "The Ultimate Budget AI Workstation: 100+ Tokens/s (Local LLM Build Guide)",
+          "It's Completely OVER for Local AI (nVidia Edition)",
+          "Stop Paying for AI Video... Download This Instead (low VRAM)",
+          "NVIDIA Blackwell & The 3nm Wall: Is AI Scaling Broken?",
+          "I Built a Fully Local AI Voice Assistant (No Cloud, Open Source)"
+        ],
+        "evidence_video_ids": [
+          "YJS0ZINwgXo",
+          "sw58uo-JpXE",
+          "AUcYJczWXT4",
+          "uu1ldkCwQGg",
+          "WsqLyUdl9ac"
+        ],
+        "future_videos": 0,
+        "label": "The Ultimate Budget AI Workstation 100+ Tokens/s Local LLM Build",
+        "new_future_channels": 0,
+        "outcome": false
+      },
+      {
+        "active_videos": 5,
+        "channels": 5,
+        "checkpoint_at": "2026-03-01T23:59:59+00:00",
+        "evidence_titles": [
+          "Top AI Tools You Should Be Using in 2026! | 80 Best AI Tools for Productivity in 2026",
+          "The ONLY 10 AI Tools You Need! (Complete Guide)",
+          "The Best AI Coding Workflow in 2026 (What Actually Works)",
+          "The AI Stack Every Small YouTuber Should Have",
+          "These 5 Skills Matter More Than Coding in the AI Era"
+        ],
+        "evidence_video_ids": [
+          "FOcQTf19qp0",
+          "_Jps5AXO44Q",
+          "ETUOt5jTuXE",
+          "lOKW4b5Xdhw",
+          "b1auSFhePLM"
+        ],
+        "future_videos": 0,
+        "label": "Top AI Tools You Should Be Using in 2026! 80 Best AI Tools for Productivity in 2026",
+        "new_future_channels": 0,
+        "outcome": false
+      },
+      {
+        "active_videos": 5,
+        "channels": 2,
+        "checkpoint_at": "2026-03-22T23:59:59+00:00",
+        "evidence_titles": [
+          "Terminal Bench 2 0 - AI Benchmark",
+          "\ud835\udf0f\u00b2-Bench - AI Benchmark",
+          "SWE Bench Verified - AI Benchmark",
+          "Vending Bench 2 - AI Benchmark",
+          "AI Benchmarks Are Rigged \u2014 So I Built My Own in PowerShell"
+        ],
+        "evidence_video_ids": [
+          "sshzero5jdU",
+          "D_slDI2HCPY",
+          "28cTXUl1COc",
+          "CGL4C9vF5Hw",
+          "vEvkE5ybMRQ"
+        ],
+        "future_videos": 0,
+        "label": "Terminal Bench 2 0 - AI Benchmark",
+        "new_future_channels": 0,
+        "outcome": false
+      },
+      {
+        "active_videos": 5,
+        "channels": 4,
+        "checkpoint_at": "2026-04-05T23:59:59+00:00",
+        "evidence_titles": [
+          "Beyond ChatGPT | The Rise of AI Agents That Actually Do Your Work",
+          "The Future of Work is Here | AI Agents That Actually Do Your Job",
+          "The End of Chatbots (2026): Why 40% of AI Projects Will Fail",
+          "AI Agents That Actually Do Work (2 Real Examples)",
+          "What the New ChatGPT 5.4 Means for the World"
+        ],
+        "evidence_video_ids": [
+          "5EVkfnkvUeI",
+          "O-0c_rvXcjg",
+          "IfBzTzPyibc",
+          "B0Nfiod3uhU",
+          "zizoDORjmlQ"
+        ],
+        "future_videos": 3,
+        "label": "Beyond ChatGPT The Rise of AI Agents That Actually Do Your Work",
+        "new_future_channels": 3,
+        "outcome": false
+      },
+      {
+        "active_videos": 5,
+        "channels": 5,
+        "checkpoint_at": "2026-04-19T23:59:59+00:00",
+        "evidence_titles": [
+          "How to Make AI Videos for Beginners (Full Tutorial)",
+          "How to Create Studio Ghibli Style AI Videos (Step-by-Step Tutorial 2026)",
+          "How to Start Making AI Videos in 2026 (FULL Guide)",
+          "Create Viral AI Videos in 1-Click | Best All-in-One AI \ud83d\ude80",
+          "I Created Bulk Long Ghibli Style AI Videos in One Click Using Free Image to Video AI"
+        ],
+        "evidence_video_ids": [
+          "g0HsqNtA2jM",
+          "J07FnSf_CIc",
+          "9os35azf4Jw",
+          "CMN0eeppCGc",
+          "eFB0whkqtxM"
+        ],
+        "future_videos": 27,
+        "label": "How to Make AI Videos Full",
+        "new_future_channels": 18,
+        "outcome": true
+      },
+      {
+        "active_videos": 5,
+        "channels": 3,
+        "checkpoint_at": "2026-05-03T23:59:59+00:00",
+        "evidence_titles": [
+          "Build Your Own AI Memory System (local and FREE), takes 10 mins",
+          "Build Your Own AI Memory System (local and FREE), takes 10 mins",
+          "Part 4: How to Give Your AI Perfect Memory (No Cloud Uploads!)",
+          "The AI Download: brainctl Open Source AI Agent Memory - Dev Interview",
+          "How to Own Your Data - Organise your data Into a Database for AI Agents"
+        ],
+        "evidence_video_ids": [
+          "YyUCGigZIZE",
+          "lWeAomFhbas",
+          "ovX9HnkKd48",
+          "lnewxdKnAo4",
+          "CLKFmKe_JOw"
+        ],
+        "future_videos": 0,
+        "label": "Build Your Own AI Memory System local and FREE , takes 10 mins",
+        "new_future_channels": 0,
+        "outcome": false
+      },
+      {
+        "active_videos": 5,
+        "channels": 4,
+        "checkpoint_at": "2026-05-03T23:59:59+00:00",
+        "evidence_titles": [
+          "I Tried Copying Successful YouTube Channels With AI",
+          "Free AI Video Generator 2026 | How to Build a YouTube Automation Empire",
+          "This FREE AI Tool Can Clone Any YouTube Channel in Minutes",
+          "I BLEW UP a YouTube Channel in 24 Hours with AI",
+          "I Stole a Viral AI Strategy\u2026 Here's What I Made"
+        ],
+        "evidence_video_ids": [
+          "NSatmQe4oz4",
+          "gZYi8d4-nLo",
+          "tDgTs6-eGxE",
+          "za2VyvLl5T0",
+          "qn8Xea5ZRBs"
+        ],
+        "future_videos": 31,
+        "label": "I Tried Copying Successful YouTube Channels With AI",
+        "new_future_channels": 17,
+        "outcome": true
+      },
+      {
+        "active_videos": 5,
+        "channels": 4,
+        "checkpoint_at": "2026-05-17T23:59:59+00:00",
+        "evidence_titles": [
+          "Claude + Higgsfield MCP Just Changed AI Video Creation",
+          "How to Make Viral AI Animal Transformer with one Tool",
+          "I Connected Claude to My AI Film Workflow\u2026 And Things Got Weird",
+          "Claude\u2019s New Workflow Totally Redefines AI Video Production",
+          "How to Make Viral AI Mechanical Toy Videos"
+        ],
+        "evidence_video_ids": [
+          "jMPMkoUo0nw",
+          "xt5S7mCXWzs",
+          "69DKv99wxFA",
+          "ntuxoUA6jH8",
+          "5_2zibF8CDU"
+        ],
+        "future_videos": 11,
+        "label": "Claude + Higgsfield MCP Just Changed AI Video Creation",
+        "new_future_channels": 6,
+        "outcome": true
+      },
+      {
+        "active_videos": 5,
+        "channels": 3,
+        "checkpoint_at": "2026-05-24T23:59:59+00:00",
+        "evidence_titles": [
+          "Scale Your AI Video Production With This Storyboard Technique #ai #tutorial #content",
+          "AI Storyboard Workflow | How to Convert Storyboard Directly to Video with AI",
+          "How to Turn a Storyboard into a Full AI Video in Minutes",
+          "The One Technique Every AI Video Creator Needs #ai #aitrend",
+          "This AI Agent Turns Storyboards Into Movies (Topview Agent V2)"
+        ],
+        "evidence_video_ids": [
+          "xfVeBIJLncA",
+          "RNbaT2Kxxjo",
+          "Is4wgEpPMJQ",
+          "2tcXDmCksUY",
+          "9iOGxzlYN4o"
+        ],
+        "future_videos": 19,
+        "label": "Scale Your AI Video Production With This Storyboard Technique #ai # #content",
+        "new_future_channels": 18,
+        "outcome": true
+      },
+      {
+        "active_videos": 5,
+        "channels": 5,
+        "checkpoint_at": "2026-05-24T23:59:59+00:00",
+        "evidence_titles": [
+          "Best AI Video Generator of 2026? Seedance vs Veo 3 vs Kling 3",
+          "Best AI Video Generator 2026? I Tested Veo 4 vs Seedance 2.0 vs Kling 3.0",
+          "Vidu vs Kling vs Seedance \u2014 Best AI Video Generator in 2026? (Full Test)",
+          "Best AI Video Generators Right Now (2026)",
+          "I Tried 5 Best AI Video Generators \u2014 Only 1 Passed Every Test"
+        ],
+        "evidence_video_ids": [
+          "uez97cXsxP8",
+          "VoBIZf-Gv_4",
+          "ijKpBq5k9m4",
+          "vPqSgj8Ta3Y",
+          "BlumbjuyTIA"
+        ],
+        "future_videos": 17,
+        "label": "Best AI Video Generator of 2026? Seedance vs Veo 3 vs Kling 3",
+        "new_future_channels": 11,
+        "outcome": true
+      },
+      {
+        "active_videos": 4,
+        "channels": 4,
+        "checkpoint_at": "2026-03-01T23:59:59+00:00",
+        "evidence_titles": [
+          "Build Your First AI Agent In 15 Minutes (No Coding)",
+          "You\u2019re Not Behind (Yet): How to Build AI Agents in 2026 (no coding)",
+          "Simple AI Agent Workflow in 14 min",
+          "I Built an AI Tool in Under 10 Minutes With One Prompt!"
+        ],
+        "evidence_video_ids": [
+          "-8_9G9fwN-Q",
+          "ibFJ--CH3cQ",
+          "kFey6jjUeJQ",
+          "1Z_TRcaOk_8"
+        ],
+        "future_videos": 5,
+        "label": "Build Your First AI Agent No Coding",
+        "new_future_channels": 5,
+        "outcome": false
+      },
+      {
+        "active_videos": 4,
+        "channels": 4,
+        "checkpoint_at": "2026-03-01T23:59:59+00:00",
+        "evidence_titles": [
+          "The AI Paradox: The Mass Demand Gap an Collapse of Economies Explained",
+          "Economist explains what happens after AI takes all jobs",
+          "No Jobs, No Customers, No Economy | The AI Problem No One\u2019s Ready For",
+          "AI and the Collapse of Marginal Cost"
+        ],
+        "evidence_video_ids": [
+          "ZzlQXvCivws",
+          "qflh4GKbmVQ",
+          "2LROsOtFB14",
+          "zE-4ZmaH4BA"
+        ],
+        "future_videos": 0,
+        "label": "The AI Paradox The Mass Demand Gap an Collapse of Economies",
+        "new_future_channels": 0,
+        "outcome": false
+      },
+      {
+        "active_videos": 4,
+        "channels": 3,
+        "checkpoint_at": "2026-03-01T23:59:59+00:00",
+        "evidence_titles": [
+          "GitHub Copilot \u2013 AI Coding Assistant | Should QA Engineers Use It?",
+          "We Studied 150 Developers Using AI (Here\u2019s What's Actually Changed...)",
+          "GitHub Copilot vs Claude Code: Autocomplete is Dead? (2026)",
+          "How to Make the Best of AI Programming Assistants"
+        ],
+        "evidence_video_ids": [
+          "F7ia4irL3SY",
+          "b9EbCb5A408",
+          "rNojsNYFBd4",
+          "XavrebMKH2A"
+        ],
+        "future_videos": 0,
+        "label": "GitHub Copilot AI Coding Assistant Should QA Engineers Use It?",
+        "new_future_channels": 0,
+        "outcome": false
+      },
+      {
+        "active_videos": 4,
+        "channels": 3,
+        "checkpoint_at": "2026-03-01T23:59:59+00:00",
+        "evidence_titles": [
+          "AI Engineer Interview Questions \u2014 What To Ask, What To Say, and What To Look For",
+          "A Day of AI Engineer",
+          "AI Engineer Mock Interview | Real Technical Round Simulation",
+          "What is an AI Engineer? (Based on 1,000 Job Descriptions) | Skills & Job Requirements"
+        ],
+        "evidence_video_ids": [
+          "yr5dRHrnbCo",
+          "HJqk2VVm-S8",
+          "7g71zKEzq_U",
+          "7NijlAdqk9U"
+        ],
+        "future_videos": 1,
+        "label": "AI Engineer Questions What To Ask, What To Say, and What To Look For",
+        "new_future_channels": 0,
+        "outcome": false
+      },
+      {
+        "active_videos": 4,
+        "channels": 2,
+        "checkpoint_at": "2026-03-08T23:59:59+00:00",
+        "evidence_titles": [
+          "TGIF (AI OR DIE)",
+          "Official AI OR DIE Promo \u2013 \"Jordan\"",
+          "You're Doing Great! (AI OR DIE)",
+          "AI Loc Think Tank Live Stream"
+        ],
+        "evidence_video_ids": [
+          "F-8W5rezqdM",
+          "lM6tICJTDLI",
+          "yFl5xyImjBk",
+          "uDfR7W-4ruA"
+        ],
+        "future_videos": 0,
+        "label": "TGIF AI OR DIE",
+        "new_future_channels": 0,
+        "outcome": false
+      },
+      {
+        "active_videos": 4,
+        "channels": 3,
+        "checkpoint_at": "2026-03-08T23:59:59+00:00",
+        "evidence_titles": [
+          "How To Create Lifelike Cinematic AI Videos Using Higgsfield ai Cinema 2.0",
+          "Cinematic AI Video Just Became Real | Higgsfield Cinema Studio 2.0",
+          "Create Cinematic AI Videos in Minutes Using Higgsfield",
+          "What The EXPERTS Don't Want You to Know About Cinematic AI"
+        ],
+        "evidence_video_ids": [
+          "dUtwB9iQhAY",
+          "_8s6TBffm5k",
+          "DygpPth3a0o",
+          "h_w4-ZJ-2qE"
+        ],
+        "future_videos": 3,
+        "label": "How To Create Lifelike Cinematic AI Videos Using Higgsfield ai Cinema 2.0",
+        "new_future_channels": 3,
+        "outcome": false
+      }
+    ],
+    "positives": 37
+  },
+  "checkpoints": [
+    "2026-03-01T23:59:59+00:00",
+    "2026-05-24T23:59:59+00:00"
+  ],
+  "cohort_sha256": "33d2950fcf1a980ed1d405132e450be56e776d413c443bd569e11671be327aff",
+  "copy_resistant": {
+    "base_rate": 0.124514,
+    "episodes": 257,
+    "examples": [
+      {
+        "active_videos": 10,
+        "channels": 2,
+        "checkpoint_at": "2026-05-24T23:59:59+00:00",
+        "evidence_titles": [
+          "Why is Linear Algebra the Backbone of AI & Deep Learning ? Linear Algebra in Artificial Intelligence",
+          "Why Linear Algebra Powers AI and Machine Learning ? The Geometry of AI Explained",
+          "Why is Linear Algebra More Important Than Ever ? The Mathematics Behind AI, Google, and Robotics",
+          "Applications of Linear Algebra in Modern AI | The Geometry of AI \u2014 Vectors, Matrices & Deep Learning",
+          "The Functional Benefits of Linear Algebra in AI | Representation, Computation & Efficiency"
+        ],
+        "evidence_video_ids": [
+          "gOleRd4jdLM",
+          "2F-ynICfIOo",
+          "xbBbX947hdM",
+          "0kWqrvfTvWk",
+          "P5qhEZ5saU8"
+        ],
+        "future_videos": 0,
+        "label": "Why is Linear Algebra the Backbone of AI & Deep Learning ? Linear Algebra in Artificial Intelligence",
+        "new_future_channels": 0,
+        "outcome": false
+      },
+      {
+        "active_videos": 8,
+        "channels": 5,
+        "checkpoint_at": "2026-05-03T23:59:59+00:00",
+        "evidence_titles": [
+          "DeepSeek V4 - The Best Open Source  AI",
+          "[FREE] 4 AI Tools You Can Run Locally ! (RTX 3070 / 8GB VRAM)",
+          "[RANKING] 20 Local AI Models \u2014 8GB VRAM Tier List (Qwen3.5, Gemma 4, DeepSeek)",
+          "[FREE] Local AI Content Creation (LTX2.3 + RTX 3070)",
+          "DeepSeek V4 is free and it's changing everything"
+        ],
+        "evidence_video_ids": [
+          "pDnwVnNdBSE",
+          "q-KaY-wF2Uw",
+          "TBHl3h9-CRY",
+          "enTKXksf2Nc",
+          "JtnlY_7ZrLY"
+        ],
+        "future_videos": 0,
+        "label": "DeepSeek V4 - The Best Open Source AI",
+        "new_future_channels": 0,
+        "outcome": false
+      },
+      {
+        "active_videos": 7,
+        "channels": 5,
+        "checkpoint_at": "2026-03-01T23:59:59+00:00",
+        "evidence_titles": [
+          "Simple AI Agent Workflow in 14 min",
+          "5 AI Coding Practices That Changed My Next.js Workflow",
+          "Why you should take notes if you use AI",
+          "Claude Code's Agent Teams IS INSANE! Deploy A Full AI Engineering Team! Multiple AI Agents Coding!",
+          "Claude Code's Agent Teams Are Insane - Multiple AI Agents Coding Together in Real Time"
+        ],
+        "evidence_video_ids": [
+          "kFey6jjUeJQ",
+          "0rm9bTlDx-A",
+          "FtJYJF8QodM",
+          "6UKUQNcRk2k",
+          "-1K_ZWDKpU0"
+        ],
+        "future_videos": 2,
+        "label": "Simple AI Agent Workflow",
+        "new_future_channels": 2,
+        "outcome": false
+      },
+      {
+        "active_videos": 6,
+        "channels": 5,
+        "checkpoint_at": "2026-03-01T23:59:59+00:00",
+        "evidence_titles": [
+          "AI Engineer Interview Questions \u2014 What To Ask, What To Say, and What To Look For",
+          "AI Engineer Mock Interview | Real Technical Round Simulation",
+          "What is an AI Engineer? (Based on 1,000 Job Descriptions) | Skills & Job Requirements",
+          "How AI Is Breaking Tech Interviews (and What Comes Next)",
+          "A Day of AI Engineer"
+        ],
+        "evidence_video_ids": [
+          "yr5dRHrnbCo",
+          "7g71zKEzq_U",
+          "7NijlAdqk9U",
+          "1z1osIGXHdQ",
+          "HJqk2VVm-S8"
+        ],
+        "future_videos": 1,
+        "label": "AI Engineer Questions What To Ask, What To Say, and What To Look For",
+        "new_future_channels": 0,
+        "outcome": false
+      },
+      {
+        "active_videos": 6,
+        "channels": 6,
+        "checkpoint_at": "2026-03-01T23:59:59+00:00",
+        "evidence_titles": [
+          "Hollywood\u2019s AI Slop Crisis",
+          "The end of Hollywood? Industry rocked by AI-generated videos of Cruise, Pitt, and other big stars",
+          "Hollywood's AI Gamble: From Lawsuits to Licensing Deals",
+          "AI Celebrity Clones Are Here\u2014Law Can\u2019t Keep Up",
+          "A discussion of a celebrity-likeness viral AI video with SAG-AFTRA President Sean Astin"
+        ],
+        "evidence_video_ids": [
+          "AMLW0_FvhVs",
+          "OWQ691dNx0g",
+          "BpJWu-XRIQs",
+          "A5laNtLb6xc",
+          "pbraWZfWxE8"
+        ],
+        "future_videos": 1,
+        "label": "Hollywood\u2019s AI Slop Crisis",
+        "new_future_channels": 1,
+        "outcome": false
+      },
+      {
+        "active_videos": 6,
+        "channels": 5,
+        "checkpoint_at": "2026-03-15T23:59:59+00:00",
+        "evidence_titles": [
+          "Beyond ChatGPT | The Rise of AI Agents That Actually Do Your Work",
+          "The Future of Work is Here | AI Agents That Actually Do Your Job",
+          "The most powerful AI Agent I\u2019ve ever used in my life",
+          "AI Agents That Actually Do Work (2 Real Examples)",
+          "Doubao 2.0: The AI Agent That Runs Your Apps"
+        ],
+        "evidence_video_ids": [
+          "5EVkfnkvUeI",
+          "O-0c_rvXcjg",
+          "D_YzcH0VsGY",
+          "B0Nfiod3uhU",
+          "2Fzx_9n2t9c"
+        ],
+        "future_videos": 0,
+        "label": "Beyond ChatGPT The Rise of AI Agents That Actually Do Your Work",
+        "new_future_channels": 0,
+        "outcome": false
+      },
+      {
+        "active_videos": 6,
+        "channels": 6,
+        "checkpoint_at": "2026-04-12T23:59:59+00:00",
+        "evidence_titles": [
+          "Gemma 4   Google just made AI free forever",
+          "Gemma 4 on Raspberry Pi 5: A Surprisingly Usable Local AI Setup",
+          "Suddenly Local AI Is Impossible to Ignore (But There's a Catch)",
+          "Google just casually disrupted the open-source AI narrative\u2026",
+          "Gemma 4 + Ollama = FREE Claude Code"
+        ],
+        "evidence_video_ids": [
+          "hk6go5jioTk",
+          "kZhAj8--t8w",
+          "BNL5k84CIAg",
+          "-01ZCTt-CJw",
+          "eehsSUlXZN4"
+        ],
+        "future_videos": 0,
+        "label": "Gemma 4 Google just made AI free forever",
+        "new_future_channels": 0,
+        "outcome": false
+      },
+      {
+        "active_videos": 6,
+        "channels": 6,
+        "checkpoint_at": "2026-04-26T23:59:59+00:00",
+        "evidence_titles": [
+          "The \"AI Costs $25\" Lie",
+          "The Only AI Subscription You Actually Need in 2026",
+          "AI Subscriptions Will NEVER Be the Same After This",
+          "Your AI Subscription Is About to Get a Lot More Expensive (And What To Do About It)",
+          "Who REALLY gets your $20 AI subscription? | The Business of Data Centers - Part 2"
+        ],
+        "evidence_video_ids": [
+          "q5co-Ptjz0o",
+          "MACMD62vJ1c",
+          "PvVrRIYko4w",
+          "k-r8addAtDI",
+          "iGvDDmUDRv8"
+        ],
+        "future_videos": 1,
+        "label": "The \"AI Costs $25\" Lie",
+        "new_future_channels": 1,
+        "outcome": false
+      },
+      {
+        "active_videos": 6,
+        "channels": 3,
+        "checkpoint_at": "2026-05-24T23:59:59+00:00",
+        "evidence_titles": [
+          "How I'd Get My First AI Agency Client in 30 Days (Just Copy Me)",
+          "How I Would Start a $10k/mo AI Agency in 2026 (If I had to Start Over)",
+          "What I\u2019d Learn Instead of AI Automation to Make Money in 2026",
+          "Want Your First AI Agency Client in 30 days?",
+          "If I Started AI/ML Freelancing in 2026, I'd Do This"
+        ],
+        "evidence_video_ids": [
+          "F9TV5hmsmKI",
+          "2b4f8idth_s",
+          "lHMTwMHTpvI",
+          "xBdoW4He4KI",
+          "CRYea6gFWgk"
+        ],
+        "future_videos": 11,
+        "label": "How I'd Get My First AI Agency Client in 30 Days Just Copy Me",
+        "new_future_channels": 6,
+        "outcome": true
+      },
+      {
+        "active_videos": 5,
+        "channels": 5,
+        "checkpoint_at": "2026-03-01T23:59:59+00:00",
+        "evidence_titles": [
+          "The 10 Most INSANE AI Films Created by Seedance 2.0",
+          "Did Seedance 2.0 take the top spot for AI video ?",
+          "Seedance 2.0 Pro AI Video Generator",
+          "AI Film Trailer made entirely with Seedance 2.0 in CapCut",
+          "AI Video Just Broke the Internet (Here\u2019s Why)"
+        ],
+        "evidence_video_ids": [
+          "KQIUp7H9Bkc",
+          "1HjJb8vhlfk",
+          "VlVfSGKSMBU",
+          "rYeuidNfMJE",
+          "gaIMqvnfB5s"
+        ],
+        "future_videos": 5,
+        "label": "The 10 Most INSANE AI Films Created by Seedance 2.0",
+        "new_future_channels": 2,
+        "outcome": false
+      },
+      {
+        "active_videos": 5,
+        "channels": 3,
+        "checkpoint_at": "2026-03-01T23:59:59+00:00",
+        "evidence_titles": [
+          "#AI in the Classroom: Practical, Responsible Use for Teaching and Learning",
+          "#AI in Action: Tools to Transform Your Work",
+          "AI Adoption in the Global South: Trust, Technology & Impact",
+          "Fear, Trust, and the Playbook for Successful AI Deployments",
+          "Transitioning from Traditional Automation to AI-Driven Tools"
+        ],
+        "evidence_video_ids": [
+          "kGq8EmwC7EE",
+          "Vze9IKXK8j0",
+          "JqnIuxd0dkk",
+          "l-Z34BFx_0A",
+          "xlgBrTT4L90"
+        ],
+        "future_videos": 0,
+        "label": "#AI in the Classroom Practical, Responsible Use for Teaching and Learning",
+        "new_future_channels": 0,
+        "outcome": false
+      },
+      {
+        "active_videos": 5,
+        "channels": 5,
+        "checkpoint_at": "2026-04-26T23:59:59+00:00",
+        "evidence_titles": [
+          "AI Agent Full Tutorial for Beginners 2026: How to Build AI Agents in Minutes",
+          "From Zero to Your First AI Agent In 12 Minutes (No Coding)",
+          "AI Agents for Beginners \u2013 Part 1 (Free Labs)",
+          "Build Production Accounting & Tax AI Agents (ReAct to Router)",
+          "Build a UiPath AI Agent in 4 Minutes (Autopilot Demo)"
+        ],
+        "evidence_video_ids": [
+          "C05XDMGaAn8",
+          "lS8TmrfGAnE",
+          "MZhjki7t6p8",
+          "FJHyCAi4GcY",
+          "0t-bkXfz25c"
+        ],
+        "future_videos": 3,
+        "label": "AI Agent Full 2026 How to Build AI Agents in Minutes",
+        "new_future_channels": 2,
+        "outcome": false
+      },
+      {
+        "active_videos": 5,
+        "channels": 4,
+        "checkpoint_at": "2026-05-03T23:59:59+00:00",
+        "evidence_titles": [
+          "I Tried Copying Successful YouTube Channels With AI",
+          "Free AI Video Generator 2026 | How to Build a YouTube Automation Empire",
+          "This FREE AI Tool Can Clone Any YouTube Channel in Minutes",
+          "I BLEW UP a YouTube Channel in 24 Hours with AI",
+          "I Stole a Viral AI Strategy\u2026 Here's What I Made"
+        ],
+        "evidence_video_ids": [
+          "NSatmQe4oz4",
+          "gZYi8d4-nLo",
+          "tDgTs6-eGxE",
+          "za2VyvLl5T0",
+          "qn8Xea5ZRBs"
+        ],
+        "future_videos": 25,
+        "label": "I Tried Copying Successful YouTube Channels With AI",
+        "new_future_channels": 17,
+        "outcome": true
+      },
+      {
+        "active_videos": 5,
+        "channels": 5,
+        "checkpoint_at": "2026-05-10T23:59:59+00:00",
+        "evidence_titles": [
+          "Generate Unlimited AI Videos for FREE | No Limits, No Watermark",
+          "Create 100 % FREE & UNLIMITED AI Videos for in 2026 | Best FREE AI Video Generator \ud83d\ude80",
+          "\ud83d\udd253 Best FREE AI Video Tools (Unlimited + No Watermark) | AI Video Kaise Banaye",
+          "2 INSANE AI Video Generators: Free Credits! No Watermark! Nobody Is Talking About Them! \ud83d\udd25",
+          "China Just Dropped 3 FREE AI Video Generators (No Sign-Up, Open Source)"
+        ],
+        "evidence_video_ids": [
+          "QgSHM5KRP8g",
+          "xG9CAk4RWXI",
+          "QsZxXVsXj6s",
+          "AylxkteqhGg",
+          "wdxaeAiqcuU"
+        ],
+        "future_videos": 30,
+        "label": "Generate Unlimited AI Videos for FREE No Limits, No Watermark",
+        "new_future_channels": 14,
+        "outcome": true
+      },
+      {
+        "active_videos": 5,
+        "channels": 3,
+        "checkpoint_at": "2026-05-17T23:59:59+00:00",
+        "evidence_titles": [
+          "Claude Code SEO: How I Got 50,000 Clicks Per Month (Steal This)",
+          "Every Claude Code Concept Explained Like You're 10",
+          "Claude Code Website Conversion Rate Optimization (20% Conversions, $1.2M Case Study)",
+          "Use Claude AI to Fix Your Website SEO and AEO Scores",
+          "Ultimate Claude Code Tutorial for Beginners (Non-Technical)"
+        ],
+        "evidence_video_ids": [
+          "4IyJm1i__ag",
+          "daXxItfCfR4",
+          "ru7fWKD4cyw",
+          "YOzZYjpRSbM",
+          "LAP29PKHt_o"
+        ],
+        "future_videos": 8,
+        "label": "Claude Code SEO How I Got 50,000 Clicks Per Month Steal This",
+        "new_future_channels": 2,
+        "outcome": false
+      },
+      {
+        "active_videos": 5,
+        "channels": 4,
+        "checkpoint_at": "2026-05-17T23:59:59+00:00",
+        "evidence_titles": [
+          "Claude + Higgsfield MCP Just Changed AI Video Creation",
+          "How to Make Viral AI Animal Transformer with one Tool",
+          "I Connected Claude to My AI Film Workflow\u2026 And Things Got Weird",
+          "Claude\u2019s New Workflow Totally Redefines AI Video Production",
+          "How to Make Viral AI Mechanical Toy Videos"
+        ],
+        "evidence_video_ids": [
+          "jMPMkoUo0nw",
+          "xt5S7mCXWzs",
+          "69DKv99wxFA",
+          "ntuxoUA6jH8",
+          "5_2zibF8CDU"
+        ],
+        "future_videos": 9,
+        "label": "Claude + Higgsfield MCP Just Changed AI Video Creation",
+        "new_future_channels": 5,
+        "outcome": true
+      },
+      {
+        "active_videos": 5,
+        "channels": 3,
+        "checkpoint_at": "2026-05-24T23:59:59+00:00",
+        "evidence_titles": [
+          "Scale Your AI Video Production With This Storyboard Technique #ai #tutorial #content",
+          "AI Storyboard Workflow | How to Convert Storyboard Directly to Video with AI",
+          "How to Turn a Storyboard into a Full AI Video in Minutes",
+          "The One Technique Every AI Video Creator Needs #ai #aitrend",
+          "This AI Agent Turns Storyboards Into Movies (Topview Agent V2)"
+        ],
+        "evidence_video_ids": [
+          "xfVeBIJLncA",
+          "RNbaT2Kxxjo",
+          "Is4wgEpPMJQ",
+          "2tcXDmCksUY",
+          "9iOGxzlYN4o"
+        ],
+        "future_videos": 12,
+        "label": "Scale Your AI Video Production With This Storyboard Technique #ai # #content",
+        "new_future_channels": 12,
+        "outcome": true
+      },
+      {
+        "active_videos": 5,
+        "channels": 5,
+        "checkpoint_at": "2026-05-24T23:59:59+00:00",
+        "evidence_titles": [
+          "Google I/O 2026: The Agentic Gemini Era is Here! (Gemini 3.5, Spark, & AI Search)",
+          "Google Just Turned Everything Into AI",
+          "Gemini 3.5 Flash: Google\u2019s Agentic AI Comeback? - How Agentic Workflows are Evolving",
+          "Gemini Spark: Your 24/7 AI Agent That Manages Your Email, Drive & Calendar Automatically",
+          "New Google AI Agents Are INSANE!"
+        ],
+        "evidence_video_ids": [
+          "_6PBajA8JFs",
+          "xHpJz7p0Z5c",
+          "veoYOXurW7A",
+          "v4fqAM9bg7Q",
+          "QSYDu83uWKs"
+        ],
+        "future_videos": 2,
+        "label": "Google I/O 2026 The Agentic Gemini Era is Here! Gemini 3.5, Spark, & AI Search",
+        "new_future_channels": 1,
+        "outcome": false
+      },
+      {
+        "active_videos": 4,
+        "channels": 3,
+        "checkpoint_at": "2026-03-01T23:59:59+00:00",
+        "evidence_titles": [
+          "My top 6 tips & ways of using Claude Code efficiently",
+          "How I use Claude Code (Meta Staff Engineer Tips)",
+          "His Claude Code Workflow Is Insane",
+          "Every Claude Code Concept Explained for Normal People"
+        ],
+        "evidence_video_ids": [
+          "WwdIYp5fuxY",
+          "mZzhfPle9QU",
+          "WpQZlKiy3zo",
+          "ZlDnsf_DOzg"
+        ],
+        "future_videos": 2,
+        "label": "My top 6 tips & ways of using Claude Code efficiently",
+        "new_future_channels": 0,
+        "outcome": false
+      },
+      {
+        "active_videos": 4,
+        "channels": 2,
+        "checkpoint_at": "2026-03-01T23:59:59+00:00",
+        "evidence_titles": [
+          "How to Make TRENDING ASMR Jungle Survival Videos Using AI",
+          "How I Make Viral Animal Rescue Videos with Free AI Tools (Step-by-Step)",
+          "How I Create VIRAL Psychology Videos Using FREE AI (No Paid Tools)",
+          "How to Make AI Survival ASMR Videos like BikeGen Mountain Make Crazy Money!"
+        ],
+        "evidence_video_ids": [
+          "xPp_OV0zXEo",
+          "lNGHfnUnyLc",
+          "t7qZqlSvEu4",
+          "CAJpKIWwh_s"
+        ],
+        "future_videos": 1,
+        "label": "How to Make TRENDING ASMR Jungle Survival Videos Using AI",
+        "new_future_channels": 1,
+        "outcome": false
+      },
+      {
+        "active_videos": 4,
+        "channels": 4,
+        "checkpoint_at": "2026-03-01T23:59:59+00:00",
+        "evidence_titles": [
+          "Open Source AI Economics: Why Big Tech Gives Models Away? | The New Default",
+          "AI Price Collapse: Why Models Are Suddenly Cheap?",
+          "OpenAI Will Fail. Here's Why",
+          "Dario Amodei\u2019s AI Vision Explained: Why Anthropic Is Taking a Different Path From Big Tech"
+        ],
+        "evidence_video_ids": [
+          "9d29to37eiE",
+          "uuKY03lQ6js",
+          "QHmQkvgYpQo",
+          "0Xn4yqUjiS8"
+        ],
+        "future_videos": 2,
+        "label": "Open Source AI Economics Why Big Tech Gives Models Away? The New Default",
+        "new_future_channels": 2,
+        "outcome": false
+      },
+      {
+        "active_videos": 4,
+        "channels": 4,
+        "checkpoint_at": "2026-03-01T23:59:59+00:00",
+        "evidence_titles": [
+          "The AI Paradox: The Mass Demand Gap an Collapse of Economies Explained",
+          "Economist explains what happens after AI takes all jobs",
+          "No Jobs, No Customers, No Economy | The AI Problem No One\u2019s Ready For",
+          "AI and the Collapse of Marginal Cost"
+        ],
+        "evidence_video_ids": [
+          "ZzlQXvCivws",
+          "qflh4GKbmVQ",
+          "2LROsOtFB14",
+          "zE-4ZmaH4BA"
+        ],
+        "future_videos": 0,
+        "label": "The AI Paradox The Mass Demand Gap an Collapse of Economies",
+        "new_future_channels": 0,
+        "outcome": false
+      },
+      {
+        "active_videos": 4,
+        "channels": 2,
+        "checkpoint_at": "2026-03-08T23:59:59+00:00",
+        "evidence_titles": [
+          "TGIF (AI OR DIE)",
+          "Official AI OR DIE Promo \u2013 \"Jordan\"",
+          "You're Doing Great! (AI OR DIE)",
+          "AI Loc Think Tank Live Stream"
+        ],
+        "evidence_video_ids": [
+          "F-8W5rezqdM",
+          "lM6tICJTDLI",
+          "yFl5xyImjBk",
+          "uDfR7W-4ruA"
+        ],
+        "future_videos": 0,
+        "label": "TGIF AI OR DIE",
+        "new_future_channels": 0,
+        "outcome": false
+      },
+      {
+        "active_videos": 4,
+        "channels": 3,
+        "checkpoint_at": "2026-03-08T23:59:59+00:00",
+        "evidence_titles": [
+          "How To Create Lifelike Cinematic AI Videos Using Higgsfield ai Cinema 2.0",
+          "Cinematic AI Video Just Became Real | Higgsfield Cinema Studio 2.0",
+          "Create Cinematic AI Videos in Minutes Using Higgsfield",
+          "What The EXPERTS Don't Want You to Know About Cinematic AI"
+        ],
+        "evidence_video_ids": [
+          "dUtwB9iQhAY",
+          "_8s6TBffm5k",
+          "DygpPth3a0o",
+          "h_w4-ZJ-2qE"
+        ],
+        "future_videos": 4,
+        "label": "How To Create Lifelike Cinematic AI Videos Using Higgsfield ai Cinema 2.0",
+        "new_future_channels": 3,
+        "outcome": false
+      },
+      {
+        "active_videos": 4,
+        "channels": 3,
+        "checkpoint_at": "2026-03-22T23:59:59+00:00",
+        "evidence_titles": [
+          "Is AI Killing Creativity? The Truth Nobody's Saying \ud83e\udd16 #Shorts",
+          "Is AI Killing Creativity? The 7-Stage Framework Debate",
+          "Is Using AI Good or Bad? The Truth Nobody Tells You",
+          "AI Slop Has Got To Stop"
+        ],
+        "evidence_video_ids": [
+          "YFi4R8Vhljg",
+          "ibC6y5ZKCsQ",
+          "EYOk8eHeb_s",
+          "ZX4PdCyq7QQ"
+        ],
+        "future_videos": 1,
+        "label": "Is AI Killing Creativity? The Truth Nobody's Saying \ud83e\udd16 #",
+        "new_future_channels": 0,
+        "outcome": false
+      }
+    ],
+    "positives": 32
+  },
+  "copy_resistant_policy": {
+    "minimum_concrete_identity_share": 0,
+    "minimum_concrete_identity_videos": 0,
+    "minimum_title_families": 2,
+    "near_duplicate_containment": 0.92,
+    "near_duplicate_jaccard": 0.86
+  },
+  "embeddings_sha256": "effe29f799cf02756c0957d6aa51adcc016d21727a58b0155685790f3f565bd0",
+  "replay_policy": {
+    "active_window_days": 35,
+    "adoption_minimum_future_videos": 4,
+    "adoption_minimum_new_channel_share": 0.4,
+    "adoption_minimum_new_future_channels": 2,
+    "adoption_supply_growth_threshold": 1.25,
+    "cluster_selection_method": "leaf",
+    "episode_cooldown_days": 42,
+    "future_centroid_similarity": 0.74,
+    "future_exemplar_similarity": 0.78,
+    "maximum_active_videos": 60,
+    "minimum_channels": 2,
+    "minimum_cluster_size": 2,
+    "minimum_mean_similarity": 0.72,
+    "minimum_member_similarity": 0.62,
+    "minimum_recent_videos": 1,
+    "minimum_samples": 2,
+    "minimum_videos": 2,
+    "outcome_horizon_days": 42,
+    "recent_window_days": 7,
+    "structural_lookback_days": 180,
+    "track_centroid_similarity": 0.84,
+    "track_minimum_jaccard": 0.1
+  },
+  "strict_anchor": {
+    "base_rate": 0.166667,
+    "episodes": 12,
+    "examples": [
+      {
+        "active_videos": 6,
+        "channels": 5,
+        "checkpoint_at": "2026-04-12T23:59:59+00:00",
+        "evidence_titles": [
+          "Seedance 2.0 AI Video Generator on xmk",
+          "Seedance 2.0 Now on Dzine!  Multi-Modal AI Video Generation Has Arrived",
+          "AI Creativity Unleashed with Seedance 2.0 on JXP | Next Gen AI Video Creation",
+          "Unlock Creativity with Seedance 2.0 Pro AI Video Generator",
+          "Seedance 2.0: Are you ready for an adventure? | invideo AI"
+        ],
+        "evidence_video_ids": [
+          "KNHcDHy4ZTQ",
+          "ZVbPVzE6Aq8",
+          "B56WZgjzgpo",
+          "ZVkCeHjUwIw",
+          "MC5_hCvxnd0"
+        ],
+        "future_videos": 9,
+        "label": "Seedance 2.0 AI Video Generator on xmk",
+        "new_future_channels": 9,
+        "outcome": true
+      },
+      {
+        "active_videos": 5,
+        "channels": 5,
+        "checkpoint_at": "2026-03-01T23:59:59+00:00",
+        "evidence_titles": [
+          "The 10 Most INSANE AI Films Created by Seedance 2.0",
+          "Did Seedance 2.0 take the top spot for AI video ?",
+          "Seedance 2.0 Pro AI Video Generator",
+          "AI Film Trailer made entirely with Seedance 2.0 in CapCut",
+          "AI Video Just Broke the Internet (Here\u2019s Why)"
+        ],
+        "evidence_video_ids": [
+          "KQIUp7H9Bkc",
+          "1HjJb8vhlfk",
+          "VlVfSGKSMBU",
+          "rYeuidNfMJE",
+          "gaIMqvnfB5s"
+        ],
+        "future_videos": 5,
+        "label": "The 10 Most INSANE AI Films Created by Seedance 2.0",
+        "new_future_channels": 2,
+        "outcome": false
+      },
+      {
+        "active_videos": 4,
+        "channels": 3,
+        "checkpoint_at": "2026-04-19T23:59:59+00:00",
+        "evidence_titles": [
+          "Claude Code Turned My LinkedIn Into a Lead Gen Machine",
+          "How to ACTUALLY Generate Leads on LinkedIn Using AI (Beginners Guide)",
+          "Stop Posting Daily: Automate a Week of LinkedIn Content in 10 Minutes with AI",
+          "How to scrape UNLIMITED leads using Claude Code (3 mins)"
+        ],
+        "evidence_video_ids": [
+          "3_Qaa6DQ2oo",
+          "Vqu4NyOGwgg",
+          "aTgXWvM8fI0",
+          "UYMrkc-kPpw"
+        ],
+        "future_videos": 0,
+        "label": "Claude Code Turned My LinkedIn Into a Lead Gen Machine",
+        "new_future_channels": 0,
+        "outcome": false
+      },
+      {
+        "active_videos": 4,
+        "channels": 4,
+        "checkpoint_at": "2026-05-03T23:59:59+00:00",
+        "evidence_titles": [
+          "I Made Viral AI Movies Using Seedance 2.0",
+          "The NEW Way to Create INSANE AI Films (Seedance 2.0)",
+          "Seedance 2.0 Tutorial: How I Made This AI Film",
+          "Seedance 2.0 in Lovart: 13 AI Filmmaking Tips That Feel Like Cheating"
+        ],
+        "evidence_video_ids": [
+          "H369nbR6YOU",
+          "tWS_TiheWsU",
+          "DHFK21HTV5Q",
+          "Zt0-2pJAdkY"
+        ],
+        "future_videos": 11,
+        "label": "I Made Viral AI Movies Using Seedance 2.0",
+        "new_future_channels": 8,
+        "outcome": true
+      },
+      {
+        "active_videos": 4,
+        "channels": 4,
+        "checkpoint_at": "2026-05-10T23:59:59+00:00",
+        "evidence_titles": [
+          "Seedance 2.0 \u2013 The Ultimate AI Video Tool of 2026!",
+          "Seedance 2.0 Omni Feature Is A Superpower For AI Video Creation",
+          "Green Screen with Seedance 2.0 vs \ud835\uddde\ud835\uddf9\ud835\uddf6\ud835\uddfb\ud835\uddf4 \ud835\udfef.\ud835\udfec vs \ud835\uddea\ud835\uddee\ud835\uddfb \ud835\udfee.\ud835\udfed | Only 7 months of evolution in AI engines",
+          "This is an AI Generated Video using Seedance 2.0 #seedance2 #aivideo #viral"
+        ],
+        "evidence_video_ids": [
+          "8KtoSlyn7YA",
+          "qgxA7p8T3G0",
+          "6CidPOIdDDY",
+          "USgyCtgWpaA"
+        ],
+        "future_videos": 5,
+        "label": "Seedance 2.0 The Ultimate AI Video Tool of 2026!",
+        "new_future_channels": 5,
+        "outcome": false
+      },
+      {
+        "active_videos": 4,
+        "channels": 3,
+        "checkpoint_at": "2026-05-17T23:59:59+00:00",
+        "evidence_titles": [
+          "Local AI on a budget GPU: Qwen 3.6 35B and 27B tested",
+          "Running Qwen 3.6 27b Local AI on nVidia 1080ti?",
+          "Qwen 3.6 27b Breakthrough Running Local AI on nVidia DGX Spark?",
+          "Scalable local AI-Build : Qwen3.6-27b-Q8, Gemma4-31b, Qwen3.5-122B and Davinci Resolve Studio!"
+        ],
+        "evidence_video_ids": [
+          "d6G1D0ZVC8w",
+          "7V8G7cQBrus",
+          "WZ0GCg2SWXs",
+          "xm3eLG8X5W4"
+        ],
+        "future_videos": 2,
+        "label": "Local AI on a budget GPU Qwen 3.6 35B and 27B tested",
+        "new_future_channels": 2,
+        "outcome": false
+      },
+      {
+        "active_videos": 4,
+        "channels": 3,
+        "checkpoint_at": "2026-05-17T23:59:59+00:00",
+        "evidence_titles": [
+          "Happy Horse 1.0 vs Seedance 2.0 \u2014 AI Fight Scene | Kinovi.ai [AI Video 2026]",
+          "Happy Horse vs Seedance 2 vs Kling 3 \u2014 Which AI Tool Wins?",
+          "Seedance 2.0 vs Happy Horse 1.0: The Real #1 AI Video Model? | Pollo AI",
+          "Best AI Tool for Car Ads? Seedance vs Happy Horse"
+        ],
+        "evidence_video_ids": [
+          "EW3xKtc5ZcU",
+          "AyOhX2niZXk",
+          "85jFkAmPcrI",
+          "luz_IRSzlDo"
+        ],
+        "future_videos": 0,
+        "label": "Happy Horse 1.0 vs Seedance 2.0 AI Fight Scene Kinovi.ai AI Video 2026",
+        "new_future_channels": 0,
+        "outcome": false
+      },
+      {
+        "active_videos": 3,
+        "channels": 3,
+        "checkpoint_at": "2026-03-29T23:59:59+00:00",
+        "evidence_titles": [
+          "Buy Claude AI at Cheap Price | Claude AI Pro for \u20b9100/Month? (Tested & Working!) \ud83d\ude80 #claude",
+          "How Much Does Claude AI Cost? (2026)",
+          "Claude Code Review Costs $25 \u2014 I Built My Own AI Code Reviewer for Free"
+        ],
+        "evidence_video_ids": [
+          "cDaMmzPE6MA",
+          "faQP22-V0H0",
+          "NElR29asEIw"
+        ],
+        "future_videos": 1,
+        "label": "Buy Claude AI at Cheap Price Claude AI Pro for \u20b9100/Month? Tested & Working! \ud83d\ude80 #claude",
+        "new_future_channels": 1,
+        "outcome": false
+      },
+      {
+        "active_videos": 2,
+        "channels": 2,
+        "checkpoint_at": "2026-03-15T23:59:59+00:00",
+        "evidence_titles": [
+          "I switched from n8n workflows to agentic workflows (Claude Code) - here's why...",
+          "How to Build $10,000 Agentic Workflows (Claude Code Tutorial)"
+        ],
+        "evidence_video_ids": [
+          "Vc3I-8eQ7rA",
+          "vFepZE_wrfg"
+        ],
+        "future_videos": 0,
+        "label": "I switched from n8n workflows to agentic workflows Claude Code - here's why",
+        "new_future_channels": 0,
+        "outcome": false
+      },
+      {
+        "active_videos": 2,
+        "channels": 2,
+        "checkpoint_at": "2026-03-22T23:59:59+00:00",
+        "evidence_titles": [
+          "Kling 3.0 Cinematic AI Video Tutorial | Dzine",
+          "DRACUS | Kling 3.0 AI Short Film"
+        ],
+        "evidence_video_ids": [
+          "e_t-GPfrBIU",
+          "9gOzsINOG0A"
+        ],
+        "future_videos": 0,
+        "label": "Kling 3.0 Cinematic AI Video Dzine",
+        "new_future_channels": 0,
+        "outcome": false
+      },
+      {
+        "active_videos": 2,
+        "channels": 2,
+        "checkpoint_at": "2026-05-10T23:59:59+00:00",
+        "evidence_titles": [
+          "OpenClaw Explained \ud83d\udea8 | Agentic AI on AWS EC2 (Secure Setup with Ollama)",
+          "OpenClaw Multi-Agent Setup in Slack (Pazi AI)"
+        ],
+        "evidence_video_ids": [
+          "rdLkJJ3CLFU",
+          "oWUqj4CV2Z8"
+        ],
+        "future_videos": 1,
+        "label": "OpenClaw \ud83d\udea8 Agentic AI on AWS EC2 Secure Setup with Ollama",
+        "new_future_channels": 1,
+        "outcome": false
+      },
+      {
+        "active_videos": 2,
+        "channels": 2,
+        "checkpoint_at": "2026-05-17T23:59:59+00:00",
+        "evidence_titles": [
+          "Claude Code + Slack = workflow revolution",
+          "The Explore \u2192 Plan \u2192 Code \u2192 Commit workflow in Claude Code"
+        ],
+        "evidence_video_ids": [
+          "tdWLbBqAiio",
+          "xJQuF02NAK8"
+        ],
+        "future_videos": 0,
+        "label": "Claude Code + Slack = workflow revolution",
+        "new_future_channels": 0,
+        "outcome": false
+      }
+    ],
+    "positives": 2
+  },
+  "strict_anchor_policy": {
+    "minimum_concrete_identity_share": 0.5,
+    "minimum_concrete_identity_videos": 2,
+    "minimum_title_families": 2,
+    "near_duplicate_containment": 0.92,
+    "near_duplicate_jaccard": 0.86
+  }
+}

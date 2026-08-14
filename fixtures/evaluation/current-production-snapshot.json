@@ -1,0 +1,1718 @@
+{
+  "captured_at": "2026-07-28T08:06:56Z",
+  "content_sha256": "7bddafe36692b749c9d54559a7112183f6c86b62a386be5d6540aa5f276af3e8",
+  "counts": {
+    "demand_clusters": 6,
+    "evidence_memberships": 80,
+    "topic_candidates": 10,
+    "visible_signals": 2,
+    "workspace_signal_scores": 2
+  },
+  "database_revision": "e52c91ab74d0",
+  "fixture_version": "earlysignal-evaluation-snapshot-v1",
+  "model_versions": {
+    "code": {
+      "channel_baseline": "channel-baseline-v1",
+      "channel_fit": "channel-fit-v1",
+      "comment_demand_classifier": "comment-demand-rules-v2",
+      "demand_clustering": "demand-intent-clustering-v2",
+      "digest": "evidence-digest-v1",
+      "early_signal_score": "early-signal-score-v3-quality",
+      "microtopic_clustering": "live-microtopic-clustering-v4",
+      "transcript_processing": "transcript-processing-v2",
+      "video_embedding": "video-embedding-v2-transcript",
+      "video_embedding_model": "local-hashing-title-entity-transcript-v2",
+      "video_features": "video-intelligence-v1"
+    },
+    "observed": {
+      "channel_baseline": [
+        "channel-baseline-v1",
+        "demo-v1"
+      ],
+      "channel_fit": [
+        "channel-fit-v1"
+      ],
+      "comment_features": [
+        "comment-demand-rules-v1",
+        "comment-demand-rules-v2"
+      ],
+      "demand_clusters": [
+        "demand-intent-clustering-v2",
+        "demo-rules-v1"
+      ],
+      "signal_evidence": [
+        "demo-evidence-v1",
+        "live-hybrid-clustering-v2-transcript:early-signal-score-v2-demand",
+        "live-microtopic-clustering-v3:early-signal-score-v3-quality",
+        "live-microtopic-clustering-v4:early-signal-score-v3-quality"
+      ],
+      "topic_clustering": [
+        "demo-v1",
+        "live-hybrid-clustering-v2-transcript",
+        "live-microtopic-clustering-v3",
+        "live-microtopic-clustering-v4"
+      ],
+      "topic_embedding": [
+        "topic-embedding-v1",
+        "video-embedding-v2-transcript"
+      ],
+      "topic_embedding_model": [
+        "hashing-embedding-v1",
+        "local-hashing-title-entity-transcript-v2"
+      ],
+      "transcripts": [
+        "transcript-processing-v2"
+      ],
+      "video_embeddings": [
+        "video-embedding-v2-transcript"
+      ],
+      "video_features": [
+        "video-intelligence-v1"
+      ]
+    }
+  },
+  "privacy": {
+    "comment_text_included": false,
+    "commenter_hashes_included": false,
+    "provider_payloads_included": false,
+    "secrets_included": false
+  },
+  "source_environment": "production-backup-restore",
+  "source_kind": "live",
+  "topics": [
+    {
+      "aliases": [
+        "Beginner and no-code AI agents"
+      ],
+      "canonical_label": "Beginner and no-code AI agents",
+      "clustering_version": "live-microtopic-clustering-v4",
+      "demand_clusters": [
+        {
+          "comment_count": 6,
+          "demand_score": 66.5,
+          "distinct_channels": 3,
+          "distinct_commenters": 6,
+          "distinct_videos": 3,
+          "id": "12c92ddf-dbe5-5b66-89b2-28c1cf347ee7",
+          "label": "Recurring objections",
+          "model_version": "demand-intent-clustering-v2",
+          "taxonomy": "objection"
+        },
+        {
+          "comment_count": 5,
+          "demand_score": 64.1,
+          "distinct_channels": 3,
+          "distinct_commenters": 5,
+          "distinct_videos": 3,
+          "id": "f17f3e65-8fdd-584c-8cbc-f5e17366bf6d",
+          "label": "Pricing and cost questions",
+          "model_version": "demand-intent-clustering-v2",
+          "taxonomy": "pricing_request"
+        }
+      ],
+      "embedding_model": "local-hashing-title-entity-transcript-v2",
+      "embedding_version": "video-embedding-v2-transcript",
+      "entities": [
+        "AI agents",
+        "Developer tools",
+        "Productivity"
+      ],
+      "evidence": {
+        "distinct_channels": 8,
+        "memberships": [
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "e66adb02-706c-4257-a57c-385e2ffb941a",
+            "evidence_role": "driver",
+            "membership_score": 0.95,
+            "video_id": "1af00bf7-bbb8-463a-99af-9755593bd65b"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "2b4d785b-e820-4cba-8230-7db9dafec98e",
+            "evidence_role": "supporting",
+            "membership_score": 0.95,
+            "video_id": "2dd3fa67-9f21-4189-bad3-b7051ed78d9f"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "c0c991fb-ff04-45bc-9ce6-b78c21465444",
+            "evidence_role": "supporting",
+            "membership_score": 0.95,
+            "video_id": "352a35a0-93a4-42c6-b45a-b812da5af367"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "1c32290d-69d9-4e6e-a05c-648be524f522",
+            "evidence_role": "driver",
+            "membership_score": 0.95,
+            "video_id": "867d7184-f1a1-4626-9f29-38798b050b13"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "c709a009-c0df-4329-887f-da876dd6a756",
+            "evidence_role": "supporting",
+            "membership_score": 0.95,
+            "video_id": "88eaae24-f050-4472-bbb8-443e61af37ed"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "e9b14875-6070-460c-9ec6-e14850033bfc",
+            "evidence_role": "supporting",
+            "membership_score": 0.95,
+            "video_id": "9772e054-9b7f-4292-931b-b4390edc5343"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "b57d5c0b-4172-44e9-a85e-75b81ec34f95",
+            "evidence_role": "amplifier",
+            "membership_score": 0.95,
+            "video_id": "a23e7e6d-f342-4cc5-9b6b-94eff53273d1"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "c709a009-c0df-4329-887f-da876dd6a756",
+            "evidence_role": "supporting",
+            "membership_score": 0.95,
+            "video_id": "a639102c-e3de-431b-b492-26703ec54974"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "c883a8a3-b9c9-43fb-b141-0984729c6083",
+            "evidence_role": "supporting",
+            "membership_score": 0.95,
+            "video_id": "ad907f4d-88c5-40e7-a7be-7864a9183f03"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "c0c991fb-ff04-45bc-9ce6-b78c21465444",
+            "evidence_role": "amplifier",
+            "membership_score": 0.95,
+            "video_id": "e50453f5-3e01-4818-9dd4-c45d46190e9f"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "c0c991fb-ff04-45bc-9ce6-b78c21465444",
+            "evidence_role": "amplifier",
+            "membership_score": 0.95,
+            "video_id": "f576a5fe-affa-40a3-9a82-ebe13f9dfe6a"
+          }
+        ],
+        "transcript_videos": 0,
+        "videos": 11
+      },
+      "first_confirmed_at": "2026-07-06T14:15:35Z",
+      "first_observed_at": "2026-06-30T14:56:25Z",
+      "id": "8a946b27-43c8-5d8d-b880-74b759271e1e",
+      "latest_measurement": {
+        "aggregate_view_velocity": 1215.48,
+        "components": {
+          "baseline_coverage": 1.0,
+          "distinct_channels": 8,
+          "previous_video_count_24h": 0,
+          "provider_coverage_count": 1,
+          "score": 75.4,
+          "search_appearances_24h": 64,
+          "snapshot_coverage": 1.0,
+          "specificity_score": 95.0,
+          "top_channel_share": 0.2727272727272727,
+          "top_outlier_ratio": 28.9966,
+          "top_velocity_share": 0.22057434016671681,
+          "transcript_coverage": 0.0,
+          "video_count": 11,
+          "video_count_24h": 2,
+          "video_count_72h": 2
+        },
+        "demand_score": 66.5,
+        "distinct_channels_72h": 2,
+        "fragility_score": 35.86,
+        "id": "714834e9-bcc5-4028-8d37-aad0d040796c",
+        "large_channel_count": 2,
+        "median_outlier_ratio": 2.0565,
+        "observed_at": "2026-07-28T08:03:54.694727Z",
+        "saturation_score": 33.5,
+        "video_count_24h": 2,
+        "video_count_72h": 2
+      },
+      "lifecycle_stage": "Breakout",
+      "signal": {
+        "components": {
+          "audience_demand": 66.5,
+          "baseline_coverage": 100.0,
+          "creator_diversity": 87.73,
+          "cross_community_spread": 66,
+          "fragility_penalty": 35.86,
+          "momentum": 87.94,
+          "novelty": 73,
+          "outlier_strength": 100.0,
+          "saturation_penalty": 33.5,
+          "search_visibility_growth": 100.0,
+          "specificity_score": 95.0,
+          "transcript_coverage": 0.0
+        },
+        "confidence": "High",
+        "evidence_version": "live-microtopic-clustering-v4:early-signal-score-v3-quality",
+        "expires_at": "2026-07-28T14:03:54.694727Z",
+        "generated_at": "2026-07-28T08:03:54.694727Z",
+        "id": "36491aa1-3cfa-54a5-aa66-c555199991f7",
+        "lifecycle_stage": "Breakout",
+        "opportunity_end": "2026-08-01T08:03:54.694727Z",
+        "opportunity_start": "2026-07-28T08:03:54.694727Z",
+        "score": 75.4,
+        "status": "active",
+        "thesis": "Beginner and no-code AI agents is confirmed by 8 independent channels overall, including 2 channels and 2 videos in the last 72 hours. Median channel-relative performance is 2.06× baseline, with a capped aggregate velocity of 1,215 views/hour.",
+        "why_emerging": [
+          "2 videos were published in 24h and 2 in 72h.",
+          "Evidence spans 8 channels; the largest channel contributes 27% of videos.",
+          "Median channel-relative outlier is 2.06×; the strongest stored demand cluster scores 66.5/100 from 6 comments.",
+          "100% of evidence channels have a calibrated historical baseline and 0 of 11 videos have transcript enrichment."
+        ],
+        "workspace_scores": [
+          {
+            "calculated_at": "2026-07-28T08:03:54.694727Z",
+            "channel_fit_score": 71.8,
+            "channel_id": "7ac2dc10-f88c-4380-8229-295f20c87cb5",
+            "fit_components": {
+              "audience_overlap": 67.5,
+              "authority_or_credibility": 44.0,
+              "brand_risk_penalty": 0.0,
+              "cannibalization_penalty": 14.3,
+              "evidence_duration_median_seconds": 1082,
+              "explanation": "Fit 71.8/100 for this owned channel. Strongest signals: historical performance similarity 100, timing feasibility 100, format compatibility 95. Production range 3–7 days versus 4 days remaining.",
+              "fit_version": "channel-fit-v1",
+              "format_compatibility": 95.0,
+              "historical_performance_similarity": 100.0,
+              "history_sample_size": 15,
+              "matching_history_count": 1,
+              "production_feasibility": 57.1,
+              "production_window_days": 4.0,
+              "profile_source": "inferred",
+              "timing_feasibility": 100.0,
+              "topical_relevance": 56.6
+            },
+            "fit_version": "channel-fit-v1",
+            "opportunities": [
+              {
+                "audience_promise": "Address a recurring intent found in 6 stored comments.",
+                "avoid": "Quote only the stored verbatim snippets and do not generalize beyond the sampled comments.",
+                "best_publish_window": {
+                  "end": "2026-08-01T08:03:54.694727+00:00",
+                  "label": "3–4 days",
+                  "start": "2026-07-31T08:03:54.694727+00:00"
+                },
+                "channel_fit_score": 71.8,
+                "effort": "Medium",
+                "evidence": [
+                  "video:2dd3fa67-9f21-4189-bad3-b7051ed78d9f",
+                  "video:9772e054-9b7f-4292-931b-b4390edc5343",
+                  "video:1af00bf7-bbb8-463a-99af-9755593bd65b",
+                  "comment:149c0c7e-46d4-52ec-a8ca-38aaf80c145b",
+                  "comment:fc28d49a-b3ca-50f9-a181-9cc6ad392bdb",
+                  "comment:a7beed30-b75b-56a8-95c6-7c5f55008c0c"
+                ],
+                "expected_breakout_window": {
+                  "end": "2026-08-01T08:03:54.694727+00:00",
+                  "start": "2026-07-28T08:03:54.694727+00:00"
+                },
+                "expected_saturation_window": {
+                  "end": "2026-08-08T08:03:54.694727+00:00",
+                  "start": "2026-08-01T08:03:54.694727+00:00"
+                },
+                "fit_reasons": [
+                  "historical performance similarity: 100/100",
+                  "timing feasibility: 100/100",
+                  "format compatibility: 95/100"
+                ],
+                "format": "Evidence-led explainer",
+                "opportunity_confidence": "Medium",
+                "opportunity_id": "c0d07f61-1cb2-52af-a892-efc835cb020b",
+                "production_time_days": {
+                  "max": 7,
+                  "min": 3
+                },
+                "rank": 1,
+                "status": "active",
+                "timing_risk": "The lifecycle can change as new snapshots arrive.",
+                "title": "Respond to recurring objections",
+                "title_directions": [
+                  "Beginner and no-code AI agents: what changed",
+                  "Why beginner and no-code ai agents matters now",
+                  "The evidence behind beginner and no-code ai agents"
+                ],
+                "unanswered_question": "6 stored comments across 3 videos and 3 channels repeat a objection intent.",
+                "why_now": "The strongest demand cluster spans 3 videos and 3 channels."
+              },
+              {
+                "audience_promise": "Test the leading claim instead of repeating announcement coverage.",
+                "avoid": "Do not infer results that are absent from stored evidence.",
+                "best_publish_window": {
+                  "end": "2026-08-01T08:03:54.694727+00:00",
+                  "label": "3–4 days",
+                  "start": "2026-07-31T08:03:54.694727+00:00"
+                },
+                "channel_fit_score": 71.8,
+                "effort": "Medium–high",
+                "evidence": [
+                  "video:2dd3fa67-9f21-4189-bad3-b7051ed78d9f",
+                  "video:9772e054-9b7f-4292-931b-b4390edc5343",
+                  "video:1af00bf7-bbb8-463a-99af-9755593bd65b",
+                  "video:352a35a0-93a4-42c6-b45a-b812da5af367"
+                ],
+                "expected_breakout_window": {
+                  "end": "2026-08-01T08:03:54.694727+00:00",
+                  "start": "2026-07-28T08:03:54.694727+00:00"
+                },
+                "expected_saturation_window": {
+                  "end": "2026-08-08T08:03:54.694727+00:00",
+                  "start": "2026-08-01T08:03:54.694727+00:00"
+                },
+                "fit_reasons": [
+                  "historical performance similarity: 100/100",
+                  "timing feasibility: 100/100",
+                  "format compatibility: 95/100"
+                ],
+                "format": "Hands-on test",
+                "opportunity_confidence": "Medium",
+                "opportunity_id": "b3c8d86d-c367-5c4d-b75d-2476ccc418b5",
+                "production_time_days": {
+                  "max": 7,
+                  "min": 3
+                },
+                "rank": 2,
+                "status": "active",
+                "timing_risk": "Testing must remain small enough to publish in-window.",
+                "title": "Independent real-world test",
+                "title_directions": [
+                  "I tested beginner and no-code ai agents",
+                  "The claim everyone is repeating — tested",
+                  "A practical test before the trend peaks"
+                ],
+                "unanswered_question": "Which claims survive a repeatable practical test?",
+                "why_now": "The topic has multiple independent evidence videos."
+              },
+              {
+                "audience_promise": "Help viewers understand how independent creators frame the shift.",
+                "avoid": "Do not present provisional channel fit as personalized proof.",
+                "best_publish_window": {
+                  "end": "2026-08-01T08:03:54.694727+00:00",
+                  "label": "3–4 days",
+                  "start": "2026-07-31T08:03:54.694727+00:00"
+                },
+                "channel_fit_score": 71.8,
+                "effort": "Medium",
+                "evidence": [
+                  "video:2dd3fa67-9f21-4189-bad3-b7051ed78d9f",
+                  "video:9772e054-9b7f-4292-931b-b4390edc5343",
+                  "video:1af00bf7-bbb8-463a-99af-9755593bd65b",
+                  "video:352a35a0-93a4-42c6-b45a-b812da5af367",
+                  "video:88eaae24-f050-4472-bbb8-443e61af37ed"
+                ],
+                "expected_breakout_window": {
+                  "end": "2026-08-01T08:03:54.694727+00:00",
+                  "start": "2026-07-28T08:03:54.694727+00:00"
+                },
+                "expected_saturation_window": {
+                  "end": "2026-08-08T08:03:54.694727+00:00",
+                  "start": "2026-08-01T08:03:54.694727+00:00"
+                },
+                "fit_reasons": [
+                  "historical performance similarity: 100/100",
+                  "timing feasibility: 100/100",
+                  "format compatibility: 95/100"
+                ],
+                "format": "Structured comparison",
+                "opportunity_confidence": "Medium",
+                "opportunity_id": "76db3cb8-8d77-58e6-b50a-dc8b2c2c17e4",
+                "production_time_days": {
+                  "max": 7,
+                  "min": 3
+                },
+                "rank": 3,
+                "status": "active",
+                "timing_risk": "New entrants can quickly change the comparison.",
+                "title": "Map the competing approaches",
+                "title_directions": [
+                  "The real landscape of beginner and no-code ai agents",
+                  "Three approaches, one emerging shift",
+                  "What current coverage gets right and wrong"
+                ],
+                "unanswered_question": "Where do the current approaches materially differ?",
+                "why_now": "Coverage is diffusing across distinct channels."
+              }
+            ],
+            "workspace_id": "bc31e161-f438-58aa-84a9-5cfdb6fc358a"
+          }
+        ]
+      },
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "Beginner and no-code Developer tools"
+      ],
+      "canonical_label": "Beginner and no-code Developer tools",
+      "clustering_version": "live-microtopic-clustering-v4",
+      "demand_clusters": [],
+      "embedding_model": "local-hashing-title-entity-transcript-v2",
+      "embedding_version": "video-embedding-v2-transcript",
+      "entities": [
+        "Developer tools"
+      ],
+      "evidence": {
+        "distinct_channels": 3,
+        "memberships": [
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "c709a009-c0df-4329-887f-da876dd6a756",
+            "evidence_role": "amplifier",
+            "membership_score": 0.77,
+            "video_id": "162ac2e5-7aff-4365-96a4-d677006657e6"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "4db4e44f-2cce-4514-aabe-6953229c22f4",
+            "evidence_role": "driver",
+            "membership_score": 0.77,
+            "video_id": "7a226729-dbb8-4f7e-9101-2e335ac38c60"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "eb0578b6-2550-4c6e-a14e-ef12c9fdbb71",
+            "evidence_role": "driver",
+            "membership_score": 0.77,
+            "video_id": "9142dc98-6957-46c4-b514-785ed77dee5b"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "eb0578b6-2550-4c6e-a14e-ef12c9fdbb71",
+            "evidence_role": "amplifier",
+            "membership_score": 0.77,
+            "video_id": "f6092552-f898-438c-abf3-965993226ec6"
+          }
+        ],
+        "transcript_videos": 0,
+        "videos": 4
+      },
+      "first_confirmed_at": "2026-07-23T17:01:37Z",
+      "first_observed_at": "2026-07-15T11:17:50Z",
+      "id": "0ddacade-8a6d-5f66-9d0c-c4bc66800f3e",
+      "latest_measurement": {
+        "aggregate_view_velocity": 690.59,
+        "components": {
+          "baseline_coverage": 1.0,
+          "distinct_channels": 3,
+          "previous_video_count_24h": 1,
+          "provider_coverage_count": 1,
+          "score": 28.0,
+          "search_appearances_24h": 4,
+          "snapshot_coverage": 1.0,
+          "specificity_score": 77.0,
+          "top_channel_share": 0.5,
+          "top_outlier_ratio": 3.65,
+          "top_velocity_share": 0.4815447660695927,
+          "transcript_coverage": 0.0,
+          "video_count": 4,
+          "video_count_24h": 0,
+          "video_count_72h": 1
+        },
+        "demand_score": 0.0,
+        "distinct_channels_72h": 1,
+        "fragility_score": 56.11,
+        "id": "b06f9bf6-bd1b-4b40-8f12-40e84a5c9a96",
+        "large_channel_count": 2,
+        "median_outlier_ratio": 1.158,
+        "observed_at": "2026-07-28T08:03:54.694727Z",
+        "saturation_score": 42.0,
+        "video_count_24h": 0,
+        "video_count_72h": 1
+      },
+      "lifecycle_stage": "Seed",
+      "signal": null,
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "Free, local and unlimited AI agents"
+      ],
+      "canonical_label": "Free, local and unlimited AI agents",
+      "clustering_version": "live-microtopic-clustering-v4",
+      "demand_clusters": [],
+      "embedding_model": "local-hashing-title-entity-transcript-v2",
+      "embedding_version": "video-embedding-v2-transcript",
+      "entities": [
+        "AI agents",
+        "Developer tools"
+      ],
+      "evidence": {
+        "distinct_channels": 3,
+        "memberships": [
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "327bf32a-c3c2-4873-a0a6-ef7efd3211a0",
+            "evidence_role": "amplifier",
+            "membership_score": 0.73,
+            "video_id": "02ec2220-95b0-42cb-b817-f9ec16a3a74c"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "c0c991fb-ff04-45bc-9ce6-b78c21465444",
+            "evidence_role": "driver",
+            "membership_score": 0.73,
+            "video_id": "3899f614-1db2-4e0f-ad21-549bc80bc641"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "70466871-ee57-4acf-ad65-d6e2930fc00e",
+            "evidence_role": "driver",
+            "membership_score": 0.73,
+            "video_id": "4e098759-6cc9-4580-ac7f-1dccc86b28ad"
+          }
+        ],
+        "transcript_videos": 0,
+        "videos": 3
+      },
+      "first_confirmed_at": "2026-07-13T19:41:38Z",
+      "first_observed_at": "2026-06-29T14:15:26Z",
+      "id": "700f251f-b975-5ac5-8b39-3501f523c918",
+      "latest_measurement": {
+        "aggregate_view_velocity": 63.61,
+        "components": {
+          "baseline_coverage": 1.0,
+          "distinct_channels": 3,
+          "previous_video_count_24h": 0,
+          "provider_coverage_count": 1,
+          "score": 32.2,
+          "search_appearances_24h": 3,
+          "snapshot_coverage": 1.0,
+          "specificity_score": 73.0,
+          "top_channel_share": 0.3333333333333333,
+          "top_outlier_ratio": 1.0451,
+          "top_velocity_share": 0.5307341612953937,
+          "transcript_coverage": 0.0,
+          "video_count": 3,
+          "video_count_24h": 1,
+          "video_count_72h": 1
+        },
+        "demand_score": 0.0,
+        "distinct_channels_72h": 1,
+        "fragility_score": 52.81,
+        "id": "4ec729b0-077c-4a22-aa8f-bb2d5f7a8b8f",
+        "large_channel_count": 2,
+        "median_outlier_ratio": 0.9303,
+        "observed_at": "2026-07-28T08:03:54.694727Z",
+        "saturation_score": 42.0,
+        "video_count_24h": 1,
+        "video_count_72h": 1
+      },
+      "lifecycle_stage": "Emerging",
+      "signal": null,
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "Free, local and unlimited AI video generation"
+      ],
+      "canonical_label": "Free, local and unlimited AI video generation",
+      "clustering_version": "live-microtopic-clustering-v4",
+      "demand_clusters": [
+        {
+          "comment_count": 5,
+          "demand_score": 61.1,
+          "distinct_channels": 2,
+          "distinct_commenters": 5,
+          "distinct_videos": 4,
+          "id": "3d558919-0f7e-50cb-8677-38df65a92e92",
+          "label": "Requests for a clearer explanation",
+          "model_version": "demand-intent-clustering-v2",
+          "taxonomy": "request_for_explanation"
+        },
+        {
+          "comment_count": 19,
+          "demand_score": 87.7,
+          "distinct_channels": 4,
+          "distinct_commenters": 18,
+          "distinct_videos": 11,
+          "id": "50194a2c-012f-51cf-90e5-c1c87152a537",
+          "label": "Recurring objections",
+          "model_version": "demand-intent-clustering-v2",
+          "taxonomy": "objection"
+        },
+        {
+          "comment_count": 4,
+          "demand_score": 58.6,
+          "distinct_channels": 3,
+          "distinct_commenters": 4,
+          "distinct_videos": 4,
+          "id": "be43fa2d-caa5-56ab-a16b-d34c541fd66c",
+          "label": "Pricing and cost questions",
+          "model_version": "demand-intent-clustering-v2",
+          "taxonomy": "pricing_request"
+        }
+      ],
+      "embedding_model": "local-hashing-title-entity-transcript-v2",
+      "embedding_version": "video-embedding-v2-transcript",
+      "entities": [
+        "AI video generation",
+        "Productivity",
+        "AI models",
+        "ChatGPT",
+        "Higgsfield",
+        "Developer tools"
+      ],
+      "evidence": {
+        "distinct_channels": 8,
+        "memberships": [
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "4536f62e-e6fd-41ac-8b23-ea08abc19413",
+            "evidence_role": "supporting",
+            "membership_score": 0.95,
+            "video_id": "033d44ee-ea37-43e9-b2c3-1486000608a1"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "51c764cf-5f62-48e5-99a0-cb0759175752",
+            "evidence_role": "amplifier",
+            "membership_score": 0.95,
+            "video_id": "04ebe432-6762-48e5-b606-36e39fbc6fb8"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "9e7f99f5-1873-47e3-bac6-7fc34f597f4c",
+            "evidence_role": "supporting",
+            "membership_score": 0.95,
+            "video_id": "0d52b552-a529-4fd5-b1e3-fc588bd8fd27"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "51c764cf-5f62-48e5-99a0-cb0759175752",
+            "evidence_role": "supporting",
+            "membership_score": 0.95,
+            "video_id": "159a016b-cf73-4fbf-8874-2c99dabeee23"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "496fea90-1e51-46d1-bbcc-440d7d336d5c",
+            "evidence_role": "supporting",
+            "membership_score": 0.95,
+            "video_id": "2a6209e3-bb42-439f-8ab3-880abbbf1321"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "9c394ada-78c1-47f6-a0b4-4a766fab550c",
+            "evidence_role": "amplifier",
+            "membership_score": 0.95,
+            "video_id": "35ae20e1-5a1d-476a-85f0-9943a9e2d5ff"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "0a60414e-55da-4405-9ca3-b05ea572a4ae",
+            "evidence_role": "supporting",
+            "membership_score": 0.95,
+            "video_id": "54a6603b-2bbe-48f5-9f82-92ef218650d3"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "51c764cf-5f62-48e5-99a0-cb0759175752",
+            "evidence_role": "driver",
+            "membership_score": 0.95,
+            "video_id": "5d634f8c-d141-4959-8a20-8d1fe3ac02ad"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "496fea90-1e51-46d1-bbcc-440d7d336d5c",
+            "evidence_role": "supporting",
+            "membership_score": 0.95,
+            "video_id": "652a4e7f-2bfd-45e4-afc2-e2b4f96547d6"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "5a750c46-a83e-43f7-bc71-516623b6d6a2",
+            "evidence_role": "supporting",
+            "membership_score": 0.95,
+            "video_id": "669849a7-9d8b-4e6c-bf88-b5ef234ae9ce"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "51c764cf-5f62-48e5-99a0-cb0759175752",
+            "evidence_role": "supporting",
+            "membership_score": 0.95,
+            "video_id": "676b5fb0-9db5-4209-9758-0761382adfe4"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "0a60414e-55da-4405-9ca3-b05ea572a4ae",
+            "evidence_role": "supporting",
+            "membership_score": 0.95,
+            "video_id": "78dd3468-765d-4d62-9404-810d089b489c"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "496fea90-1e51-46d1-bbcc-440d7d336d5c",
+            "evidence_role": "supporting",
+            "membership_score": 0.95,
+            "video_id": "7d32eb14-e72c-47ce-9b1d-e5d10b086290"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "0a60414e-55da-4405-9ca3-b05ea572a4ae",
+            "evidence_role": "supporting",
+            "membership_score": 0.95,
+            "video_id": "879bb779-5d3b-45ae-b519-08edae41af39"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "51c764cf-5f62-48e5-99a0-cb0759175752",
+            "evidence_role": "supporting",
+            "membership_score": 0.95,
+            "video_id": "91f43914-92d3-4bc9-9fa3-efd21967a616"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "0a60414e-55da-4405-9ca3-b05ea572a4ae",
+            "evidence_role": "supporting",
+            "membership_score": 0.95,
+            "video_id": "94d346b7-8af4-470a-99ff-7a2a97f9134a"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "9e7f99f5-1873-47e3-bac6-7fc34f597f4c",
+            "evidence_role": "supporting",
+            "membership_score": 0.95,
+            "video_id": "a005ed0d-7baf-4948-bf5c-5abb8eb2bfe6"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "9c394ada-78c1-47f6-a0b4-4a766fab550c",
+            "evidence_role": "supporting",
+            "membership_score": 0.95,
+            "video_id": "ae0aa897-5fde-43b2-9b04-1803757e9305"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "9e7f99f5-1873-47e3-bac6-7fc34f597f4c",
+            "evidence_role": "supporting",
+            "membership_score": 0.95,
+            "video_id": "b6f9efc7-905f-4e7f-a7e0-a9469a1a6fa2"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "4536f62e-e6fd-41ac-8b23-ea08abc19413",
+            "evidence_role": "supporting",
+            "membership_score": 0.95,
+            "video_id": "bbeb9297-732d-4343-a31a-10e2d1ea439f"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "0a60414e-55da-4405-9ca3-b05ea572a4ae",
+            "evidence_role": "supporting",
+            "membership_score": 0.95,
+            "video_id": "bd8a684d-fc49-4d2d-9afe-75de09e86ebf"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "51c764cf-5f62-48e5-99a0-cb0759175752",
+            "evidence_role": "driver",
+            "membership_score": 0.95,
+            "video_id": "c7439599-2617-4016-be50-a37b710781e9"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "63a09df7-0c1d-4fab-bfda-3c77aa7b113e",
+            "evidence_role": "amplifier",
+            "membership_score": 0.95,
+            "video_id": "c78c8a32-a6bb-4b46-ba69-8f7910cc0f70"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "51c764cf-5f62-48e5-99a0-cb0759175752",
+            "evidence_role": "supporting",
+            "membership_score": 0.95,
+            "video_id": "dfa0901a-eebd-4573-9808-3a8b8c2bbbe2"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "51c764cf-5f62-48e5-99a0-cb0759175752",
+            "evidence_role": "supporting",
+            "membership_score": 0.95,
+            "video_id": "f4a1e5a5-2b68-40f9-a5fd-b4481a1b4215"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "5a750c46-a83e-43f7-bc71-516623b6d6a2",
+            "evidence_role": "supporting",
+            "membership_score": 0.95,
+            "video_id": "f5a58bad-cf8f-40a8-8faa-45b67bdfa019"
+          }
+        ],
+        "transcript_videos": 2,
+        "videos": 26
+      },
+      "first_confirmed_at": "2026-06-29T12:04:58Z",
+      "first_observed_at": "2026-06-28T13:00:22Z",
+      "id": "80c9d711-f700-587f-b8e9-455653996425",
+      "latest_measurement": {
+        "aggregate_view_velocity": 1440.63,
+        "components": {
+          "baseline_coverage": 1.0,
+          "distinct_channels": 8,
+          "previous_video_count_24h": 1,
+          "provider_coverage_count": 1,
+          "score": 71.3,
+          "search_appearances_24h": 128,
+          "snapshot_coverage": 1.0,
+          "specificity_score": 95.0,
+          "top_channel_share": 0.3076923076923077,
+          "top_outlier_ratio": 77.1971,
+          "top_velocity_share": 0.23232137510046913,
+          "transcript_coverage": 0.07692307692307693,
+          "video_count": 26,
+          "video_count_24h": 1,
+          "video_count_72h": 4
+        },
+        "demand_score": 87.7,
+        "distinct_channels_72h": 4,
+        "fragility_score": 37.15,
+        "id": "07cc7fbb-cdee-41d8-a20b-ba023618e1ce",
+        "large_channel_count": 2,
+        "median_outlier_ratio": 4.0528,
+        "observed_at": "2026-07-28T08:03:54.694727Z",
+        "saturation_score": 41.5,
+        "video_count_24h": 1,
+        "video_count_72h": 4
+      },
+      "lifecycle_stage": "Emerging",
+      "signal": {
+        "components": {
+          "audience_demand": 87.7,
+          "baseline_coverage": 100.0,
+          "creator_diversity": 68.85,
+          "cross_community_spread": 72,
+          "fragility_penalty": 37.15,
+          "momentum": 63.75,
+          "novelty": 87,
+          "outlier_strength": 100.0,
+          "saturation_penalty": 41.5,
+          "search_visibility_growth": 100.0,
+          "specificity_score": 95.0,
+          "transcript_coverage": 7.7
+        },
+        "confidence": "High",
+        "evidence_version": "live-microtopic-clustering-v4:early-signal-score-v3-quality",
+        "expires_at": "2026-07-28T14:03:54.694727Z",
+        "generated_at": "2026-07-28T08:03:54.694727Z",
+        "id": "5b097d63-4a5b-5854-8e5a-5beda88967fd",
+        "lifecycle_stage": "Emerging",
+        "opportunity_end": "2026-08-04T08:03:54.694727Z",
+        "opportunity_start": "2026-07-29T08:03:54.694727Z",
+        "score": 71.3,
+        "status": "active",
+        "thesis": "Free, local and unlimited AI video generation is confirmed by 8 independent channels overall, including 4 channels and 4 videos in the last 72 hours. Median channel-relative performance is 4.05× baseline, with a capped aggregate velocity of 1,441 views/hour.",
+        "why_emerging": [
+          "1 videos were published in 24h and 4 in 72h.",
+          "Evidence spans 8 channels; the largest channel contributes 31% of videos.",
+          "Median channel-relative outlier is 4.05×; the strongest stored demand cluster scores 87.7/100 from 19 comments.",
+          "100% of evidence channels have a calibrated historical baseline and 2 of 26 videos have transcript enrichment."
+        ],
+        "workspace_scores": [
+          {
+            "calculated_at": "2026-07-28T08:03:54.694727Z",
+            "channel_fit_score": 72.9,
+            "channel_id": "7ac2dc10-f88c-4380-8229-295f20c87cb5",
+            "fit_components": {
+              "audience_overlap": 60.2,
+              "authority_or_credibility": 46.8,
+              "brand_risk_penalty": 0.0,
+              "cannibalization_penalty": 12.5,
+              "evidence_duration_median_seconds": 540,
+              "explanation": "Fit 72.9/100 for this owned channel. Strongest signals: production feasibility 100, timing feasibility 100, format compatibility 95. Production range 3–7 days versus 7 days remaining.",
+              "fit_version": "channel-fit-v1",
+              "format_compatibility": 95.0,
+              "historical_performance_similarity": 86.4,
+              "history_sample_size": 15,
+              "matching_history_count": 2,
+              "production_feasibility": 100.0,
+              "production_window_days": 7.0,
+              "profile_source": "inferred",
+              "timing_feasibility": 100.0,
+              "topical_relevance": 49.1
+            },
+            "fit_version": "channel-fit-v1",
+            "opportunities": [
+              {
+                "audience_promise": "Address a recurring intent found in 19 stored comments.",
+                "avoid": "Quote only the stored verbatim snippets and do not generalize beyond the sampled comments.",
+                "best_publish_window": {
+                  "end": "2026-08-04T08:03:54.694727+00:00",
+                  "label": "3–7 days",
+                  "start": "2026-07-31T08:03:54.694727+00:00"
+                },
+                "channel_fit_score": 72.9,
+                "effort": "Medium",
+                "evidence": [
+                  "video:c7439599-2617-4016-be50-a37b710781e9",
+                  "video:04ebe432-6762-48e5-b606-36e39fbc6fb8",
+                  "video:159a016b-cf73-4fbf-8874-2c99dabeee23",
+                  "comment:0333106b-a716-57d2-bda0-43bcbe26ec24",
+                  "comment:5d82609b-8030-55e1-b950-ad424461a77d",
+                  "comment:0333e0cc-9d1b-5ec4-86b3-e9ad30d10f97",
+                  "transcript-segment:39a69971-0524-46a8-b726-7d79b62a0bb9",
+                  "transcript-segment:8498fb28-f62e-4a73-8fc4-0857f219d4f0"
+                ],
+                "expected_breakout_window": {
+                  "end": "2026-08-04T08:03:54.694727+00:00",
+                  "start": "2026-07-29T08:03:54.694727+00:00"
+                },
+                "expected_saturation_window": {
+                  "end": "2026-08-11T08:03:54.694727+00:00",
+                  "start": "2026-08-04T08:03:54.694727+00:00"
+                },
+                "fit_reasons": [
+                  "production feasibility: 100/100",
+                  "timing feasibility: 100/100",
+                  "format compatibility: 95/100"
+                ],
+                "format": "Evidence-led explainer",
+                "opportunity_confidence": "Medium",
+                "opportunity_id": "075c775c-67f9-5b95-b0e4-ff09d05ccee4",
+                "production_time_days": {
+                  "max": 7,
+                  "min": 3
+                },
+                "rank": 1,
+                "status": "active",
+                "timing_risk": "The lifecycle can change as new snapshots arrive.",
+                "title": "Respond to recurring objections",
+                "title_directions": [
+                  "Free, local and unlimited AI video generation: what changed",
+                  "Why free, local and unlimited ai video generation matters now",
+                  "The evidence behind free, local and unlimited ai video generation"
+                ],
+                "unanswered_question": "19 stored comments across 11 videos and 4 channels repeat a objection intent.",
+                "why_now": "The strongest demand cluster spans 11 videos and 4 channels."
+              },
+              {
+                "audience_promise": "Test the leading claim instead of repeating announcement coverage.",
+                "avoid": "Do not infer results that are absent from stored evidence.",
+                "best_publish_window": {
+                  "end": "2026-08-04T08:03:54.694727+00:00",
+                  "label": "3–7 days",
+                  "start": "2026-07-31T08:03:54.694727+00:00"
+                },
+                "channel_fit_score": 72.9,
+                "effort": "Medium–high",
+                "evidence": [
+                  "video:c7439599-2617-4016-be50-a37b710781e9",
+                  "video:04ebe432-6762-48e5-b606-36e39fbc6fb8",
+                  "video:159a016b-cf73-4fbf-8874-2c99dabeee23",
+                  "video:54a6603b-2bbe-48f5-9f82-92ef218650d3",
+                  "transcript-segment:39a69971-0524-46a8-b726-7d79b62a0bb9",
+                  "transcript-segment:8498fb28-f62e-4a73-8fc4-0857f219d4f0"
+                ],
+                "expected_breakout_window": {
+                  "end": "2026-08-04T08:03:54.694727+00:00",
+                  "start": "2026-07-29T08:03:54.694727+00:00"
+                },
+                "expected_saturation_window": {
+                  "end": "2026-08-11T08:03:54.694727+00:00",
+                  "start": "2026-08-04T08:03:54.694727+00:00"
+                },
+                "fit_reasons": [
+                  "production feasibility: 100/100",
+                  "timing feasibility: 100/100",
+                  "format compatibility: 95/100"
+                ],
+                "format": "Hands-on test",
+                "opportunity_confidence": "Medium",
+                "opportunity_id": "50b667e5-c4ac-53d3-bc79-e1cf068dcfc4",
+                "production_time_days": {
+                  "max": 7,
+                  "min": 3
+                },
+                "rank": 2,
+                "status": "active",
+                "timing_risk": "Testing must remain small enough to publish in-window.",
+                "title": "Independent real-world test",
+                "title_directions": [
+                  "I tested free, local and unlimited ai video generation",
+                  "The claim everyone is repeating — tested",
+                  "A practical test before the trend peaks"
+                ],
+                "unanswered_question": "Which claims survive a repeatable practical test?",
+                "why_now": "The topic has multiple independent evidence videos."
+              },
+              {
+                "audience_promise": "Help viewers understand how independent creators frame the shift.",
+                "avoid": "Do not present provisional channel fit as personalized proof.",
+                "best_publish_window": {
+                  "end": "2026-08-04T08:03:54.694727+00:00",
+                  "label": "3–7 days",
+                  "start": "2026-07-31T08:03:54.694727+00:00"
+                },
+                "channel_fit_score": 72.9,
+                "effort": "Medium",
+                "evidence": [
+                  "video:c7439599-2617-4016-be50-a37b710781e9",
+                  "video:04ebe432-6762-48e5-b606-36e39fbc6fb8",
+                  "video:159a016b-cf73-4fbf-8874-2c99dabeee23",
+                  "video:54a6603b-2bbe-48f5-9f82-92ef218650d3",
+                  "video:5d634f8c-d141-4959-8a20-8d1fe3ac02ad",
+                  "transcript-segment:39a69971-0524-46a8-b726-7d79b62a0bb9",
+                  "transcript-segment:8498fb28-f62e-4a73-8fc4-0857f219d4f0",
+                  "transcript-segment:3f392722-1e23-4fc3-86c2-a181738c0f99"
+                ],
+                "expected_breakout_window": {
+                  "end": "2026-08-04T08:03:54.694727+00:00",
+                  "start": "2026-07-29T08:03:54.694727+00:00"
+                },
+                "expected_saturation_window": {
+                  "end": "2026-08-11T08:03:54.694727+00:00",
+                  "start": "2026-08-04T08:03:54.694727+00:00"
+                },
+                "fit_reasons": [
+                  "production feasibility: 100/100",
+                  "timing feasibility: 100/100",
+                  "format compatibility: 95/100"
+                ],
+                "format": "Structured comparison",
+                "opportunity_confidence": "Medium",
+                "opportunity_id": "92753338-3fb1-5b06-b362-0feb5083b653",
+                "production_time_days": {
+                  "max": 7,
+                  "min": 3
+                },
+                "rank": 3,
+                "status": "active",
+                "timing_risk": "New entrants can quickly change the comparison.",
+                "title": "Map the competing approaches",
+                "title_directions": [
+                  "The real landscape of free, local and unlimited ai video generation",
+                  "Three approaches, one emerging shift",
+                  "What current coverage gets right and wrong"
+                ],
+                "unanswered_question": "Where do the current approaches materially differ?",
+                "why_now": "Coverage is diffusing across distinct channels."
+              }
+            ],
+            "workspace_id": "bc31e161-f438-58aa-84a9-5cfdb6fc358a"
+          }
+        ]
+      },
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "Free, local and unlimited AI models"
+      ],
+      "canonical_label": "Free, local and unlimited Claude ai models",
+      "clustering_version": "live-microtopic-clustering-v4",
+      "demand_clusters": [],
+      "embedding_model": "local-hashing-title-entity-transcript-v2",
+      "embedding_version": "video-embedding-v2-transcript",
+      "entities": [
+        "AI models",
+        "Claude",
+        "Developer tools",
+        "Open-source AI",
+        "Productivity"
+      ],
+      "evidence": {
+        "distinct_channels": 3,
+        "memberships": [
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "b174899e-8bfb-485a-bb35-8415ccf95bf6",
+            "evidence_role": "driver",
+            "membership_score": 1.0,
+            "video_id": "1c107aae-cdd9-420c-a140-9e6de3e162d9"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "2ed68362-3756-46a7-aba8-457ec5fd7a3f",
+            "evidence_role": "amplifier",
+            "membership_score": 1.0,
+            "video_id": "305100e2-4474-4728-80e3-d84e37e30849"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "b174899e-8bfb-485a-bb35-8415ccf95bf6",
+            "evidence_role": "amplifier",
+            "membership_score": 1.0,
+            "video_id": "672586a7-4bc8-4a96-a53d-e37c0c47f1e9"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "b174899e-8bfb-485a-bb35-8415ccf95bf6",
+            "evidence_role": "supporting",
+            "membership_score": 1.0,
+            "video_id": "a6eaf7ec-5501-4736-b57e-82d410e8f6da"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "b174899e-8bfb-485a-bb35-8415ccf95bf6",
+            "evidence_role": "driver",
+            "membership_score": 1.0,
+            "video_id": "e09b48dc-5398-4633-83de-3b6741499e18"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "b7a45142-672f-4768-ab2d-9aa5eeb9b14b",
+            "evidence_role": "amplifier",
+            "membership_score": 1.0,
+            "video_id": "e640cd23-d563-4f5a-b7c1-9b5f953da4ac"
+          }
+        ],
+        "transcript_videos": 0,
+        "videos": 6
+      },
+      "first_confirmed_at": "2026-07-09T11:45:33Z",
+      "first_observed_at": "2026-06-30T01:29:54Z",
+      "id": "7ffc3622-ccae-581b-930c-f8627ab9d6dd",
+      "latest_measurement": {
+        "aggregate_view_velocity": 127.21,
+        "components": {
+          "baseline_coverage": 1.0,
+          "distinct_channels": 3,
+          "previous_video_count_24h": 1,
+          "provider_coverage_count": 2,
+          "score": 36.2,
+          "search_appearances_24h": 7,
+          "snapshot_coverage": 1.0,
+          "specificity_score": 100.0,
+          "top_channel_share": 0.6666666666666666,
+          "top_outlier_ratio": 3.0722,
+          "top_velocity_share": 0.31255404449335744,
+          "transcript_coverage": 0.0,
+          "video_count": 6,
+          "video_count_24h": 0,
+          "video_count_72h": 1
+        },
+        "demand_score": 0.0,
+        "distinct_channels_72h": 1,
+        "fragility_score": 43.67,
+        "id": "1e701d6f-bd51-4704-a797-24af7b3f34ea",
+        "large_channel_count": 1,
+        "median_outlier_ratio": 1.706,
+        "observed_at": "2026-07-28T08:03:54.694727Z",
+        "saturation_score": 23.0,
+        "video_count_24h": 0,
+        "video_count_72h": 1
+      },
+      "lifecycle_stage": "Seed",
+      "signal": null,
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "Free, local and unlimited Productivity"
+      ],
+      "canonical_label": "Free, local and unlimited Productivity",
+      "clustering_version": "live-microtopic-clustering-v4",
+      "demand_clusters": [],
+      "embedding_model": "local-hashing-title-entity-transcript-v2",
+      "embedding_version": "video-embedding-v2-transcript",
+      "entities": [
+        "Productivity"
+      ],
+      "evidence": {
+        "distinct_channels": 4,
+        "memberships": [
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "91ef7856-63de-40b8-8ff4-096fcf9d36bb",
+            "evidence_role": "driver",
+            "membership_score": 0.77,
+            "video_id": "472af8c0-d0ca-43ba-97c2-7765e308079f"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "2d7a59d0-b33d-4751-a13a-15742ca9eb88",
+            "evidence_role": "amplifier",
+            "membership_score": 0.77,
+            "video_id": "5f5a9a7b-a364-4a6e-8f1c-48a0ea71ebbc"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "4536f62e-e6fd-41ac-8b23-ea08abc19413",
+            "evidence_role": "amplifier",
+            "membership_score": 0.77,
+            "video_id": "8012d13f-f76c-4dd0-a98c-0b198f99bf71"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "750e8be2-ea42-4f5a-9378-991e1fe1bc29",
+            "evidence_role": "driver",
+            "membership_score": 0.77,
+            "video_id": "979caae1-8195-426b-a078-d3974f6c3467"
+          }
+        ],
+        "transcript_videos": 0,
+        "videos": 4
+      },
+      "first_confirmed_at": "2026-07-09T13:30:21Z",
+      "first_observed_at": "2026-07-06T14:00:29Z",
+      "id": "c1248a74-136c-55b8-a66f-9827e616439e",
+      "latest_measurement": {
+        "aggregate_view_velocity": 148.04,
+        "components": {
+          "baseline_coverage": 1.0,
+          "distinct_channels": 4,
+          "previous_video_count_24h": 0,
+          "provider_coverage_count": 1,
+          "score": 44.8,
+          "search_appearances_24h": 4,
+          "snapshot_coverage": 1.0,
+          "specificity_score": 77.0,
+          "top_channel_share": 0.25,
+          "top_outlier_ratio": 7.5412,
+          "top_velocity_share": 0.3967846527965415,
+          "transcript_coverage": 0.0,
+          "video_count": 4,
+          "video_count_24h": 0,
+          "video_count_72h": 0
+        },
+        "demand_score": 0.0,
+        "distinct_channels_72h": 0,
+        "fragility_score": 43.55,
+        "id": "1c9979b5-bd1b-445b-bb26-2c12fc733b45",
+        "large_channel_count": 0,
+        "median_outlier_ratio": 4.1105,
+        "observed_at": "2026-07-28T08:03:54.694727Z",
+        "saturation_score": 0.0,
+        "video_count_24h": 0,
+        "video_count_72h": 0
+      },
+      "lifecycle_stage": "Declining",
+      "signal": null,
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "Open-source AI models"
+      ],
+      "canonical_label": "Open-source AI models",
+      "clustering_version": "live-microtopic-clustering-v4",
+      "demand_clusters": [],
+      "embedding_model": "local-hashing-title-entity-transcript-v2",
+      "embedding_version": "video-embedding-v2-transcript",
+      "entities": [
+        "AI models",
+        "Open-source AI"
+      ],
+      "evidence": {
+        "distinct_channels": 4,
+        "memberships": [
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "50ee91df-7710-4e40-b69f-5fec48bcd637",
+            "evidence_role": "driver",
+            "membership_score": 0.82,
+            "video_id": "1beb643b-45fc-4924-bc43-0abb668043f4"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "6529d295-436d-472a-82b9-18263c97f61c",
+            "evidence_role": "amplifier",
+            "membership_score": 0.82,
+            "video_id": "4d670020-d0b9-48a6-beff-45c8e882318a"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "9f6edcf5-08d8-46e8-8aca-ec6ac79b1a88",
+            "evidence_role": "driver",
+            "membership_score": 0.82,
+            "video_id": "9036086a-8495-43d8-97ba-6b6052b60d63"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "2b4d785b-e820-4cba-8230-7db9dafec98e",
+            "evidence_role": "amplifier",
+            "membership_score": 0.82,
+            "video_id": "af6a12c9-f022-4cd0-be1a-0626f9013ffc"
+          }
+        ],
+        "transcript_videos": 0,
+        "videos": 4
+      },
+      "first_confirmed_at": "2026-07-21T09:15:14Z",
+      "first_observed_at": "2026-07-17T03:29:06Z",
+      "id": "f88c81da-002d-592a-8508-99ee995490c2",
+      "latest_measurement": {
+        "aggregate_view_velocity": 150.47,
+        "components": {
+          "baseline_coverage": 1.0,
+          "distinct_channels": 4,
+          "previous_video_count_24h": 1,
+          "provider_coverage_count": 1,
+          "score": 42.8,
+          "search_appearances_24h": 48,
+          "snapshot_coverage": 1.0,
+          "specificity_score": 82.0,
+          "top_channel_share": 0.25,
+          "top_outlier_ratio": 4.0,
+          "top_velocity_share": 0.4303847943111584,
+          "transcript_coverage": 0.0,
+          "video_count": 4,
+          "video_count_24h": 0,
+          "video_count_72h": 1
+        },
+        "demand_score": 0.0,
+        "distinct_channels_72h": 1,
+        "fragility_score": 45.16,
+        "id": "e13cc414-f68e-4ffd-a5ff-3c3730c59b9c",
+        "large_channel_count": 3,
+        "median_outlier_ratio": 2.9945,
+        "observed_at": "2026-07-28T08:03:54.694727Z",
+        "saturation_score": 53.5,
+        "video_count_24h": 0,
+        "video_count_72h": 1
+      },
+      "lifecycle_stage": "Seed",
+      "signal": null,
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "Security failures in AI models"
+      ],
+      "canonical_label": "Security failures in OpenAI ai models",
+      "clustering_version": "live-microtopic-clustering-v4",
+      "demand_clusters": [],
+      "embedding_model": "local-hashing-title-entity-transcript-v2",
+      "embedding_version": "video-embedding-v2-transcript",
+      "entities": [
+        "AI models",
+        "OpenAI"
+      ],
+      "evidence": {
+        "distinct_channels": 8,
+        "memberships": [
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "9354f8dc-60b4-4655-a1da-3364643486cc",
+            "evidence_role": "supporting",
+            "membership_score": 1.0,
+            "video_id": "2491c872-9ca8-4fc3-a648-2a8e3babee5e"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "2d76122f-1c8a-4188-a7ed-bbeb9ea67906",
+            "evidence_role": "amplifier",
+            "membership_score": 1.0,
+            "video_id": "36149ae1-bd5c-4c7b-8475-4ba0493176eb"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "1fc93e57-a3d1-4312-a76c-10e526cb69c6",
+            "evidence_role": "supporting",
+            "membership_score": 1.0,
+            "video_id": "43e46c35-27b0-44ef-8521-fb9b76b06ecd"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "f3b84ae2-f7d8-4405-a6e8-f770519b2437",
+            "evidence_role": "supporting",
+            "membership_score": 1.0,
+            "video_id": "74a61610-28c2-4d6e-ae6b-e82f52c09685"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "9f6edcf5-08d8-46e8-8aca-ec6ac79b1a88",
+            "evidence_role": "amplifier",
+            "membership_score": 1.0,
+            "video_id": "78f9305e-8691-4ac3-bcac-4f8bbd25c28c"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "c2407ec4-e7e5-43e3-9b30-ae67c6affa97",
+            "evidence_role": "driver",
+            "membership_score": 1.0,
+            "video_id": "b75b921f-b415-434c-be5f-870bf2f9aa2c"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "7baaec39-3f96-4288-952e-5a72a346a83c",
+            "evidence_role": "amplifier",
+            "membership_score": 1.0,
+            "video_id": "dfb24b15-f2b7-489f-9f7e-05b0aaed3732"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "0d71c449-9c54-4d6d-b25b-6a6c158c70e7",
+            "evidence_role": "driver",
+            "membership_score": 1.0,
+            "video_id": "e3052621-9d4e-43e0-a024-e851d7557608"
+          }
+        ],
+        "transcript_videos": 0,
+        "videos": 8
+      },
+      "first_confirmed_at": "2026-07-22T16:58:41Z",
+      "first_observed_at": "2026-07-22T03:29:01Z",
+      "id": "71fd472d-8c3f-5e3c-a89b-cb5050adbdec",
+      "latest_measurement": {
+        "aggregate_view_velocity": 358.13,
+        "components": {
+          "baseline_coverage": 1.0,
+          "distinct_channels": 8,
+          "previous_video_count_24h": 0,
+          "provider_coverage_count": 1,
+          "score": 35.8,
+          "search_appearances_24h": 21,
+          "snapshot_coverage": 1.0,
+          "specificity_score": 100.0,
+          "top_channel_share": 0.125,
+          "top_outlier_ratio": 1.3162,
+          "top_velocity_share": 0.9076243626024948,
+          "transcript_coverage": 0.0,
+          "video_count": 8,
+          "video_count_24h": 1,
+          "video_count_72h": 1
+        },
+        "demand_score": 0.0,
+        "distinct_channels_72h": 1,
+        "fragility_score": 63.82,
+        "id": "52b40363-9464-4757-8f22-cac3447470af",
+        "large_channel_count": 7,
+        "median_outlier_ratio": 0.9244,
+        "observed_at": "2026-07-28T08:03:54.694727Z",
+        "saturation_score": 93.25,
+        "video_count_24h": 1,
+        "video_count_72h": 1
+      },
+      "lifecycle_stage": "Saturated",
+      "signal": null,
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "Task-specific AI agents"
+      ],
+      "canonical_label": "Task-specific AI agents",
+      "clustering_version": "live-microtopic-clustering-v4",
+      "demand_clusters": [
+        {
+          "comment_count": 3,
+          "demand_score": 46.8,
+          "distinct_channels": 2,
+          "distinct_commenters": 3,
+          "distinct_videos": 2,
+          "id": "51e679e8-52db-519b-9769-15e3da546ba3",
+          "label": "Requests for a practical tutorial",
+          "model_version": "demand-intent-clustering-v2",
+          "taxonomy": "request_for_tutorial"
+        }
+      ],
+      "embedding_model": "local-hashing-title-entity-transcript-v2",
+      "embedding_version": "video-embedding-v2-transcript",
+      "entities": [
+        "AI agents",
+        "Productivity",
+        "Developer tools",
+        "Claude",
+        "AI models"
+      ],
+      "evidence": {
+        "distinct_channels": 4,
+        "memberships": [
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "446ef31a-c059-43a4-8612-fb02751d6cf9",
+            "evidence_role": "supporting",
+            "membership_score": 0.95,
+            "video_id": "1d0226b5-bac3-4b64-b462-a5d2e7a3b1d0"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "446ef31a-c059-43a4-8612-fb02751d6cf9",
+            "evidence_role": "supporting",
+            "membership_score": 0.95,
+            "video_id": "40bce278-b0e0-4ffc-8f4a-a23131a0cc2a"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "446ef31a-c059-43a4-8612-fb02751d6cf9",
+            "evidence_role": "amplifier",
+            "membership_score": 0.95,
+            "video_id": "6da3a283-617d-49b5-b760-770c0874427b"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "c0c991fb-ff04-45bc-9ce6-b78c21465444",
+            "evidence_role": "driver",
+            "membership_score": 0.95,
+            "video_id": "b1f85431-769e-4d26-b29d-52de26484ee6"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "c0c991fb-ff04-45bc-9ce6-b78c21465444",
+            "evidence_role": "amplifier",
+            "membership_score": 0.95,
+            "video_id": "c3ef876d-eaac-43e2-8187-de489177c76d"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "c8af10e1-0881-499f-94dd-9b8d8d469cf0",
+            "evidence_role": "driver",
+            "membership_score": 0.95,
+            "video_id": "eb928e4c-f2c4-4fdd-b2ca-0ba93f9a3c49"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "1a07cb6e-0989-48dc-80f6-7e653817f73b",
+            "evidence_role": "amplifier",
+            "membership_score": 0.95,
+            "video_id": "ef4e6ae8-7357-429c-99e2-f48f1941813b"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "446ef31a-c059-43a4-8612-fb02751d6cf9",
+            "evidence_role": "supporting",
+            "membership_score": 0.95,
+            "video_id": "fcc0ee2e-2f17-49d3-818d-774b2c383108"
+          }
+        ],
+        "transcript_videos": 1,
+        "videos": 8
+      },
+      "first_confirmed_at": "2026-07-08T14:15:28Z",
+      "first_observed_at": "2026-07-02T21:51:21Z",
+      "id": "d17cce61-1e4c-5e14-a55f-3852cab1ace5",
+      "latest_measurement": {
+        "aggregate_view_velocity": 206.98,
+        "components": {
+          "baseline_coverage": 1.0,
+          "distinct_channels": 4,
+          "previous_video_count_24h": 1,
+          "provider_coverage_count": 1,
+          "score": 42.5,
+          "search_appearances_24h": 40,
+          "snapshot_coverage": 1.0,
+          "specificity_score": 95.0,
+          "top_channel_share": 0.5,
+          "top_outlier_ratio": 14.284,
+          "top_velocity_share": 0.23350082133539474,
+          "transcript_coverage": 0.125,
+          "video_count": 8,
+          "video_count_24h": 0,
+          "video_count_72h": 1
+        },
+        "demand_score": 46.8,
+        "distinct_channels_72h": 1,
+        "fragility_score": 43.46,
+        "id": "4915dfc6-274b-4bfa-848c-0788ed01c50e",
+        "large_channel_count": 3,
+        "median_outlier_ratio": 0.8629,
+        "observed_at": "2026-07-28T08:03:54.694727Z",
+        "saturation_score": 53.5,
+        "video_count_24h": 0,
+        "video_count_72h": 1
+      },
+      "lifecycle_stage": "Seed",
+      "signal": null,
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "Task-specific AI agents"
+      ],
+      "canonical_label": "Task-specific Claude Code ai agents",
+      "clustering_version": "live-microtopic-clustering-v4",
+      "demand_clusters": [],
+      "embedding_model": "local-hashing-title-entity-transcript-v2",
+      "embedding_version": "video-embedding-v2-transcript",
+      "entities": [
+        "AI agents",
+        "Claude Code",
+        "Claude",
+        "Productivity",
+        "Developer tools"
+      ],
+      "evidence": {
+        "distinct_channels": 3,
+        "memberships": [
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "a2997c70-b0bc-4e70-8278-1e5aa899fdcf",
+            "evidence_role": "amplifier",
+            "membership_score": 1.0,
+            "video_id": "25534dad-370c-413f-b457-a8a1d7d0eea3"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "446ef31a-c059-43a4-8612-fb02751d6cf9",
+            "evidence_role": "supporting",
+            "membership_score": 1.0,
+            "video_id": "425010ab-94a9-4d79-a205-ad793ba624d7"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "a2997c70-b0bc-4e70-8278-1e5aa899fdcf",
+            "evidence_role": "amplifier",
+            "membership_score": 1.0,
+            "video_id": "714924c6-04c4-40e0-99a8-8e5c77f372ed"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "c0c991fb-ff04-45bc-9ce6-b78c21465444",
+            "evidence_role": "driver",
+            "membership_score": 1.0,
+            "video_id": "76275174-0c12-40dc-a508-df425953d88b"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "c0c991fb-ff04-45bc-9ce6-b78c21465444",
+            "evidence_role": "driver",
+            "membership_score": 1.0,
+            "video_id": "9f3e50f3-d080-4586-afb4-8d9cbfe223d6"
+          },
+          {
+            "assignment_method": "entity_embedding_v2_transcript",
+            "channel_id": "a2997c70-b0bc-4e70-8278-1e5aa899fdcf",
+            "evidence_role": "amplifier",
+            "membership_score": 1.0,
+            "video_id": "e6983105-845f-499f-9d11-e6e62ab348cc"
+          }
+        ],
+        "transcript_videos": 0,
+        "videos": 6
+      },
+      "first_confirmed_at": "2026-07-10T14:15:00Z",
+      "first_observed_at": "2026-07-01T14:15:31Z",
+      "id": "0331762f-d876-5378-b7fd-c3c4034bc3c0",
+      "latest_measurement": {
+        "aggregate_view_velocity": 146.86,
+        "components": {
+          "baseline_coverage": 1.0,
+          "distinct_channels": 3,
+          "previous_video_count_24h": 0,
+          "provider_coverage_count": 1,
+          "score": 43.4,
+          "search_appearances_24h": 16,
+          "snapshot_coverage": 1.0,
+          "specificity_score": 100.0,
+          "top_channel_share": 0.5,
+          "top_outlier_ratio": 87.6865,
+          "top_velocity_share": 0.42938853329701754,
+          "transcript_coverage": 0.0,
+          "video_count": 6,
+          "video_count_24h": 0,
+          "video_count_72h": 0
+        },
+        "demand_score": 0.0,
+        "distinct_channels_72h": 0,
+        "fragility_score": 53.61,
+        "id": "f10a4fc1-51cf-49a7-a18f-dd19fb32a4ee",
+        "large_channel_count": 1,
+        "median_outlier_ratio": 0.9718,
+        "observed_at": "2026-07-28T08:03:54.694727Z",
+        "saturation_score": 19.0,
+        "video_count_24h": 0,
+        "video_count_72h": 0
+      },
+      "lifecycle_stage": "Declining",
+      "signal": null,
+      "status": "active"
+    }
+  ]
+}

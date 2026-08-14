@@ -1,0 +1,129 @@
+- generic [active] [ref=f5e1] [box=0,0,1600,3198]:
+  - generic [ref=f5e2] [box=0,0,1600,3198]:
+    - complementary [ref=f5e3] [box=0,0,236,1000]:
+      - link "EarlySignal home" [ref=f5e4] [cursor=pointer] [box=16,20,203,28]:
+        - /url: /signals
+        - generic [ref=f5e7] [box=62,21,91,27]: EarlySignal
+      - navigation "Primary navigation" [ref=f5e8] [box=16,80,203,336]:
+        - link "Signals" [ref=f5e9] [cursor=pointer] [box=16,80,203,44]:
+          - /url: /signals
+        - link "Pulse" [ref=f5e17] [cursor=pointer] [box=16,128,203,44]:
+          - /url: /pulse
+        - link "Digest" [ref=f5e20] [cursor=pointer] [box=16,176,203,44]:
+          - /url: /digest
+        - link "Watchlists" [ref=f5e24] [cursor=pointer] [box=16,224,203,44]:
+          - /url: /watchlists
+        - link "Briefs" [ref=f5e27] [cursor=pointer] [box=16,272,203,44]:
+          - /url: /briefs
+        - link "Outcomes" [ref=f5e31] [cursor=pointer] [box=16,320,203,44]:
+          - /url: /outcomes
+        - link "Settings" [ref=f5e36] [cursor=pointer] [box=16,368,203,44]:
+          - /url: /settings
+      - generic [ref=f5e40] [box=16,444,203,176]:
+        - paragraph [ref=f5e41] [box=16,465,203,23]: Admin
+        - link "Review" [ref=f5e42] [cursor=pointer] [box=16,488,203,44]:
+          - /url: /admin/review
+        - link "Operations" [ref=f5e47] [cursor=pointer] [box=16,532,203,44]:
+          - /url: /admin/operations
+        - link "Providers" [ref=f5e51] [cursor=pointer] [box=16,576,203,44]:
+          - /url: /admin/providers
+      - generic [ref=f5e56] [box=16,802,203,178]:
+        - generic [ref=f5e57] [box=16,826,203,90]:
+          - generic [ref=f5e58] [box=31,841,173,18]: Evidence mode
+          - paragraph [ref=f5e61] [box=31,865,173,36]: Live claims resolve to stored evidence and provenance.
+        - generic [ref=f5e62] [box=16,928,203,52]:
+          - generic [ref=f5e63] [box=24,936,36,36]: AL
+          - generic [ref=f5e64] [box=72,938,113,32]:
+            - strong [ref=f5e65] [box=72,938,113,14]: Atlas Labs
+            - generic [ref=f5e66] [box=72,956,113,14]: Private beta
+    - main [ref=f5e69] [box=0,0,1600,3198]:
+      - generic [ref=f5e70] [box=236,0,1364,3198]:
+        - generic [ref=f5e71] [box=268,40,1300,96]:
+          - generic [ref=f5e72] [box=268,40,419,71]:
+            - heading "Signal review" [level=1] [ref=f5e73] [box=268,40,419,42]
+            - paragraph [ref=f5e74] [box=268,94,419,17]: Approve every user-visible signal and retain an immutable evidence-backed audit trail.
+          - generic [ref=f5e76] [box=1263,71,305,40]:
+            - combobox "Review status" [ref=f5e77] [box=1263,71,173,40]:
+              - option "All statuses" [box=0,0,0,0]
+              - option "internal candidate" [box=0,0,0,0]
+              - option "needs review" [selected] [box=0,0,0,0]
+              - option "approved" [box=0,0,0,0]
+              - option "rejected" [box=0,0,0,0]
+              - option "needs changes" [box=0,0,0,0]
+              - option "published" [box=0,0,0,0]
+              - option "expired" [box=0,0,0,0]
+            - combobox "Review source" [ref=f5e78] [box=1444,71,125,40]:
+              - option "All sources" [selected] [box=0,0,0,0]
+              - option "demo" [box=0,0,0,0]
+              - option "live" [box=0,0,0,0]
+        - generic [ref=f5e79] [box=268,168,1300,114]:
+          - generic [ref=f5e80] [box=269,169,325,112]:
+            - paragraph [ref=f5e81] [box=285,185,292,14]: Needs review
+            - paragraph [ref=f5e82] [box=285,206,292,42]: "2"
+            - paragraph [ref=f5e83] [box=285,252,292,12]: 7 total candidates
+          - generic [ref=f5e84] [box=594,169,325,112]:
+            - paragraph [ref=f5e85] [box=610,185,292,14]: Approval rate
+            - paragraph [ref=f5e86] [box=610,206,292,42]: 100%
+            - paragraph [ref=f5e87] [box=610,252,292,12]: Approved vs decided
+          - generic [ref=f5e88] [box=918,169,325,112]:
+            - paragraph [ref=f5e89] [box=934,185,292,14]: Average review
+            - paragraph [ref=f5e90] [box=934,206,292,42]: 40.09h
+            - paragraph [ref=f5e91] [box=934,252,292,12]: Submitted → decision
+          - generic [ref=f5e92] [box=1243,169,325,112]:
+            - paragraph [ref=f5e93] [box=1259,185,293,14]: Rejected
+            - paragraph [ref=f5e94] [box=1259,206,293,42]: "0"
+            - paragraph [ref=f5e95] [box=1259,252,293,12]: 0 reason types
+        - generic [ref=f5e96] [box=268,305,1300,2853]:
+          - complementary [ref=f5e97] [box=268,305,300,227]:
+            - generic [ref=f5e98] [box=269,306,298,39]: 2 matching candidates · no bulk approval
+            - button "needs review 2m ago Free, local and unlimited AI video generation Emerging · score 70 · fit 73" [pressed] [ref=f5e99] [box=269,345,298,94]:
+              - generic [ref=f5e100] [box=287,361,264,12]:
+                - generic [ref=f5e101] [box=287,361,81,12]: needs review
+                - generic [ref=f5e103] [box=524,361,27,12]: 2m ago
+              - paragraph [ref=f5e104] [box=287,385,264,17]: Free, local and unlimited AI video generation
+              - paragraph [ref=f5e105] [box=287,409,264,12]: Emerging · score 70 · fit 73
+            - button "needs review 2m ago Beginner and no-code AI agents Emerging · score 68 · fit 77" [ref=f5e106] [box=269,438,298,93]:
+              - generic [ref=f5e107] [box=285,454,266,12]:
+                - generic [ref=f5e108] [box=285,454,81,12]: needs review
+                - generic [ref=f5e110] [box=524,454,27,12]: 2m ago
+              - paragraph [ref=f5e111] [box=285,478,266,17]: Beginner and no-code AI agents
+              - paragraph [ref=f5e112] [box=285,503,266,12]: Emerging · score 68 · fit 77
+          - generic [ref=f5e113] [box=592,305,976,2853]:
+            - generic [ref=f5e114] [box=592,305,976,1948]:
+              - generic [ref=f5e115] [box=593,306,974,149]:
+                - generic [ref=f5e116] [box=613,326,711,108]
+                - generic [ref=f5e123] [box=1340,326,207,36]
+              - generic [ref=f5e131] [box=593,455,974,77]:
+                - generic [ref=f5e132] [box=593,455,195,76]
+                - generic [ref=f5e135] [box=788,455,195,76]
+                - generic [ref=f5e138] [box=983,455,195,76]
+                - generic [ref=f5e141] [box=1177,455,195,76]
+                - generic [ref=f5e144] [box=1372,455,195,76]
+              - generic [ref=f5e147] [box=593,532,974,1720]:
+                - generic [ref=f5e148] [box=593,532,534,1720]
+                - generic [ref=f5e323] [box=1127,532,440,1720]
+            - generic [ref=f5e335] [box=592,2277,976,443]:
+              - generic [ref=f5e336] [box=592,2277,476,443]:
+                - heading "Editorial overrides" [level=3] [ref=f5e341] [box=636,2298,167,33]
+                - generic [ref=f5e342] [box=613,2351,434,12]: Topic thesis
+                - textbox [ref=f5e343] [box=613,2371,434,112]: Free, local and unlimited AI video generation is confirmed by 8 independent channels overall, including 3 channels and 3 videos in the last 72 hours. Median channel-relative performance is 4.05× baseline, with a capped aggregate velocity of 1,598 views/hour.
+                - button "Save thesis" [ref=f5e344] [box=613,2498,109,36]
+                - generic [ref=f5e345] [box=613,2558,434,12]: Primary opportunity
+                - textbox [ref=f5e346] [box=613,2578,434,40]: Respond to recurring objections
+                - button "Save opportunity" [ref=f5e347] [box=613,2626,146,36]
+              - generic [ref=f5e348] [box=1092,2277,476,443]:
+                - heading "Review actions" [level=3] [ref=f5e352] [box=1136,2298,134,33]
+                - generic [ref=f5e353] [box=1113,2351,434,12]: Decision reason
+                - combobox [ref=f5e354] [box=1113,2371,434,40]
+                - textbox "Review note" [ref=f5e355] [box=1113,2423,434,80]:
+                  - /placeholder: Evidence-backed review note
+                - generic [ref=f5e356] [box=1113,2522,434,80]
+                - generic [ref=f5e372] [box=1113,2622,434,77]
+            - generic [ref=f5e381] [box=592,2744,976,414]:
+              - generic [ref=f5e382] [box=592,2744,476,414]:
+                - heading "Decision card preview" [level=3] [ref=f5e387] [box=636,2765,198,33]
+                - generic [ref=f5e388] [box=613,2814,434,323]
+              - generic [ref=f5e392] [box=1092,2744,476,414]:
+                - heading "Audit history" [level=3] [ref=f5e393] [box=1113,2765,434,33]
+                - generic [ref=f5e395] [box=1113,2814,434,42]
+  - alert [ref=f5e400] [box=-1,3197,1,1]

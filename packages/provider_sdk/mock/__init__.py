@@ -1,0 +1,1 @@
+"""Deterministic mock capability adapters."""

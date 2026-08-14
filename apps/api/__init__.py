@@ -1,0 +1,1 @@
+"""EarlySignal FastAPI service."""

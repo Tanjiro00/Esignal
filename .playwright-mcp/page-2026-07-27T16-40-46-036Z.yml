@@ -1,0 +1,198 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - complementary [ref=f1e3]:
+      - link "EarlySignal home" [ref=f1e4] [cursor=pointer]:
+        - /url: /signals
+        - generic [ref=f1e7]: EarlySignal
+      - navigation "Primary navigation" [ref=f1e8]:
+        - link "Signals" [ref=f1e9] [cursor=pointer]:
+          - /url: /signals
+        - link "Pulse" [active] [ref=f1e18] [cursor=pointer]:
+          - /url: /pulse
+        - link "Digest" [ref=f1e21] [cursor=pointer]:
+          - /url: /digest
+        - link "Watchlists" [ref=f1e25] [cursor=pointer]:
+          - /url: /watchlists
+        - link "Briefs" [ref=f1e28] [cursor=pointer]:
+          - /url: /briefs
+        - link "Outcomes" [ref=f1e32] [cursor=pointer]:
+          - /url: /outcomes
+        - link "Settings" [ref=f1e37] [cursor=pointer]:
+          - /url: /settings
+      - generic [ref=f1e41]:
+        - paragraph [ref=f1e42]: Admin
+        - link "Operations" [ref=f1e43] [cursor=pointer]:
+          - /url: /admin/operations
+        - link "Providers" [ref=f1e47] [cursor=pointer]:
+          - /url: /admin/providers
+      - generic [ref=f1e52]:
+        - generic [ref=f1e53]:
+          - generic [ref=f1e54]: Evidence mode
+          - paragraph [ref=f1e57]: Live claims resolve to stored evidence and provenance.
+        - generic [ref=f1e58]:
+          - generic [ref=f1e59]: AL
+          - generic [ref=f1e60]:
+            - strong [ref=f1e61]: Atlas Labs
+            - generic [ref=f1e62]: Private beta
+    - main [ref=f1e65]:
+      - generic [ref=f1e259]:
+        - generic [ref=f1e261]:
+          - heading "Workspace pulse" [level=1] [ref=f1e262]
+          - paragraph [ref=f1e263]: See whether emerging signals are turning into decisions, briefs, and published videos.
+        - generic [ref=f1e264]:
+          - generic [ref=f1e265]:
+            - paragraph [ref=f1e266]: Published from signals / active workspace / month
+            - paragraph [ref=f1e267]: "1"
+            - paragraph [ref=f1e268]: 1 successful · 25% signal-open rate
+            - paragraph [ref=f1e269]: Last 30 days
+          - generic [ref=f1e270]:
+            - generic [ref=f1e271]:
+              - paragraph [ref=f1e272]: Impressions
+              - paragraph [ref=f1e273]: "52"
+              - paragraph [ref=f1e274]: 100.0%
+            - generic [ref=f1e275]:
+              - paragraph [ref=f1e276]: Opened
+              - paragraph [ref=f1e277]: "13"
+              - paragraph [ref=f1e278]: 25.0%
+            - generic [ref=f1e279]:
+              - paragraph [ref=f1e280]: Saved
+              - paragraph [ref=f1e281]: "1"
+              - paragraph [ref=f1e282]: 1.9%
+            - generic [ref=f1e283]:
+              - paragraph [ref=f1e284]: Dismissed
+              - paragraph [ref=f1e285]: "1"
+              - paragraph [ref=f1e286]: 1.9%
+            - generic [ref=f1e287]:
+              - paragraph [ref=f1e288]: Briefs
+              - paragraph [ref=f1e289]: "1"
+              - paragraph [ref=f1e290]: 1.9%
+            - generic [ref=f1e291]:
+              - paragraph [ref=f1e292]: Published
+              - paragraph [ref=f1e293]: "1"
+              - paragraph [ref=f1e294]: 1.9%
+            - generic [ref=f1e295]:
+              - paragraph [ref=f1e296]: Successful
+              - paragraph [ref=f1e297]: "1"
+              - paragraph [ref=f1e298]: 1.9%
+        - generic [ref=f1e299]:
+          - generic [ref=f1e300]:
+            - heading "Activity trend (7 days)" [level=2] [ref=f1e302]
+            - generic [ref=f1e306]:
+              - generic [ref=f1e307]:
+                - img "Rising trend" [ref=f1e308]
+                - generic [ref=f1e310]:
+                  - generic [ref=f1e311]: Jul 21
+                  - generic [ref=f1e312]: Jul 22
+                  - generic [ref=f1e313]: Jul 23
+                  - generic [ref=f1e314]: Jul 24
+                  - generic [ref=f1e315]: Jul 25
+                  - generic [ref=f1e316]: Jul 26
+                  - generic [ref=f1e317]: Jul 27
+              - generic [ref=f1e318]:
+                - paragraph [ref=f1e319]: Published
+                - img "Rising trend" [ref=f1e320]
+                - paragraph [ref=f1e322]: "1"
+          - generic [ref=f1e323]:
+            - heading "Pipeline freshness" [level=2] [ref=f1e324]
+            - generic [ref=f1e325]:
+              - generic [ref=f1e326]:
+                - generic [ref=f1e327]: Signals
+                - generic [ref=f1e328]: 1m ago
+                - generic [ref=f1e329]: 0 stale
+              - generic [ref=f1e331]:
+                - generic [ref=f1e332]: Discovery
+                - generic [ref=f1e333]: 25m ago
+                - generic [ref=f1e334]: latest completed run
+              - generic [ref=f1e336]:
+                - generic [ref=f1e337]: Snapshots
+                - generic [ref=f1e338]: 25m ago
+                - generic [ref=f1e339]: latest observation
+              - generic [ref=f1e341]:
+                - generic [ref=f1e342]: Providers
+                - generic [ref=f1e343]: 10/10 ready
+                - generic [ref=f1e344]: enabled and closed circuit
+              - generic [ref=f1e346]:
+                - generic [ref=f1e347]: Dead letters
+                - generic [ref=f1e348]: "0"
+                - generic [ref=f1e349]: failed snapshot jobs
+        - generic [ref=f1e351]:
+          - generic [ref=f1e352]:
+            - generic [ref=f1e353]:
+              - generic [ref=f1e354]:
+                - heading "Latest digest" [level=2] [ref=f1e355]
+                - generic [ref=f1e356]: Generated 28m ago
+              - paragraph [ref=f1e357]: Top evidence-backed signals with suggested decisions.
+            - link "View full digest" [ref=f1e358] [cursor=pointer]:
+              - /url: /digest
+          - table [ref=f1e363]:
+            - rowgroup [ref=f1e364]:
+              - row [ref=f1e365]:
+                - columnheader "Signal" [ref=f1e366]
+                - columnheader "Evidence summary" [ref=f1e367]
+                - columnheader "Fit" [ref=f1e368]
+                - columnheader "Timing" [ref=f1e369]
+                - columnheader "Decision" [ref=f1e370]
+            - rowgroup [ref=f1e371]:
+              - row [ref=f1e372]:
+                - cell [ref=f1e373]:
+                  - link "Claude Code autonomous workflows" [ref=f1e374] [cursor=pointer]:
+                    - /url: /signals/b917fb6b-c02c-55ee-8291-0e672034bcb5
+                  - paragraph [ref=f1e375]: Emerging · Score 88
+                - cell "Real workflow demos are accelerating across independent builder channels." [ref=f1e376]
+                - cell "92/100" [ref=f1e377]
+                - cell "3–7 days" [ref=f1e378]
+                - cell "Act" [ref=f1e379]
+              - row [ref=f1e380]:
+                - cell [ref=f1e381]:
+                  - link "AI browser agents buying products" [ref=f1e382] [cursor=pointer]:
+                    - /url: /signals/3c48fcbd-e04c-58d1-955b-57744ef30c24
+                  - paragraph [ref=f1e383]: Breakout · Score 82
+                - cell "Upload velocity doubled in the last 72 hours." [ref=f1e384]
+                - cell "87/100" [ref=f1e385]
+                - cell "2–5 days" [ref=f1e386]
+                - cell "Act" [ref=f1e387]
+              - row [ref=f1e388]:
+                - cell [ref=f1e389]:
+                  - link "Local video generation on consumer GPUs" [ref=f1e390] [cursor=pointer]:
+                    - /url: /signals/1d1033ea-b6e6-5282-a63c-f24e4a161411
+                  - paragraph [ref=f1e391]: Seed · Score 70
+                - cell "Small technical channels are publishing reproducible benchmarks." [ref=f1e392]
+                - cell "78/100" [ref=f1e393]
+                - cell "6–13 days" [ref=f1e394]
+                - cell "Act" [ref=f1e395]
+        - generic [ref=f1e396]:
+          - heading "Recent product activity" [level=2] [ref=f1e398]
+          - generic [ref=f1e404]:
+            - generic [ref=f1e405]:
+              - generic [ref=f1e406]: 1m ago
+              - generic [ref=f1e407]: Signal Impression
+              - generic [ref=f1e408]: Signal Feed · Signal fc50156e
+            - generic [ref=f1e409]:
+              - generic [ref=f1e410]: 1m ago
+              - generic [ref=f1e411]: Signal Impression
+              - generic [ref=f1e412]: Signal Feed · Signal daa1f91d
+            - generic [ref=f1e413]:
+              - generic [ref=f1e414]: 1m ago
+              - generic [ref=f1e415]: Signal Impression
+              - generic [ref=f1e416]: Signal Feed · Signal 7b63c590
+            - generic [ref=f1e417]:
+              - generic [ref=f1e418]: 28m ago
+              - generic [ref=f1e419]: Digest Generated
+              - generic [ref=f1e420]: Workspace activity
+            - generic [ref=f1e421]:
+              - generic [ref=f1e422]: 24h ago
+              - generic [ref=f1e423]: Signal Open
+              - generic [ref=f1e424]: Signal Detail · Signal 3c48fcbd
+            - generic [ref=f1e425]:
+              - generic [ref=f1e426]: 25h ago
+              - generic [ref=f1e427]: Signal Impression
+              - generic [ref=f1e428]: Signal Feed · Signal b917fb6b
+            - generic [ref=f1e429]:
+              - generic [ref=f1e430]: 25h ago
+              - generic [ref=f1e431]: Signal Impression
+              - generic [ref=f1e432]: Signal Feed · Signal cd59fdf1
+            - generic [ref=f1e433]:
+              - generic [ref=f1e434]: 25h ago
+              - generic [ref=f1e435]: Signal Impression
+              - generic [ref=f1e436]: Signal Feed · Signal ac37a21a
+  - alert [ref=f1e75]

@@ -1,0 +1,29 @@
+{
+  "fixture_version": "earlysignal-visual-baseline-v1",
+  "recorded_at": "2026-07-28T08:06:56Z",
+  "capture_mode": "accepted-existing-qa-artifacts",
+  "note": "Localhost recapture was blocked by browser URL policy. These accepted QA artifacts pin the current deterministic demo information design; production behavior is pinned separately in current-production-snapshot.json.",
+  "screenshots": [
+    {
+      "surface": "signals-desktop",
+      "path": "docs/redesign-qa/final-1440x1024.png",
+      "width": 1440,
+      "height": 1024,
+      "sha256": "4cf21f7cd43afc1ac35f0990c66d28b2edc06ff5e432ce6f146ebae3f6e61470"
+    },
+    {
+      "surface": "signals-mobile-selected",
+      "path": "docs/redesign-qa/final-mobile-selected-390x844.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "194a56b7877d0dd2f7ada4d2b56c912cb9f8e8d80db508cc1affda46eb9b50e9"
+    },
+    {
+      "surface": "signal-detail-tablet",
+      "path": "docs/redesign-qa/detail-740x755.png",
+      "width": 740,
+      "height": 755,
+      "sha256": "0af41104bf4b64a682f5b2082a21bbfa5d18202d1ef5475ba5e601fe96ed72ac"
+    }
+  ]
+}

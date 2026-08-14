@@ -1,0 +1,13 @@
+{
+  "demo": true,
+  "provider": "mock_comments",
+  "endpoint": "comments",
+  "video_id": "esdemo000001",
+  "comments": [
+    {
+      "comment_id": "demo-comment-1",
+      "text": "How do I safely let an agent work end-to-end on a private repo?"
+    }
+  ]
+}
+

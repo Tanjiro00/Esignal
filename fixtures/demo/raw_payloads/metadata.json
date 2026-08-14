@@ -1,0 +1,14 @@
+{
+  "demo": true,
+  "provider": "mock_metadata",
+  "endpoint": "videos",
+  "items": [
+    {
+      "video_id": "esdemo000001",
+      "view_count": 214000,
+      "like_count": 12400,
+      "comment_count": 842
+    }
+  ]
+}
+

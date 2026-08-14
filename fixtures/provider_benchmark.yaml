@@ -1,0 +1,50 @@
+{
+  "version": "provider-benchmark-v1",
+  "description": "YouTube AI/technology provider benchmark corpus. JSON syntax is valid YAML and keeps the runner dependency-free.",
+  "base_topics": [
+    "AI coding agents",
+    "open source language models",
+    "AI video generation",
+    "local AI assistants",
+    "multimodal AI models",
+    "AI creator tools",
+    "robotics foundation models",
+    "AI browser automation",
+    "voice AI agents",
+    "AI research workflows",
+    "small language models",
+    "AI image editing",
+    "developer productivity AI",
+    "AI hardware accelerators",
+    "retrieval augmented generation",
+    "AI music production",
+    "computer use agents",
+    "AI safety tooling",
+    "synthetic data generation",
+    "long context models"
+  ],
+  "query_templates": [
+    "{topic}",
+    "{topic} tutorial",
+    "{topic} benchmark",
+    "{topic} new release",
+    "{topic} real world workflow"
+  ],
+  "corpus_targets": {
+    "queries": 100,
+    "channels": 50,
+    "videos": 100,
+    "videos_with_captions": 30,
+    "videos_without_captions": 20,
+    "videos_with_large_comment_sections": 30,
+    "recent_videos_24h": 20,
+    "niche_queries": 20,
+    "long_tail_queries": 20
+  },
+  "live_defaults": {
+    "country": "US",
+    "language": "en",
+    "max_results": 20,
+    "published_within_days": 14
+  }
+}

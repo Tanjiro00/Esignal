@@ -1,0 +1,39 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - link "EarlySignal home" [ref=e4] [cursor=pointer]:
+        - /url: /signals
+        - generic [ref=e7]: EarlySignal
+      - navigation "Primary navigation" [ref=e8]:
+        - link "Signals" [ref=e9] [cursor=pointer]:
+          - /url: /signals
+        - link "Pulse" [ref=e18] [cursor=pointer]:
+          - /url: /pulse
+        - link "Digest" [ref=e21] [cursor=pointer]:
+          - /url: /digest
+        - link "Watchlists" [ref=e25] [cursor=pointer]:
+          - /url: /watchlists
+        - link "Briefs" [ref=e28] [cursor=pointer]:
+          - /url: /briefs
+        - link "Outcomes" [ref=e32] [cursor=pointer]:
+          - /url: /outcomes
+        - link "Settings" [ref=e37] [cursor=pointer]:
+          - /url: /settings
+      - generic [ref=e41]:
+        - paragraph [ref=e42]: Admin
+        - link "Operations" [ref=e43] [cursor=pointer]:
+          - /url: /admin/operations
+        - link "Providers" [ref=e47] [cursor=pointer]:
+          - /url: /admin/providers
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - generic [ref=e54]: Evidence mode
+          - paragraph [ref=e57]: Live claims resolve to stored evidence and provenance.
+        - generic [ref=e58]:
+          - generic [ref=e59]: W
+          - generic [ref=e60]:
+            - strong [ref=e61]: Workspace
+            - generic [ref=e62]: Private beta
+    - main [ref=e65]:
+      - paragraph [ref=e67]: Loading signals
+  - alert [ref=e75]

@@ -1,0 +1,756 @@
+{
+  "calibration_boundaries": {
+    "adoption": "2018-05-27T23:59:59+00:00",
+    "performance": "2018-05-27T23:59:59+00:00"
+  },
+  "code_protocol_hash": "b07e5c98dce26623dd2b422c4a5fc941d32702570800c86dcc3cd48a87802d9c",
+  "dataset_version": "youniverse-v1.1-en",
+  "generated_at": "2026-08-10T04:16:15.566890+00:00",
+  "heads": {
+    "adoption": {
+      "all_episode_metrics": {
+        "average_precision": 0.184722,
+        "base_rate": 0.06383,
+        "brier_score": 0.076306,
+        "constant_brier_score": 0.059756,
+        "examples": 47,
+        "expected_calibration_error": 0.137674,
+        "lift_at_k": 3.133333,
+        "log_loss": 0.296546,
+        "positives": 3,
+        "precision_at_k": 0.2
+      },
+      "checks": {
+        "average_precision_beats_base_rate": true,
+        "brier_beats_constant": false,
+        "calibration_error": true,
+        "lift_at_top_quintile": true,
+        "median_lead": true,
+        "not_worse_than_simple_rankings": true,
+        "positive_support": false
+      },
+      "predictions": [
+        {
+          "checkpoint_at": "2019-01-06T23:59:59+00:00",
+          "evidence": [
+            {
+              "title": "CNN Weights - Learnable Parameters in PyTorch Neural Networks",
+              "url": "https://www.youtube.com/watch?v=stWU37L91Yc",
+              "video_id": "stWU37L91Yc"
+            },
+            {
+              "title": "Skorch - A Union of Scikit-learn and PyTorch - Thomas Fan",
+              "url": "https://www.youtube.com/watch?v=yAXsxf2CQ8M",
+              "video_id": "yAXsxf2CQ8M"
+            }
+          ],
+          "label": "PyTorch creator activity",
+          "lead_days": null,
+          "outcome": false,
+          "probability": 0.359026,
+          "topic_key": "micro-v7-c63877fef4de4f7574"
+        },
+        {
+          "checkpoint_at": "2019-02-10T23:59:59+00:00",
+          "evidence": [
+            {
+              "title": "IBM Watson and the GRAMMY Connection",
+              "url": "https://www.youtube.com/watch?v=3_kjGluky0c",
+              "video_id": "3_kjGluky0c"
+            },
+            {
+              "title": "Document Translation with IBM Watson",
+              "url": "https://www.youtube.com/watch?v=DeT-iu8IXKM",
+              "video_id": "DeT-iu8IXKM"
+            }
+          ],
+          "label": "IBM Watson creator activity",
+          "lead_days": null,
+          "outcome": false,
+          "probability": 0.353453,
+          "topic_key": "micro-v7-254a7d40a45a395dc5"
+        },
+        {
+          "checkpoint_at": "2019-05-12T23:59:59+00:00",
+          "evidence": [
+            {
+              "title": "Oriol Vinyals: DeepMind AlphaStar, StarCraft, and Language | Artificial Intelligence Podcast",
+              "url": "https://www.youtube.com/watch?v=Kedt2or9xlo",
+              "video_id": "Kedt2or9xlo"
+            },
+            {
+              "title": "DeepMind's AI Learned a Better Understanding of 3D Scenes",
+              "url": "https://www.youtube.com/watch?v=mGHKFMXdjKU",
+              "video_id": "mGHKFMXdjKU"
+            }
+          ],
+          "label": "DeepMind creator activity",
+          "lead_days": null,
+          "outcome": false,
+          "probability": 0.352956,
+          "topic_key": "micro-v7-799a42258bb43a0d00"
+        },
+        {
+          "checkpoint_at": "2019-01-13T23:59:59+00:00",
+          "evidence": [
+            {
+              "title": "Knowledge Distillation with Keras* | AI News | Intel Software",
+              "url": "https://www.youtube.com/watch?v=o_nVOM7-Cj0",
+              "video_id": "o_nVOM7-Cj0"
+            },
+            {
+              "title": "Neural Networks: Visualizing Class Activation Maps for CNNs with Keras!",
+              "url": "https://www.youtube.com/watch?v=JzXyDoaaa8s",
+              "video_id": "JzXyDoaaa8s"
+            }
+          ],
+          "label": "Keras creator activity",
+          "lead_days": null,
+          "outcome": false,
+          "probability": 0.331729,
+          "topic_key": "micro-v7-ab545a742580c5dc0d"
+        },
+        {
+          "checkpoint_at": "2019-07-14T23:59:59+00:00",
+          "evidence": [
+            {
+              "title": "Operationalize Trusted AI with IBM Watson OpenScale",
+              "url": "https://www.youtube.com/watch?v=JVxTQnRiAsc",
+              "video_id": "JVxTQnRiAsc"
+            },
+            {
+              "title": "...My Dear IBM Watson (Making Sense with Sam Harris)",
+              "url": "https://www.youtube.com/watch?v=rTARTj3-nog",
+              "video_id": "rTARTj3-nog"
+            }
+          ],
+          "label": "IBM Watson creator activity",
+          "lead_days": null,
+          "outcome": false,
+          "probability": 0.331335,
+          "topic_key": "micro-v7-254a7d40a45a395dc5"
+        },
+        {
+          "checkpoint_at": "2019-06-23T23:59:59+00:00",
+          "evidence": [
+            {
+              "title": "F8 2019: Powered by PyTorch",
+              "url": "https://www.youtube.com/watch?v=6b41x5ACS4A",
+              "video_id": "6b41x5ACS4A"
+            },
+            {
+              "title": "F8 2019: Developing and Scaling AI Experiences at Facebook with PyTorch",
+              "url": "https://www.youtube.com/watch?v=O8t9xbAajbY",
+              "video_id": "O8t9xbAajbY"
+            },
+            {
+              "title": "Robert Alvarez: Introduction to PyTorch | PyData Miami 2019",
+              "url": "https://www.youtube.com/watch?v=ooDRf8docOo",
+              "video_id": "ooDRf8docOo"
+            }
+          ],
+          "label": "PyTorch creator activity",
+          "lead_days": 36.0,
+          "outcome": true,
+          "probability": 0.290225,
+          "topic_key": "micro-v7-c63877fef4de4f7574"
+        },
+        {
+          "checkpoint_at": "2019-09-01T23:59:59+00:00",
+          "evidence": [
+            {
+              "title": "IBM Watson Assistant: Webhooks Demo",
+              "url": "https://www.youtube.com/watch?v=j8TBqD2rx2o",
+              "video_id": "j8TBqD2rx2o"
+            },
+            {
+              "title": "VMware & IBM Watson: Reimagine customer service with AI",
+              "url": "https://www.youtube.com/watch?v=xMJeat5al0U",
+              "video_id": "xMJeat5al0U"
+            },
+            {
+              "title": "IBM Watson: AI Highlights at the US Open",
+              "url": "https://www.youtube.com/watch?v=Ur2e9aQXXv4",
+              "video_id": "Ur2e9aQXXv4"
+            },
+            {
+              "title": "ESPN Fantasy Football with Insights by IBM Watson - How it works",
+              "url": "https://www.youtube.com/watch?v=E9y2aZdS3tA",
+              "video_id": "E9y2aZdS3tA"
+            }
+          ],
+          "label": "IBM Watson creator activity",
+          "lead_days": null,
+          "outcome": false,
+          "probability": 0.280522,
+          "topic_key": "micro-v7-254a7d40a45a395dc5"
+        },
+        {
+          "checkpoint_at": "2019-05-19T23:59:59+00:00",
+          "evidence": [
+            {
+              "title": "Troubleshooting Python Deep Learning:  Building an RNN Model in Keras | packtpub.com",
+              "url": "https://www.youtube.com/watch?v=apigqS-a0Ww",
+              "video_id": "apigqS-a0Ww"
+            },
+            {
+              "title": "Deep Learning like a Viking: Building Convolutional Neural Networks with Keras by Guy Royse",
+              "url": "https://www.youtube.com/watch?v=BZS0hYDEQnk",
+              "video_id": "BZS0hYDEQnk"
+            }
+          ],
+          "label": "Keras creator activity",
+          "lead_days": null,
+          "outcome": false,
+          "probability": 0.266458,
+          "topic_key": "micro-v7-ab545a742580c5dc0d"
+        },
+        {
+          "checkpoint_at": "2019-05-12T23:59:59+00:00",
+          "evidence": [
+            {
+              "title": "TensorFlow.js in 3 Hours:  Getting the Right Data | packtpub.com",
+              "url": "https://www.youtube.com/watch?v=MtG-dIv2FGE",
+              "video_id": "MtG-dIv2FGE"
+            },
+            {
+              "title": "TensorFlow.js in 3 Hours:  Choosing the Right CNN Model | packtpub.com",
+              "url": "https://www.youtube.com/watch?v=QNfBpCaf1s8",
+              "video_id": "QNfBpCaf1s8"
+            },
+            {
+              "title": "TensorFlow.js in 3 Hours:  The Course Overview | packtpub.com",
+              "url": "https://www.youtube.com/watch?v=jl2oaJ2Zklw",
+              "video_id": "jl2oaJ2Zklw"
+            },
+            {
+              "title": "TensorFlow.js in 3 Hours:  Loading Pre-Trained LSTM Model for Text Classification | packtpub.com",
+              "url": "https://www.youtube.com/watch?v=pr2TIUiTAnI",
+              "video_id": "pr2TIUiTAnI"
+            },
+            {
+              "title": "TensorFlow.js in 3 Hours:  Loading Required CNN Models | packtpub.com",
+              "url": "https://www.youtube.com/watch?v=qfZaOlm1PUM",
+              "video_id": "qfZaOlm1PUM"
+            }
+          ],
+          "label": "TensorFlow.js creator activity",
+          "lead_days": null,
+          "outcome": false,
+          "probability": 0.266071,
+          "topic_key": "micro-v7-c19401aea279bec46e"
+        },
+        {
+          "checkpoint_at": "2019-04-07T23:59:59+00:00",
+          "evidence": [
+            {
+              "title": "Can the Current AI Boom Scale to AGI? \u2014 Reid Hoffman (Greylock) + Greg Brockman (OpenAI)",
+              "url": "https://www.youtube.com/watch?v=19V4mKPr0n4",
+              "video_id": "19V4mKPr0n4"
+            },
+            {
+              "title": "Greg Brockman: OpenAI and AGI | Artificial Intelligence Podcast (MIT AI)",
+              "url": "https://www.youtube.com/watch?v=bIrEM2FbOLU",
+              "video_id": "bIrEM2FbOLU"
+            }
+          ],
+          "label": "OpenAI creator activity",
+          "lead_days": 16.0,
+          "outcome": true,
+          "probability": 0.265485,
+          "topic_key": "micro-v7-d77957724f262d6dd1"
+        }
+      ],
+      "rankings": {
+        "acceleration": {
+          "lift": 0.0,
+          "median_lead_days": null,
+          "positives": 0,
+          "precision": 0.0,
+          "predictions": 10
+        },
+        "creator_breadth": {
+          "lift": 0.0,
+          "median_lead_days": null,
+          "positives": 0,
+          "precision": 0.0,
+          "predictions": 10
+        },
+        "legacy_score": {
+          "lift": 0.0,
+          "median_lead_days": null,
+          "positives": 0,
+          "precision": 0.0,
+          "predictions": 10
+        },
+        "probability_model": {
+          "lift": 3.133333,
+          "median_lead_days": 26.0,
+          "positives": 2,
+          "precision": 0.2,
+          "predictions": 10
+        },
+        "recent_supply": {
+          "lift": 0.0,
+          "median_lead_days": null,
+          "positives": 0,
+          "precision": 0.0,
+          "predictions": 10
+        }
+      },
+      "selected_metrics": {
+        "average_precision": 0.183333,
+        "base_rate": 0.2,
+        "brier_score": 0.186201,
+        "constant_brier_score": 0.16,
+        "examples": 10,
+        "expected_calibration_error": 0.235974,
+        "lift_at_k": 1.0,
+        "log_loss": 0.563349,
+        "positives": 2,
+        "precision_at_k": 0.2
+      },
+      "verdict": "INSUFFICIENT_OUTCOME_SUPPORT"
+    },
+    "performance": {
+      "all_episode_metrics": {
+        "average_precision": 0.66483,
+        "base_rate": 0.653846,
+        "brier_score": 0.244711,
+        "constant_brier_score": 0.226331,
+        "examples": 26,
+        "expected_calibration_error": 0.118364,
+        "lift_at_k": 1.019608,
+        "log_loss": 0.683071,
+        "positives": 17,
+        "precision_at_k": 0.666667
+      },
+      "checks": {
+        "average_precision_beats_base_rate": true,
+        "brier_beats_constant": false,
+        "calibration_error": true,
+        "lift_at_top_quintile": false,
+        "median_lead": true,
+        "not_worse_than_simple_rankings": false,
+        "positive_support": false
+      },
+      "predictions": [
+        {
+          "checkpoint_at": "2019-02-10T23:59:59+00:00",
+          "evidence": [
+            {
+              "title": "IBM Watson and the GRAMMY Connection",
+              "url": "https://www.youtube.com/watch?v=3_kjGluky0c",
+              "video_id": "3_kjGluky0c"
+            },
+            {
+              "title": "Document Translation with IBM Watson",
+              "url": "https://www.youtube.com/watch?v=DeT-iu8IXKM",
+              "video_id": "DeT-iu8IXKM"
+            }
+          ],
+          "label": "IBM Watson creator activity",
+          "lead_days": null,
+          "outcome": false,
+          "probability": 0.731905,
+          "topic_key": "micro-v7-254a7d40a45a395dc5"
+        },
+        {
+          "checkpoint_at": "2019-01-06T23:59:59+00:00",
+          "evidence": [
+            {
+              "title": "CNN Weights - Learnable Parameters in PyTorch Neural Networks",
+              "url": "https://www.youtube.com/watch?v=stWU37L91Yc",
+              "video_id": "stWU37L91Yc"
+            },
+            {
+              "title": "Skorch - A Union of Scikit-learn and PyTorch - Thomas Fan",
+              "url": "https://www.youtube.com/watch?v=yAXsxf2CQ8M",
+              "video_id": "yAXsxf2CQ8M"
+            }
+          ],
+          "label": "PyTorch creator activity",
+          "lead_days": 29.0,
+          "outcome": true,
+          "probability": 0.730931,
+          "topic_key": "micro-v7-c63877fef4de4f7574"
+        },
+        {
+          "checkpoint_at": "2019-07-07T23:59:59+00:00",
+          "evidence": [
+            {
+              "title": "AI at the Edge  TensorFlow to TensorRT on Jetson",
+              "url": "https://www.youtube.com/watch?v=7kJ-jph9gCw",
+              "video_id": "7kJ-jph9gCw"
+            },
+            {
+              "title": "TensorFlow Models Accelerated for NVIDIA Jetson",
+              "url": "https://www.youtube.com/watch?v=QRs619bWAow",
+              "video_id": "QRs619bWAow"
+            },
+            {
+              "title": "Tiny Machine Learning on the Edge with TensorFlow Lite Running on SAMD51",
+              "url": "https://www.youtube.com/watch?v=cn9PEDX_qLk",
+              "video_id": "cn9PEDX_qLk"
+            },
+            {
+              "title": "Convolutional Neural Network Tutorial (CNN) | Convolutional Neural Networks With TensorFlow",
+              "url": "https://www.youtube.com/watch?v=Xr3S-3vpPcU",
+              "video_id": "Xr3S-3vpPcU"
+            },
+            {
+              "title": "Machine learning bubble blowing ... Tiny Machine Learning on the Edge with TensorFlow Lite",
+              "url": "https://www.youtube.com/watch?v=0sNeX2Bvaj8",
+              "video_id": "0sNeX2Bvaj8"
+            }
+          ],
+          "label": "TensorFlow creator activity",
+          "lead_days": 8.0,
+          "outcome": true,
+          "probability": 0.715317,
+          "topic_key": "micro-v7-032da884e92201830d"
+        },
+        {
+          "checkpoint_at": "2019-08-18T23:59:59+00:00",
+          "evidence": [
+            {
+              "title": "Raspberry pi 4 TensorFlow Face Recognition",
+              "url": "https://www.youtube.com/watch?v=r0h2aNqXbBw",
+              "video_id": "r0h2aNqXbBw"
+            },
+            {
+              "title": "TRIPLE WORD reconfigurable TensorFlow Lite models!",
+              "url": "https://www.youtube.com/watch?v=9Dwfz6-XvfQ",
+              "video_id": "9Dwfz6-XvfQ"
+            },
+            {
+              "title": "Tensorflow | Tensorflow Tutorial For Beginners | Intellipaat",
+              "url": "https://www.youtube.com/watch?v=t_DdvgY71NE",
+              "video_id": "t_DdvgY71NE"
+            },
+            {
+              "title": "PyBadge Case with Flip Out Mic #TensorFlow #3DPrinting",
+              "url": "https://www.youtube.com/watch?v=mwYYNM0bQVI",
+              "video_id": "mwYYNM0bQVI"
+            },
+            {
+              "title": "Automatic logging from Keras and TensorFlow",
+              "url": "https://www.youtube.com/watch?v=0A0mZ7fa2Lc",
+              "video_id": "0A0mZ7fa2Lc"
+            }
+          ],
+          "label": "TensorFlow creator activity",
+          "lead_days": 15.0,
+          "outcome": true,
+          "probability": 0.707819,
+          "topic_key": "micro-v7-032da884e92201830d"
+        },
+        {
+          "checkpoint_at": "2019-04-14T23:59:59+00:00",
+          "evidence": [
+            {
+              "title": "AWS Summit Tel Aviv 2019 | Using TensorFlow with Amazon SageMaker",
+              "url": "https://www.youtube.com/watch?v=PQXvHjef2hY",
+              "video_id": "PQXvHjef2hY"
+            },
+            {
+              "title": "QuAI tutorial: Train AI models on a TS-2888X with QTS and TensorFlow",
+              "url": "https://www.youtube.com/watch?v=8mBK9XZoX3k",
+              "video_id": "8mBK9XZoX3k"
+            },
+            {
+              "title": "Machine Learning with TensorFlow and PyTorch on Apache Hadoop using Cloud Dataproc (Cloud Next '19)",
+              "url": "https://www.youtube.com/watch?v=hr7_pG3yEOQ",
+              "video_id": "hr7_pG3yEOQ"
+            }
+          ],
+          "label": "TensorFlow practical implementations",
+          "lead_days": 21.0,
+          "outcome": true,
+          "probability": 0.707124,
+          "topic_key": "micro-v7-c47952144e7555b26d"
+        },
+        {
+          "checkpoint_at": "2019-09-01T23:59:59+00:00",
+          "evidence": [
+            {
+              "title": "IBM Watson Assistant: Webhooks Demo",
+              "url": "https://www.youtube.com/watch?v=j8TBqD2rx2o",
+              "video_id": "j8TBqD2rx2o"
+            },
+            {
+              "title": "VMware & IBM Watson: Reimagine customer service with AI",
+              "url": "https://www.youtube.com/watch?v=xMJeat5al0U",
+              "video_id": "xMJeat5al0U"
+            },
+            {
+              "title": "IBM Watson: AI Highlights at the US Open",
+              "url": "https://www.youtube.com/watch?v=Ur2e9aQXXv4",
+              "video_id": "Ur2e9aQXXv4"
+            },
+            {
+              "title": "ESPN Fantasy Football with Insights by IBM Watson - How it works",
+              "url": "https://www.youtube.com/watch?v=E9y2aZdS3tA",
+              "video_id": "E9y2aZdS3tA"
+            }
+          ],
+          "label": "IBM Watson creator activity",
+          "lead_days": null,
+          "outcome": false,
+          "probability": 0.699203,
+          "topic_key": "micro-v7-254a7d40a45a395dc5"
+        }
+      ],
+      "rankings": {
+        "acceleration": {
+          "lift": 1.019608,
+          "median_lead_days": 12.0,
+          "positives": 4,
+          "precision": 0.666667,
+          "predictions": 6
+        },
+        "creator_breadth": {
+          "lift": 1.27451,
+          "median_lead_days": 10.0,
+          "positives": 5,
+          "precision": 0.833333,
+          "predictions": 6
+        },
+        "legacy_score": {
+          "lift": 1.019608,
+          "median_lead_days": 7.0,
+          "positives": 4,
+          "precision": 0.666667,
+          "predictions": 6
+        },
+        "probability_model": {
+          "lift": 1.019608,
+          "median_lead_days": 18.0,
+          "positives": 4,
+          "precision": 0.666667,
+          "predictions": 6
+        },
+        "recent_supply": {
+          "lift": 1.019608,
+          "median_lead_days": 12.0,
+          "positives": 4,
+          "precision": 0.666667,
+          "predictions": 6
+        }
+      },
+      "selected_metrics": {
+        "average_precision": 0.679167,
+        "base_rate": 0.666667,
+        "brier_score": 0.22486,
+        "constant_brier_score": 0.222222,
+        "examples": 6,
+        "expected_calibration_error": 0.184351,
+        "lift_at_k": 1.0,
+        "log_loss": 0.643053,
+        "positives": 4,
+        "precision_at_k": 0.666667
+      },
+      "verdict": "INSUFFICIENT_OUTCOME_SUPPORT"
+    }
+  },
+  "holdout_episode_count": 47,
+  "holdout_range": [
+    "2019-01-06T23:59:59+00:00",
+    "2019-09-08T23:59:59+00:00"
+  ],
+  "holdout_status": "reused_development_temporal_test_not_blind",
+  "input_files": {
+    "youniverse_ai_holdout_sealed.jsonl.gz": "b6d2520083c7f2f217855cdcaa0caea1b94aa1b87a7903db7b36a10021777f63",
+    "youniverse_ai_train.jsonl.gz": "1fdebb9e1a579e153e8b3ccdaef5819c4bbba75bee293861d50599820b009532",
+    "youniverse_baselines_holdout_sealed.jsonl.gz": "aa221032bd24b8cde82b545e95347e8ee495257fce5c19e4ec9384683743f6cb",
+    "youniverse_baselines_train.jsonl.gz": "19c8f725b21e8c81375dd94abb1103ecceee9822834256ce576ec9c00f629376",
+    "youniverse_timeseries_holdout_sealed.tsv.gz": "1c837ad5ae378bb06d5e5927278fb6b8e9056fd4dfbf46af42782cb439e2293d",
+    "youniverse_timeseries_train.tsv.gz": "d09347f47c502d413139a1137f4f61e8061aea7c24b13144b51596ad1513d604"
+  },
+  "input_hash": "012e20280c2cc6a5aa5b92e3176de3fff2675b66397c592774a39b9f8b9466ce",
+  "models": {
+    "adoption": {
+      "calibrated": true,
+      "calibration_intercept": -0.4520965159,
+      "calibration_slope": 0.6224390192,
+      "coefficients": [
+        0.1681064098,
+        -0.0427896946,
+        0.0476119693,
+        0.1766471273,
+        -0.2270003548,
+        -0.1572933061,
+        -0.1262722973,
+        -0.0536174912,
+        0.0451382208,
+        -0.2866713773,
+        0.0207416494,
+        -0.4893756633,
+        0.0236133909
+      ],
+      "feature_names": [
+        "channel_entropy",
+        "channel_size_coverage",
+        "creator_diversity",
+        "large_creator_share",
+        "log_active_supply",
+        "log_distinct_creators",
+        "log_previous_weekly_supply",
+        "log_recent_supply",
+        "log_topic_age_days",
+        "new_creator_share",
+        "recent_creator_share",
+        "specificity",
+        "supply_acceleration"
+      ],
+      "intercept": -1.697949604,
+      "means": [
+        0.9266784946,
+        0.4408602151,
+        0.793235762,
+        0.0809875011,
+        1.6574574206,
+        1.3970808185,
+        0.4218767141,
+        1.1052202209,
+        4.6078143685,
+        0.6731182796,
+        0.5721795528,
+        0.8178494624,
+        1.5615870968
+      ],
+      "model_version": "earlysignal-probability-head-v1",
+      "positive_examples": 17,
+      "scales": [
+        0.1307970223,
+        0.2497252508,
+        0.2617264498,
+        0.1649610505,
+        0.6228032411,
+        0.4232043735,
+        0.3971022882,
+        0.5966077284,
+        0.9280421062,
+        0.4148745133,
+        0.2438842548,
+        0.0719893878,
+        1.8281545084
+      ],
+      "training_examples": 93
+    },
+    "performance": {
+      "calibrated": true,
+      "calibration_intercept": 0.0623748235,
+      "calibration_slope": 0.3846736228,
+      "coefficients": [
+        0.628688423,
+        -0.0060043089,
+        0.1343466865,
+        0.1660134938,
+        -0.065882739,
+        -0.1413249688,
+        0.1061000683,
+        0.284911788,
+        0.1868106984,
+        -0.6743377934,
+        -0.3628257341,
+        -0.0326147574,
+        0.2911052636
+      ],
+      "feature_names": [
+        "channel_entropy",
+        "channel_size_coverage",
+        "creator_diversity",
+        "large_creator_share",
+        "log_active_supply",
+        "log_distinct_creators",
+        "log_previous_weekly_supply",
+        "log_recent_supply",
+        "log_topic_age_days",
+        "new_creator_share",
+        "recent_creator_share",
+        "specificity",
+        "supply_acceleration"
+      ],
+      "intercept": 1.1347050356,
+      "means": [
+        0.9123432836,
+        0.4850746269,
+        0.7510230584,
+        0.1124154867,
+        1.8161861862,
+        1.4949346837,
+        0.4954489448,
+        1.2075850925,
+        4.7804433469,
+        0.5835820896,
+        0.5673537077,
+        0.8056716418,
+        1.6936955224
+      ],
+      "model_version": "earlysignal-probability-head-v1",
+      "positive_examples": 49,
+      "scales": [
+        0.1415837659,
+        0.2623110443,
+        0.2728650362,
+        0.185038088,
+        0.6458719792,
+        0.4517967497,
+        0.435158972,
+        0.6369065042,
+        0.7838380223,
+        0.4245521739,
+        0.2554530323,
+        0.0649046115,
+        1.9378261076
+      ],
+      "training_examples": 67
+    }
+  },
+  "policy": {
+    "active_window_days": 35,
+    "adoption_minimum_future_videos": 4,
+    "adoption_minimum_new_channel_share": 0.4,
+    "adoption_minimum_new_future_channels": 2,
+    "adoption_supply_growth_threshold": 1.25,
+    "episode_cooldown_days": 42,
+    "maximum_active_videos": 25,
+    "minimum_channels": 3,
+    "minimum_future_videos": 3,
+    "minimum_median_outlier_ratio": 2,
+    "minimum_new_channel_share": 0.5,
+    "minimum_new_future_channels": 3,
+    "minimum_new_recent_channels": 2,
+    "minimum_outcome_baseline_coverage": 0.8,
+    "minimum_outlier_ratio": 3,
+    "minimum_outlier_videos": 3,
+    "minimum_recent_channels": 2,
+    "minimum_recent_videos": 2,
+    "minimum_specificity": 70,
+    "minimum_thesis_support": 0.8,
+    "minimum_videos": 3,
+    "outcome_horizon_days": 42,
+    "performance_minimum_baseline_coverage": 0.6,
+    "performance_minimum_future_videos": 2,
+    "performance_minimum_median_outlier_ratio": 1.25,
+    "performance_minimum_outlier_ratio": 2,
+    "performance_minimum_outlier_videos": 1,
+    "recent_window_days": 7,
+    "research_maximum_active_videos": 60,
+    "research_minimum_channels": 2,
+    "research_minimum_recent_videos": 1,
+    "research_minimum_videos": 2,
+    "structural_lookback_days": 180,
+    "supply_growth_threshold": 3,
+    "top_k": 10
+  },
+  "replay_version": "youniverse-dual-outcome-probability-replay-v1",
+  "taxonomy_version": "microtopic-clustering-v7.1-format-neutral-historical-ai",
+  "train_episode_count": 130,
+  "train_range": [
+    "2016-01-03T23:59:59+00:00",
+    "2018-11-18T23:59:59+00:00"
+  ],
+  "verdict": "FAIL"
+}

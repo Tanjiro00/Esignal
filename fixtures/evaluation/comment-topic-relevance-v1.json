@@ -1,0 +1,60 @@
+{
+  "model_version": "comment-topic-relevance-v1",
+  "cases": [
+    {
+      "id": "generic-praise-rejected",
+      "comment": "Amazing video, thank you!",
+      "intent": "generic_praise",
+      "demand_probability": 0.05,
+      "topic_label": "Free, local and unlimited AI video generation",
+      "topic_entities": ["AI video generation"],
+      "video_title": "Best local AI video generator for beginners",
+      "video_entities": ["AI video generation"],
+      "expected_relevant": false
+    },
+    {
+      "id": "same-phrase-different-product-rejected",
+      "comment": "Is this free?",
+      "intent": "pricing_request",
+      "demand_probability": 0.9,
+      "topic_label": "New Ollama release",
+      "topic_entities": ["Ollama", "AI models"],
+      "video_title": "New DeepSeek model is free",
+      "video_entities": ["DeepSeek", "AI models"],
+      "expected_relevant": false
+    },
+    {
+      "id": "actionable-pricing-question-accepted",
+      "comment": "Is this free?",
+      "intent": "pricing_request",
+      "demand_probability": 0.9,
+      "topic_label": "Free, local and unlimited AI video generation",
+      "topic_entities": ["AI video generation"],
+      "video_title": "Generate unlimited AI videos on your PC",
+      "video_entities": ["AI video generation"],
+      "expected_relevant": true
+    },
+    {
+      "id": "actionable-tutorial-request-accepted",
+      "comment": "Please make a step by step tutorial for the local setup?",
+      "intent": "request_for_tutorial",
+      "demand_probability": 0.92,
+      "topic_label": "Free, local and unlimited AI video generation",
+      "topic_entities": ["AI video generation"],
+      "video_title": "Generate unlimited AI videos on your PC",
+      "video_entities": ["AI video generation"],
+      "expected_relevant": true
+    },
+    {
+      "id": "product-anchor-without-support-rejected",
+      "comment": "Can you explain this in more detail?",
+      "intent": "request_for_explanation",
+      "demand_probability": 0.86,
+      "topic_label": "New Ollama release",
+      "topic_entities": ["Ollama", "AI models"],
+      "video_title": "A general AI model update",
+      "video_entities": ["AI models"],
+      "expected_relevant": false
+    }
+  ]
+}

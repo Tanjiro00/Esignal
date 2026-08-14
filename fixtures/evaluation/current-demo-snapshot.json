@@ -1,0 +1,1309 @@
+{
+  "captured_at": "2026-07-28T08:06:56Z",
+  "content_sha256": "1118cbc7b260cab08759e07b46c2d11203068471a48e3f6106409cfd2da7e579",
+  "counts": {
+    "demand_clusters": 5,
+    "evidence_memberships": 60,
+    "topic_candidates": 5,
+    "visible_signals": 5,
+    "workspace_signal_scores": 5
+  },
+  "database_revision": "e52c91ab74d0",
+  "fixture_version": "earlysignal-evaluation-snapshot-v1",
+  "model_versions": {
+    "code": {
+      "channel_baseline": "channel-baseline-v1",
+      "channel_fit": "channel-fit-v1",
+      "comment_demand_classifier": "comment-demand-rules-v2",
+      "demand_clustering": "demand-intent-clustering-v2",
+      "digest": "evidence-digest-v1",
+      "early_signal_score": "early-signal-score-v3-quality",
+      "microtopic_clustering": "live-microtopic-clustering-v4",
+      "transcript_processing": "transcript-processing-v2",
+      "video_embedding": "video-embedding-v2-transcript",
+      "video_embedding_model": "local-hashing-title-entity-transcript-v2",
+      "video_features": "video-intelligence-v1"
+    },
+    "observed": {
+      "channel_baseline": [
+        "channel-baseline-v1",
+        "demo-v1"
+      ],
+      "channel_fit": [
+        "channel-fit-v1"
+      ],
+      "comment_features": [
+        "comment-demand-rules-v1"
+      ],
+      "demand_clusters": [
+        "demand-intent-clustering-v1",
+        "demo-rules-v1"
+      ],
+      "signal_evidence": [
+        "demo-evidence-v1",
+        "live-hybrid-clustering-v2-transcript:early-signal-score-v2-demand"
+      ],
+      "topic_clustering": [
+        "demo-v1",
+        "live-hybrid-clustering-v2-transcript"
+      ],
+      "topic_embedding": [
+        "topic-embedding-v1",
+        "video-embedding-v2-transcript"
+      ],
+      "topic_embedding_model": [
+        "hashing-embedding-v1",
+        "local-hashing-title-entity-transcript-v2"
+      ],
+      "transcripts": [
+        "transcript-processing-v1",
+        "transcript-processing-v2"
+      ],
+      "video_embeddings": [
+        "video-embedding-v1",
+        "video-embedding-v2-transcript"
+      ],
+      "video_features": [
+        "video-intelligence-v1"
+      ]
+    }
+  },
+  "privacy": {
+    "comment_text_included": false,
+    "commenter_hashes_included": false,
+    "provider_payloads_included": false,
+    "secrets_included": false
+  },
+  "source_environment": "deterministic-demo",
+  "source_kind": "demo",
+  "topics": [
+    {
+      "aliases": [
+        "shopping agents",
+        "transactional browser agents"
+      ],
+      "canonical_label": "AI browser agents buying products",
+      "clustering_version": "demo-v1",
+      "demand_clusters": [
+        {
+          "comment_count": 147,
+          "demand_score": 91.0,
+          "distinct_channels": 8,
+          "distinct_commenters": 127,
+          "distinct_videos": 9,
+          "id": "8f58495e-6c2b-5da1-b4a1-e02de9a4bcfc",
+          "label": "Trust and transaction control",
+          "model_version": "demo-rules-v1",
+          "taxonomy": "explicit_question"
+        }
+      ],
+      "embedding_model": "hashing-embedding-v1",
+      "embedding_version": "topic-embedding-v1",
+      "entities": [
+        "browser agents",
+        "shopping",
+        "automation"
+      ],
+      "evidence": {
+        "distinct_channels": 7,
+        "memberships": [
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "5fcd5a57-95da-53e4-9f66-25105aa08120",
+            "evidence_role": "amplifier",
+            "membership_score": 0.936,
+            "video_id": "48bb049e-7d9d-507a-9c3d-4d4ba79f3b65"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "36ae28cf-955f-56f9-b30d-a7034ad624ca",
+            "evidence_role": "supporting",
+            "membership_score": 0.882,
+            "video_id": "5c2755bd-ba5a-58c8-9931-1c3f80dc50c0"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "a8970cda-b5af-5505-ac29-bfe2e30e0133",
+            "evidence_role": "supporting",
+            "membership_score": 0.81,
+            "video_id": "6e7b4eaf-64ec-5dca-be4a-0afddb335daf"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "a8970cda-b5af-5505-ac29-bfe2e30e0133",
+            "evidence_role": "amplifier",
+            "membership_score": 0.918,
+            "video_id": "75f1c6d1-a96e-541b-b969-3541ce00d6d9"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "f08c1347-cff6-5cd0-9964-b7624c0835b5",
+            "evidence_role": "supporting",
+            "membership_score": 0.864,
+            "video_id": "7cfb0068-6321-54be-9029-f60305ea506a"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "8f6cc310-1860-5ab5-a5cd-5cb1578f4237",
+            "evidence_role": "supporting",
+            "membership_score": 0.9,
+            "video_id": "9cf8c970-293a-59e4-89c6-a0a32456a069"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "36ae28cf-955f-56f9-b30d-a7034ad624ca",
+            "evidence_role": "driver",
+            "membership_score": 0.99,
+            "video_id": "9fd7046e-18c5-5239-9e34-3a52cf9f5f93"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "ab618def-6557-520b-a7c0-091bbd099099",
+            "evidence_role": "amplifier",
+            "membership_score": 0.954,
+            "video_id": "c5f8515a-768c-5006-a1ab-024f9b47f180"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "9cce6758-fcae-5e42-83e4-0bec3fec3824",
+            "evidence_role": "supporting",
+            "membership_score": 0.846,
+            "video_id": "cd9cbef7-32b4-54b8-8a42-4df595807fad"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "5fcd5a57-95da-53e4-9f66-25105aa08120",
+            "evidence_role": "supporting",
+            "membership_score": 0.828,
+            "video_id": "ce5898c1-415b-5483-8a64-9b3b2f6e981c"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "f08c1347-cff6-5cd0-9964-b7624c0835b5",
+            "evidence_role": "driver",
+            "membership_score": 0.972,
+            "video_id": "d0c529b6-a4b0-5050-a645-cb1ac25ab9cf"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "8f6cc310-1860-5ab5-a5cd-5cb1578f4237",
+            "evidence_role": "supporting",
+            "membership_score": 0.792,
+            "video_id": "f94c36eb-2385-5b73-bf36-322eaa86e652"
+          }
+        ],
+        "transcript_videos": 2,
+        "videos": 12
+      },
+      "first_confirmed_at": "2026-07-10T18:00:00Z",
+      "first_observed_at": "2026-07-08T18:00:00Z",
+      "id": "b1787eda-6508-53fc-8429-f6d5972aee24",
+      "latest_measurement": {
+        "aggregate_view_velocity": 11627.7,
+        "components": {
+          "momentum_index": 125.7
+        },
+        "demand_score": 91.0,
+        "distinct_channels_72h": 18,
+        "fragility_score": 22.0,
+        "id": "47dc4d9c-75b3-56e5-931b-e8b9ff08591c",
+        "large_channel_count": 1,
+        "median_outlier_ratio": 3.27,
+        "observed_at": "2026-07-26T18:00:00Z",
+        "saturation_score": 42.0,
+        "video_count_24h": 14,
+        "video_count_72h": 27
+      },
+      "lifecycle_stage": "Breakout",
+      "signal": {
+        "components": {
+          "audience_demand": 91,
+          "creator_diversity": 88,
+          "cross_community_spread": 90,
+          "fragility_penalty": 22,
+          "momentum": 94,
+          "novelty": 82,
+          "outlier_strength": 90,
+          "saturation_penalty": 42,
+          "search_visibility_growth": 92
+        },
+        "confidence": "High",
+        "evidence_version": "demo-evidence-v1",
+        "expires_at": "2026-08-01T18:00:00Z",
+        "generated_at": "2026-07-26T17:35:00Z",
+        "id": "3c48fcbd-e04c-58d1-955b-57744ef30c24",
+        "lifecycle_stage": "Breakout",
+        "opportunity_end": "2026-08-01T18:00:00Z",
+        "opportunity_start": "2026-07-29T18:00:00Z",
+        "score": 81.8,
+        "status": "active",
+        "thesis": "Browser agents are crossing from navigation demos into real purchase decisions, creating urgent questions about trust, permission, and refunds.",
+        "why_emerging": [
+          "Upload velocity doubled in the last 72 hours.",
+          "Independent consumer-tech and AI channels are entering together.",
+          "Large general-tech channels are present but do not yet dominate results."
+        ],
+        "workspace_scores": [
+          {
+            "calculated_at": "2026-07-26T17:45:00Z",
+            "channel_fit_score": 87.0,
+            "channel_id": "a60bc696-06a8-50f0-95b8-1c9602e3ada0",
+            "fit_components": {
+              "explanation": "Atlas Labs performs best on practical AI tool tests with original evidence and can publish within this window.",
+              "format_compatibility": 84,
+              "historical_performance_similarity": 81,
+              "production_feasibility": 78,
+              "topical_relevance": 89
+            },
+            "fit_version": "channel-fit-v1",
+            "opportunities": [
+              {
+                "audience_promise": "A complete real-world build, including failures and guardrails.",
+                "avoid": "Do not repeat a release-note summary or generic feature list.",
+                "effort": "Medium",
+                "evidence": [
+                  "video:0",
+                  "video:5",
+                  "demand:0"
+                ],
+                "format": "18–24 minute practical test",
+                "timing_risk": "Publish inside the recommended window.",
+                "title": "The end-to-end reality of AI browser agents buying products",
+                "title_directions": [
+                  "I let AI browser agents buying products run the whole workflow",
+                  "AI browser agents buying products: what actually works",
+                  "Before you try AI browser agents buying products, watch this"
+                ],
+                "unanswered_question": "How do I stop an agent from spending money or choosing the wrong product?",
+                "why_now": "Independent adoption is accelerating before coverage becomes repetitive."
+              },
+              {
+                "audience_promise": "A decision guide focused on the risks viewers keep raising.",
+                "avoid": "Do not quote comments without their stored evidence IDs.",
+                "effort": "Low–medium",
+                "evidence": [
+                  "video:10",
+                  "demand:0"
+                ],
+                "format": "Structured comparison",
+                "timing_risk": "Fast competitors can cover the obvious version first.",
+                "title": "Guardrails, cost, and failure modes",
+                "title_directions": [
+                  "The hidden cost of AI browser agents buying products",
+                  "I stress-tested AI browser agents buying products",
+                  "AI browser agents buying products: safe setup guide"
+                ],
+                "unanswered_question": "How do I stop an agent from spending money or choosing the wrong product?",
+                "why_now": "The evidence contains demand that current demos do not resolve."
+              },
+              {
+                "audience_promise": "Atlas Labs applies the trend to a credible production task.",
+                "avoid": "Do not promise exact future performance.",
+                "effort": "High",
+                "evidence": [
+                  "video:15",
+                  "video:20",
+                  "demand:0"
+                ],
+                "format": "Challenge / build diary",
+                "timing_risk": "Scope must stay small enough to ship on time.",
+                "title": "A channel-specific workflow challenge",
+                "title_directions": [
+                  "Can AI browser agents buying products ship a real product?",
+                  "We replaced a week of work with AI browser agents buying products",
+                  "AI browser agents buying products vs our normal workflow"
+                ],
+                "unanswered_question": "How do I stop an agent from spending money or choosing the wrong product?",
+                "why_now": "The channel has strong historical fit with practical AI tool tests."
+              }
+            ],
+            "workspace_id": "bc31e161-f438-58aa-84a9-5cfdb6fc358a"
+          }
+        ]
+      },
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "AI pins",
+        "screenless AI devices"
+      ],
+      "canonical_label": "AI wearables replacing the phone",
+      "clustering_version": "demo-v1",
+      "demand_clusters": [
+        {
+          "comment_count": 185,
+          "demand_score": 68.0,
+          "distinct_channels": 10,
+          "distinct_commenters": 161,
+          "distinct_videos": 11,
+          "id": "a24f42ea-dd1c-50d8-96e0-87b4bd21916b",
+          "label": "Differentiation from smartwatches",
+          "model_version": "demo-rules-v1",
+          "taxonomy": "explicit_question"
+        }
+      ],
+      "embedding_model": "hashing-embedding-v1",
+      "embedding_version": "topic-embedding-v1",
+      "entities": [
+        "AI wearables",
+        "consumer devices"
+      ],
+      "evidence": {
+        "distinct_channels": 7,
+        "memberships": [
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "ff5389eb-1e06-5bdc-a965-0be2a094d716",
+            "evidence_role": "supporting",
+            "membership_score": 0.828,
+            "video_id": "09369e5c-9cd5-59e8-88fb-62f48f5c4774"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "b0f313c7-e4eb-50b6-b723-0e7f5b0d459e",
+            "evidence_role": "supporting",
+            "membership_score": 0.864,
+            "video_id": "0fe96cd6-501c-5c72-86ff-f339cd72733f"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "ff5389eb-1e06-5bdc-a965-0be2a094d716",
+            "evidence_role": "amplifier",
+            "membership_score": 0.936,
+            "video_id": "241d0921-c408-5973-a0c0-d10b2777ef09"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "057f19d6-1fa3-5ad8-b125-860723f0831a",
+            "evidence_role": "supporting",
+            "membership_score": 0.846,
+            "video_id": "4a07a7ed-5b80-530d-bfcc-b50b607ffb9b"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "a93804ef-38a2-5fe9-bbd1-ca2cb1f3a318",
+            "evidence_role": "supporting",
+            "membership_score": 0.882,
+            "video_id": "777237c3-d989-54cf-98b1-54bbb2a4136b"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "057f19d6-1fa3-5ad8-b125-860723f0831a",
+            "evidence_role": "amplifier",
+            "membership_score": 0.954,
+            "video_id": "92418927-ba81-57dc-9b12-288dc82db476"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "b0f313c7-e4eb-50b6-b723-0e7f5b0d459e",
+            "evidence_role": "driver",
+            "membership_score": 0.972,
+            "video_id": "aaf67915-69e0-5bd8-8cae-1319291d7012"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "433e7286-f997-5370-b130-bcd6587142d9",
+            "evidence_role": "supporting",
+            "membership_score": 0.792,
+            "video_id": "d569d1ae-cb3c-5dfa-8406-3cc4d929279c"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "433e7286-f997-5370-b130-bcd6587142d9",
+            "evidence_role": "supporting",
+            "membership_score": 0.9,
+            "video_id": "e3add679-29e0-5dcc-b83e-8db40854219c"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "a93804ef-38a2-5fe9-bbd1-ca2cb1f3a318",
+            "evidence_role": "driver",
+            "membership_score": 0.99,
+            "video_id": "f0375d5e-ea2a-5f82-84a0-405c076be0d9"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "0f072df8-54e5-5eec-af8c-90e74aae8892",
+            "evidence_role": "supporting",
+            "membership_score": 0.81,
+            "video_id": "f4691fca-23f1-516d-87cd-5a8f5e2e1bb9"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "1ebc702b-5e80-513d-82ab-20dabe82fe34",
+            "evidence_role": "amplifier",
+            "membership_score": 0.918,
+            "video_id": "f9eab700-7ccc-51f0-b558-e62472311fbb"
+          }
+        ],
+        "transcript_videos": 2,
+        "videos": 12
+      },
+      "first_confirmed_at": "2026-06-03T18:00:00Z",
+      "first_observed_at": "2026-06-01T18:00:00Z",
+      "id": "e606ab9b-b651-5a84-9930-e61b3db9d10c",
+      "latest_measurement": {
+        "aggregate_view_velocity": 4813.6,
+        "components": {
+          "momentum_index": 60.7
+        },
+        "demand_score": 68.0,
+        "distinct_channels_72h": 8,
+        "fragility_score": 34.0,
+        "id": "a32ef6bd-d139-54a7-8644-ad007f967c01",
+        "large_channel_count": 5,
+        "median_outlier_ratio": 2.25,
+        "observed_at": "2026-07-26T18:00:00Z",
+        "saturation_score": 78.0,
+        "video_count_24h": 7,
+        "video_count_72h": 15
+      },
+      "lifecycle_stage": "Mass Market",
+      "signal": {
+        "components": {
+          "audience_demand": 68,
+          "creator_diversity": 90,
+          "cross_community_spread": 84,
+          "fragility_penalty": 34,
+          "momentum": 62,
+          "novelty": 55,
+          "outlier_strength": 72,
+          "saturation_penalty": 78,
+          "search_visibility_growth": 58
+        },
+        "confidence": "Medium",
+        "evidence_version": "demo-evidence-v1",
+        "expires_at": "2026-07-29T18:00:00Z",
+        "generated_at": "2026-07-26T17:21:00Z",
+        "id": "ac37a21a-ed9d-5eff-8daa-fbdb32af41f2",
+        "lifecycle_stage": "Mass Market",
+        "opportunity_end": "2026-07-29T18:00:00Z",
+        "opportunity_start": "2026-07-27T18:00:00Z",
+        "score": 55.7,
+        "status": "active",
+        "thesis": "Always-on AI wearables are attracting broad coverage, but generic replacement-for-phone angles are already crowded.",
+        "why_emerging": [
+          "Large consumer-tech channels now contribute most new views.",
+          "Upload acceleration has flattened after launch coverage.",
+          "Differentiated accessibility and privacy angles still have room."
+        ],
+        "workspace_scores": [
+          {
+            "calculated_at": "2026-07-26T17:45:00Z",
+            "channel_fit_score": 51.0,
+            "channel_id": "a60bc696-06a8-50f0-95b8-1c9602e3ada0",
+            "fit_components": {
+              "explanation": "Atlas Labs performs best on practical AI tool tests with original evidence and can publish within this window.",
+              "format_compatibility": 48,
+              "historical_performance_similarity": 45,
+              "production_feasibility": 66,
+              "topical_relevance": 53
+            },
+            "fit_version": "channel-fit-v1",
+            "opportunities": [
+              {
+                "audience_promise": "A complete real-world build, including failures and guardrails.",
+                "avoid": "Do not repeat a release-note summary or generic feature list.",
+                "effort": "Medium",
+                "evidence": [
+                  "video:0",
+                  "video:5",
+                  "demand:0"
+                ],
+                "format": "18–24 minute practical test",
+                "timing_risk": "Publish inside the recommended window.",
+                "title": "The end-to-end reality of AI wearables replacing the phone",
+                "title_directions": [
+                  "I let AI wearables replacing the phone run the whole workflow",
+                  "AI wearables replacing the phone: what actually works",
+                  "Before you try AI wearables replacing the phone, watch this"
+                ],
+                "unanswered_question": "What can this do that a phone and smartwatch cannot already do?",
+                "why_now": "Independent adoption is accelerating before coverage becomes repetitive."
+              },
+              {
+                "audience_promise": "A decision guide focused on the risks viewers keep raising.",
+                "avoid": "Do not quote comments without their stored evidence IDs.",
+                "effort": "Low–medium",
+                "evidence": [
+                  "video:10",
+                  "demand:0"
+                ],
+                "format": "Structured comparison",
+                "timing_risk": "Fast competitors can cover the obvious version first.",
+                "title": "Guardrails, cost, and failure modes",
+                "title_directions": [
+                  "The hidden cost of AI wearables replacing the phone",
+                  "I stress-tested AI wearables replacing the phone",
+                  "AI wearables replacing the phone: safe setup guide"
+                ],
+                "unanswered_question": "What can this do that a phone and smartwatch cannot already do?",
+                "why_now": "The evidence contains demand that current demos do not resolve."
+              },
+              {
+                "audience_promise": "Atlas Labs applies the trend to a credible production task.",
+                "avoid": "Do not promise exact future performance.",
+                "effort": "High",
+                "evidence": [
+                  "video:15",
+                  "video:20",
+                  "demand:0"
+                ],
+                "format": "Challenge / build diary",
+                "timing_risk": "Scope must stay small enough to ship on time.",
+                "title": "A channel-specific workflow challenge",
+                "title_directions": [
+                  "Can AI wearables replacing the phone ship a real product?",
+                  "We replaced a week of work with AI wearables replacing the phone",
+                  "AI wearables replacing the phone vs our normal workflow"
+                ],
+                "unanswered_question": "What can this do that a phone and smartwatch cannot already do?",
+                "why_now": "The channel has strong historical fit with practical AI tool tests."
+              }
+            ],
+            "workspace_id": "bc31e161-f438-58aa-84a9-5cfdb6fc358a"
+          }
+        ]
+      },
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "Claude Code agents",
+        "autonomous coding workflows"
+      ],
+      "canonical_label": "Claude Code autonomous workflows",
+      "clustering_version": "demo-v1",
+      "demand_clusters": [
+        {
+          "comment_count": 128,
+          "demand_score": 93.0,
+          "distinct_channels": 7,
+          "distinct_commenters": 110,
+          "distinct_videos": 8,
+          "id": "448469fe-1f8c-5641-9ba8-aff38cd19bc7",
+          "label": "Private-repository safety",
+          "model_version": "demo-rules-v1",
+          "taxonomy": "explicit_question"
+        }
+      ],
+      "embedding_model": "hashing-embedding-v1",
+      "embedding_version": "topic-embedding-v1",
+      "entities": [
+        "Claude Code",
+        "AI agents",
+        "developer tools"
+      ],
+      "evidence": {
+        "distinct_channels": 7,
+        "memberships": [
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "eeb3d3a6-6ee2-5754-b424-b397127d03bb",
+            "evidence_role": "amplifier",
+            "membership_score": 0.936,
+            "video_id": "00a147a9-235d-52bf-a35e-36783b0e2334"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "3a239b2c-745a-5234-aec0-e0c0b181b03f",
+            "evidence_role": "supporting",
+            "membership_score": 0.81,
+            "video_id": "0958b8c5-c15f-50a5-902e-65df1af6ca91"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "f24cf3e3-bbd4-5df4-a597-ed976af95b70",
+            "evidence_role": "supporting",
+            "membership_score": 0.846,
+            "video_id": "19cf301d-5ffa-5d78-b8bb-e8dbb50da187"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "3d2422c9-d4a7-537c-affe-e1028bdb6f3a",
+            "evidence_role": "supporting",
+            "membership_score": 0.9,
+            "video_id": "1a337233-0224-5ec2-8bbf-46048f92d770"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "f24cf3e3-bbd4-5df4-a597-ed976af95b70",
+            "evidence_role": "amplifier",
+            "membership_score": 0.954,
+            "video_id": "272dfbee-1e25-5e40-924f-8941f48cc16d"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "94307d25-2031-5f66-99cb-25bada8f42c4",
+            "evidence_role": "supporting",
+            "membership_score": 0.864,
+            "video_id": "2c23bdab-f51a-542a-af0f-28eb2a39be88"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "eeb3d3a6-6ee2-5754-b424-b397127d03bb",
+            "evidence_role": "supporting",
+            "membership_score": 0.828,
+            "video_id": "309c9266-d740-575d-8707-c72b1bf7d07b"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "3d2422c9-d4a7-537c-affe-e1028bdb6f3a",
+            "evidence_role": "supporting",
+            "membership_score": 0.792,
+            "video_id": "931fb8e8-c13a-5554-9ed4-0ec94bfd6c60"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "bfe38f90-b96d-56d7-abd5-227f7d179d70",
+            "evidence_role": "driver",
+            "membership_score": 0.972,
+            "video_id": "9ac5f9af-7a0f-5f7f-9fbc-582fac67ada3"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "a60bc696-06a8-50f0-95b8-1c9602e3ada0",
+            "evidence_role": "driver",
+            "membership_score": 0.99,
+            "video_id": "9de6e465-6886-5fc3-8c38-8c8f0bcddd75"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "3a239b2c-745a-5234-aec0-e0c0b181b03f",
+            "evidence_role": "amplifier",
+            "membership_score": 0.918,
+            "video_id": "e5591e8f-2624-57a2-a127-a619c6099c3d"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "a60bc696-06a8-50f0-95b8-1c9602e3ada0",
+            "evidence_role": "supporting",
+            "membership_score": 0.882,
+            "video_id": "e7400b33-377b-5fe0-b167-aef048bb6fc6"
+          }
+        ],
+        "transcript_videos": 2,
+        "videos": 12
+      },
+      "first_confirmed_at": "2026-07-18T18:00:00Z",
+      "first_observed_at": "2026-07-16T18:00:00Z",
+      "id": "9f10618b-b793-55b0-a5e2-8f6a3898a4ca",
+      "latest_measurement": {
+        "aggregate_view_velocity": 12458.3,
+        "components": {
+          "momentum_index": 125.7
+        },
+        "demand_score": 93.0,
+        "distinct_channels_72h": 18,
+        "fragility_score": 16.0,
+        "id": "7524e391-381c-5813-a5be-5743d563c4cd",
+        "large_channel_count": 0,
+        "median_outlier_ratio": 3.27,
+        "observed_at": "2026-07-26T18:00:00Z",
+        "saturation_score": 20.0,
+        "video_count_24h": 15,
+        "video_count_72h": 26
+      },
+      "lifecycle_stage": "Emerging",
+      "signal": {
+        "components": {
+          "audience_demand": 93,
+          "creator_diversity": 92,
+          "cross_community_spread": 88,
+          "fragility_penalty": 16,
+          "momentum": 96,
+          "novelty": 90,
+          "outlier_strength": 97,
+          "saturation_penalty": 20,
+          "search_visibility_growth": 86
+        },
+        "confidence": "High",
+        "evidence_version": "demo-evidence-v1",
+        "expires_at": "2026-08-03T18:00:00Z",
+        "generated_at": "2026-07-26T17:42:00Z",
+        "id": "b917fb6b-c02c-55ee-8291-0e672034bcb5",
+        "lifecycle_stage": "Emerging",
+        "opportunity_end": "2026-08-03T18:00:00Z",
+        "opportunity_start": "2026-07-30T18:00:00Z",
+        "score": 88.2,
+        "status": "active",
+        "thesis": "Claude Code is moving from an experimental CLI to a reliable way to automate real development tasks end-to-end with minimal human input.",
+        "why_emerging": [
+          "Real workflow demos are accelerating across independent builder channels.",
+          "Coverage is spreading from developer specialists into productivity creators.",
+          "Viewer questions focus on safety and deployment, not basic awareness."
+        ],
+        "workspace_scores": [
+          {
+            "calculated_at": "2026-07-26T17:45:00Z",
+            "channel_fit_score": 92.0,
+            "channel_id": "a60bc696-06a8-50f0-95b8-1c9602e3ada0",
+            "fit_components": {
+              "explanation": "Atlas Labs performs best on practical AI tool tests with original evidence and can publish within this window.",
+              "format_compatibility": 89,
+              "historical_performance_similarity": 86,
+              "production_feasibility": 84,
+              "topical_relevance": 94
+            },
+            "fit_version": "channel-fit-v1",
+            "opportunities": [
+              {
+                "audience_promise": "A complete real-world build, including failures and guardrails.",
+                "avoid": "Do not repeat a release-note summary or generic feature list.",
+                "effort": "Medium",
+                "evidence": [
+                  "video:0",
+                  "video:5",
+                  "demand:0"
+                ],
+                "format": "18–24 minute practical test",
+                "timing_risk": "Publish inside the recommended window.",
+                "title": "The end-to-end reality of Claude Code autonomous workflows",
+                "title_directions": [
+                  "I let Claude Code autonomous workflows run the whole workflow",
+                  "Claude Code autonomous workflows: what actually works",
+                  "Before you try Claude Code autonomous workflows, watch this"
+                ],
+                "unanswered_question": "How do I safely let Claude Code run end-to-end on my private repos?",
+                "why_now": "Independent adoption is accelerating before coverage becomes repetitive."
+              },
+              {
+                "audience_promise": "A decision guide focused on the risks viewers keep raising.",
+                "avoid": "Do not quote comments without their stored evidence IDs.",
+                "effort": "Low–medium",
+                "evidence": [
+                  "video:10",
+                  "demand:0"
+                ],
+                "format": "Structured comparison",
+                "timing_risk": "Fast competitors can cover the obvious version first.",
+                "title": "Guardrails, cost, and failure modes",
+                "title_directions": [
+                  "The hidden cost of Claude Code autonomous workflows",
+                  "I stress-tested Claude Code autonomous workflows",
+                  "Claude Code autonomous workflows: safe setup guide"
+                ],
+                "unanswered_question": "How do I safely let Claude Code run end-to-end on my private repos?",
+                "why_now": "The evidence contains demand that current demos do not resolve."
+              },
+              {
+                "audience_promise": "Atlas Labs applies the trend to a credible production task.",
+                "avoid": "Do not promise exact future performance.",
+                "effort": "High",
+                "evidence": [
+                  "video:15",
+                  "video:20",
+                  "demand:0"
+                ],
+                "format": "Challenge / build diary",
+                "timing_risk": "Scope must stay small enough to ship on time.",
+                "title": "A channel-specific workflow challenge",
+                "title_directions": [
+                  "Can Claude Code autonomous workflows ship a real product?",
+                  "We replaced a week of work with Claude Code autonomous workflows",
+                  "Claude Code autonomous workflows vs our normal workflow"
+                ],
+                "unanswered_question": "How do I safely let Claude Code run end-to-end on my private repos?",
+                "why_now": "The channel has strong historical fit with practical AI tool tests."
+              }
+            ],
+            "workspace_id": "bc31e161-f438-58aa-84a9-5cfdb6fc358a"
+          }
+        ]
+      },
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "local AI video",
+        "consumer GPU video models"
+      ],
+      "canonical_label": "Local video generation on consumer GPUs",
+      "clustering_version": "demo-v1",
+      "demand_clusters": [
+        {
+          "comment_count": 166,
+          "demand_score": 80.0,
+          "distinct_channels": 9,
+          "distinct_commenters": 144,
+          "distinct_videos": 10,
+          "id": "0d07d26c-98f3-5ca2-b3c1-284e97bafc06",
+          "label": "Hardware-specific benchmarks",
+          "model_version": "demo-rules-v1",
+          "taxonomy": "explicit_question"
+        }
+      ],
+      "embedding_model": "hashing-embedding-v1",
+      "embedding_version": "topic-embedding-v1",
+      "entities": [
+        "AI video",
+        "GPUs",
+        "local models"
+      ],
+      "evidence": {
+        "distinct_channels": 7,
+        "memberships": [
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "55133a74-d143-5fa7-b2c7-4d5d12b3f0b6",
+            "evidence_role": "amplifier",
+            "membership_score": 0.954,
+            "video_id": "006d3181-b65a-55ed-bc19-d080247b8eb5"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "4c0bab66-ad65-5d97-90cf-96c8b6200d63",
+            "evidence_role": "supporting",
+            "membership_score": 0.792,
+            "video_id": "4915d078-27e4-5f41-b023-b4d36666d130"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "ab6d06e1-4f04-5e76-9741-7bb0b6181024",
+            "evidence_role": "supporting",
+            "membership_score": 0.882,
+            "video_id": "534d5512-2f41-5034-815a-8af16fcde1ee"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "1e730b1e-dc93-557e-bb8a-d31bdaa0a378",
+            "evidence_role": "supporting",
+            "membership_score": 0.864,
+            "video_id": "63d8062e-7ee4-5c76-9735-be7ee3deb95e"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "7eadbb03-f776-5252-8f7e-275f1eb7521f",
+            "evidence_role": "supporting",
+            "membership_score": 0.828,
+            "video_id": "686ac396-1454-515b-b6ea-8dfa8f8f0c90"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "55133a74-d143-5fa7-b2c7-4d5d12b3f0b6",
+            "evidence_role": "supporting",
+            "membership_score": 0.846,
+            "video_id": "6e750d69-f9ec-59c3-9455-bd372bd8f304"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "4c0bab66-ad65-5d97-90cf-96c8b6200d63",
+            "evidence_role": "supporting",
+            "membership_score": 0.9,
+            "video_id": "881ab831-4900-51c7-abae-ed3d73c97e0f"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "ab6d06e1-4f04-5e76-9741-7bb0b6181024",
+            "evidence_role": "driver",
+            "membership_score": 0.99,
+            "video_id": "954420f7-5a91-5c8f-806d-c7fc24c0cbba"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "1e730b1e-dc93-557e-bb8a-d31bdaa0a378",
+            "evidence_role": "driver",
+            "membership_score": 0.972,
+            "video_id": "9ae5d649-8f45-54a7-b834-540e768caf34"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "e40d1c52-2e04-53a5-9a7c-4bf33db02991",
+            "evidence_role": "amplifier",
+            "membership_score": 0.936,
+            "video_id": "9bbce3f9-cda2-512a-bd5c-91e5b12921e9"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "0e9c4c74-0995-5811-a868-f423dd06f806",
+            "evidence_role": "supporting",
+            "membership_score": 0.81,
+            "video_id": "b226e50d-6dba-59be-965d-0bb2dad76069"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "0e9c4c74-0995-5811-a868-f423dd06f806",
+            "evidence_role": "amplifier",
+            "membership_score": 0.918,
+            "video_id": "ffb1baa8-029d-5910-96dc-aa83b4d894a3"
+          }
+        ],
+        "transcript_videos": 2,
+        "videos": 12
+      },
+      "first_confirmed_at": "2026-07-21T18:00:00Z",
+      "first_observed_at": "2026-07-19T18:00:00Z",
+      "id": "84afd031-7568-5270-a893-48efff810991",
+      "latest_measurement": {
+        "aggregate_view_velocity": 10797.2,
+        "components": {
+          "momentum_index": 125.7
+        },
+        "demand_score": 80.0,
+        "distinct_channels_72h": 18,
+        "fragility_score": 36.0,
+        "id": "5fa39b6b-6b6f-585d-b5bb-23ee6e085f09",
+        "large_channel_count": 3,
+        "median_outlier_ratio": 3.27,
+        "observed_at": "2026-07-26T18:00:00Z",
+        "saturation_score": 15.0,
+        "video_count_24h": 13,
+        "video_count_72h": 28
+      },
+      "lifecycle_stage": "Seed",
+      "signal": {
+        "components": {
+          "audience_demand": 80,
+          "creator_diversity": 72,
+          "cross_community_spread": 64,
+          "fragility_penalty": 36,
+          "momentum": 70,
+          "novelty": 92,
+          "outlier_strength": 84,
+          "saturation_penalty": 15,
+          "search_visibility_growth": 68
+        },
+        "confidence": "Medium",
+        "evidence_version": "demo-evidence-v1",
+        "expires_at": "2026-08-09T18:00:00Z",
+        "generated_at": "2026-07-26T17:28:00Z",
+        "id": "1d1033ea-b6e6-5282-a63c-f24e4a161411",
+        "lifecycle_stage": "Seed",
+        "opportunity_end": "2026-08-09T18:00:00Z",
+        "opportunity_start": "2026-08-02T18:00:00Z",
+        "score": 70.2,
+        "status": "active",
+        "thesis": "New compressed video models are making useful local generation plausible on consumer graphics cards, but setup evidence is still fragmented.",
+        "why_emerging": [
+          "Small technical channels are publishing reproducible benchmarks.",
+          "Search appearances are rising from a low base.",
+          "Demand concentrates on hardware-specific settings and quality tradeoffs."
+        ],
+        "workspace_scores": [
+          {
+            "calculated_at": "2026-07-26T17:45:00Z",
+            "channel_fit_score": 78.0,
+            "channel_id": "a60bc696-06a8-50f0-95b8-1c9602e3ada0",
+            "fit_components": {
+              "explanation": "Atlas Labs performs best on practical AI tool tests with original evidence and can publish within this window.",
+              "format_compatibility": 75,
+              "historical_performance_similarity": 72,
+              "production_feasibility": 72,
+              "topical_relevance": 80
+            },
+            "fit_version": "channel-fit-v1",
+            "opportunities": [
+              {
+                "audience_promise": "A complete real-world build, including failures and guardrails.",
+                "avoid": "Do not repeat a release-note summary or generic feature list.",
+                "effort": "Medium",
+                "evidence": [
+                  "video:0",
+                  "video:5",
+                  "demand:0"
+                ],
+                "format": "18–24 minute practical test",
+                "timing_risk": "Publish inside the recommended window.",
+                "title": "The end-to-end reality of Local video generation on consumer GPUs",
+                "title_directions": [
+                  "I let Local video generation on consumer GPUs run the whole workflow",
+                  "Local video generation on consumer GPUs: what actually works",
+                  "Before you try Local video generation on consumer GPUs, watch this"
+                ],
+                "unanswered_question": "What settings actually work for consistent 1080p video on a 16 GB GPU?",
+                "why_now": "Independent adoption is accelerating before coverage becomes repetitive."
+              },
+              {
+                "audience_promise": "A decision guide focused on the risks viewers keep raising.",
+                "avoid": "Do not quote comments without their stored evidence IDs.",
+                "effort": "Low–medium",
+                "evidence": [
+                  "video:10",
+                  "demand:0"
+                ],
+                "format": "Structured comparison",
+                "timing_risk": "Fast competitors can cover the obvious version first.",
+                "title": "Guardrails, cost, and failure modes",
+                "title_directions": [
+                  "The hidden cost of Local video generation on consumer GPUs",
+                  "I stress-tested Local video generation on consumer GPUs",
+                  "Local video generation on consumer GPUs: safe setup guide"
+                ],
+                "unanswered_question": "What settings actually work for consistent 1080p video on a 16 GB GPU?",
+                "why_now": "The evidence contains demand that current demos do not resolve."
+              },
+              {
+                "audience_promise": "Atlas Labs applies the trend to a credible production task.",
+                "avoid": "Do not promise exact future performance.",
+                "effort": "High",
+                "evidence": [
+                  "video:15",
+                  "video:20",
+                  "demand:0"
+                ],
+                "format": "Challenge / build diary",
+                "timing_risk": "Scope must stay small enough to ship on time.",
+                "title": "A channel-specific workflow challenge",
+                "title_directions": [
+                  "Can Local video generation on consumer GPUs ship a real product?",
+                  "We replaced a week of work with Local video generation on consumer GPUs",
+                  "Local video generation on consumer GPUs vs our normal workflow"
+                ],
+                "unanswered_question": "What settings actually work for consistent 1080p video on a 16 GB GPU?",
+                "why_now": "The channel has strong historical fit with practical AI tool tests."
+              }
+            ],
+            "workspace_id": "bc31e161-f438-58aa-84a9-5cfdb6fc358a"
+          }
+        ]
+      },
+      "status": "active"
+    },
+    {
+      "aliases": [
+        "open reasoning models",
+        "reasoning benchmark videos"
+      ],
+      "canonical_label": "Open-weight reasoning model benchmarks",
+      "clustering_version": "demo-v1",
+      "demand_clusters": [
+        {
+          "comment_count": 204,
+          "demand_score": 64.0,
+          "distinct_channels": 11,
+          "distinct_commenters": 178,
+          "distinct_videos": 12,
+          "id": "6cbca4f1-06cf-5707-88bd-fa41739ead09",
+          "label": "Real-world proof",
+          "model_version": "demo-rules-v1",
+          "taxonomy": "test_or_proof_request"
+        }
+      ],
+      "embedding_model": "hashing-embedding-v1",
+      "embedding_version": "topic-embedding-v1",
+      "entities": [
+        "open-weight models",
+        "benchmarks"
+      ],
+      "evidence": {
+        "distinct_channels": 7,
+        "memberships": [
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "b1253081-23d4-5f9c-87e2-49ecdedf5a30",
+            "evidence_role": "supporting",
+            "membership_score": 0.9,
+            "video_id": "03bcb3e0-8b96-5007-9d22-9babfc7cb8b0"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "38cbe34e-4baa-5d23-bc90-052e41556e2b",
+            "evidence_role": "driver",
+            "membership_score": 0.972,
+            "video_id": "232f33cf-3b5f-5c64-b293-ab810db4a165"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "2712ea0f-1d0f-5044-a95e-d671a296dcea",
+            "evidence_role": "supporting",
+            "membership_score": 0.828,
+            "video_id": "2e32c565-d2f7-5ce5-939d-3473791d0638"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "98bd93f7-63f5-5e66-a6ad-23a77e7fd88c",
+            "evidence_role": "supporting",
+            "membership_score": 0.81,
+            "video_id": "43a36389-7c7c-5d68-863b-a803832e5c7c"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "1e9901dc-a979-5da5-b0ae-c951a3b80de7",
+            "evidence_role": "supporting",
+            "membership_score": 0.846,
+            "video_id": "4c14c730-cbc8-5d13-8568-5e4b90e974c1"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "1e9901dc-a979-5da5-b0ae-c951a3b80de7",
+            "evidence_role": "amplifier",
+            "membership_score": 0.954,
+            "video_id": "946b2d44-aa48-5c9e-870f-615c3650a0a7"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "98bd93f7-63f5-5e66-a6ad-23a77e7fd88c",
+            "evidence_role": "amplifier",
+            "membership_score": 0.918,
+            "video_id": "9db372ba-fb42-5bfa-8f76-0c6217d5c879"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "38cbe34e-4baa-5d23-bc90-052e41556e2b",
+            "evidence_role": "supporting",
+            "membership_score": 0.864,
+            "video_id": "c29f5a35-4b9e-5bd9-b914-3fda87b9bf05"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "fe40710a-cdc7-5f57-b33a-3b8d23eba5b1",
+            "evidence_role": "supporting",
+            "membership_score": 0.792,
+            "video_id": "ca9643a6-56a2-5051-bd02-4190314b5e33"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "3a8600a4-8a80-5eb7-87ce-13bd10a7151b",
+            "evidence_role": "supporting",
+            "membership_score": 0.882,
+            "video_id": "caeebb34-01dc-5019-894c-6c9fbdb8f472"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "2712ea0f-1d0f-5044-a95e-d671a296dcea",
+            "evidence_role": "amplifier",
+            "membership_score": 0.936,
+            "video_id": "dde1c90d-5a61-5d30-8e6a-826bd2ae1390"
+          },
+          {
+            "assignment_method": "demo_entity_embedding",
+            "channel_id": "3a8600a4-8a80-5eb7-87ce-13bd10a7151b",
+            "evidence_role": "driver",
+            "membership_score": 0.99,
+            "video_id": "f4dae642-ffd4-593c-961d-964269cccfcd"
+          }
+        ],
+        "transcript_videos": 2,
+        "videos": 12
+      },
+      "first_confirmed_at": "2026-05-09T18:00:00Z",
+      "first_observed_at": "2026-05-07T18:00:00Z",
+      "id": "cbb83185-421b-5f80-83c6-18fadebe0c2d",
+      "latest_measurement": {
+        "aggregate_view_velocity": 4412.4,
+        "components": {
+          "momentum_index": 60.7
+        },
+        "demand_score": 64.0,
+        "distinct_channels_72h": 8,
+        "fragility_score": 28.0,
+        "id": "0f1f3e0a-54c4-50f6-b885-b8fb852394e7",
+        "large_channel_count": 7,
+        "median_outlier_ratio": 2.25,
+        "observed_at": "2026-07-26T18:00:00Z",
+        "saturation_score": 92.0,
+        "video_count_24h": 6,
+        "video_count_72h": 16
+      },
+      "lifecycle_stage": "Saturated",
+      "signal": {
+        "components": {
+          "audience_demand": 64,
+          "creator_diversity": 94,
+          "cross_community_spread": 82,
+          "fragility_penalty": 28,
+          "momentum": 48,
+          "novelty": 38,
+          "outlier_strength": 60,
+          "saturation_penalty": 92,
+          "search_visibility_growth": 34
+        },
+        "confidence": "High",
+        "evidence_version": "demo-evidence-v1",
+        "expires_at": "2026-07-28T18:00:00Z",
+        "generated_at": "2026-07-26T17:14:00Z",
+        "id": "cd59fdf1-b9d7-5d1e-bf32-77a9121b43d6",
+        "lifecycle_stage": "Saturated",
+        "opportunity_end": "2026-07-28T18:00:00Z",
+        "opportunity_start": "2026-07-26T18:00:00Z",
+        "score": 44.9,
+        "status": "active",
+        "thesis": "Benchmark comparisons remain popular, but repeated leaderboard summaries offer little novelty and now require a distinct real-world test to win.",
+        "why_emerging": [
+          "Search results are dominated by established AI channels.",
+          "Title and angle diversity has collapsed around identical benchmarks.",
+          "New uploads underperform channel baselines unless they add original tests."
+        ],
+        "workspace_scores": [
+          {
+            "calculated_at": "2026-07-26T17:45:00Z",
+            "channel_fit_score": 66.0,
+            "channel_id": "a60bc696-06a8-50f0-95b8-1c9602e3ada0",
+            "fit_components": {
+              "explanation": "Atlas Labs performs best on practical AI tool tests with original evidence and can publish within this window.",
+              "format_compatibility": 63,
+              "historical_performance_similarity": 60,
+              "production_feasibility": 60,
+              "topical_relevance": 68
+            },
+            "fit_version": "channel-fit-v1",
+            "opportunities": [
+              {
+                "audience_promise": "A complete real-world build, including failures and guardrails.",
+                "avoid": "Do not repeat a release-note summary or generic feature list.",
+                "effort": "Medium",
+                "evidence": [
+                  "video:0",
+                  "video:5",
+                  "demand:0"
+                ],
+                "format": "18–24 minute practical test",
+                "timing_risk": "Publish inside the recommended window.",
+                "title": "The end-to-end reality of Open-weight reasoning model benchmarks",
+                "title_directions": [
+                  "I let Open-weight reasoning model benchmarks run the whole workflow",
+                  "Open-weight reasoning model benchmarks: what actually works",
+                  "Before you try Open-weight reasoning model benchmarks, watch this"
+                ],
+                "unanswered_question": "Can someone test these models on a real project instead of another leaderboard?",
+                "why_now": "Independent adoption is accelerating before coverage becomes repetitive."
+              },
+              {
+                "audience_promise": "A decision guide focused on the risks viewers keep raising.",
+                "avoid": "Do not quote comments without their stored evidence IDs.",
+                "effort": "Low–medium",
+                "evidence": [
+                  "video:10",
+                  "demand:0"
+                ],
+                "format": "Structured comparison",
+                "timing_risk": "Fast competitors can cover the obvious version first.",
+                "title": "Guardrails, cost, and failure modes",
+                "title_directions": [
+                  "The hidden cost of Open-weight reasoning model benchmarks",
+                  "I stress-tested Open-weight reasoning model benchmarks",
+                  "Open-weight reasoning model benchmarks: safe setup guide"
+                ],
+                "unanswered_question": "Can someone test these models on a real project instead of another leaderboard?",
+                "why_now": "The evidence contains demand that current demos do not resolve."
+              },
+              {
+                "audience_promise": "Atlas Labs applies the trend to a credible production task.",
+                "avoid": "Do not promise exact future performance.",
+                "effort": "High",
+                "evidence": [
+                  "video:15",
+                  "video:20",
+                  "demand:0"
+                ],
+                "format": "Challenge / build diary",
+                "timing_risk": "Scope must stay small enough to ship on time.",
+                "title": "A channel-specific workflow challenge",
+                "title_directions": [
+                  "Can Open-weight reasoning model benchmarks ship a real product?",
+                  "We replaced a week of work with Open-weight reasoning model benchmarks",
+                  "Open-weight reasoning model benchmarks vs our normal workflow"
+                ],
+                "unanswered_question": "Can someone test these models on a real project instead of another leaderboard?",
+                "why_now": "The channel has strong historical fit with practical AI tool tests."
+              }
+            ],
+            "workspace_id": "bc31e161-f438-58aa-84a9-5cfdb6fc358a"
+          }
+        ]
+      },
+      "status": "active"
+    }
+  ]
+}

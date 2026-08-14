@@ -1,0 +1,31 @@
+{
+  "kind": "youtube#commentThreadListResponse",
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  },
+  "items": [
+    {
+      "kind": "youtube#commentThread",
+      "id": "fixture-thread-1",
+      "snippet": {
+        "videoId": "abc123xyz89",
+        "totalReplyCount": 4,
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "id": "fixture-comment-1",
+          "snippet": {
+            "textOriginal": "Can you compare the local setup cost with the hosted option?",
+            "authorDisplayName": "Fixture Author",
+            "authorChannelId": {
+              "value": "UC_FIXTURE_COMMENTER"
+            },
+            "likeCount": 37,
+            "publishedAt": "2026-07-26T08:30:00Z",
+            "updatedAt": "2026-07-26T09:00:00Z"
+          }
+        }
+      }
+    }
+  ]
+}

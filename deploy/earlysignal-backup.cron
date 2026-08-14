@@ -1,0 +1,1 @@
+17 3 * * * root /opt/earlysignal/scripts/production_backup.sh >> /var/log/earlysignal-backup.log 2>&1

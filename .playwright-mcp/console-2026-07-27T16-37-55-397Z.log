@@ -1,0 +1,12 @@
+[     853ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://45.129.124.109/favicon.ico:0
+[     981ms] TypeError: crypto.randomUUID is not a function
+    at http://earlysignal:kW4C7Jf6peGWT6PefNsiM0@45.129.124.109/_next/static/chunks/2iu1gxn_wgwus.js:1:19762
+    at iv (http://earlysignal:kW4C7Jf6peGWT6PefNsiM0@45.129.124.109/_next/static/chunks/25o46h8mdjlrg.js:1:102970)
+    at up (http://earlysignal:kW4C7Jf6peGWT6PefNsiM0@45.129.124.109/_next/static/chunks/25o46h8mdjlrg.js:1:127009)
+    at ud (http://earlysignal:kW4C7Jf6peGWT6PefNsiM0@45.129.124.109/_next/static/chunks/25o46h8mdjlrg.js:1:126671)
+    at up (http://earlysignal:kW4C7Jf6peGWT6PefNsiM0@45.129.124.109/_next/static/chunks/25o46h8mdjlrg.js:1:127054)
+    at ud (http://earlysignal:kW4C7Jf6peGWT6PefNsiM0@45.129.124.109/_next/static/chunks/25o46h8mdjlrg.js:1:126671)
+    at up (http://earlysignal:kW4C7Jf6peGWT6PefNsiM0@45.129.124.109/_next/static/chunks/25o46h8mdjlrg.js:1:127054)
+    at ud (http://earlysignal:kW4C7Jf6peGWT6PefNsiM0@45.129.124.109/_next/static/chunks/25o46h8mdjlrg.js:1:126671)
+    at up (http://earlysignal:kW4C7Jf6peGWT6PefNsiM0@45.129.124.109/_next/static/chunks/25o46h8mdjlrg.js:1:126989)
+    at ud (http://earlysignal:kW4C7Jf6peGWT6PefNsiM0@45.129.124.109/_next/static/chunks/25o46h8mdjlrg.js:1:126671)

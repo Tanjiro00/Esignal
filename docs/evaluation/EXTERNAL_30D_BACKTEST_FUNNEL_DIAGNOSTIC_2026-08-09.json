@@ -1,0 +1,555 @@
+{
+  "checkpoints": [
+    {
+      "checkpoint_at": "2024-10-14T23:59:59+00:00",
+      "fired_topic_count": 0,
+      "raw_topic_count": 1,
+      "reason_counts": {
+        "broad_domain_or_facet_only": 1,
+        "specificity_below_visible_floor": 1
+      },
+      "split": "train",
+      "topics": [
+        {
+          "distinct_channels": 6,
+          "fired": false,
+          "key": "micro-v5-afe9d530e9a94a211a",
+          "label": "Developer tools: deliver a measurable practical outcome for AI practitioners",
+          "lead_days": null,
+          "max_supply_growth": 6.0,
+          "median_outlier": 2.3970295517053373,
+          "peak_lift": 2.4903,
+          "reason_codes": [
+            "broad_domain_or_facet_only",
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 50.0,
+          "supply_72h": 0,
+          "titles": [
+            "DRAGON BALL: Sparking! ZERO - IGNITE THE SPARK Trailer - Reaction!",
+            "Laine explains declining surgery; describes 'miserable' and 'emotional' reaction to injury",
+            "aita wedding drama that will ruffle your feathers - REACTION",
+            "Vivian Dsena Most Shocking Reaction On Entry In Bigg Boss Says Ghar Ke Andar Mai.. | Throwback",
+            "#ananavarro reacts to former Pres. Trump pushing false claims about #FEMA disaster funds. #theview"
+          ],
+          "video_count": 6,
+          "visible": false
+        }
+      ],
+      "visible_topic_count": 0
+    },
+    {
+      "checkpoint_at": "2024-10-19T23:59:59+00:00",
+      "fired_topic_count": 0,
+      "raw_topic_count": 1,
+      "reason_counts": {
+        "broad_domain_or_facet_only": 1,
+        "specificity_below_visible_floor": 1
+      },
+      "split": "train",
+      "topics": [
+        {
+          "distinct_channels": 6,
+          "fired": false,
+          "key": "micro-v5-afe9d530e9a94a211a",
+          "label": "Developer tools: deliver a measurable practical outcome for AI practitioners",
+          "lead_days": null,
+          "max_supply_growth": 6.0,
+          "median_outlier": 2.412904374842287,
+          "peak_lift": 2.4903,
+          "reason_codes": [
+            "broad_domain_or_facet_only",
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 50.0,
+          "supply_72h": 0,
+          "titles": [
+            "DRAGON BALL: Sparking! ZERO - IGNITE THE SPARK Trailer - Reaction!",
+            "Laine explains declining surgery; describes 'miserable' and 'emotional' reaction to injury",
+            "aita wedding drama that will ruffle your feathers - REACTION",
+            "Vivian Dsena Most Shocking Reaction On Entry In Bigg Boss Says Ghar Ke Andar Mai.. | Throwback",
+            "#ananavarro reacts to former Pres. Trump pushing false claims about #FEMA disaster funds. #theview"
+          ],
+          "video_count": 6,
+          "visible": false
+        }
+      ],
+      "visible_topic_count": 0
+    },
+    {
+      "checkpoint_at": "2024-10-24T23:59:59+00:00",
+      "fired_topic_count": 0,
+      "raw_topic_count": 1,
+      "reason_counts": {
+        "broad_domain_or_facet_only": 1,
+        "specificity_below_visible_floor": 1
+      },
+      "split": "train",
+      "topics": [
+        {
+          "distinct_channels": 6,
+          "fired": false,
+          "key": "micro-v5-afe9d530e9a94a211a",
+          "label": "Developer tools: deliver a measurable practical outcome for AI practitioners",
+          "lead_days": null,
+          "max_supply_growth": 16.0,
+          "median_outlier": 2.454065612222977,
+          "peak_lift": 2.4903,
+          "reason_codes": [
+            "broad_domain_or_facet_only",
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 50.0,
+          "supply_72h": 0,
+          "titles": [
+            "DRAGON BALL: Sparking! ZERO - IGNITE THE SPARK Trailer - Reaction!",
+            "Laine explains declining surgery; describes 'miserable' and 'emotional' reaction to injury",
+            "aita wedding drama that will ruffle your feathers - REACTION",
+            "Vivian Dsena Most Shocking Reaction On Entry In Bigg Boss Says Ghar Ke Andar Mai.. | Throwback",
+            "#ananavarro reacts to former Pres. Trump pushing false claims about #FEMA disaster funds. #theview"
+          ],
+          "video_count": 6,
+          "visible": false
+        }
+      ],
+      "visible_topic_count": 0
+    },
+    {
+      "checkpoint_at": "2024-10-29T23:59:59+00:00",
+      "fired_topic_count": 0,
+      "raw_topic_count": 2,
+      "reason_counts": {
+        "broad_domain_or_facet_only": 1,
+        "missing_product_anchor": 1,
+        "specificity_below_visible_floor": 2
+      },
+      "split": "train",
+      "topics": [
+        {
+          "distinct_channels": 7,
+          "fired": false,
+          "key": "micro-v5-afe9d530e9a94a211a",
+          "label": "Developer tools: deliver a measurable practical outcome for AI practitioners",
+          "lead_days": null,
+          "max_supply_growth": 16.0,
+          "median_outlier": 2.135082114231265,
+          "peak_lift": 2.4903,
+          "reason_codes": [
+            "broad_domain_or_facet_only",
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 50.0,
+          "supply_72h": 1,
+          "titles": [
+            "DRAGON BALL: Sparking! ZERO - IGNITE THE SPARK Trailer - Reaction!",
+            "Laine explains declining surgery; describes 'miserable' and 'emotional' reaction to injury",
+            "aita wedding drama that will ruffle your feathers - REACTION",
+            "Vivian Dsena Most Shocking Reaction On Entry In Bigg Boss Says Ghar Ke Andar Mai.. | Throwback",
+            "#ananavarro reacts to former Pres. Trump pushing false claims about #FEMA disaster funds. #theview"
+          ],
+          "video_count": 7,
+          "visible": false
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v5-2f445f64e184946346",
+          "label": "Developer tools: deliver a measurable practical outcome for AI practitioners",
+          "lead_days": null,
+          "max_supply_growth": 2.0,
+          "median_outlier": 1.2980063755502707,
+          "peak_lift": 1.3017,
+          "reason_codes": [
+            "missing_product_anchor",
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 60.0,
+          "supply_72h": 0,
+          "titles": [
+            "Golden State Warriors vs Portland Trail Blazers | Live Play-By-Play & Reactions"
+          ],
+          "video_count": 1,
+          "visible": false
+        }
+      ],
+      "visible_topic_count": 0
+    },
+    {
+      "checkpoint_at": "2024-11-03T23:59:59+00:00",
+      "fired_topic_count": 0,
+      "raw_topic_count": 2,
+      "reason_counts": {
+        "broad_domain_or_facet_only": 1,
+        "missing_product_anchor": 1,
+        "specificity_below_visible_floor": 2
+      },
+      "split": "train",
+      "topics": [
+        {
+          "distinct_channels": 5,
+          "fired": false,
+          "key": "micro-v5-afe9d530e9a94a211a",
+          "label": "Developer tools: deliver a measurable practical outcome for AI practitioners",
+          "lead_days": null,
+          "max_supply_growth": 16.0,
+          "median_outlier": 2.1425929039852027,
+          "peak_lift": 2.4903,
+          "reason_codes": [
+            "broad_domain_or_facet_only",
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 50.0,
+          "supply_72h": 0,
+          "titles": [
+            "aita wedding drama that will ruffle your feathers - REACTION",
+            "Vivian Dsena Most Shocking Reaction On Entry In Bigg Boss Says Ghar Ke Andar Mai.. | Throwback",
+            "#ananavarro reacts to former Pres. Trump pushing false claims about #FEMA disaster funds. #theview",
+            "Decoding elections LIVE: BJP’s stunning performance in Haryana and NC back in J&K",
+            "PFT Reacts To The Commanders Hail Mary - Barstool Rundown - October 28th, 2024"
+          ],
+          "video_count": 5,
+          "visible": false
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v5-2f445f64e184946346",
+          "label": "Developer tools: deliver a measurable practical outcome for AI practitioners",
+          "lead_days": null,
+          "max_supply_growth": 2.0,
+          "median_outlier": 1.2991572767730328,
+          "peak_lift": 1.3017,
+          "reason_codes": [
+            "missing_product_anchor",
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 60.0,
+          "supply_72h": 0,
+          "titles": [
+            "Golden State Warriors vs Portland Trail Blazers | Live Play-By-Play & Reactions"
+          ],
+          "video_count": 1,
+          "visible": false
+        }
+      ],
+      "visible_topic_count": 0
+    },
+    {
+      "checkpoint_at": "2024-11-08T23:59:59+00:00",
+      "fired_topic_count": 0,
+      "raw_topic_count": 2,
+      "reason_counts": {
+        "broad_domain_or_facet_only": 1,
+        "missing_product_anchor": 1,
+        "specificity_below_visible_floor": 2
+      },
+      "split": "train",
+      "topics": [
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v5-2f445f64e184946346",
+          "label": "Developer tools: deliver a measurable practical outcome for AI practitioners",
+          "lead_days": null,
+          "max_supply_growth": 2.0,
+          "median_outlier": 1.3005712842849477,
+          "peak_lift": 1.3017,
+          "reason_codes": [
+            "missing_product_anchor",
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 60.0,
+          "supply_72h": 0,
+          "titles": [
+            "Golden State Warriors vs Portland Trail Blazers | Live Play-By-Play & Reactions"
+          ],
+          "video_count": 1,
+          "visible": false
+        },
+        {
+          "distinct_channels": 4,
+          "fired": false,
+          "key": "micro-v5-afe9d530e9a94a211a",
+          "label": "Developer tools: deliver a measurable practical outcome for AI practitioners",
+          "lead_days": null,
+          "max_supply_growth": 5.3333,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0307,
+          "reason_codes": [
+            "broad_domain_or_facet_only",
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 50.0,
+          "supply_72h": 3,
+          "titles": [
+            "PFT Reacts To The Commanders Hail Mary - Barstool Rundown - October 28th, 2024",
+            "Samantha Prabhu‘s reaction to Neha Dhupia is just too sweet! Wait for it..😍",
+            "Aizen Being Aizen | Bleach: TYBW - Part 3 - Episode 31 | Reaction",
+            "Rukmini Vasanth Funny Reactions To Memes | Appudo Ippudo Eppudo | Nikhil Siddharth | Daily Culture",
+            "Rukmini Vasanth Reacts On NTR & Prasanth Neel Movie | #NTR31 | Daily Culture"
+          ],
+          "video_count": 5,
+          "visible": false
+        }
+      ],
+      "visible_topic_count": 0
+    },
+    {
+      "checkpoint_at": "2024-11-13T23:59:59+00:00",
+      "fired_topic_count": 0,
+      "raw_topic_count": 4,
+      "reason_counts": {
+        "broad_domain_or_facet_only": 3,
+        "missing_product_anchor": 1,
+        "specificity_below_visible_floor": 4
+      },
+      "split": "holdout",
+      "topics": [
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v5-2f445f64e184946346",
+          "label": "Developer tools: deliver a measurable practical outcome for AI practitioners",
+          "lead_days": null,
+          "max_supply_growth": 2.0,
+          "median_outlier": 1.3014297888457533,
+          "peak_lift": 1.3017,
+          "reason_codes": [
+            "missing_product_anchor",
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 60.0,
+          "supply_72h": 0,
+          "titles": [
+            "Golden State Warriors vs Portland Trail Blazers | Live Play-By-Play & Reactions"
+          ],
+          "video_count": 1,
+          "visible": false
+        },
+        {
+          "distinct_channels": 11,
+          "fired": false,
+          "key": "micro-v5-afe9d530e9a94a211a",
+          "label": "Developer tools: deliver a measurable practical outcome for AI practitioners",
+          "lead_days": null,
+          "max_supply_growth": 4.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0307,
+          "reason_codes": [
+            "broad_domain_or_facet_only",
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 50.0,
+          "supply_72h": 4,
+          "titles": [
+            "PFT Reacts To The Commanders Hail Mary - Barstool Rundown - October 28th, 2024",
+            "Samantha Prabhu‘s reaction to Neha Dhupia is just too sweet! Wait for it..😍",
+            "Aizen Being Aizen | Bleach: TYBW - Part 3 - Episode 31 | Reaction",
+            "Rukmini Vasanth Funny Reactions To Memes | Appudo Ippudo Eppudo | Nikhil Siddharth | Daily Culture",
+            "Rukmini Vasanth Reacts On NTR & Prasanth Neel Movie | #NTR31 | Daily Culture"
+          ],
+          "video_count": 15,
+          "visible": false
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v5-794ea369501ad3b736",
+          "label": "ChatGPT: deliver a measurable practical outcome for AI practitioners",
+          "lead_days": null,
+          "max_supply_growth": 0.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "broad_domain_or_facet_only",
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 49.0,
+          "supply_72h": 0,
+          "titles": [
+            "🚀Mein BESTER Workflow für ChatGPT Search!"
+          ],
+          "video_count": 1,
+          "visible": false
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v5-23d0fb82fcc853233b",
+          "label": "Chinese AI models: deliver a measurable practical outcome for AI practitioners",
+          "lead_days": null,
+          "max_supply_growth": 1.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "broad_domain_or_facet_only",
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 44.0,
+          "supply_72h": 1,
+          "titles": [
+            "PLA Troop Beaten, US VBAT UAV India, Akash Export To Armenia, China Air Show | Defence Updates #2515"
+          ],
+          "video_count": 1,
+          "visible": false
+        }
+      ],
+      "visible_topic_count": 0
+    },
+    {
+      "checkpoint_at": "2024-11-18T23:59:59+00:00",
+      "fired_topic_count": 0,
+      "raw_topic_count": 6,
+      "reason_counts": {
+        "broad_domain_or_facet_only": 5,
+        "missing_product_anchor": 2,
+        "specificity_below_visible_floor": 6
+      },
+      "split": "holdout",
+      "topics": [
+        {
+          "distinct_channels": 2,
+          "fired": false,
+          "key": "micro-v5-2f445f64e184946346",
+          "label": "Developer tools: deliver a measurable practical outcome for AI practitioners",
+          "lead_days": null,
+          "max_supply_growth": 1.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0674,
+          "reason_codes": [
+            "missing_product_anchor",
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 66.0,
+          "supply_72h": 2,
+          "titles": [
+            "Golden State Warriors vs Portland Trail Blazers | Live Play-By-Play & Reactions",
+            "Dragon Ball Daima Episode 6 REACTION | GOKU VS GLORIO !",
+            "Dragon Ball Daima Episode 6 REACTION | GOKU VS MAGIC !!"
+          ],
+          "video_count": 3,
+          "visible": false
+        },
+        {
+          "distinct_channels": 14,
+          "fired": false,
+          "key": "micro-v5-afe9d530e9a94a211a",
+          "label": "Developer tools: deliver a measurable practical outcome for AI practitioners",
+          "lead_days": null,
+          "max_supply_growth": 4.0,
+          "median_outlier": 1.0049566294919454,
+          "peak_lift": 1.0307,
+          "reason_codes": [
+            "broad_domain_or_facet_only",
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 50.0,
+          "supply_72h": 4,
+          "titles": [
+            "PFT Reacts To The Commanders Hail Mary - Barstool Rundown - October 28th, 2024",
+            "Samantha Prabhu‘s reaction to Neha Dhupia is just too sweet! Wait for it..😍",
+            "Aizen Being Aizen | Bleach: TYBW - Part 3 - Episode 31 | Reaction",
+            "Rukmini Vasanth Funny Reactions To Memes | Appudo Ippudo Eppudo | Nikhil Siddharth | Daily Culture",
+            "Rukmini Vasanth Reacts On NTR & Prasanth Neel Movie | #NTR31 | Daily Culture"
+          ],
+          "video_count": 19,
+          "visible": false
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v5-794ea369501ad3b736",
+          "label": "ChatGPT: deliver a measurable practical outcome for AI practitioners",
+          "lead_days": null,
+          "max_supply_growth": 0.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "broad_domain_or_facet_only",
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 49.0,
+          "supply_72h": 0,
+          "titles": [
+            "🚀Mein BESTER Workflow für ChatGPT Search!"
+          ],
+          "video_count": 1,
+          "visible": false
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v5-23d0fb82fcc853233b",
+          "label": "Chinese AI models: deliver a measurable practical outcome for AI practitioners",
+          "lead_days": null,
+          "max_supply_growth": 0.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "broad_domain_or_facet_only",
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 44.0,
+          "supply_72h": 0,
+          "titles": [
+            "PLA Troop Beaten, US VBAT UAV India, Akash Export To Armenia, China Air Show | Defence Updates #2515"
+          ],
+          "video_count": 1,
+          "visible": false
+        },
+        {
+          "distinct_channels": 2,
+          "fired": false,
+          "key": "micro-v5-74add7c763547ad585",
+          "label": "Developer tools: deliver a measurable practical outcome for AI practitioners",
+          "lead_days": null,
+          "max_supply_growth": 0.0,
+          "median_outlier": 1.0080321285140563,
+          "peak_lift": 1.025,
+          "reason_codes": [
+            "missing_product_anchor",
+            "broad_domain_or_facet_only",
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 47.0,
+          "supply_72h": 1,
+          "titles": [
+            "Lety Does Reacting to “Avatar: The Last Airbender” Season 1, Episode 4, “Into the Dark”",
+            "Avatar The Last Airbender S2 EP: 7-8 | First Time Watching| Reaction/Review"
+          ],
+          "video_count": 2,
+          "visible": false
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v5-842b87934e4a0bceb9",
+          "label": "Pika: deliver a measurable practical outcome for AI practitioners",
+          "lead_days": null,
+          "max_supply_growth": 1.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "broad_domain_or_facet_only",
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 49.0,
+          "supply_72h": 1,
+          "titles": [
+            "K-Pop PD's react to Singham Again in Mumbai cinema🍿🎞️🇮🇳🇰🇷#deepikapadukone"
+          ],
+          "video_count": 1,
+          "visible": false
+        }
+      ],
+      "visible_topic_count": 0
+    }
+  ],
+  "diagnostic_version": "external-topic-funnel-diagnostic-v1",
+  "not_a_registered_quality_gate": true,
+  "totals": {
+    "fired_topics": 0,
+    "raw_topics": 19,
+    "visible_topics": 0
+  }
+}

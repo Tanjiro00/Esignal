@@ -1,0 +1,16 @@
+{
+  "demo": true,
+  "provider": "mock_transcript",
+  "endpoint": "transcript",
+  "video_id": "esdemo000001",
+  "language": "en",
+  "type": "native",
+  "segments": [
+    {
+      "start": 0,
+      "end": 8,
+      "text": "This deterministic demo segment describes an evidence-backed workflow."
+    }
+  ]
+}
+

@@ -1,0 +1,451 @@
+{
+  "filtered_sha256": "6439761a16750de25d68c0b8aa1595cee66a6249e109a2e2a847392cddc8e30d",
+  "format_invariance": {
+    "changed_examples": [
+      {
+        "original_key": "micro-v6-921d07ee7deea7be54",
+        "stripped_key": "micro-v6-554cdec5e12c8382d2",
+        "stripped_title": "GPT-4 Developer",
+        "title": "GPT-4 Developer Livestream",
+        "video_id": "outcGtbnMuQ"
+      }
+    ],
+    "checked_videos": 18,
+    "unchanged_percent": 94.4,
+    "unchanged_topic_identity": 17
+  },
+  "generated_at": "2026-08-09T13:24:47.336748+00:00",
+  "primary_diagnostics": {
+    "duplicate_or_existing_video_breadth_without_new_supply": 0,
+    "false_positive_examples": [
+      {
+        "checkpoint_at": "2025-02-02T23:59:59+00:00",
+        "evidence_urls": [
+          "https://www.youtube.com/watch?v=-KK8SuvwoRQ",
+          "https://www.youtube.com/watch?v=Nl7aCUsWykg",
+          "https://www.youtube.com/watch?v=V-Fla5hxMRg",
+          "https://www.youtube.com/watch?v=gY4Z-9QlZ64",
+          "https://www.youtube.com/watch?v=r3TpcHebtxM"
+        ],
+        "label": "DeepSeek market activity",
+        "topic_key": "micro-v6-bb02b3efa447951963"
+      }
+    ],
+    "largest_false_positive_contributors": [
+      {
+        "count": 1,
+        "label": "DeepSeek market activity"
+      }
+    ],
+    "selected_predictions": 1
+  },
+  "primary_holdout": {
+    "code_sha256": "9e3f9b57a68f4c76a51f1e5a65e91f1a14de9cc837e6b2717dbc3f5f02a1aa0a",
+    "gate": {
+      "checks": {
+        "beats_base_rate": false,
+        "complete_followup": true,
+        "holdout_split": true,
+        "median_lead": false,
+        "not_worse_than_each_simple_baseline": true,
+        "positive_outcome_support": false,
+        "precision_at_10": false
+      },
+      "verdict": "INSUFFICIENT_OUTCOME_SUPPORT"
+    },
+    "metrics": {
+      "candidate_base_rate_percent": 0.0,
+      "candidate_topics": 1,
+      "checkpoint_count": 49,
+      "fired_candidate_topics": 0,
+      "rankings": {
+        "countries": {
+          "fired": 0,
+          "median_lead_days": null,
+          "precision_at_10_percent": 0.0,
+          "predictions": 1,
+          "recall_percent": null
+        },
+        "method": {
+          "fired": 0,
+          "median_lead_days": null,
+          "precision_at_10_percent": 0.0,
+          "predictions": 1,
+          "recall_percent": null
+        },
+        "random": {
+          "fired": 0,
+          "median_lead_days": null,
+          "precision_at_10_percent": 0.0,
+          "predictions": 1,
+          "recall_percent": null
+        },
+        "supply": {
+          "fired": 0,
+          "median_lead_days": null,
+          "precision_at_10_percent": 0.0,
+          "predictions": 1,
+          "recall_percent": null
+        },
+        "velocity": {
+          "fired": 0,
+          "median_lead_days": null,
+          "precision_at_10_percent": 0.0,
+          "predictions": 1,
+          "recall_percent": null
+        },
+        "view_growth": {
+          "fired": 0,
+          "median_lead_days": null,
+          "precision_at_10_percent": 0.0,
+          "predictions": 1,
+          "recall_percent": null
+        }
+      },
+      "split": "holdout"
+    }
+  },
+  "primary_reproduction_matches": true,
+  "primary_train": {
+    "gate": {
+      "checks": {
+        "beats_base_rate": false,
+        "complete_followup": true,
+        "holdout_split": false,
+        "median_lead": false,
+        "not_worse_than_each_simple_baseline": false,
+        "positive_outcome_support": false,
+        "precision_at_10": false
+      },
+      "verdict": "TRAIN_DIAGNOSTIC"
+    },
+    "metrics": {
+      "candidate_base_rate_percent": null,
+      "candidate_topics": 0,
+      "checkpoint_count": 97,
+      "fired_candidate_topics": 0,
+      "rankings": {
+        "countries": {
+          "fired": 0,
+          "median_lead_days": null,
+          "precision_at_10_percent": null,
+          "predictions": 0,
+          "recall_percent": null
+        },
+        "method": {
+          "fired": 0,
+          "median_lead_days": null,
+          "precision_at_10_percent": null,
+          "predictions": 0,
+          "recall_percent": null
+        },
+        "random": {
+          "fired": 0,
+          "median_lead_days": null,
+          "precision_at_10_percent": null,
+          "predictions": 0,
+          "recall_percent": null
+        },
+        "supply": {
+          "fired": 0,
+          "median_lead_days": null,
+          "precision_at_10_percent": null,
+          "predictions": 0,
+          "recall_percent": null
+        },
+        "velocity": {
+          "fired": 0,
+          "median_lead_days": null,
+          "precision_at_10_percent": null,
+          "predictions": 0,
+          "recall_percent": null
+        },
+        "view_growth": {
+          "fired": 0,
+          "median_lead_days": null,
+          "precision_at_10_percent": null,
+          "predictions": 0,
+          "recall_percent": null
+        }
+      },
+      "split": "train"
+    }
+  },
+  "sensitivity": {
+    "horizon_14d": {
+      "horizon_days": 14,
+      "metrics": {
+        "candidate_base_rate_percent": 0.0,
+        "candidate_topics": 1,
+        "checkpoint_count": 49,
+        "fired_candidate_topics": 0,
+        "rankings": {
+          "countries": {
+            "fired": 0,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "predictions": 1,
+            "recall_percent": null
+          },
+          "method": {
+            "fired": 0,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "predictions": 1,
+            "recall_percent": null
+          },
+          "random": {
+            "fired": 0,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "predictions": 1,
+            "recall_percent": null
+          },
+          "supply": {
+            "fired": 0,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "predictions": 1,
+            "recall_percent": null
+          },
+          "velocity": {
+            "fired": 0,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "predictions": 1,
+            "recall_percent": null
+          },
+          "view_growth": {
+            "fired": 0,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "predictions": 1,
+            "recall_percent": null
+          }
+        },
+        "split": "holdout"
+      },
+      "minimum_new_countries": 5
+    },
+    "horizon_30d": {
+      "horizon_days": 30,
+      "metrics": {
+        "candidate_base_rate_percent": 0.0,
+        "candidate_topics": 1,
+        "checkpoint_count": 47,
+        "fired_candidate_topics": 0,
+        "rankings": {
+          "countries": {
+            "fired": 0,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "predictions": 1,
+            "recall_percent": null
+          },
+          "method": {
+            "fired": 0,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "predictions": 1,
+            "recall_percent": null
+          },
+          "random": {
+            "fired": 0,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "predictions": 1,
+            "recall_percent": null
+          },
+          "supply": {
+            "fired": 0,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "predictions": 1,
+            "recall_percent": null
+          },
+          "velocity": {
+            "fired": 0,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "predictions": 1,
+            "recall_percent": null
+          },
+          "view_growth": {
+            "fired": 0,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "predictions": 1,
+            "recall_percent": null
+          }
+        },
+        "split": "holdout"
+      },
+      "minimum_new_countries": 5
+    },
+    "new_country_floor_10": {
+      "horizon_days": 21,
+      "metrics": {
+        "candidate_base_rate_percent": 0.0,
+        "candidate_topics": 1,
+        "checkpoint_count": 49,
+        "fired_candidate_topics": 0,
+        "rankings": {
+          "countries": {
+            "fired": 0,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "predictions": 1,
+            "recall_percent": null
+          },
+          "method": {
+            "fired": 0,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "predictions": 1,
+            "recall_percent": null
+          },
+          "random": {
+            "fired": 0,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "predictions": 1,
+            "recall_percent": null
+          },
+          "supply": {
+            "fired": 0,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "predictions": 1,
+            "recall_percent": null
+          },
+          "velocity": {
+            "fired": 0,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "predictions": 1,
+            "recall_percent": null
+          },
+          "view_growth": {
+            "fired": 0,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "predictions": 1,
+            "recall_percent": null
+          }
+        },
+        "split": "holdout"
+      },
+      "minimum_new_countries": 10
+    },
+    "new_country_floor_3": {
+      "horizon_days": 21,
+      "metrics": {
+        "candidate_base_rate_percent": 0.0,
+        "candidate_topics": 1,
+        "checkpoint_count": 49,
+        "fired_candidate_topics": 0,
+        "rankings": {
+          "countries": {
+            "fired": 0,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "predictions": 1,
+            "recall_percent": null
+          },
+          "method": {
+            "fired": 0,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "predictions": 1,
+            "recall_percent": null
+          },
+          "random": {
+            "fired": 0,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "predictions": 1,
+            "recall_percent": null
+          },
+          "supply": {
+            "fired": 0,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "predictions": 1,
+            "recall_percent": null
+          },
+          "velocity": {
+            "fired": 0,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "predictions": 1,
+            "recall_percent": null
+          },
+          "view_growth": {
+            "fired": 0,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "predictions": 1,
+            "recall_percent": null
+          }
+        },
+        "split": "holdout"
+      },
+      "minimum_new_countries": 3
+    },
+    "primary_21d_country5": {
+      "horizon_days": 21,
+      "metrics": {
+        "candidate_base_rate_percent": 0.0,
+        "candidate_topics": 1,
+        "checkpoint_count": 49,
+        "fired_candidate_topics": 0,
+        "rankings": {
+          "countries": {
+            "fired": 0,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "predictions": 1,
+            "recall_percent": null
+          },
+          "method": {
+            "fired": 0,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "predictions": 1,
+            "recall_percent": null
+          },
+          "random": {
+            "fired": 0,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "predictions": 1,
+            "recall_percent": null
+          },
+          "supply": {
+            "fired": 0,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "predictions": 1,
+            "recall_percent": null
+          },
+          "velocity": {
+            "fired": 0,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "predictions": 1,
+            "recall_percent": null
+          },
+          "view_growth": {
+            "fired": 0,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "predictions": 1,
+            "recall_percent": null
+          }
+        },
+        "split": "holdout"
+      },
+      "minimum_new_countries": 5
+    }
+  }
+}

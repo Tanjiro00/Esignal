@@ -1,0 +1,159 @@
+name: earlysignal
+
+x-improvement-flags: &improvement-flags
+  FEATURE_EARLYNESS_TIMELINE: ${FEATURE_EARLYNESS_TIMELINE:-false}
+  FEATURE_SIGNAL_REVIEW_QUEUE: ${FEATURE_SIGNAL_REVIEW_QUEUE:-false}
+  FEATURE_COMMENT_TOPIC_RELEVANCE: ${FEATURE_COMMENT_TOPIC_RELEVANCE:-false}
+  FEATURE_DECISION_EXPERIENCE: ${FEATURE_DECISION_EXPERIENCE:-false}
+  FEATURE_MICROTOPIC_CONTENT_GAP: ${FEATURE_MICROTOPIC_CONTENT_GAP:-false}
+  FEATURE_FEEDBACK_EVALUATION: ${FEATURE_FEEDBACK_EVALUATION:-false}
+  FEATURE_TOPIC_SNAPSHOT_BUCKETS: ${FEATURE_TOPIC_SNAPSHOT_BUCKETS:-false}
+  FEATURE_CHANNEL_PROFILE_FEASIBILITY_V2: ${FEATURE_CHANNEL_PROFILE_FEASIBILITY_V2:-false}
+  FEATURE_OUTCOME_SUGGESTIONS: ${FEATURE_OUTCOME_SUGGESTIONS:-false}
+  FEATURE_SIGNAL_PACKAGING: ${FEATURE_SIGNAL_PACKAGING:-false}
+  FEATURE_YOUTUBE_OAUTH_ANALYTICS: ${FEATURE_YOUTUBE_OAUTH_ANALYTICS:-false}
+  FEATURE_QUERY_EXPANSION: ${FEATURE_QUERY_EXPANSION:-false}
+  FEATURE_UX_TODAY_HOME_V1: ${FEATURE_UX_TODAY_HOME_V1:-false}
+  FEATURE_UX_DECISION_CARD_V1: ${FEATURE_UX_DECISION_CARD_V1:-false}
+  FEATURE_UX_SIMPLE_SCORES_V1: ${FEATURE_UX_SIMPLE_SCORES_V1:-false}
+  FEATURE_UX_SIMPLIFIED_NAVIGATION_V1: ${FEATURE_UX_SIMPLIFIED_NAVIGATION_V1:-false}
+  FEATURE_UX_ONBOARDING_V2: ${FEATURE_UX_ONBOARDING_V2:-false}
+  FEATURE_UX_OPPORTUNITY_DETAIL_V2: ${FEATURE_UX_OPPORTUNITY_DETAIL_V2:-false}
+  FEATURE_UX_BRIEF_V2: ${FEATURE_UX_BRIEF_V2:-false}
+  FEATURE_UX_RESULTS_V2: ${FEATURE_UX_RESULTS_V2:-false}
+  FEATURE_LLM_INTELLIGENCE: ${FEATURE_LLM_INTELLIGENCE:-false}
+
+services:
+  postgres:
+    image: pgvector/pgvector:pg17
+    environment:
+      POSTGRES_DB: earlysignal
+      POSTGRES_USER: earlysignal
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-earlysignal}
+    ports:
+      - "5432:5432"
+    volumes:
+      - earlysignal_postgres:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U earlysignal"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  redis:
+    image: redis:7.4-alpine
+    ports:
+      - "6379:6379"
+    command: redis-server --appendonly yes
+    volumes:
+      - earlysignal_redis:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  api:
+    build:
+      context: .
+      dockerfile: apps/api/Dockerfile
+    environment:
+      <<: *improvement-flags
+      APP_ENV: development
+      DEMO_MODE: "true"
+      DATABASE_URL: ${DATABASE_URL:-postgresql+psycopg://earlysignal:earlysignal@postgres:5432/earlysignal}
+      REDIS_URL: redis://redis:6379/0
+      WEB_ORIGIN: http://localhost:3000
+      AUTH_REQUIRED: ${AUTH_REQUIRED:-false}
+      AUTH_COOKIE_NAME: ${AUTH_COOKIE_NAME:-earlysignal_session}
+      AUTH_COOKIE_SECURE: ${AUTH_COOKIE_SECURE:-false}
+      AUTH_SESSION_DAYS: ${AUTH_SESSION_DAYS:-30}
+      AUTH_PASSWORD_ITERATIONS: ${AUTH_PASSWORD_ITERATIONS:-600000}
+      AUTH_LOGIN_WINDOW_MINUTES: ${AUTH_LOGIN_WINDOW_MINUTES:-10}
+      AUTH_LOGIN_MAX_FAILURES: ${AUTH_LOGIN_MAX_FAILURES:-5}
+      AUTH_LOGIN_BLOCK_MINUTES: ${AUTH_LOGIN_BLOCK_MINUTES:-15}
+      AUTH_PEPPER: ${AUTH_PEPPER:-}
+      YOUTUBE_OAUTH_CLIENT_ID: ${YOUTUBE_OAUTH_CLIENT_ID:-}
+      YOUTUBE_OAUTH_CLIENT_SECRET: ${YOUTUBE_OAUTH_CLIENT_SECRET:-}
+      YOUTUBE_OAUTH_REDIRECT_URI: ${YOUTUBE_OAUTH_REDIRECT_URI:-http://localhost:8000/api/v1/oauth/youtube/callback}
+      TOKEN_ENCRYPTION_KEY: ${TOKEN_ENCRYPTION_KEY:-}
+      LLM_PROVIDER: ${LLM_PROVIDER:-openai}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_MODEL: ${OPENAI_MODEL:-gpt-5.6-terra}
+      OPENAI_AUDITOR_MODEL: ${OPENAI_AUDITOR_MODEL:-gpt-5.6-terra}
+      OPENAI_AUDITOR_REASONING_EFFORT: ${OPENAI_AUDITOR_REASONING_EFFORT:-medium}
+      LLM_MAX_TOPIC_SYNTHESES_PER_RUN: ${LLM_MAX_TOPIC_SYNTHESES_PER_RUN:-8}
+      LLM_MAX_CONTENT_GAP_SYNTHESES_PER_RUN: ${LLM_MAX_CONTENT_GAP_SYNTHESES_PER_RUN:-6}
+      LLM_MAX_AUDITS_PER_RUN: ${LLM_MAX_AUDITS_PER_RUN:-12}
+      LLM_REQUIRE_GROUNDING_AUDIT: ${LLM_REQUIRE_GROUNDING_AUDIT:-true}
+    ports:
+      - "8000:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    volumes:
+      - earlysignal_raw_payloads:/app/var/raw_payloads
+
+  worker:
+    build:
+      context: .
+      dockerfile: apps/api/Dockerfile
+    command:
+      [
+        "uv",
+        "run",
+        "python",
+        "-m",
+        "apps.worker",
+        "serve",
+        "--limit",
+        "5",
+        "--snapshot-limit",
+        "50",
+        "--poll-seconds",
+        "60",
+      ]
+    environment:
+      <<: *improvement-flags
+      APP_ENV: development
+      DEMO_MODE: "true"
+      DATABASE_URL: ${DATABASE_URL:-postgresql+psycopg://earlysignal:earlysignal@postgres:5432/earlysignal}
+      REDIS_URL: redis://redis:6379/0
+      YOUTUBE_OAUTH_CLIENT_ID: ${YOUTUBE_OAUTH_CLIENT_ID:-}
+      YOUTUBE_OAUTH_CLIENT_SECRET: ${YOUTUBE_OAUTH_CLIENT_SECRET:-}
+      YOUTUBE_OAUTH_REDIRECT_URI: ${YOUTUBE_OAUTH_REDIRECT_URI:-http://localhost:8000/api/v1/oauth/youtube/callback}
+      TOKEN_ENCRYPTION_KEY: ${TOKEN_ENCRYPTION_KEY:-}
+      LLM_PROVIDER: ${LLM_PROVIDER:-openai}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_MODEL: ${OPENAI_MODEL:-gpt-5.6-terra}
+      OPENAI_AUDITOR_MODEL: ${OPENAI_AUDITOR_MODEL:-gpt-5.6-terra}
+      OPENAI_AUDITOR_REASONING_EFFORT: ${OPENAI_AUDITOR_REASONING_EFFORT:-medium}
+      LLM_MAX_TOPIC_SYNTHESES_PER_RUN: ${LLM_MAX_TOPIC_SYNTHESES_PER_RUN:-8}
+      LLM_MAX_CONTENT_GAP_SYNTHESES_PER_RUN: ${LLM_MAX_CONTENT_GAP_SYNTHESES_PER_RUN:-6}
+      LLM_MAX_AUDITS_PER_RUN: ${LLM_MAX_AUDITS_PER_RUN:-12}
+      LLM_REQUIRE_GROUNDING_AUDIT: ${LLM_REQUIRE_GROUNDING_AUDIT:-true}
+    depends_on:
+      api:
+        condition: service_started
+    volumes:
+      - earlysignal_raw_payloads:/app/var/raw_payloads
+
+  web:
+    build:
+      context: .
+      dockerfile: apps/web/Dockerfile
+      args:
+        NEXT_PUBLIC_API_URL: http://localhost:8000/api/v1
+    environment:
+      NEXT_PUBLIC_API_URL: http://localhost:8000/api/v1
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api
+
+volumes:
+  earlysignal_postgres:
+  earlysignal_redis:
+  earlysignal_raw_payloads:

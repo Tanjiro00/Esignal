@@ -1,0 +1,34 @@
+{
+  "name": "earlysignal",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/web"
+  ],
+  "dependencies": {
+    "next": "16.2.12"
+  },
+  "scripts": {
+    "dev": "npm run dev --workspace @earlysignal/web",
+    "build": "npm run build --workspace @earlysignal/web",
+    "lint": "npm run lint --workspace @earlysignal/web",
+    "typecheck": "npm run typecheck --workspace @earlysignal/web",
+    "test:web": "npm run test --workspace @earlysignal/web",
+    "test:e2e": "npm run test:e2e --workspace @earlysignal/web",
+    "format": "npm run format --workspace @earlysignal/web",
+    "format:check": "npm run format:check --workspace @earlysignal/web"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "overrides": {
+    "next@16.2.12": {
+      "postcss": "8.5.25",
+      "sharp": "0.35.3"
+    }
+  },
+  "optionalDependencies": {
+    "@tailwindcss/oxide-linux-x64-musl": "^4.3.3",
+    "lightningcss-linux-x64-musl": "^1.32.0"
+  }
+}

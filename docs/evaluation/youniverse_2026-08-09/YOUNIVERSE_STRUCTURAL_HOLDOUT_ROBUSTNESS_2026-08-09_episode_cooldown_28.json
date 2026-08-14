@@ -1,0 +1,1588 @@
+{
+  "ai_artifact_sha256": "b6d2520083c7f2f217855cdcaa0caea1b94aa1b87a7903db7b36a10021777f63",
+  "baseline_artifact_sha256": "aa221032bd24b8cde82b545e95347e8ee495257fce5c19e4ec9384683743f6cb",
+  "checkpoints": [
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2019-01-06T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2019-01-13T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2019-01-20T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 2,
+      "checkpoint_at": "2019-01-27T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-799a42258bb43a0d00",
+        "micro-v7-90c2e6362edc25952d"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 1.0,
+          "distinct_channel_count": 3,
+          "evidence_titles": [
+            "StarCraft 2: NEW Patch Notes (23.01.2019) + DeepMind News!",
+            "DeepMind StarCraft II Demonstration",
+            "DeepMind's AlphaStar Defeating StarCraft 2 Progamers?!",
+            "This Is Massive: Google\u2019s Deepmind 10-1\u2019s Pro Gamers | Big Implications For Gamings Future"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=nYwnRFk7bDw",
+            "https://www.youtube.com/watch?v=cUTMhmVh1qs",
+            "https://www.youtube.com/watch?v=n8_yNTBdqqk",
+            "https://www.youtube.com/watch?v=SmnepPNPn7A"
+          ],
+          "evidence_video_ids": [
+            "nYwnRFk7bDw",
+            "cUTMhmVh1qs",
+            "n8_yNTBdqqk",
+            "SmnepPNPn7A"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 3,
+          "label": "DeepMind creator activity",
+          "lead_days": null,
+          "median_outlier_ratio": 0.6917,
+          "new_channel_share": 0.6667,
+          "new_future_channel_count": 2,
+          "new_recent_channel_count": 3,
+          "outlier_video_count": 0,
+          "rank": 1,
+          "recent_video_count": 4,
+          "score": 23.6,
+          "supply_growth": 0.5,
+          "topic_key": "micro-v7-799a42258bb43a0d00"
+        },
+        {
+          "baseline_coverage": 0,
+          "distinct_channel_count": 4,
+          "evidence_titles": [
+            "The First Match of Deepmind Starcraft 2: AlphaStar (AI) vs TLO",
+            "StarCraft 2: Google DeepMind AlphaStar (A.I.) vs Pro Gamer!",
+            "DeepMind AI Battles Starcraft 2 Pros || AlphaStar vs Team Liquid's TLO & Mana!",
+            "DeepMind challenges Starcraft 2 Pro - AlphaStar (AI) vs MaNa",
+            "StarCraft 2: AlphaStar VS MaNa - DeepMind AI Gameplay Analyzed"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=DpRPfidTjDA",
+            "https://www.youtube.com/watch?v=FWbVseLiopw",
+            "https://www.youtube.com/watch?v=H3MCb4W7-kM",
+            "https://www.youtube.com/watch?v=PFMRDm_H9Sg",
+            "https://www.youtube.com/watch?v=Aycv6wsjebc"
+          ],
+          "evidence_video_ids": [
+            "DpRPfidTjDA",
+            "FWbVseLiopw",
+            "H3MCb4W7-kM",
+            "PFMRDm_H9Sg",
+            "Aycv6wsjebc"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 0,
+          "label": "DeepMind performance comparisons",
+          "lead_days": null,
+          "median_outlier_ratio": null,
+          "new_channel_share": 0,
+          "new_future_channel_count": 0,
+          "new_recent_channel_count": 4,
+          "outlier_video_count": 0,
+          "rank": 2,
+          "recent_video_count": 5,
+          "score": 19.8,
+          "supply_growth": 0.0,
+          "topic_key": "micro-v7-90c2e6362edc25952d"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-90c2e6362edc25952d",
+          "micro-v7-799a42258bb43a0d00"
+        ],
+        "channels": [
+          "micro-v7-90c2e6362edc25952d",
+          "micro-v7-799a42258bb43a0d00"
+        ],
+        "method": [
+          "micro-v7-799a42258bb43a0d00",
+          "micro-v7-90c2e6362edc25952d"
+        ],
+        "random": [
+          "micro-v7-90c2e6362edc25952d",
+          "micro-v7-799a42258bb43a0d00"
+        ],
+        "supply": [
+          "micro-v7-90c2e6362edc25952d",
+          "micro-v7-799a42258bb43a0d00"
+        ]
+      }
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2019-02-03T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-a50379f9abd6d7c3ad"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 0,
+          "distinct_channel_count": 3,
+          "evidence_titles": [
+            "Reinforcement Learning Tutorial | Reinforcement Learning Example Using Python | Edureka",
+            "Build with Amazon Sumerian | S3 E4 \u2013 Integrating Amazon SageMaker for Reinforcement Learning",
+            "Intelligent Projects using Python | 9. Autonomous Self-Driving Car though Reinforcement Learning"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=LzaWrmKL1Z4",
+            "https://www.youtube.com/watch?v=JsfeY_3-G58",
+            "https://www.youtube.com/watch?v=vq8-YoS-BKU"
+          ],
+          "evidence_video_ids": [
+            "LzaWrmKL1Z4",
+            "JsfeY_3-G58",
+            "vq8-YoS-BKU"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 0,
+          "label": "Reinforcement learning practical implementations",
+          "lead_days": null,
+          "median_outlier_ratio": null,
+          "new_channel_share": 0,
+          "new_future_channel_count": 0,
+          "new_recent_channel_count": 2,
+          "outlier_video_count": 0,
+          "rank": 1,
+          "recent_video_count": 2,
+          "score": 10.2,
+          "supply_growth": 0.0,
+          "topic_key": "micro-v7-a50379f9abd6d7c3ad"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-a50379f9abd6d7c3ad"
+        ],
+        "channels": [
+          "micro-v7-a50379f9abd6d7c3ad"
+        ],
+        "method": [
+          "micro-v7-a50379f9abd6d7c3ad"
+        ],
+        "random": [
+          "micro-v7-a50379f9abd6d7c3ad"
+        ],
+        "supply": [
+          "micro-v7-a50379f9abd6d7c3ad"
+        ]
+      }
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2019-02-10T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-032da884e92201830d"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 1.0,
+          "distinct_channel_count": 4,
+          "evidence_titles": [
+            "Interactive Chatbots with TensorFlow:  Understanding Attention | packtpub.com",
+            "Interactive Chatbots with TensorFlow:  Understanding Generative Chatbots | packtpub.com",
+            "Interactive Chatbots with TensorFlow:  What Is Context? | packtpub.com",
+            "AI image search with Go & Tensorflow Integrate the advances of AI in your Go apps",
+            "RECOGNISE DIGITS WITH TENSORFLOW"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=zOCVTPb5DiM",
+            "https://www.youtube.com/watch?v=7Ub8sg8OOME",
+            "https://www.youtube.com/watch?v=MCMzem9m2fM",
+            "https://www.youtube.com/watch?v=lU9gEz5TumI",
+            "https://www.youtube.com/watch?v=ljPUh8jsX_U",
+            "https://www.youtube.com/watch?v=vFcyP12QXOU",
+            "https://www.youtube.com/watch?v=_6Ikfcs4lFU",
+            "https://www.youtube.com/watch?v=rml9oBQT8rw"
+          ],
+          "evidence_video_ids": [
+            "zOCVTPb5DiM",
+            "7Ub8sg8OOME",
+            "MCMzem9m2fM",
+            "lU9gEz5TumI",
+            "ljPUh8jsX_U",
+            "vFcyP12QXOU",
+            "_6Ikfcs4lFU",
+            "rml9oBQT8rw"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 14,
+          "label": "TensorFlow creator activity",
+          "lead_days": null,
+          "median_outlier_ratio": 0.9778,
+          "new_channel_share": 0.1429,
+          "new_future_channel_count": 2,
+          "new_recent_channel_count": 2,
+          "outlier_video_count": 1,
+          "rank": 1,
+          "recent_video_count": 7,
+          "score": 21.3,
+          "supply_growth": 1.167,
+          "topic_key": "micro-v7-032da884e92201830d"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "channels": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "method": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "random": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "supply": [
+          "micro-v7-032da884e92201830d"
+        ]
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2019-02-17T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 2,
+      "checkpoint_at": "2019-02-24T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-c63877fef4de4f7574",
+        "micro-v7-d77957724f262d6dd1"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 0.75,
+          "distinct_channel_count": 3,
+          "evidence_titles": [
+            "OpenAI - Learning Dexterous In-Hand Manipulation",
+            "Elon Musk Quits OpenAI whose AI System can generate Fake News",
+            "Elon Musk's OpenAI Terrifies its Creators"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=6fo5NhnyR8I",
+            "https://www.youtube.com/watch?v=UF3viIKAwjM",
+            "https://www.youtube.com/watch?v=jPy_0vq3wYA"
+          ],
+          "evidence_video_ids": [
+            "6fo5NhnyR8I",
+            "UF3viIKAwjM",
+            "jPy_0vq3wYA"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 4,
+          "label": "OpenAI creator activity",
+          "lead_days": null,
+          "median_outlier_ratio": 1.9526,
+          "new_channel_share": 1.0,
+          "new_future_channel_count": 4,
+          "new_recent_channel_count": 3,
+          "outlier_video_count": 0,
+          "rank": 1,
+          "recent_video_count": 3,
+          "score": 12.8,
+          "supply_growth": 0.667,
+          "topic_key": "micro-v7-d77957724f262d6dd1"
+        },
+        {
+          "baseline_coverage": 1.0,
+          "distinct_channel_count": 5,
+          "evidence_titles": [
+            "Dynamic Neural Network Programming with PyTorch:  Extensions with Numpy \u2013 Part 1 | packtpub.com",
+            "PyTorch Developer Conference 2018: Cloud & Academia Sessions",
+            "PyTorch Developer Conference 2018: Recap",
+            "Dynamic Neural Network Programming with PyTorch:  Motivation and Section Overview | packtpub.com",
+            "Walkthrough: Mixed Precision Training of GNMT with PyTorch"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=CNuI8OWsppg",
+            "https://www.youtube.com/watch?v=lamnwHvjEV0",
+            "https://www.youtube.com/watch?v=3wiTkDF6oAo",
+            "https://www.youtube.com/watch?v=8P9iuqu1PLM",
+            "https://www.youtube.com/watch?v=E1Nw9m9zYPg",
+            "https://www.youtube.com/watch?v=ZeGk1REiK4k",
+            "https://www.youtube.com/watch?v=dOe2V_qOeMk",
+            "https://www.youtube.com/watch?v=l3QZEBtxuRw",
+            "https://www.youtube.com/watch?v=343iocHQX-4",
+            "https://www.youtube.com/watch?v=473Y3gBpEV8",
+            "https://www.youtube.com/watch?v=PxIVkczLh8M",
+            "https://www.youtube.com/watch?v=QV45yrGT2iU",
+            "https://www.youtube.com/watch?v=bzYFrn0WEM4",
+            "https://www.youtube.com/watch?v=c1CsGXfVnbw",
+            "https://www.youtube.com/watch?v=wvNwCFeciTc",
+            "https://www.youtube.com/watch?v=za_XFPGWMB4",
+            "https://www.youtube.com/watch?v=Dkzp05cpdpw"
+          ],
+          "evidence_video_ids": [
+            "CNuI8OWsppg",
+            "lamnwHvjEV0",
+            "3wiTkDF6oAo",
+            "8P9iuqu1PLM",
+            "E1Nw9m9zYPg",
+            "ZeGk1REiK4k",
+            "dOe2V_qOeMk",
+            "l3QZEBtxuRw",
+            "343iocHQX-4",
+            "473Y3gBpEV8",
+            "PxIVkczLh8M",
+            "QV45yrGT2iU",
+            "bzYFrn0WEM4",
+            "c1CsGXfVnbw",
+            "wvNwCFeciTc",
+            "za_XFPGWMB4",
+            "Dkzp05cpdpw"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 8,
+          "label": "PyTorch creator activity",
+          "lead_days": null,
+          "median_outlier_ratio": 2.4931,
+          "new_channel_share": 0.0,
+          "new_future_channel_count": 0,
+          "new_recent_channel_count": 2,
+          "outlier_video_count": 3,
+          "rank": 2,
+          "recent_video_count": 9,
+          "score": 8.3,
+          "supply_growth": 0.314,
+          "topic_key": "micro-v7-c63877fef4de4f7574"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-c63877fef4de4f7574",
+          "micro-v7-d77957724f262d6dd1"
+        ],
+        "channels": [
+          "micro-v7-c63877fef4de4f7574",
+          "micro-v7-d77957724f262d6dd1"
+        ],
+        "method": [
+          "micro-v7-d77957724f262d6dd1",
+          "micro-v7-c63877fef4de4f7574"
+        ],
+        "random": [
+          "micro-v7-c63877fef4de4f7574",
+          "micro-v7-d77957724f262d6dd1"
+        ],
+        "supply": [
+          "micro-v7-c63877fef4de4f7574",
+          "micro-v7-d77957724f262d6dd1"
+        ]
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2019-03-03T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2019-03-10T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-799a42258bb43a0d00"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 0.0,
+          "distinct_channel_count": 3,
+          "evidence_titles": [
+            "AlphaZero: DeepMind\u2019s AI Works Smarter, not Harder",
+            "DeepMind StarCraft",
+            "Google's Deepmind | A.I. & Leon' Worries For Humanity | Global Warming | Speakers Corner"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=1gWpFuQlBsg",
+            "https://www.youtube.com/watch?v=98V6PnwVXCc",
+            "https://www.youtube.com/watch?v=myYCX8cmSPk"
+          ],
+          "evidence_video_ids": [
+            "1gWpFuQlBsg",
+            "98V6PnwVXCc",
+            "myYCX8cmSPk"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 1,
+          "label": "DeepMind creator activity",
+          "lead_days": null,
+          "median_outlier_ratio": null,
+          "new_channel_share": 1.0,
+          "new_future_channel_count": 1,
+          "new_recent_channel_count": 2,
+          "outlier_video_count": 0,
+          "rank": 1,
+          "recent_video_count": 3,
+          "score": 10.2,
+          "supply_growth": 0.167,
+          "topic_key": "micro-v7-799a42258bb43a0d00"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-799a42258bb43a0d00"
+        ],
+        "channels": [
+          "micro-v7-799a42258bb43a0d00"
+        ],
+        "method": [
+          "micro-v7-799a42258bb43a0d00"
+        ],
+        "random": [
+          "micro-v7-799a42258bb43a0d00"
+        ],
+        "supply": [
+          "micro-v7-799a42258bb43a0d00"
+        ]
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2019-03-17T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2019-03-24T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2019-03-31T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2019-04-07T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 4,
+      "checkpoint_at": "2019-04-14T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-032da884e92201830d",
+        "micro-v7-13193429343064dda7",
+        "micro-v7-57f6a3af18ffc03431",
+        "micro-v7-ce03096fb975f2b41c"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 1.0,
+          "distinct_channel_count": 4,
+          "evidence_titles": [
+            "OG vs OpenAI Five Final Bots - TI8 Champions vs AI - 2019 Highlights Dota 2",
+            "OG vs OpenAI FIVE - AI vs HUMANS - TI8 CHAMPIONS vs BOTS FINAL DOTA 2",
+            "OG vs OpenAI FINALS \u2014 5 FARMING heroes STRAT",
+            "TI WINNER OG vs OPENAI Five - AI vs HUMANS - TI8 Champs vs Bots - EPIC Series Dota 2"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=VLKJ0chtqOM",
+            "https://www.youtube.com/watch?v=pkGa8ICQJS8",
+            "https://www.youtube.com/watch?v=qumvKYgRAaQ",
+            "https://www.youtube.com/watch?v=fB8Mmz_tIXA"
+          ],
+          "evidence_video_ids": [
+            "VLKJ0chtqOM",
+            "pkGa8ICQJS8",
+            "qumvKYgRAaQ",
+            "fB8Mmz_tIXA"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 4,
+          "label": "OpenAI performance comparisons",
+          "lead_days": null,
+          "median_outlier_ratio": 1.4128,
+          "new_channel_share": 0.0,
+          "new_future_channel_count": 0,
+          "new_recent_channel_count": 4,
+          "outlier_video_count": 1,
+          "rank": 1,
+          "recent_video_count": 4,
+          "score": 19.9,
+          "supply_growth": 0.667,
+          "topic_key": "micro-v7-ce03096fb975f2b41c"
+        },
+        {
+          "baseline_coverage": 0.9333,
+          "distinct_channel_count": 7,
+          "evidence_titles": [
+            "Introduction to End-to-End Machine Learning with Tensorflow from Google Cloud #2",
+            "Lab: Exploring the Dataset - End-to-End Machine Learning with Tensorflow from Google Cloud #10",
+            "BigQuery and Datalab - End-to-End Machine Learning with TensorFlow on GCP from Google Cloud #8",
+            "Effective ML - End-to-End Machine Learning with Tensorflow from Google Cloud #3",
+            "Lab Demo - Explore & Visualize Datasets - Machine Learning with Tensorflow from Google Cloud #11"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=vRF7ENlwD50",
+            "https://www.youtube.com/watch?v=FwO1XT9sRF8",
+            "https://www.youtube.com/watch?v=G36P8pR6in8",
+            "https://www.youtube.com/watch?v=pVhrzRdSKbM",
+            "https://www.youtube.com/watch?v=uCItxMB7Kk4",
+            "https://www.youtube.com/watch?v=v5GLmAqvRx0",
+            "https://www.youtube.com/watch?v=fesdKLTZFBE",
+            "https://www.youtube.com/watch?v=WcwGJg6yd8s",
+            "https://www.youtube.com/watch?v=apdK5-njfks",
+            "https://www.youtube.com/watch?v=vbIwBNDIUPU",
+            "https://www.youtube.com/watch?v=9prOimLom6E",
+            "https://www.youtube.com/watch?v=GJ5xEZgt18g",
+            "https://www.youtube.com/watch?v=IRJHle4EaUE",
+            "https://www.youtube.com/watch?v=RSQsHm_3E6Q",
+            "https://www.youtube.com/watch?v=SKznI-QvVLM",
+            "https://www.youtube.com/watch?v=XGOvuWXq6Xc",
+            "https://www.youtube.com/watch?v=ZyexIjUckkk",
+            "https://www.youtube.com/watch?v=cEC7e_yEz58",
+            "https://www.youtube.com/watch?v=sheVkprWLBA",
+            "https://www.youtube.com/watch?v=wvETfpo9940",
+            "https://www.youtube.com/watch?v=yQsR4cyrpcs"
+          ],
+          "evidence_video_ids": [
+            "vRF7ENlwD50",
+            "FwO1XT9sRF8",
+            "G36P8pR6in8",
+            "pVhrzRdSKbM",
+            "uCItxMB7Kk4",
+            "v5GLmAqvRx0",
+            "fesdKLTZFBE",
+            "WcwGJg6yd8s",
+            "apdK5-njfks",
+            "vbIwBNDIUPU",
+            "9prOimLom6E",
+            "GJ5xEZgt18g",
+            "IRJHle4EaUE",
+            "RSQsHm_3E6Q",
+            "SKznI-QvVLM",
+            "XGOvuWXq6Xc",
+            "ZyexIjUckkk",
+            "cEC7e_yEz58",
+            "sheVkprWLBA",
+            "wvETfpo9940",
+            "yQsR4cyrpcs"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 15,
+          "label": "TensorFlow creator activity",
+          "lead_days": null,
+          "median_outlier_ratio": 1.0003,
+          "new_channel_share": 0.4,
+          "new_future_channel_count": 5,
+          "new_recent_channel_count": 2,
+          "outlier_video_count": 2,
+          "rank": 2,
+          "recent_video_count": 14,
+          "score": 12.6,
+          "supply_growth": 0.5,
+          "topic_key": "micro-v7-032da884e92201830d"
+        },
+        {
+          "baseline_coverage": 0,
+          "distinct_channel_count": 3,
+          "evidence_titles": [
+            "Google Eliminates AI Ethics Board After One Week",
+            "Google Dissolves AI Ethics Board After 1 Week",
+            "Google scraps newly formed AI ethics board"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=RTNY85WaXZo",
+            "https://www.youtube.com/watch?v=2xcAgMLwkoQ",
+            "https://www.youtube.com/watch?v=_AdVeRJh_FY"
+          ],
+          "evidence_video_ids": [
+            "RTNY85WaXZo",
+            "2xcAgMLwkoQ",
+            "_AdVeRJh_FY"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 0,
+          "label": "AI ethics safety and ethics",
+          "lead_days": null,
+          "median_outlier_ratio": null,
+          "new_channel_share": 0,
+          "new_future_channel_count": 0,
+          "new_recent_channel_count": 3,
+          "outlier_video_count": 0,
+          "rank": 3,
+          "recent_video_count": 3,
+          "score": 10.5,
+          "supply_growth": 0.0,
+          "topic_key": "micro-v7-57f6a3af18ffc03431"
+        },
+        {
+          "baseline_coverage": 1.0,
+          "distinct_channel_count": 4,
+          "evidence_titles": [
+            "Advanced NLP Projects with TensorFlow 2.0: Introduction to the Problem | packtpub.com",
+            "Advanced NLP Projects with TensorFlow 2.0: Introduction | packtpub.com",
+            "Hands-On Deep Learning with TensorFlow 2.0:  Introduction to Transfer Learning | packtpub.com",
+            "Introduction to Tensorflow 2.0 | Tensorflow 2.0 Features and Changes | Edureka",
+            "Make Money with Tensorflow 2.0"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=26t8MfP8Fo0",
+            "https://www.youtube.com/watch?v=3nHPI6V_j2A",
+            "https://www.youtube.com/watch?v=6JQ3j9ikt6U",
+            "https://www.youtube.com/watch?v=981J8z63TfE",
+            "https://www.youtube.com/watch?v=Cx673x_QqBY",
+            "https://www.youtube.com/watch?v=HsgyKcC0f_s",
+            "https://www.youtube.com/watch?v=J7Dj_cswzQE",
+            "https://www.youtube.com/watch?v=TotY5OOZhsk",
+            "https://www.youtube.com/watch?v=VIsBq8D0AqY",
+            "https://www.youtube.com/watch?v=WE22o39SAgc",
+            "https://www.youtube.com/watch?v=hdnSFL3ZTFw",
+            "https://www.youtube.com/watch?v=yXIYD0IeTnw",
+            "https://www.youtube.com/watch?v=3O-5DuqKaRo",
+            "https://www.youtube.com/watch?v=WS9Nckd2kq0"
+          ],
+          "evidence_video_ids": [
+            "26t8MfP8Fo0",
+            "3nHPI6V_j2A",
+            "6JQ3j9ikt6U",
+            "981J8z63TfE",
+            "Cx673x_QqBY",
+            "HsgyKcC0f_s",
+            "J7Dj_cswzQE",
+            "TotY5OOZhsk",
+            "VIsBq8D0AqY",
+            "WE22o39SAgc",
+            "hdnSFL3ZTFw",
+            "yXIYD0IeTnw",
+            "3O-5DuqKaRo",
+            "WS9Nckd2kq0"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 15,
+          "label": "TensorFlow 2 creator activity",
+          "lead_days": null,
+          "median_outlier_ratio": 1.2791,
+          "new_channel_share": 0.6,
+          "new_future_channel_count": 2,
+          "new_recent_channel_count": 2,
+          "outlier_video_count": 1,
+          "rank": 4,
+          "recent_video_count": 13,
+          "score": 3.3,
+          "supply_growth": 0.714,
+          "topic_key": "micro-v7-13193429343064dda7"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-13193429343064dda7",
+          "micro-v7-032da884e92201830d",
+          "micro-v7-ce03096fb975f2b41c",
+          "micro-v7-57f6a3af18ffc03431"
+        ],
+        "channels": [
+          "micro-v7-032da884e92201830d",
+          "micro-v7-13193429343064dda7",
+          "micro-v7-ce03096fb975f2b41c",
+          "micro-v7-57f6a3af18ffc03431"
+        ],
+        "method": [
+          "micro-v7-ce03096fb975f2b41c",
+          "micro-v7-032da884e92201830d",
+          "micro-v7-57f6a3af18ffc03431",
+          "micro-v7-13193429343064dda7"
+        ],
+        "random": [
+          "micro-v7-ce03096fb975f2b41c",
+          "micro-v7-032da884e92201830d",
+          "micro-v7-57f6a3af18ffc03431",
+          "micro-v7-13193429343064dda7"
+        ],
+        "supply": [
+          "micro-v7-032da884e92201830d",
+          "micro-v7-13193429343064dda7",
+          "micro-v7-ce03096fb975f2b41c",
+          "micro-v7-57f6a3af18ffc03431"
+        ]
+      }
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2019-04-21T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-d77957724f262d6dd1"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 1.0,
+          "distinct_channel_count": 4,
+          "evidence_titles": [
+            "Greg Brockman: OpenAI and AGI | Artificial Intelligence Podcast (MIT AI)",
+            "MMOs.com Podcast - Episode 188: Censorship, Pearl Abyss, OpenAI, & More",
+            "\u00a1HISTORICO! EL PRIMER EQUIPO QUE LE GANA AL OPENAI BOT MAS DIFICIL DEL MUNDO",
+            "\u00a1HISTORICO! IMPERIUS SE ENFRENTA AL OPENAI BOT MAS DIFICIL DEL MUNDO"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=bIrEM2FbOLU",
+            "https://www.youtube.com/watch?v=Gfj2QALssmM",
+            "https://www.youtube.com/watch?v=2abuS8uR-Xc",
+            "https://www.youtube.com/watch?v=qbkO44G2GIA"
+          ],
+          "evidence_video_ids": [
+            "bIrEM2FbOLU",
+            "Gfj2QALssmM",
+            "2abuS8uR-Xc",
+            "qbkO44G2GIA"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 2,
+          "label": "OpenAI creator activity",
+          "lead_days": null,
+          "median_outlier_ratio": 0.6426,
+          "new_channel_share": 1.0,
+          "new_future_channel_count": 2,
+          "new_recent_channel_count": 3,
+          "outlier_video_count": 0,
+          "rank": 1,
+          "recent_video_count": 3,
+          "score": 16.6,
+          "supply_growth": 0.333,
+          "topic_key": "micro-v7-d77957724f262d6dd1"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-d77957724f262d6dd1"
+        ],
+        "channels": [
+          "micro-v7-d77957724f262d6dd1"
+        ],
+        "method": [
+          "micro-v7-d77957724f262d6dd1"
+        ],
+        "random": [
+          "micro-v7-d77957724f262d6dd1"
+        ],
+        "supply": [
+          "micro-v7-d77957724f262d6dd1"
+        ]
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2019-04-28T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2019-05-05T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2019-05-12T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-c47952144e7555b26d"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 1.0,
+          "distinct_channel_count": 5,
+          "evidence_titles": [
+            "QuAI tutorial: Train AI models on a TS-2888X with QTS and TensorFlow",
+            "Machine Learning with TensorFlow and PyTorch on Apache Hadoop using Cloud Dataproc (Cloud Next '19)",
+            "Tensorflow Image Classification | Build Your Own Image Classifier In Tensorflow | Edureka",
+            "Monitoring of GPU Usage with Tensorflow Models Using PrometheusDiane Feddema Red Hat Inc ,Zak Hassan",
+            "Build an AI-powered Pet Detector with Python TensorFlow and Visual Studio Code - BRK3014"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=8mBK9XZoX3k",
+            "https://www.youtube.com/watch?v=hr7_pG3yEOQ",
+            "https://www.youtube.com/watch?v=AACPaoDsd50",
+            "https://www.youtube.com/watch?v=WHmXJUNyIHg",
+            "https://www.youtube.com/watch?v=Oi3Hn_UtDEw"
+          ],
+          "evidence_video_ids": [
+            "8mBK9XZoX3k",
+            "hr7_pG3yEOQ",
+            "AACPaoDsd50",
+            "WHmXJUNyIHg",
+            "Oi3Hn_UtDEw"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 1,
+          "label": "TensorFlow practical implementations",
+          "lead_days": null,
+          "median_outlier_ratio": 0.6207,
+          "new_channel_share": 1.0,
+          "new_future_channel_count": 1,
+          "new_recent_channel_count": 2,
+          "outlier_video_count": 0,
+          "rank": 1,
+          "recent_video_count": 2,
+          "score": 11.0,
+          "supply_growth": 0.167,
+          "topic_key": "micro-v7-c47952144e7555b26d"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-c47952144e7555b26d"
+        ],
+        "channels": [
+          "micro-v7-c47952144e7555b26d"
+        ],
+        "method": [
+          "micro-v7-c47952144e7555b26d"
+        ],
+        "random": [
+          "micro-v7-c47952144e7555b26d"
+        ],
+        "supply": [
+          "micro-v7-c47952144e7555b26d"
+        ]
+      }
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2019-05-19T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-032da884e92201830d"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 1.0,
+          "distinct_channel_count": 8,
+          "evidence_titles": [
+            "Reinforcement Learning with TensorFlow & TRFL :Deep Q Netwrk & Target Netwrk|packtpub.com",
+            "Reinforcement Learning with TensorFlow & TRFL :Use Imp Sampling with Retrace (\u03bb)| packtpub.com",
+            "Reinforcement Learning with TensorFlow & TRFL : The Course Overview | packtpub.com",
+            "How to Install TensorFlow GPU on Linux",
+            "Tensorflow | SciPy Japan 2019 Tutorial | Josh Gordon, Amit Patankar"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=52AUlBex_DM",
+            "https://www.youtube.com/watch?v=DFKHh7_zzJc",
+            "https://www.youtube.com/watch?v=RTj7Y6Fp8HY",
+            "https://www.youtube.com/watch?v=s4Lcf9du9L8",
+            "https://www.youtube.com/watch?v=5CXj9umwmOI",
+            "https://www.youtube.com/watch?v=GTibgKo7WaI",
+            "https://www.youtube.com/watch?v=dJ6AB6Fgh0U",
+            "https://www.youtube.com/watch?v=tXVNS-V39A0",
+            "https://www.youtube.com/watch?v=BaIAIC8z4Pw",
+            "https://www.youtube.com/watch?v=sLvwftiE2as",
+            "https://www.youtube.com/watch?v=sV79o329qaM",
+            "https://www.youtube.com/watch?v=ym03KmzINgM",
+            "https://www.youtube.com/watch?v=zTGrt1oyul4",
+            "https://www.youtube.com/watch?v=Yyv-ng0_OTU"
+          ],
+          "evidence_video_ids": [
+            "52AUlBex_DM",
+            "DFKHh7_zzJc",
+            "RTj7Y6Fp8HY",
+            "s4Lcf9du9L8",
+            "5CXj9umwmOI",
+            "GTibgKo7WaI",
+            "dJ6AB6Fgh0U",
+            "tXVNS-V39A0",
+            "BaIAIC8z4Pw",
+            "sLvwftiE2as",
+            "sV79o329qaM",
+            "ym03KmzINgM",
+            "zTGrt1oyul4",
+            "Yyv-ng0_OTU"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 12,
+          "label": "TensorFlow creator activity",
+          "lead_days": null,
+          "median_outlier_ratio": 1.7793,
+          "new_channel_share": 0.5833,
+          "new_future_channel_count": 6,
+          "new_recent_channel_count": 2,
+          "outlier_video_count": 1,
+          "rank": 1,
+          "recent_video_count": 9,
+          "score": 8.9,
+          "supply_growth": 0.727,
+          "topic_key": "micro-v7-032da884e92201830d"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "channels": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "method": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "random": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "supply": [
+          "micro-v7-032da884e92201830d"
+        ]
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2019-05-26T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2019-06-02T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2019-06-09T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2019-06-16T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-032da884e92201830d"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 1.0,
+          "distinct_channel_count": 8,
+          "evidence_titles": [
+            "Federated Learning with TensorFlow:  Load Decentralized MNIST Dataset | packtpub.com",
+            "Federated Learning with TensorFlow:  The Course Overview | packtpub.com",
+            "Federated Learning with TensorFlow:  Load and Prepare | packtpub.com",
+            "AI at the Edge  TensorFlow to TensorRT on Jetson",
+            "TensorFlow Models Accelerated for NVIDIA Jetson"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=zTGrt1oyul4",
+            "https://www.youtube.com/watch?v=Yyv-ng0_OTU",
+            "https://www.youtube.com/watch?v=jdBbFSghM2s",
+            "https://www.youtube.com/watch?v=Qm9RRflgXnM",
+            "https://www.youtube.com/watch?v=NERNE4UThHU",
+            "https://www.youtube.com/watch?v=p-ebtNc2iXs",
+            "https://www.youtube.com/watch?v=AIliXWaLutA",
+            "https://www.youtube.com/watch?v=RbZDYc_Cvsk",
+            "https://www.youtube.com/watch?v=TSfJ1n2OMO0",
+            "https://www.youtube.com/watch?v=rqEf6DJ6XXM",
+            "https://www.youtube.com/watch?v=7kJ-jph9gCw",
+            "https://www.youtube.com/watch?v=QRs619bWAow"
+          ],
+          "evidence_video_ids": [
+            "zTGrt1oyul4",
+            "Yyv-ng0_OTU",
+            "jdBbFSghM2s",
+            "Qm9RRflgXnM",
+            "NERNE4UThHU",
+            "p-ebtNc2iXs",
+            "AIliXWaLutA",
+            "RbZDYc_Cvsk",
+            "TSfJ1n2OMO0",
+            "rqEf6DJ6XXM",
+            "7kJ-jph9gCw",
+            "QRs619bWAow"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 9,
+          "label": "TensorFlow creator activity",
+          "lead_days": null,
+          "median_outlier_ratio": 1.0596,
+          "new_channel_share": 0.6667,
+          "new_future_channel_count": 2,
+          "new_recent_channel_count": 3,
+          "outlier_video_count": 3,
+          "rank": 1,
+          "recent_video_count": 8,
+          "score": 13.5,
+          "supply_growth": 0.6,
+          "topic_key": "micro-v7-032da884e92201830d"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "channels": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "method": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "random": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "supply": [
+          "micro-v7-032da884e92201830d"
+        ]
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2019-06-23T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2019-06-30T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2019-07-07T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2019-07-14T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2019-07-21T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2019-07-28T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2019-08-04T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-c63877fef4de4f7574"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 0.8,
+          "distinct_channel_count": 5,
+          "evidence_titles": [
+            "TensorBoard with PyTorch - Visualize Deep Learning Metrics",
+            "Skorch: A Union of Scikit learn and PyTorch | SciPy 2019 | Thomas Fan",
+            "Jeffrey Hsu, Susannah Klanecek: A Deep Dive into NLP with PyTorch | PyData London 2019",
+            "A Deep Dive into NLP with PyTorch",
+            "PyTorch Skills: Building Your First PyTorch Solution Course Preview"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=0LhiS6yu2qQ",
+            "https://www.youtube.com/watch?v=pSexXMdruFM",
+            "https://www.youtube.com/watch?v=0J7FaLk0bmQ",
+            "https://www.youtube.com/watch?v=Apx_1erbQB4",
+            "https://www.youtube.com/watch?v=4jROlXH9Nvc",
+            "https://www.youtube.com/watch?v=K7Y-sCVh2ws"
+          ],
+          "evidence_video_ids": [
+            "0LhiS6yu2qQ",
+            "pSexXMdruFM",
+            "0J7FaLk0bmQ",
+            "Apx_1erbQB4",
+            "4jROlXH9Nvc",
+            "K7Y-sCVh2ws"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 5,
+          "label": "PyTorch creator activity",
+          "lead_days": null,
+          "median_outlier_ratio": 0.9313,
+          "new_channel_share": 0.2,
+          "new_future_channel_count": 1,
+          "new_recent_channel_count": 2,
+          "outlier_video_count": 0,
+          "rank": 1,
+          "recent_video_count": 2,
+          "score": 11.5,
+          "supply_growth": 0.667,
+          "topic_key": "micro-v7-c63877fef4de4f7574"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-c63877fef4de4f7574"
+        ],
+        "channels": [
+          "micro-v7-c63877fef4de4f7574"
+        ],
+        "method": [
+          "micro-v7-c63877fef4de4f7574"
+        ],
+        "random": [
+          "micro-v7-c63877fef4de4f7574"
+        ],
+        "supply": [
+          "micro-v7-c63877fef4de4f7574"
+        ]
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2019-08-11T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2019-08-18T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2019-08-25T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2019-09-01T23:59:59+00:00",
+      "outcome_topic_keys": [],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [],
+      "ranking_topic_keys": {
+        "acceleration": [],
+        "channels": [],
+        "method": [],
+        "random": [],
+        "supply": []
+      }
+    },
+    {
+      "candidate_count": 1,
+      "checkpoint_at": "2019-09-08T23:59:59+00:00",
+      "outcome_topic_keys": [
+        "micro-v7-032da884e92201830d"
+      ],
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": [
+        {
+          "baseline_coverage": 0.6667,
+          "distinct_channel_count": 3,
+          "evidence_titles": [
+            "Automatic logging from Keras and TensorFlow",
+            "O'Reilly TensorFlow World Conference 2019",
+            "Mai Gim\u00e9nez - Tensorflow Estimators"
+          ],
+          "evidence_urls": [
+            "https://www.youtube.com/watch?v=0A0mZ7fa2Lc",
+            "https://www.youtube.com/watch?v=BiVywuor0XY",
+            "https://www.youtube.com/watch?v=JKNvYK0sdW8"
+          ],
+          "evidence_video_ids": [
+            "0A0mZ7fa2Lc",
+            "BiVywuor0XY",
+            "JKNvYK0sdW8"
+          ],
+          "fired": false,
+          "fired_at": null,
+          "future_video_count": 3,
+          "label": "TensorFlow creator activity",
+          "lead_days": null,
+          "median_outlier_ratio": 2.1515,
+          "new_channel_share": 0.3333,
+          "new_future_channel_count": 1,
+          "new_recent_channel_count": 2,
+          "outlier_video_count": 1,
+          "rank": 1,
+          "recent_video_count": 2,
+          "score": 12.8,
+          "supply_growth": 0.5,
+          "topic_key": "micro-v7-032da884e92201830d"
+        }
+      ],
+      "ranking_topic_keys": {
+        "acceleration": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "channels": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "method": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "random": [
+          "micro-v7-032da884e92201830d"
+        ],
+        "supply": [
+          "micro-v7-032da884e92201830d"
+        ]
+      }
+    }
+  ],
+  "code_sha256": "e65589464d4bbb4d233651cca09be7ec139930dca973e2d2ffe78dc655553904",
+  "dataset_version": "youniverse-v1.1-en",
+  "gate": {
+    "checks": {
+      "beats_base_rate": false,
+      "complete_followup": true,
+      "future_video_baseline_coverage": true,
+      "holdout_split": true,
+      "median_lead": false,
+      "not_worse_than_each_simple_baseline": true,
+      "outcome_baseline_coverage": true,
+      "positive_outcome_support": false,
+      "precision_at_10": false
+    },
+    "verdict": "INSUFFICIENT_OUTCOME_SUPPORT"
+  },
+  "generated_at": "2026-08-09T18:58:33.108666+00:00",
+  "metrics": {
+    "candidate_base_rate_percent": 0.0,
+    "candidate_topics": 17,
+    "checkpoint_count": 36,
+    "fired_candidate_topics": 0,
+    "rankings": {
+      "acceleration": {
+        "fired": 0,
+        "future_video_baseline_coverage_percent": 94.79,
+        "median_lead_days": null,
+        "precision_at_10_percent": 0.0,
+        "prediction_outcome_baseline_coverage_percent": 82.35,
+        "predictions": 17,
+        "recall_percent": null
+      },
+      "channels": {
+        "fired": 0,
+        "future_video_baseline_coverage_percent": 94.79,
+        "median_lead_days": null,
+        "precision_at_10_percent": 0.0,
+        "prediction_outcome_baseline_coverage_percent": 82.35,
+        "predictions": 17,
+        "recall_percent": null
+      },
+      "method": {
+        "fired": 0,
+        "future_video_baseline_coverage_percent": 94.79,
+        "median_lead_days": null,
+        "precision_at_10_percent": 0.0,
+        "prediction_outcome_baseline_coverage_percent": 82.35,
+        "predictions": 17,
+        "recall_percent": null
+      },
+      "random": {
+        "fired": 0,
+        "future_video_baseline_coverage_percent": 94.79,
+        "median_lead_days": null,
+        "precision_at_10_percent": 0.0,
+        "prediction_outcome_baseline_coverage_percent": 82.35,
+        "predictions": 17,
+        "recall_percent": null
+      },
+      "supply": {
+        "fired": 0,
+        "future_video_baseline_coverage_percent": 94.79,
+        "median_lead_days": null,
+        "precision_at_10_percent": 0.0,
+        "prediction_outcome_baseline_coverage_percent": 82.35,
+        "predictions": 17,
+        "recall_percent": null
+      }
+    }
+  },
+  "outcome_version": "future-topic-supply-channel-outlier-42d-v1",
+  "policy": {
+    "active_window_days": 35,
+    "episode_cooldown_days": 28,
+    "maximum_active_videos": 25,
+    "minimum_channels": 3,
+    "minimum_future_videos": 3,
+    "minimum_median_outlier_ratio": 2,
+    "minimum_new_channel_share": 0.5,
+    "minimum_new_future_channels": 3,
+    "minimum_new_recent_channels": 2,
+    "minimum_outcome_baseline_coverage": 0.8,
+    "minimum_outlier_ratio": 3,
+    "minimum_outlier_videos": 3,
+    "minimum_recent_channels": 2,
+    "minimum_recent_videos": 2,
+    "minimum_specificity": 70,
+    "minimum_thesis_support": 0.8,
+    "minimum_videos": 3,
+    "outcome_horizon_days": 42,
+    "recent_window_days": 14,
+    "structural_lookback_days": 180,
+    "supply_growth_threshold": 3,
+    "top_k": 10
+  },
+  "replay_version": "youniverse-structural-replay-v1.1-filtered-schema",
+  "split": "holdout",
+  "taxonomy_version": "microtopic-clustering-v7.1-format-neutral-historical-ai",
+  "timeseries_artifact_sha256": "1c837ad5ae378bb06d5e5927278fb6b8e9056fd4dfbf46af42782cb439e2293d",
+  "topic_identity_count": 112,
+  "video_count": 11482
+}

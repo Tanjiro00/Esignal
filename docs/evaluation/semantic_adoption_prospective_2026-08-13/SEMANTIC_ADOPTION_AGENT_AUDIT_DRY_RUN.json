@@ -1,0 +1,438 @@
+{
+  "artifact_version": "semantic-adoption-agent-audit-v1",
+  "candidates": [
+    {
+      "internal_rank_score": 1.954766503,
+      "product_release_ready": false,
+      "rank": 1,
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "shadow_audit_status": "not_processed_batch_limit",
+      "topic_key": "semantic-23abd4d24c3b24f1c7"
+    },
+    {
+      "internal_rank_score": 1.4845322325,
+      "product_release_ready": false,
+      "rank": 2,
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "shadow_audit_status": "not_processed_batch_limit",
+      "topic_key": "semantic-0a71b60651d81b658c"
+    },
+    {
+      "internal_rank_score": 1.3792192328,
+      "pre_audit": {
+        "independent_channel_count": 2,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": false,
+        "raw_video_count": 5,
+        "reason_codes": [
+          "no_shared_concrete_anchor"
+        ],
+        "representative_video_ids": [
+          "3Y0EU6N6ADY",
+          "6k9y-b6cYyk",
+          "Dh_lbXxXZao",
+          "JOtZZ-BFZCQ",
+          "RMFfWZnF138"
+        ],
+        "shared_anchor_concepts": [],
+        "strongest_anchor_family_count": 1,
+        "title_family_count": 5
+      },
+      "product_release_ready": false,
+      "rank": 3,
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "shadow_audit_status": "abstained_deterministic_pre_audit",
+      "topic_key": "semantic-124ccf2f93761cae4b"
+    },
+    {
+      "internal_rank_score": 1.1859609594,
+      "product_release_ready": false,
+      "rank": 4,
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "shadow_audit_status": "not_processed_batch_limit",
+      "topic_key": "semantic-5500f23e291a270c9c"
+    },
+    {
+      "internal_rank_score": 1.1277651863,
+      "product_release_ready": false,
+      "rank": 5,
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "shadow_audit_status": "not_processed_batch_limit",
+      "topic_key": "semantic-edb9321beac0670588"
+    },
+    {
+      "internal_rank_score": 1.0983265026,
+      "pre_audit": {
+        "independent_channel_count": 3,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": false,
+        "raw_video_count": 3,
+        "reason_codes": [
+          "no_shared_concrete_anchor"
+        ],
+        "representative_video_ids": [
+          "NcJZUIFIujU",
+          "Q2EIpeuPASQ",
+          "TgLTCtusd28"
+        ],
+        "shared_anchor_concepts": [],
+        "strongest_anchor_family_count": 1,
+        "title_family_count": 3
+      },
+      "product_release_ready": false,
+      "rank": 6,
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "shadow_audit_status": "abstained_deterministic_pre_audit",
+      "topic_key": "semantic-d4f392900969707dbe"
+    },
+    {
+      "internal_rank_score": 1.0546104738,
+      "product_release_ready": false,
+      "rank": 7,
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "shadow_audit_status": "not_processed_batch_limit",
+      "topic_key": "semantic-3aa38e73b8fdb073a9"
+    },
+    {
+      "internal_rank_score": 0.9617462543,
+      "product_release_ready": false,
+      "rank": 8,
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "shadow_audit_status": "not_processed_batch_limit",
+      "topic_key": "semantic-55a95379d93e6e3f83"
+    },
+    {
+      "internal_rank_score": 0.934736938,
+      "product_release_ready": false,
+      "rank": 9,
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "shadow_audit_status": "not_processed_batch_limit",
+      "topic_key": "semantic-127b76e84b0ebaa7f1"
+    },
+    {
+      "internal_rank_score": 0.8997175494,
+      "product_release_ready": false,
+      "rank": 10,
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "shadow_audit_status": "not_processed_batch_limit",
+      "topic_key": "semantic-6b5a7af5e989c583e1"
+    },
+    {
+      "internal_rank_score": 0.7956286541,
+      "product_release_ready": false,
+      "rank": 11,
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "shadow_audit_status": "not_processed_batch_limit",
+      "topic_key": "semantic-2d8146e3289c67ef53"
+    },
+    {
+      "internal_rank_score": 0.787200555,
+      "product_release_ready": false,
+      "rank": 12,
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "shadow_audit_status": "not_processed_batch_limit",
+      "topic_key": "semantic-03b56e93e6fb1849d8"
+    },
+    {
+      "internal_rank_score": 0.7399081664,
+      "pre_audit": {
+        "independent_channel_count": 2,
+        "non_english_family_count": 2,
+        "non_english_share": 0.666667,
+        "pre_audit_passed": false,
+        "raw_video_count": 3,
+        "reason_codes": [
+          "non_english_evidence_majority"
+        ],
+        "representative_video_ids": [
+          "6LSgPzIxxw4",
+          "FuXbX1cXwlY",
+          "ffm6nq7dU6I"
+        ],
+        "shared_anchor_concepts": [
+          "flow",
+          "gemini",
+          "google"
+        ],
+        "strongest_anchor_family_count": 3,
+        "title_family_count": 3
+      },
+      "product_release_ready": false,
+      "rank": 13,
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "shadow_audit_status": "abstained_deterministic_pre_audit",
+      "topic_key": "semantic-b7fda92a01bcf7de05"
+    },
+    {
+      "internal_rank_score": 0.6101781571,
+      "product_release_ready": false,
+      "rank": 14,
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "shadow_audit_status": "not_processed_batch_limit",
+      "topic_key": "semantic-da07d56182cbc5dc75"
+    },
+    {
+      "internal_rank_score": 0.5397213156,
+      "pre_audit": {
+        "independent_channel_count": 4,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": false,
+        "raw_video_count": 4,
+        "reason_codes": [
+          "no_shared_concrete_anchor"
+        ],
+        "representative_video_ids": [
+          "8_pW1yl0-qU",
+          "Ejlbt_lDlI4",
+          "eNi1h7kjZHQ",
+          "tIttdEx_adw"
+        ],
+        "shared_anchor_concepts": [],
+        "strongest_anchor_family_count": 1,
+        "title_family_count": 4
+      },
+      "product_release_ready": false,
+      "rank": 15,
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "shadow_audit_status": "abstained_deterministic_pre_audit",
+      "topic_key": "semantic-fd84acddf93cdffdf1"
+    },
+    {
+      "internal_rank_score": 0.5245581098,
+      "pre_audit": {
+        "independent_channel_count": 2,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": false,
+        "raw_video_count": 2,
+        "reason_codes": [
+          "no_shared_concrete_anchor"
+        ],
+        "representative_video_ids": [
+          "aNh4rAH3x4g",
+          "vGSN338vKHY"
+        ],
+        "shared_anchor_concepts": [],
+        "strongest_anchor_family_count": 1,
+        "title_family_count": 2
+      },
+      "product_release_ready": false,
+      "rank": 16,
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "shadow_audit_status": "abstained_deterministic_pre_audit",
+      "topic_key": "semantic-b5e28ead4d1c2e5150"
+    },
+    {
+      "internal_rank_score": 0.4925822984,
+      "product_release_ready": false,
+      "rank": 17,
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "shadow_audit_status": "not_processed_batch_limit",
+      "topic_key": "semantic-47689c8b6924e49dae"
+    },
+    {
+      "internal_rank_score": 0.4663101735,
+      "product_release_ready": false,
+      "rank": 18,
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "shadow_audit_status": "not_processed_batch_limit",
+      "topic_key": "semantic-60d2079e9334b3f924"
+    },
+    {
+      "internal_rank_score": 0.4635454962,
+      "product_release_ready": false,
+      "rank": 19,
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "shadow_audit_status": "not_processed_batch_limit",
+      "topic_key": "semantic-91018f53122ab58bef"
+    },
+    {
+      "internal_rank_score": 0.4477084781,
+      "product_release_ready": false,
+      "rank": 20,
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "shadow_audit_status": "not_processed_batch_limit",
+      "topic_key": "semantic-c6c52c9ffffb812090"
+    },
+    {
+      "internal_rank_score": 0.3841308415,
+      "product_release_ready": false,
+      "rank": 21,
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "shadow_audit_status": "not_processed_batch_limit",
+      "topic_key": "semantic-f89be6ba3d56708271"
+    },
+    {
+      "internal_rank_score": 0.3836471076,
+      "product_release_ready": false,
+      "rank": 22,
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "shadow_audit_status": "not_processed_batch_limit",
+      "topic_key": "semantic-3c1250dad24e7fa6ce"
+    },
+    {
+      "internal_rank_score": 0.2088537544,
+      "product_release_ready": false,
+      "rank": 23,
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "shadow_audit_status": "not_processed_batch_limit",
+      "topic_key": "semantic-a5958ef0d831ba72a4"
+    },
+    {
+      "internal_rank_score": 0.2001021547,
+      "product_release_ready": false,
+      "rank": 24,
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "shadow_audit_status": "not_processed_batch_limit",
+      "topic_key": "semantic-8c8c9d1c50e206c231"
+    },
+    {
+      "internal_rank_score": 0.1719180281,
+      "product_release_ready": false,
+      "rank": 25,
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "shadow_audit_status": "not_processed_batch_limit",
+      "topic_key": "semantic-aa30a7a6046afe1505"
+    },
+    {
+      "internal_rank_score": 0.1599473706,
+      "pre_audit": {
+        "independent_channel_count": 2,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": false,
+        "raw_video_count": 2,
+        "reason_codes": [
+          "no_shared_concrete_anchor"
+        ],
+        "representative_video_ids": [
+          "1gfrhFoIXfM",
+          "R2nW422hPr4"
+        ],
+        "shared_anchor_concepts": [],
+        "strongest_anchor_family_count": 1,
+        "title_family_count": 2
+      },
+      "product_release_ready": false,
+      "rank": 26,
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "shadow_audit_status": "abstained_deterministic_pre_audit",
+      "topic_key": "semantic-c3d237a17b560fa0e5"
+    },
+    {
+      "internal_rank_score": 0.1407214262,
+      "pre_audit": {
+        "independent_channel_count": 2,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": false,
+        "raw_video_count": 2,
+        "reason_codes": [
+          "no_shared_concrete_anchor"
+        ],
+        "representative_video_ids": [
+          "6z7zd4xVnaM",
+          "zzyM4ziCwwo"
+        ],
+        "shared_anchor_concepts": [],
+        "strongest_anchor_family_count": 1,
+        "title_family_count": 2
+      },
+      "product_release_ready": false,
+      "rank": 27,
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "shadow_audit_status": "abstained_deterministic_pre_audit",
+      "topic_key": "semantic-fceb63b104d3ce81d1"
+    },
+    {
+      "internal_rank_score": 0.1372794281,
+      "product_release_ready": false,
+      "rank": 28,
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "shadow_audit_status": "not_processed_batch_limit",
+      "topic_key": "semantic-d4efb0175e934359e2"
+    },
+    {
+      "internal_rank_score": 0.0459380442,
+      "pre_audit": {
+        "independent_channel_count": 2,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": false,
+        "raw_video_count": 3,
+        "reason_codes": [
+          "no_shared_concrete_anchor"
+        ],
+        "representative_video_ids": [
+          "MEw7TrAUEPQ",
+          "NS_Qcw-6V4Y"
+        ],
+        "shared_anchor_concepts": [],
+        "strongest_anchor_family_count": 1,
+        "title_family_count": 2
+      },
+      "product_release_ready": false,
+      "rank": 29,
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "shadow_audit_status": "abstained_deterministic_pre_audit",
+      "topic_key": "semantic-62a572e77e4a363ec2"
+    },
+    {
+      "internal_rank_score": 0.018040413,
+      "product_release_ready": false,
+      "rank": 30,
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "shadow_audit_status": "not_processed_batch_limit",
+      "topic_key": "semantic-e447839060abdc4011"
+    },
+    {
+      "internal_rank_score": 0.0021212854,
+      "product_release_ready": false,
+      "rank": 31,
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "shadow_audit_status": "not_processed_batch_limit",
+      "topic_key": "semantic-db4c605736d3a1cd13"
+    },
+    {
+      "internal_rank_score": -0.0343694738,
+      "pre_audit": {
+        "independent_channel_count": 2,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": false,
+        "raw_video_count": 3,
+        "reason_codes": [
+          "no_shared_concrete_anchor"
+        ],
+        "representative_video_ids": [
+          "EqJSmJ6ZN5M",
+          "N7zh3PoMeSk",
+          "uiYnWs6Wcqs"
+        ],
+        "shared_anchor_concepts": [],
+        "strongest_anchor_family_count": 1,
+        "title_family_count": 3
+      },
+      "product_release_ready": false,
+      "rank": 32,
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "shadow_audit_status": "abstained_deterministic_pre_audit",
+      "topic_key": "semantic-2385bb338774297403"
+    }
+  ],
+  "decision_counts": {
+    "abstained_deterministic_pre_audit": 9,
+    "not_processed_batch_limit": 23
+  },
+  "generated_at": "2026-08-13T18:11:14.544862+00:00",
+  "llm_policy_version": "evidence-decision-graph-v1",
+  "processed_limit": 0,
+  "product_boundary": "shadow_only_no_act_no_probability",
+  "product_release_ready_count": 0,
+  "source_checkpoint": "2026-08-12T23:59:59+00:00",
+  "source_outcome_embargo": "2026-09-24T00:00:00+00:00",
+  "source_queue_sha256": "19f2fded971a2f86a6ffae11567e2e2bfc9481f8ed03cee75b6d5b26d1e9d48f"
+}

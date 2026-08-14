@@ -1,0 +1,1366 @@
+{
+  "checkpoints": [
+    {
+      "checkpoint_at": "2024-10-14T23:59:59+00:00",
+      "fired_topic_count": 0,
+      "raw_topic_count": 7,
+      "reason_counts": {
+        "broad_subject_without_event": 1,
+        "specificity_below_visible_floor": 4,
+        "subject_event_identity_supported": 2,
+        "unnamed_release_without_product_anchor": 1
+      },
+      "split": "train",
+      "topics": [
+        {
+          "distinct_channels": 10,
+          "fired": false,
+          "key": "micro-v6-d209a5ba8139543934",
+          "label": "Artificial intelligence renewed attention",
+          "lead_days": null,
+          "max_supply_growth": 10.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "broad_subject_without_event",
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 58.0,
+          "supply_72h": 0,
+          "titles": [
+            "LA MOGLIE DI BORGHESE: DAL PRIMO INCONTRO AI FIGLI, TUTTI I DETTAGLI",
+            "Hoa Sen Nước Chảy - Đoạn Tình Duyên Ban Tặng Cho Ai - Nhạc Thiền An Nhiên",
+            "The End of The Simpsons: A.I. Series Finale Analysis",
+            "Ce părere ai? 🤯🎙️🎞️ Psihologul Constantin Cornea spune tot! 🙌🏼 #podcast",
+            "Asking AI to turn Bugs Bunny into a mobster #ai #ia #bugsbunny #rap #typebeat #shorts"
+          ],
+          "video_count": 11,
+          "visible": false
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-dcd7545c2423d68646",
+          "label": "Google AI reliability and safety concerns",
+          "lead_days": null,
+          "max_supply_growth": 0.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "subject_event_identity_supported"
+          ],
+          "specificity": 87.0,
+          "supply_72h": 0,
+          "titles": [
+            "Google Pixel 9 Photo AI Is Problematic"
+          ],
+          "video_count": 1,
+          "visible": true
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-07d8fb6254ddcda991",
+          "label": "Developer tools market activity",
+          "lead_days": null,
+          "max_supply_growth": 0.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 50.0,
+          "supply_72h": 0,
+          "titles": [
+            "GitHub Copilot Chat and o1-preview: Building a maze generator!"
+          ],
+          "video_count": 1,
+          "visible": false
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-68044e9541aae420c8",
+          "label": "OpenAI market activity",
+          "lead_days": null,
+          "max_supply_growth": 0.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 62.0,
+          "supply_72h": 0,
+          "titles": [
+            "The Automation Endgame, VCs Returning Cash, and the OpenAI Wager | E2019"
+          ],
+          "video_count": 1,
+          "visible": false
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-4df45fab302ca3ab40",
+          "label": "Artificial intelligence competitive pressure",
+          "lead_days": null,
+          "max_supply_growth": 0.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "subject_event_identity_supported"
+          ],
+          "specificity": 75.0,
+          "supply_72h": 0,
+          "titles": [
+            "Motiv Raptor Rush - vs Crimson Jackal and Storm Phaze AI - 3 Testers by TamerBowling.com"
+          ],
+          "video_count": 1,
+          "visible": true
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-4ca642251c4124d007",
+          "label": "Artificial intelligence product and capability release",
+          "lead_days": null,
+          "max_supply_growth": 1.0,
+          "median_outlier": 1.2173913043478262,
+          "peak_lift": 1.1944,
+          "reason_codes": [
+            "unnamed_release_without_product_anchor"
+          ],
+          "specificity": 75.0,
+          "supply_72h": 0,
+          "titles": [
+            "Artificial Intelligence / AI is HERE"
+          ],
+          "video_count": 1,
+          "visible": false
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-85503beab069acf56c",
+          "label": "Artificial intelligence practical use cases",
+          "lead_days": null,
+          "max_supply_growth": 1.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 65.0,
+          "supply_72h": 1,
+          "titles": [
+            "FREE 3D Cartoon Animation Videos 🤩 using Ai Tools #ai #aitools"
+          ],
+          "video_count": 1,
+          "visible": false
+        }
+      ],
+      "visible_topic_count": 2
+    },
+    {
+      "checkpoint_at": "2024-10-19T23:59:59+00:00",
+      "fired_topic_count": 0,
+      "raw_topic_count": 9,
+      "reason_counts": {
+        "broad_subject_without_event": 1,
+        "specificity_below_visible_floor": 5,
+        "subject_event_identity_supported": 3,
+        "unnamed_release_without_product_anchor": 1
+      },
+      "split": "train",
+      "topics": [
+        {
+          "distinct_channels": 11,
+          "fired": false,
+          "key": "micro-v6-d209a5ba8139543934",
+          "label": "Artificial intelligence renewed attention",
+          "lead_days": null,
+          "max_supply_growth": 10.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "broad_subject_without_event",
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 58.0,
+          "supply_72h": 1,
+          "titles": [
+            "LA MOGLIE DI BORGHESE: DAL PRIMO INCONTRO AI FIGLI, TUTTI I DETTAGLI",
+            "Hoa Sen Nước Chảy - Đoạn Tình Duyên Ban Tặng Cho Ai - Nhạc Thiền An Nhiên",
+            "The End of The Simpsons: A.I. Series Finale Analysis",
+            "Ce părere ai? 🤯🎙️🎞️ Psihologul Constantin Cornea spune tot! 🙌🏼 #podcast",
+            "Asking AI to turn Bugs Bunny into a mobster #ai #ia #bugsbunny #rap #typebeat #shorts"
+          ],
+          "video_count": 12,
+          "visible": false
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-dcd7545c2423d68646",
+          "label": "Google AI reliability and safety concerns",
+          "lead_days": null,
+          "max_supply_growth": 0.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "subject_event_identity_supported"
+          ],
+          "specificity": 87.0,
+          "supply_72h": 0,
+          "titles": [
+            "Google Pixel 9 Photo AI Is Problematic"
+          ],
+          "video_count": 1,
+          "visible": true
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-07d8fb6254ddcda991",
+          "label": "Developer tools market activity",
+          "lead_days": null,
+          "max_supply_growth": 0.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 50.0,
+          "supply_72h": 0,
+          "titles": [
+            "GitHub Copilot Chat and o1-preview: Building a maze generator!"
+          ],
+          "video_count": 1,
+          "visible": false
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-68044e9541aae420c8",
+          "label": "OpenAI market activity",
+          "lead_days": null,
+          "max_supply_growth": 0.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 62.0,
+          "supply_72h": 0,
+          "titles": [
+            "The Automation Endgame, VCs Returning Cash, and the OpenAI Wager | E2019"
+          ],
+          "video_count": 1,
+          "visible": false
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-4df45fab302ca3ab40",
+          "label": "Artificial intelligence competitive pressure",
+          "lead_days": null,
+          "max_supply_growth": 0.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "subject_event_identity_supported"
+          ],
+          "specificity": 75.0,
+          "supply_72h": 0,
+          "titles": [
+            "Motiv Raptor Rush - vs Crimson Jackal and Storm Phaze AI - 3 Testers by TamerBowling.com"
+          ],
+          "video_count": 1,
+          "visible": true
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-4ca642251c4124d007",
+          "label": "Artificial intelligence product and capability release",
+          "lead_days": null,
+          "max_supply_growth": 1.0,
+          "median_outlier": 1.1944444444444444,
+          "peak_lift": 1.1944,
+          "reason_codes": [
+            "unnamed_release_without_product_anchor"
+          ],
+          "specificity": 75.0,
+          "supply_72h": 0,
+          "titles": [
+            "Artificial Intelligence / AI is HERE"
+          ],
+          "video_count": 1,
+          "visible": false
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-85503beab069acf56c",
+          "label": "Artificial intelligence practical use cases",
+          "lead_days": null,
+          "max_supply_growth": 1.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 65.0,
+          "supply_72h": 0,
+          "titles": [
+            "FREE 3D Cartoon Animation Videos 🤩 using Ai Tools #ai #aitools"
+          ],
+          "video_count": 1,
+          "visible": false
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-7d13c19884066d6bc0",
+          "label": "ChatGPT practical use cases",
+          "lead_days": null,
+          "max_supply_growth": 1.0,
+          "median_outlier": 2.806451612903226,
+          "peak_lift": 2.5806,
+          "reason_codes": [
+            "subject_event_identity_supported"
+          ],
+          "specificity": 77.0,
+          "supply_72h": 0,
+          "titles": [
+            "Handwriting books - using TT turbo to import ChatGPT generated vocabulary word lists fast"
+          ],
+          "video_count": 1,
+          "visible": true
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-54c8f336a6afb79f34",
+          "label": "ChatGPT market activity",
+          "lead_days": null,
+          "max_supply_growth": 1.0,
+          "median_outlier": 1.1225806451612903,
+          "peak_lift": 1.1075,
+          "reason_codes": [
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 62.0,
+          "supply_72h": 0,
+          "titles": [
+            "TT Turbo -  making simple KDP guided journals fast with prompts from ChatGPT #tangenttemplates"
+          ],
+          "video_count": 1,
+          "visible": false
+        }
+      ],
+      "visible_topic_count": 3
+    },
+    {
+      "checkpoint_at": "2024-10-24T23:59:59+00:00",
+      "fired_topic_count": 0,
+      "raw_topic_count": 9,
+      "reason_counts": {
+        "broad_subject_without_event": 1,
+        "specificity_below_visible_floor": 5,
+        "subject_event_identity_supported": 3,
+        "unnamed_release_without_product_anchor": 1
+      },
+      "split": "train",
+      "topics": [
+        {
+          "distinct_channels": 14,
+          "fired": false,
+          "key": "micro-v6-d209a5ba8139543934",
+          "label": "Artificial intelligence renewed attention",
+          "lead_days": null,
+          "max_supply_growth": 12.6667,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "broad_subject_without_event",
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 58.0,
+          "supply_72h": 3,
+          "titles": [
+            "LA MOGLIE DI BORGHESE: DAL PRIMO INCONTRO AI FIGLI, TUTTI I DETTAGLI",
+            "Hoa Sen Nước Chảy - Đoạn Tình Duyên Ban Tặng Cho Ai - Nhạc Thiền An Nhiên",
+            "The End of The Simpsons: A.I. Series Finale Analysis",
+            "Ce părere ai? 🤯🎙️🎞️ Psihologul Constantin Cornea spune tot! 🙌🏼 #podcast",
+            "Asking AI to turn Bugs Bunny into a mobster #ai #ia #bugsbunny #rap #typebeat #shorts"
+          ],
+          "video_count": 15,
+          "visible": false
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-dcd7545c2423d68646",
+          "label": "Google AI reliability and safety concerns",
+          "lead_days": null,
+          "max_supply_growth": 0.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "subject_event_identity_supported"
+          ],
+          "specificity": 87.0,
+          "supply_72h": 0,
+          "titles": [
+            "Google Pixel 9 Photo AI Is Problematic"
+          ],
+          "video_count": 1,
+          "visible": true
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-07d8fb6254ddcda991",
+          "label": "Developer tools market activity",
+          "lead_days": null,
+          "max_supply_growth": 1.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 50.0,
+          "supply_72h": 0,
+          "titles": [
+            "GitHub Copilot Chat and o1-preview: Building a maze generator!"
+          ],
+          "video_count": 1,
+          "visible": false
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-68044e9541aae420c8",
+          "label": "OpenAI market activity",
+          "lead_days": null,
+          "max_supply_growth": 1.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 62.0,
+          "supply_72h": 0,
+          "titles": [
+            "The Automation Endgame, VCs Returning Cash, and the OpenAI Wager | E2019"
+          ],
+          "video_count": 1,
+          "visible": false
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-4df45fab302ca3ab40",
+          "label": "Artificial intelligence competitive pressure",
+          "lead_days": null,
+          "max_supply_growth": 0.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "subject_event_identity_supported"
+          ],
+          "specificity": 75.0,
+          "supply_72h": 0,
+          "titles": [
+            "Motiv Raptor Rush - vs Crimson Jackal and Storm Phaze AI - 3 Testers by TamerBowling.com"
+          ],
+          "video_count": 1,
+          "visible": true
+        },
+        {
+          "distinct_channels": 2,
+          "fired": false,
+          "key": "micro-v6-4ca642251c4124d007",
+          "label": "Artificial intelligence product and capability release",
+          "lead_days": null,
+          "max_supply_growth": 3.0,
+          "median_outlier": 0.6167027417027416,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "unnamed_release_without_product_anchor"
+          ],
+          "specificity": 77.0,
+          "supply_72h": 1,
+          "titles": [
+            "Artificial Intelligence / AI is HERE",
+            "UW-Green Bay launches AI-powered student-support chatbot"
+          ],
+          "video_count": 2,
+          "visible": false
+        },
+        {
+          "distinct_channels": 2,
+          "fired": false,
+          "key": "micro-v6-85503beab069acf56c",
+          "label": "Artificial intelligence practical use cases",
+          "lead_days": null,
+          "max_supply_growth": 4.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 67.0,
+          "supply_72h": 1,
+          "titles": [
+            "FREE 3D Cartoon Animation Videos 🤩 using Ai Tools #ai #aitools",
+            "How AI created my portfolio #ai #portfolio #webdesign #wixwebsite #shorts"
+          ],
+          "video_count": 2,
+          "visible": false
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-7d13c19884066d6bc0",
+          "label": "ChatGPT practical use cases",
+          "lead_days": null,
+          "max_supply_growth": 1.0,
+          "median_outlier": 2.4301075268817205,
+          "peak_lift": 2.5806,
+          "reason_codes": [
+            "subject_event_identity_supported"
+          ],
+          "specificity": 77.0,
+          "supply_72h": 0,
+          "titles": [
+            "Handwriting books - using TT turbo to import ChatGPT generated vocabulary word lists fast"
+          ],
+          "video_count": 1,
+          "visible": true
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-54c8f336a6afb79f34",
+          "label": "ChatGPT market activity",
+          "lead_days": null,
+          "max_supply_growth": 2.0,
+          "median_outlier": 1.032258064516129,
+          "peak_lift": 11.2718,
+          "reason_codes": [
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 62.0,
+          "supply_72h": 0,
+          "titles": [
+            "TT Turbo -  making simple KDP guided journals fast with prompts from ChatGPT #tangenttemplates"
+          ],
+          "video_count": 1,
+          "visible": false
+        }
+      ],
+      "visible_topic_count": 3
+    },
+    {
+      "checkpoint_at": "2024-10-29T23:59:59+00:00",
+      "fired_topic_count": 0,
+      "raw_topic_count": 9,
+      "reason_counts": {
+        "broad_subject_without_event": 1,
+        "specificity_below_visible_floor": 5,
+        "subject_event_identity_supported": 3,
+        "unnamed_release_without_product_anchor": 1
+      },
+      "split": "train",
+      "topics": [
+        {
+          "distinct_channels": 14,
+          "fired": false,
+          "key": "micro-v6-d209a5ba8139543934",
+          "label": "Artificial intelligence renewed attention",
+          "lead_days": null,
+          "max_supply_growth": 19.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "broad_subject_without_event",
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 58.0,
+          "supply_72h": 2,
+          "titles": [
+            "The End of The Simpsons: A.I. Series Finale Analysis",
+            "Ce părere ai? 🤯🎙️🎞️ Psihologul Constantin Cornea spune tot! 🙌🏼 #podcast",
+            "Asking AI to turn Bugs Bunny into a mobster #ai #ia #bugsbunny #rap #typebeat #shorts",
+            "Advancing AI 2024 @AMD",
+            "Adobe AI generated video SNEAK PEEK!"
+          ],
+          "video_count": 15,
+          "visible": false
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-dcd7545c2423d68646",
+          "label": "Google AI reliability and safety concerns",
+          "lead_days": null,
+          "max_supply_growth": 0.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "subject_event_identity_supported"
+          ],
+          "specificity": 87.0,
+          "supply_72h": 0,
+          "titles": [
+            "Google Pixel 9 Photo AI Is Problematic"
+          ],
+          "video_count": 1,
+          "visible": true
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-07d8fb6254ddcda991",
+          "label": "Developer tools market activity",
+          "lead_days": null,
+          "max_supply_growth": 1.0,
+          "median_outlier": 1.0,
+          "peak_lift": 7.6207,
+          "reason_codes": [
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 50.0,
+          "supply_72h": 0,
+          "titles": [
+            "GitHub Copilot Chat and o1-preview: Building a maze generator!"
+          ],
+          "video_count": 1,
+          "visible": false
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-68044e9541aae420c8",
+          "label": "OpenAI market activity",
+          "lead_days": null,
+          "max_supply_growth": 1.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 62.0,
+          "supply_72h": 0,
+          "titles": [
+            "The Automation Endgame, VCs Returning Cash, and the OpenAI Wager | E2019"
+          ],
+          "video_count": 1,
+          "visible": false
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-4df45fab302ca3ab40",
+          "label": "Artificial intelligence competitive pressure",
+          "lead_days": null,
+          "max_supply_growth": 0.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "subject_event_identity_supported"
+          ],
+          "specificity": 75.0,
+          "supply_72h": 0,
+          "titles": [
+            "Motiv Raptor Rush - vs Crimson Jackal and Storm Phaze AI - 3 Testers by TamerBowling.com"
+          ],
+          "video_count": 1,
+          "visible": true
+        },
+        {
+          "distinct_channels": 2,
+          "fired": false,
+          "key": "micro-v6-4ca642251c4124d007",
+          "label": "Artificial intelligence product and capability release",
+          "lead_days": null,
+          "max_supply_growth": 3.0,
+          "median_outlier": 0.6534942034648952,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "unnamed_release_without_product_anchor"
+          ],
+          "specificity": 77.0,
+          "supply_72h": 0,
+          "titles": [
+            "Artificial Intelligence / AI is HERE",
+            "UW-Green Bay launches AI-powered student-support chatbot"
+          ],
+          "video_count": 2,
+          "visible": false
+        },
+        {
+          "distinct_channels": 2,
+          "fired": false,
+          "key": "micro-v6-85503beab069acf56c",
+          "label": "Artificial intelligence practical use cases",
+          "lead_days": null,
+          "max_supply_growth": 4.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 67.0,
+          "supply_72h": 0,
+          "titles": [
+            "FREE 3D Cartoon Animation Videos 🤩 using Ai Tools #ai #aitools",
+            "How AI created my portfolio #ai #portfolio #webdesign #wixwebsite #shorts"
+          ],
+          "video_count": 2,
+          "visible": false
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-7d13c19884066d6bc0",
+          "label": "ChatGPT practical use cases",
+          "lead_days": null,
+          "max_supply_growth": 1.0,
+          "median_outlier": 2.467741935483871,
+          "peak_lift": 2.5806,
+          "reason_codes": [
+            "subject_event_identity_supported"
+          ],
+          "specificity": 77.0,
+          "supply_72h": 0,
+          "titles": [
+            "Handwriting books - using TT turbo to import ChatGPT generated vocabulary word lists fast"
+          ],
+          "video_count": 1,
+          "visible": true
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-54c8f336a6afb79f34",
+          "label": "ChatGPT market activity",
+          "lead_days": null,
+          "max_supply_growth": 2.0,
+          "median_outlier": 1.064516129032258,
+          "peak_lift": 11.2718,
+          "reason_codes": [
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 62.0,
+          "supply_72h": 0,
+          "titles": [
+            "TT Turbo -  making simple KDP guided journals fast with prompts from ChatGPT #tangenttemplates"
+          ],
+          "video_count": 1,
+          "visible": false
+        }
+      ],
+      "visible_topic_count": 3
+    },
+    {
+      "checkpoint_at": "2024-11-03T23:59:59+00:00",
+      "fired_topic_count": 0,
+      "raw_topic_count": 6,
+      "reason_counts": {
+        "broad_subject_without_event": 1,
+        "specificity_below_visible_floor": 3,
+        "subject_event_identity_supported": 2,
+        "unnamed_release_without_product_anchor": 1
+      },
+      "split": "train",
+      "topics": [
+        {
+          "distinct_channels": 12,
+          "fired": false,
+          "key": "micro-v6-d209a5ba8139543934",
+          "label": "Artificial intelligence renewed attention",
+          "lead_days": null,
+          "max_supply_growth": 38.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "broad_subject_without_event",
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 58.0,
+          "supply_72h": 0,
+          "titles": [
+            "Advancing AI 2024 @AMD",
+            "Adobe AI generated video SNEAK PEEK!",
+            "AI tools helping social service agencies in Singapore save time, manpower",
+            "Can artificial intelligence improve diagnosis and treatment of mental health conditions?",
+            "These AI Prompts will SPEED UP Your Video Creation Process"
+          ],
+          "video_count": 13,
+          "visible": false
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-4df45fab302ca3ab40",
+          "label": "Artificial intelligence competitive pressure",
+          "lead_days": null,
+          "max_supply_growth": 0.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "subject_event_identity_supported"
+          ],
+          "specificity": 75.0,
+          "supply_72h": 0,
+          "titles": [
+            "Motiv Raptor Rush - vs Crimson Jackal and Storm Phaze AI - 3 Testers by TamerBowling.com"
+          ],
+          "video_count": 1,
+          "visible": true
+        },
+        {
+          "distinct_channels": 3,
+          "fired": false,
+          "key": "micro-v6-4ca642251c4124d007",
+          "label": "Artificial intelligence product and capability release",
+          "lead_days": null,
+          "max_supply_growth": 3.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0918,
+          "reason_codes": [
+            "unnamed_release_without_product_anchor"
+          ],
+          "specificity": 79.0,
+          "supply_72h": 0,
+          "titles": [
+            "Artificial Intelligence / AI is HERE",
+            "UW-Green Bay launches AI-powered student-support chatbot",
+            "Revealed: XRP’s 2025 ATH Forecast – AI Predicts Massive Gains Ahead!"
+          ],
+          "video_count": 3,
+          "visible": false
+        },
+        {
+          "distinct_channels": 3,
+          "fired": false,
+          "key": "micro-v6-85503beab069acf56c",
+          "label": "Artificial intelligence practical use cases",
+          "lead_days": null,
+          "max_supply_growth": 4.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 69.0,
+          "supply_72h": 1,
+          "titles": [
+            "FREE 3D Cartoon Animation Videos 🤩 using Ai Tools #ai #aitools",
+            "How AI created my portfolio #ai #portfolio #webdesign #wixwebsite #shorts",
+            "How I Made 1,000 Monetizable YouTube Shorts for Faceless Channel With One Prompt using AI Automation"
+          ],
+          "video_count": 3,
+          "visible": false
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-7d13c19884066d6bc0",
+          "label": "ChatGPT practical use cases",
+          "lead_days": null,
+          "max_supply_growth": 2.0,
+          "median_outlier": 2.4946236559139785,
+          "peak_lift": 2.5806,
+          "reason_codes": [
+            "subject_event_identity_supported"
+          ],
+          "specificity": 77.0,
+          "supply_72h": 0,
+          "titles": [
+            "Handwriting books - using TT turbo to import ChatGPT generated vocabulary word lists fast"
+          ],
+          "video_count": 1,
+          "visible": true
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-54c8f336a6afb79f34",
+          "label": "ChatGPT market activity",
+          "lead_days": null,
+          "max_supply_growth": 2.0,
+          "median_outlier": 1.0698924731182795,
+          "peak_lift": 11.2718,
+          "reason_codes": [
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 62.0,
+          "supply_72h": 0,
+          "titles": [
+            "TT Turbo -  making simple KDP guided journals fast with prompts from ChatGPT #tangenttemplates"
+          ],
+          "video_count": 1,
+          "visible": false
+        }
+      ],
+      "visible_topic_count": 2
+    },
+    {
+      "checkpoint_at": "2024-11-08T23:59:59+00:00",
+      "fired_topic_count": 0,
+      "raw_topic_count": 5,
+      "reason_counts": {
+        "broad_subject_without_event": 1,
+        "specificity_below_visible_floor": 3,
+        "subject_event_identity_supported": 1,
+        "unnamed_release_without_product_anchor": 1
+      },
+      "split": "train",
+      "topics": [
+        {
+          "distinct_channels": 20,
+          "fired": false,
+          "key": "micro-v6-d209a5ba8139543934",
+          "label": "Artificial intelligence renewed attention",
+          "lead_days": null,
+          "max_supply_growth": 4.75,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "broad_subject_without_event",
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 58.0,
+          "supply_72h": 8,
+          "titles": [
+            "These AI Prompts will SPEED UP Your Video Creation Process",
+            "Miss Mako AI Transformation: Curse Of The Brazilian WereBride 02a (For Ages 18+)",
+            "My AI replaced me on twitch streams ?! W or L ? #twitch #twitchstreamer #ai #artificialintelligence",
+            "Elys - Fara maine ai fi zero #shorts",
+            "AI chatbot aims to connect UW-Green Bay students with resources"
+          ],
+          "video_count": 25,
+          "visible": false
+        },
+        {
+          "distinct_channels": 3,
+          "fired": false,
+          "key": "micro-v6-85503beab069acf56c",
+          "label": "Artificial intelligence practical use cases",
+          "lead_days": null,
+          "max_supply_growth": 4.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 69.0,
+          "supply_72h": 0,
+          "titles": [
+            "FREE 3D Cartoon Animation Videos 🤩 using Ai Tools #ai #aitools",
+            "How AI created my portfolio #ai #portfolio #webdesign #wixwebsite #shorts",
+            "How I Made 1,000 Monetizable YouTube Shorts for Faceless Channel With One Prompt using AI Automation"
+          ],
+          "video_count": 3,
+          "visible": false
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-7d13c19884066d6bc0",
+          "label": "ChatGPT practical use cases",
+          "lead_days": null,
+          "max_supply_growth": 2.0,
+          "median_outlier": 2.553763440860215,
+          "peak_lift": 2.5806,
+          "reason_codes": [
+            "subject_event_identity_supported"
+          ],
+          "specificity": 77.0,
+          "supply_72h": 0,
+          "titles": [
+            "Handwriting books - using TT turbo to import ChatGPT generated vocabulary word lists fast"
+          ],
+          "video_count": 1,
+          "visible": true
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-54c8f336a6afb79f34",
+          "label": "ChatGPT market activity",
+          "lead_days": null,
+          "max_supply_growth": 2.0,
+          "median_outlier": 1.1021505376344085,
+          "peak_lift": 11.2718,
+          "reason_codes": [
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 62.0,
+          "supply_72h": 0,
+          "titles": [
+            "TT Turbo -  making simple KDP guided journals fast with prompts from ChatGPT #tangenttemplates"
+          ],
+          "video_count": 1,
+          "visible": false
+        },
+        {
+          "distinct_channels": 2,
+          "fired": false,
+          "key": "micro-v6-4ca642251c4124d007",
+          "label": "Artificial intelligence product and capability release",
+          "lead_days": null,
+          "max_supply_growth": 3.0,
+          "median_outlier": 0.5750293083235639,
+          "peak_lift": 1.2041,
+          "reason_codes": [
+            "unnamed_release_without_product_anchor"
+          ],
+          "specificity": 77.0,
+          "supply_72h": 0,
+          "titles": [
+            "UW-Green Bay launches AI-powered student-support chatbot",
+            "Revealed: XRP’s 2025 ATH Forecast – AI Predicts Massive Gains Ahead!"
+          ],
+          "video_count": 2,
+          "visible": false
+        }
+      ],
+      "visible_topic_count": 1
+    },
+    {
+      "checkpoint_at": "2024-11-13T23:59:59+00:00",
+      "fired_topic_count": 0,
+      "raw_topic_count": 7,
+      "reason_counts": {
+        "broad_subject_without_event": 1,
+        "specificity_below_visible_floor": 4,
+        "subject_event_identity_supported": 2,
+        "unnamed_release_without_product_anchor": 1
+      },
+      "split": "holdout",
+      "topics": [
+        {
+          "distinct_channels": 26,
+          "fired": false,
+          "key": "micro-v6-d209a5ba8139543934",
+          "label": "Artificial intelligence renewed attention",
+          "lead_days": null,
+          "max_supply_growth": 7.6,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "broad_subject_without_event",
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 58.0,
+          "supply_72h": 5,
+          "titles": [
+            "My AI replaced me on twitch streams ?! W or L ? #twitch #twitchstreamer #ai #artificialintelligence",
+            "Elys - Fara maine ai fi zero #shorts",
+            "AI chatbot aims to connect UW-Green Bay students with resources",
+            "❄️ Wintertime (Alternate 7 - Rock Blues) - AI Song (8:15) crafted with Suno AI ❄️",
+            "Blossom Singing \"I'm Gonna Fly\" by: Sydney Forest (Preview) #ai"
+          ],
+          "video_count": 33,
+          "visible": false
+        },
+        {
+          "distinct_channels": 2,
+          "fired": false,
+          "key": "micro-v6-85503beab069acf56c",
+          "label": "Artificial intelligence practical use cases",
+          "lead_days": null,
+          "max_supply_growth": 4.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 67.0,
+          "supply_72h": 0,
+          "titles": [
+            "How AI created my portfolio #ai #portfolio #webdesign #wixwebsite #shorts",
+            "How I Made 1,000 Monetizable YouTube Shorts for Faceless Channel With One Prompt using AI Automation"
+          ],
+          "video_count": 2,
+          "visible": false
+        },
+        {
+          "distinct_channels": 2,
+          "fired": false,
+          "key": "micro-v6-4ca642251c4124d007",
+          "label": "Artificial intelligence product and capability release",
+          "lead_days": null,
+          "max_supply_growth": 3.0,
+          "median_outlier": 0.5750293083235639,
+          "peak_lift": 1.2449,
+          "reason_codes": [
+            "unnamed_release_without_product_anchor"
+          ],
+          "specificity": 77.0,
+          "supply_72h": 0,
+          "titles": [
+            "UW-Green Bay launches AI-powered student-support chatbot",
+            "Revealed: XRP’s 2025 ATH Forecast – AI Predicts Massive Gains Ahead!"
+          ],
+          "video_count": 2,
+          "visible": false
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-7a38b0adbe265a6df3",
+          "label": "ChatGPT workplace adoption",
+          "lead_days": null,
+          "max_supply_growth": 0.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "subject_event_identity_supported"
+          ],
+          "specificity": 87.0,
+          "supply_72h": 0,
+          "titles": [
+            "🚀Mein BESTER Workflow für ChatGPT Search!"
+          ],
+          "video_count": 1,
+          "visible": true
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-54c8f336a6afb79f34",
+          "label": "ChatGPT market activity",
+          "lead_days": null,
+          "max_supply_growth": 2.0,
+          "median_outlier": 1.0759803921568627,
+          "peak_lift": 11.2718,
+          "reason_codes": [
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 62.0,
+          "supply_72h": 1,
+          "titles": [
+            "Is ChatGPT Search Comparable to Google Search?"
+          ],
+          "video_count": 1,
+          "visible": false
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-a6e20cdcaca6d982e9",
+          "label": "Google AI market activity",
+          "lead_days": null,
+          "max_supply_growth": 1.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 62.0,
+          "supply_72h": 1,
+          "titles": [
+            "THE NEW GOOGLE AI SIDE HUSTLE THAT’S MAKING $140/HOUR (MAKE MONEY ONLINE)"
+          ],
+          "video_count": 1,
+          "visible": false
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-7d13c19884066d6bc0",
+          "label": "ChatGPT practical use cases",
+          "lead_days": null,
+          "max_supply_growth": 2.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.4933,
+          "reason_codes": [
+            "subject_event_identity_supported"
+          ],
+          "specificity": 77.0,
+          "supply_72h": 1,
+          "titles": [
+            "Creating a Financial Data Analysis Application Using ChatGPT-o1"
+          ],
+          "video_count": 1,
+          "visible": true
+        }
+      ],
+      "visible_topic_count": 2
+    },
+    {
+      "checkpoint_at": "2024-11-18T23:59:59+00:00",
+      "fired_topic_count": 0,
+      "raw_topic_count": 7,
+      "reason_counts": {
+        "broad_subject_without_event": 1,
+        "specificity_below_visible_floor": 4,
+        "subject_event_identity_supported": 2,
+        "unnamed_release_without_product_anchor": 1
+      },
+      "split": "holdout",
+      "topics": [
+        {
+          "distinct_channels": 2,
+          "fired": false,
+          "key": "micro-v6-85503beab069acf56c",
+          "label": "Artificial intelligence practical use cases",
+          "lead_days": null,
+          "max_supply_growth": 4.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 67.0,
+          "supply_72h": 0,
+          "titles": [
+            "How AI created my portfolio #ai #portfolio #webdesign #wixwebsite #shorts",
+            "How I Made 1,000 Monetizable YouTube Shorts for Faceless Channel With One Prompt using AI Automation"
+          ],
+          "video_count": 2,
+          "visible": false
+        },
+        {
+          "distinct_channels": 35,
+          "fired": false,
+          "key": "micro-v6-d209a5ba8139543934",
+          "label": "Artificial intelligence renewed attention",
+          "lead_days": null,
+          "max_supply_growth": 3.8,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "broad_subject_without_event",
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 58.0,
+          "supply_72h": 10,
+          "titles": [
+            "Elys - Fara maine ai fi zero #shorts",
+            "AI chatbot aims to connect UW-Green Bay students with resources",
+            "❄️ Wintertime (Alternate 7 - Rock Blues) - AI Song (8:15) crafted with Suno AI ❄️",
+            "Blossom Singing \"I'm Gonna Fly\" by: Sydney Forest (Preview) #ai",
+            "Start a Digital Marketing Agency with AI (No Experience Needed)"
+          ],
+          "video_count": 45,
+          "visible": false
+        },
+        {
+          "distinct_channels": 2,
+          "fired": false,
+          "key": "micro-v6-4ca642251c4124d007",
+          "label": "Artificial intelligence product and capability release",
+          "lead_days": null,
+          "max_supply_growth": 3.0,
+          "median_outlier": 0.5773739742086753,
+          "peak_lift": 1.3061,
+          "reason_codes": [
+            "unnamed_release_without_product_anchor"
+          ],
+          "specificity": 77.0,
+          "supply_72h": 0,
+          "titles": [
+            "UW-Green Bay launches AI-powered student-support chatbot",
+            "Revealed: XRP’s 2025 ATH Forecast – AI Predicts Massive Gains Ahead!"
+          ],
+          "video_count": 2,
+          "visible": false
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-7a38b0adbe265a6df3",
+          "label": "ChatGPT workplace adoption",
+          "lead_days": null,
+          "max_supply_growth": 0.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "subject_event_identity_supported"
+          ],
+          "specificity": 87.0,
+          "supply_72h": 0,
+          "titles": [
+            "🚀Mein BESTER Workflow für ChatGPT Search!"
+          ],
+          "video_count": 1,
+          "visible": true
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-54c8f336a6afb79f34",
+          "label": "ChatGPT market activity",
+          "lead_days": null,
+          "max_supply_growth": 2.0,
+          "median_outlier": 0.9736346516007532,
+          "peak_lift": 11.2718,
+          "reason_codes": [
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 62.0,
+          "supply_72h": 0,
+          "titles": [
+            "Is ChatGPT Search Comparable to Google Search?"
+          ],
+          "video_count": 1,
+          "visible": false
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-a6e20cdcaca6d982e9",
+          "label": "Google AI market activity",
+          "lead_days": null,
+          "max_supply_growth": 0.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.0,
+          "reason_codes": [
+            "specificity_below_visible_floor"
+          ],
+          "specificity": 62.0,
+          "supply_72h": 0,
+          "titles": [
+            "THE NEW GOOGLE AI SIDE HUSTLE THAT’S MAKING $140/HOUR (MAKE MONEY ONLINE)"
+          ],
+          "video_count": 1,
+          "visible": false
+        },
+        {
+          "distinct_channels": 1,
+          "fired": false,
+          "key": "micro-v6-7d13c19884066d6bc0",
+          "label": "ChatGPT practical use cases",
+          "lead_days": null,
+          "max_supply_growth": 2.0,
+          "median_outlier": 1.0,
+          "peak_lift": 1.5053,
+          "reason_codes": [
+            "subject_event_identity_supported"
+          ],
+          "specificity": 77.0,
+          "supply_72h": 0,
+          "titles": [
+            "Creating a Financial Data Analysis Application Using ChatGPT-o1"
+          ],
+          "video_count": 1,
+          "visible": true
+        }
+      ],
+      "visible_topic_count": 2
+    }
+  ],
+  "diagnostic_version": "external-topic-funnel-diagnostic-v1",
+  "not_a_registered_quality_gate": true,
+  "totals": {
+    "fired_topics": 0,
+    "raw_topics": 59,
+    "visible_topics": 18
+  }
+}

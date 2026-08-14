@@ -1,0 +1,779 @@
+{
+  "checkpoints": [
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2022-08-07T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2022-08-14T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2022-08-21T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2022-08-28T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2022-09-04T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2022-09-11T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2022-09-18T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2022-09-25T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2022-10-02T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2022-10-09T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2022-10-16T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2022-10-23T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2022-10-30T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2022-11-06T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2022-11-13T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2022-11-20T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2022-11-27T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2022-12-04T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2022-12-11T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2022-12-18T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2022-12-25T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-01-01T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-01-08T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-01-15T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-01-22T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-01-29T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-02-05T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-02-12T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-02-19T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-02-26T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-03-05T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-03-12T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-03-19T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-03-26T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-04-02T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-04-09T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-04-16T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-04-23T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-04-30T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-05-07T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-05-14T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-05-21T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-05-28T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-06-04T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-06-11T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-06-18T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-06-25T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-07-02T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-07-09T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-07-16T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-07-23T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-07-30T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-08-06T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-08-13T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-08-20T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-08-27T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-09-03T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-09-10T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-09-17T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-09-24T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-10-01T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-10-08T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-10-15T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-10-22T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-10-29T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-11-05T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-11-12T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-11-19T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-11-26T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-12-03T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-12-10T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-12-17T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-12-24T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2023-12-31T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-01-07T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-01-14T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-01-21T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-01-28T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-02-04T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-02-11T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-02-18T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-02-25T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-03-03T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-03-10T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-03-17T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-03-24T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-03-31T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-04-07T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-04-14T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-04-21T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-04-28T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-05-05T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-05-12T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-05-19T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-05-26T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-06-02T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    },
+    {
+      "candidate_count": 0,
+      "checkpoint_at": "2024-06-09T23:59:59+00:00",
+      "positive_candidate_count": 0,
+      "positive_candidates": [],
+      "predictions": []
+    }
+  ],
+  "code_sha256": "9e3f9b57a68f4c76a51f1e5a65e91f1a14de9cc837e6b2717dbc3f5f02a1aa0a",
+  "dataset_version": "illinois-global-youtube-trending-v1",
+  "feature_limitations": [
+    "No non-Trending upload universe or channel subscriber baseline.",
+    "No unbiased per-channel outlier ratio, search demand, comments, or transcripts.",
+    "Unavailable production features are fixed at neutral or zero values.",
+    "The replay validates cross-market diffusion ranking, not the complete production stack."
+  ],
+  "filtered_sha256": "3b1dcec1b1085070122c8ea7f5464b5f19b034a53669b79bf21bc57603210cdc",
+  "first_observed_at": "2022-07-10T00:00:00+00:00",
+  "gate": {
+    "checks": {
+      "beats_base_rate": false,
+      "complete_followup": true,
+      "holdout_split": false,
+      "median_lead": false,
+      "not_worse_than_each_simple_baseline": false,
+      "positive_outcome_support": false,
+      "precision_at_10": false
+    },
+    "verdict": "TRAIN_DIAGNOSTIC"
+  },
+  "generated_at": "2026-08-09T13:20:40.525103+00:00",
+  "last_observed_at": "2024-06-30T18:00:00+00:00",
+  "metrics": {
+    "candidate_base_rate_percent": null,
+    "candidate_topics": 0,
+    "checkpoint_count": 97,
+    "fired_candidate_topics": 0,
+    "rankings": {
+      "countries": {
+        "fired": 0,
+        "median_lead_days": null,
+        "precision_at_10_percent": null,
+        "predictions": 0,
+        "recall_percent": null
+      },
+      "method": {
+        "fired": 0,
+        "median_lead_days": null,
+        "precision_at_10_percent": null,
+        "predictions": 0,
+        "recall_percent": null
+      },
+      "random": {
+        "fired": 0,
+        "median_lead_days": null,
+        "precision_at_10_percent": null,
+        "predictions": 0,
+        "recall_percent": null
+      },
+      "supply": {
+        "fired": 0,
+        "median_lead_days": null,
+        "precision_at_10_percent": null,
+        "predictions": 0,
+        "recall_percent": null
+      },
+      "velocity": {
+        "fired": 0,
+        "median_lead_days": null,
+        "precision_at_10_percent": null,
+        "predictions": 0,
+        "recall_percent": null
+      },
+      "view_growth": {
+        "fired": 0,
+        "median_lead_days": null,
+        "precision_at_10_percent": null,
+        "predictions": 0,
+        "recall_percent": null
+      }
+    },
+    "split": "train"
+  },
+  "outcome_version": "cross-market-new-supply-country-diffusion-21d-v1",
+  "policy": {
+    "lookback_days": 30,
+    "minimum_channels": 3,
+    "minimum_new_channels": 3,
+    "minimum_new_countries": 5,
+    "minimum_new_video_share": 0.5,
+    "minimum_recent_channels": 2,
+    "minimum_total_countries": 8,
+    "minimum_videos": 3,
+    "outcome_horizon_days": 21,
+    "recent_supply_days": 7,
+    "supply_growth_threshold": 3,
+    "top_k": 10
+  },
+  "replay_version": "global-cross-market-replay-v1",
+  "source_sha256": "4cda61820acd16f329e5b075887b26fb9d8526acd8ed5e4fb213c7d64ed6665f",
+  "split": "train",
+  "taxonomy_version": "microtopic-clustering-v6-subject-event",
+  "topic_identity_count": 38,
+  "video_count": 125
+}

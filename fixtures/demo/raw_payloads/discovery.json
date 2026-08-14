@@ -1,0 +1,15 @@
+{
+  "demo": true,
+  "provider": "mock_discovery",
+  "endpoint": "search",
+  "query": "AI coding agents",
+  "results": [
+    {
+      "video_id": "esdemo000001",
+      "position": 1,
+      "country": "US",
+      "language": "en"
+    }
+  ]
+}
+

@@ -1,0 +1,20 @@
+[     827ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:3300/favicon.ico:0
+[     847ms] [ERROR] Access to fetch at 'http://45.129.124.109/api/v1/context' from origin 'http://127.0.0.1:3300' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://127.0.0.1:3300/admin/review:0
+[     848ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://45.129.124.109/api/v1/context:0
+[    1939ms] [ERROR] Access to fetch at 'http://45.129.124.109/api/v1/context' from origin 'http://127.0.0.1:3300' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://127.0.0.1:3300/admin/review:0
+[    1939ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://45.129.124.109/api/v1/context:0
+[   10211ms] [ERROR] Access to fetch at 'http://45.129.124.109/api/v1/context' from origin 'http://127.0.0.1:3300' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://127.0.0.1:3300/admin/review:0
+[   10211ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://45.129.124.109/api/v1/context:0
+[   11417ms] [ERROR] Access to fetch at 'http://45.129.124.109/api/v1/context' from origin 'http://127.0.0.1:3300' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://127.0.0.1:3300/admin/review:0
+[   11417ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://45.129.124.109/api/v1/context:0
+[   21520ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://45.129.124.109/api/v1/context:0
+[   22649ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://45.129.124.109/api/v1/context:0
+[ 1117127ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:3300/watchlists?_rsc=1B9zw-iVRCD5hUnG:0
+[ 1117272ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:3300/digest?_rsc=1B9zw-iVRCD5hUnG:0
+[ 1117323ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:3300/pulse?_rsc=1B9zw-iVRCD5hUnG:0
+[ 1117324ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:3300/signals?_rsc=1B9zw-iVRCD5hUnG:0
+[ 1121254ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:3300/pulse?_rsc=_HgrsnzzErr4pFWl:0
+[ 1121255ms] [ERROR] Failed to fetch RSC payload for http://127.0.0.1:3300/pulse. Falling back to browser navigation. TypeError: Failed to fetch
+    at T (http://127.0.0.1:3300/_next/static/chunks/1emsj-4ff58er.js:1:105540)
+    at async m (http://127.0.0.1:3300/_next/static/chunks/1emsj-4ff58er.js:1:103676)
+    at async m (http://127.0.0.1:3300/_next/static/chunks/1emsj-4ff58er.js:1:125462) @ http://127.0.0.1:3300/_next/static/chunks/1emsj-4ff58er.js:0

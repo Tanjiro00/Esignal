@@ -1,0 +1,11 @@
+{
+  "created_before_outcome_calculation": true,
+  "dataset_sha256": "be74d041d5bada889015682e9d69e88f61e2b37c9b41ca7fb9adcc72ae9768f8",
+  "protocol_sha256": "a61e6b917833088a123dd6673d0bff9f4bf7dae40e8423e620a70dc4fd89c656",
+  "replay_code_sha256": "eff3a01eb6169aa9543f39a991d682b04a290a5209e706ca6d56f9dc1b4698d6",
+  "runner_code_sha256": "8d95bb60fec0e9cf3f8d992a91c4e9e8540683cdb23cf56e5b41d97f2f3012a0",
+  "protocol_version": "external-youtube-timeseries-replay-v1",
+  "outcome_version": "external-blind-supply-lift-30d-v1",
+  "train_checkpoint_count": 6,
+  "holdout_checkpoint_count": 2
+}

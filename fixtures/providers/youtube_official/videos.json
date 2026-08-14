@@ -1,0 +1,30 @@
+{
+  "items": [
+    {
+      "id": "abc123xyz89",
+      "snippet": {
+        "publishedAt": "2026-07-25T12:00:00Z",
+        "channelId": "UCFIXTURE00000000000001",
+        "title": "Agent workflow fixture",
+        "description": "Sanitized provider contract fixture.",
+        "channelTitle": "Fixture AI",
+        "categoryId": "28",
+        "defaultAudioLanguage": "en",
+        "liveBroadcastContent": "none",
+        "thumbnails": {
+          "high": {
+            "url": "https://i.ytimg.com/vi/abc123xyz89/hqdefault.jpg"
+          }
+        }
+      },
+      "contentDetails": {
+        "duration": "PT12M34S"
+      },
+      "statistics": {
+        "viewCount": "184300",
+        "likeCount": "9200",
+        "commentCount": "614"
+      }
+    }
+  ]
+}

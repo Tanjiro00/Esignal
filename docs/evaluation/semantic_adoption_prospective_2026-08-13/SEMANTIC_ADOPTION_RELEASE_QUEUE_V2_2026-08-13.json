@@ -1,0 +1,2027 @@
+{
+  "abstained_count": 9,
+  "artifact_version": "semantic-adoption-release-queue-v2",
+  "candidate_count": 32,
+  "candidates": [
+    {
+      "agent_audit_status": "eligible_for_agent_audit",
+      "diagnostic_representative_title": "How to Translate Videos in Your OWN Voice Using AI ElevenLabs Dubbing Masterclass",
+      "evidence": [
+        {
+          "channel_id": "UC82svmCGFOkCUUqGJmFRGLA",
+          "published_at": "2026-08-08T13:42:10+00:00",
+          "title": "How to Translate Videos in Your OWN Voice Using AI (ElevenLabs Dubbing Masterclass)",
+          "url": "https://www.youtube.com/watch?v=CWZxlUmSfcQ",
+          "video_id": "CWZxlUmSfcQ"
+        },
+        {
+          "channel_id": "UCHelC59IWGtArHJJt1Wkizg",
+          "published_at": "2026-07-19T18:21:43+00:00",
+          "title": "How to Translate Video into ANY Language with AI | AI Video Dubbing tool |",
+          "url": "https://www.youtube.com/watch?v=xzBgln6Wlbo",
+          "video_id": "xzBgln6Wlbo"
+        },
+        {
+          "channel_id": "UCwN04QfV0USMgjzqCm1ztYA",
+          "published_at": "2026-08-11T00:25:53+00:00",
+          "title": "How to Dub and Translate Videos with AI | VocalLab Tutorial",
+          "url": "https://www.youtube.com/watch?v=gOERAthkLwk",
+          "video_id": "gOERAthkLwk"
+        },
+        {
+          "channel_id": "UCi_HcgpBbw4EYEg9MHssRlA",
+          "published_at": "2026-08-05T18:00:04+00:00",
+          "title": "AI Video Translator: Translate Video Subtitles & Create AI Dubbing Online",
+          "url": "https://www.youtube.com/watch?v=ADfqiYSU0_k",
+          "video_id": "ADfqiYSU0_k"
+        },
+        {
+          "channel_id": "UC82svmCGFOkCUUqGJmFRGLA",
+          "published_at": "2026-07-31T17:41:23+00:00",
+          "title": "How to Clone Your Voice & Translate Videos into 30 Languages with AI (ElevenLabs Masterclass)",
+          "url": "https://www.youtube.com/watch?v=6NodxVRg2dc",
+          "video_id": "6NodxVRg2dc"
+        }
+      ],
+      "evidence_pre_audit": {
+        "independent_channel_count": 4,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": true,
+        "raw_video_count": 5,
+        "reason_codes": [
+          "eligible_for_taxonomist_and_skeptic"
+        ],
+        "representative_video_ids": [
+          "6NodxVRg2dc",
+          "ADfqiYSU0_k",
+          "CWZxlUmSfcQ",
+          "gOERAthkLwk",
+          "xzBgln6Wlbo"
+        ],
+        "shared_anchor_concepts": [
+          "dubbing",
+          "elevenlabs",
+          "translation",
+          "voice"
+        ],
+        "strongest_anchor_family_count": 5,
+        "title_family_count": 5
+      },
+      "internal_rank_score": 1.954766503,
+      "product_boundary": "shadow_only_no_act_no_probability",
+      "product_release_ready": false,
+      "rank": 1,
+      "required_agent_sequence": [
+        "evidence_analyst",
+        "trend_taxonomist",
+        "skeptic_auditor",
+        "creator_strategist_after_workspace_fit"
+      ],
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "topic_key": "semantic-23abd4d24c3b24f1c7"
+    },
+    {
+      "agent_audit_status": "eligible_for_agent_audit",
+      "diagnostic_representative_title": "9 Open Source AI Tools That Will Kill Your Monthly Subscriptions",
+      "evidence": [
+        {
+          "channel_id": "UCgUfJoPtkt7-RiiuYh4vmGA",
+          "published_at": "2026-08-09T10:30:30+00:00",
+          "title": "9 Open Source AI Tools That Will Kill Your Monthly Subscriptions",
+          "url": "https://www.youtube.com/watch?v=DOC9mbZOMW0",
+          "video_id": "DOC9mbZOMW0"
+        },
+        {
+          "channel_id": "UC0DZj1PNa_Fp0MU6uPSKv5w",
+          "published_at": "2026-08-08T20:00:03+00:00",
+          "title": "10 Self-Hosted AI Tools That Kill Your Monthly Subscriptions",
+          "url": "https://www.youtube.com/watch?v=DIbVdatFl6I",
+          "video_id": "DIbVdatFl6I"
+        }
+      ],
+      "evidence_pre_audit": {
+        "independent_channel_count": 2,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": true,
+        "raw_video_count": 2,
+        "reason_codes": [
+          "eligible_for_taxonomist_and_skeptic"
+        ],
+        "representative_video_ids": [
+          "DIbVdatFl6I",
+          "DOC9mbZOMW0"
+        ],
+        "shared_anchor_concepts": [
+          "subscription"
+        ],
+        "strongest_anchor_family_count": 2,
+        "title_family_count": 2
+      },
+      "internal_rank_score": 1.4845322325,
+      "product_boundary": "shadow_only_no_act_no_probability",
+      "product_release_ready": false,
+      "rank": 2,
+      "required_agent_sequence": [
+        "evidence_analyst",
+        "trend_taxonomist",
+        "skeptic_auditor",
+        "creator_strategist_after_workspace_fit"
+      ],
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "topic_key": "semantic-0a71b60651d81b658c"
+    },
+    {
+      "agent_audit_status": "abstain_deterministic_pre_audit",
+      "diagnostic_representative_title": "This NEW Chinese AI AGENT is INSANE! FREE + Open Source",
+      "evidence": [
+        {
+          "channel_id": "UCGpsgNbzdF7BECCVbB1COHw",
+          "published_at": "2026-07-28T17:00:22+00:00",
+          "title": "This NEW Chinese AI AGENT is INSANE! (FREE + Open Source)",
+          "url": "https://www.youtube.com/watch?v=6k9y-b6cYyk",
+          "video_id": "6k9y-b6cYyk"
+        },
+        {
+          "channel_id": "UCGpsgNbzdF7BECCVbB1COHw",
+          "published_at": "2026-08-09T03:00:18+00:00",
+          "title": "This New Chinese AI Model Is INSANE!",
+          "url": "https://www.youtube.com/watch?v=JOtZZ-BFZCQ",
+          "video_id": "JOtZZ-BFZCQ"
+        },
+        {
+          "channel_id": "UCX9_0hjELAj1RAb2s3S5gpA",
+          "published_at": "2026-08-02T14:54:49+00:00",
+          "title": "This Chinese AI Agent Model Changes EVERYTHING",
+          "url": "https://www.youtube.com/watch?v=Dh_lbXxXZao",
+          "video_id": "Dh_lbXxXZao"
+        },
+        {
+          "channel_id": "UCGpsgNbzdF7BECCVbB1COHw",
+          "published_at": "2026-07-28T03:00:02+00:00",
+          "title": "This AI Technology Will Change EVERYTHING! (Prepare Now)",
+          "url": "https://www.youtube.com/watch?v=RMFfWZnF138",
+          "video_id": "RMFfWZnF138"
+        },
+        {
+          "channel_id": "UCGpsgNbzdF7BECCVbB1COHw",
+          "published_at": "2026-07-27T19:00:26+00:00",
+          "title": "This NEW AI AGENT BEATS CHATGPT 5! \ud83e\udd2f",
+          "url": "https://www.youtube.com/watch?v=3Y0EU6N6ADY",
+          "video_id": "3Y0EU6N6ADY"
+        }
+      ],
+      "evidence_pre_audit": {
+        "independent_channel_count": 2,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": false,
+        "raw_video_count": 5,
+        "reason_codes": [
+          "no_shared_concrete_anchor"
+        ],
+        "representative_video_ids": [
+          "3Y0EU6N6ADY",
+          "6k9y-b6cYyk",
+          "Dh_lbXxXZao",
+          "JOtZZ-BFZCQ",
+          "RMFfWZnF138"
+        ],
+        "shared_anchor_concepts": [],
+        "strongest_anchor_family_count": 1,
+        "title_family_count": 5
+      },
+      "internal_rank_score": 1.3792192328,
+      "product_boundary": "shadow_only_no_act_no_probability",
+      "product_release_ready": false,
+      "rank": 3,
+      "required_agent_sequence": [
+        "evidence_analyst",
+        "trend_taxonomist",
+        "skeptic_auditor",
+        "creator_strategist_after_workspace_fit"
+      ],
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "topic_key": "semantic-124ccf2f93761cae4b"
+    },
+    {
+      "agent_audit_status": "eligible_for_agent_audit",
+      "diagnostic_representative_title": "Create Viral Pigment mixing Videos with AI FREE & Bulk",
+      "evidence": [
+        {
+          "channel_id": "UCC63TcRLdzXUawanzuX2E3A",
+          "published_at": "2026-07-13T06:58:58+00:00",
+          "title": "Create Viral Pigment mixing Videos with AI (FREE & Bulk)",
+          "url": "https://www.youtube.com/watch?v=-PuLoADV7Kg",
+          "video_id": "-PuLoADV7Kg"
+        },
+        {
+          "channel_id": "UCRNXYfbn18ssk10luSFYiTA",
+          "published_at": "2026-08-07T14:00:12+00:00",
+          "title": "How To Create VIRAL AI Baby Color Mixing Videos for FREE (New Viral Niche)",
+          "url": "https://www.youtube.com/watch?v=GUXfGptbElI",
+          "video_id": "GUXfGptbElI"
+        }
+      ],
+      "evidence_pre_audit": {
+        "independent_channel_count": 2,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": true,
+        "raw_video_count": 2,
+        "reason_codes": [
+          "eligible_for_taxonomist_and_skeptic"
+        ],
+        "representative_video_ids": [
+          "-PuLoADV7Kg",
+          "GUXfGptbElI"
+        ],
+        "shared_anchor_concepts": [
+          "mixing"
+        ],
+        "strongest_anchor_family_count": 2,
+        "title_family_count": 2
+      },
+      "internal_rank_score": 1.1859609594,
+      "product_boundary": "shadow_only_no_act_no_probability",
+      "product_release_ready": false,
+      "rank": 4,
+      "required_agent_sequence": [
+        "evidence_analyst",
+        "trend_taxonomist",
+        "skeptic_auditor",
+        "creator_strategist_after_workspace_fit"
+      ],
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "topic_key": "semantic-5500f23e291a270c9c"
+    },
+    {
+      "agent_audit_status": "eligible_for_agent_audit",
+      "diagnostic_representative_title": "How to Start AI Filmmaking",
+      "evidence": [
+        {
+          "channel_id": "UCdR7eGozLjafYMTd2BFnJaQ",
+          "published_at": "2026-07-28T14:30:13+00:00",
+          "title": "How to Start AI Filmmaking (Beginner Guide)",
+          "url": "https://www.youtube.com/watch?v=hj-k3dPF5_0",
+          "video_id": "hj-k3dPF5_0"
+        },
+        {
+          "channel_id": "UCwoGOjJWVMFHX_IyeJ-0y9Q",
+          "published_at": "2026-07-10T14:34:10+00:00",
+          "title": "I Made a Full AI Film From One Idea Using OpenArt Director",
+          "url": "https://www.youtube.com/watch?v=ZoNvCK81JGk",
+          "video_id": "ZoNvCK81JGk"
+        },
+        {
+          "channel_id": "UCdR7eGozLjafYMTd2BFnJaQ",
+          "published_at": "2026-08-09T16:23:45+00:00",
+          "title": "How to Make AI Films Like a PRO (Advanced Course)",
+          "url": "https://www.youtube.com/watch?v=ToJCymOSTyo",
+          "video_id": "ToJCymOSTyo"
+        },
+        {
+          "channel_id": "UCf3QVNDkwNWqLq4mebbdL8w",
+          "published_at": "2026-08-05T00:22:38+00:00",
+          "title": "OpenArt Director: From One Idea to a Finished AI Movie",
+          "url": "https://www.youtube.com/watch?v=ze5qoCgH3K0",
+          "video_id": "ze5qoCgH3K0"
+        }
+      ],
+      "evidence_pre_audit": {
+        "independent_channel_count": 3,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": true,
+        "raw_video_count": 4,
+        "reason_codes": [
+          "eligible_for_taxonomist_and_skeptic"
+        ],
+        "representative_video_ids": [
+          "ToJCymOSTyo",
+          "ZoNvCK81JGk",
+          "hj-k3dPF5_0",
+          "ze5qoCgH3K0"
+        ],
+        "shared_anchor_concepts": [
+          "director",
+          "filmmaking",
+          "idea",
+          "openart"
+        ],
+        "strongest_anchor_family_count": 3,
+        "title_family_count": 4
+      },
+      "internal_rank_score": 1.1277651863,
+      "product_boundary": "shadow_only_no_act_no_probability",
+      "product_release_ready": false,
+      "rank": 5,
+      "required_agent_sequence": [
+        "evidence_analyst",
+        "trend_taxonomist",
+        "skeptic_auditor",
+        "creator_strategist_after_workspace_fit"
+      ],
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "topic_key": "semantic-edb9321beac0670588"
+    },
+    {
+      "agent_audit_status": "abstain_deterministic_pre_audit",
+      "diagnostic_representative_title": "5 FREE Unlimited AI Video Generators Forget Paid AI!",
+      "evidence": [
+        {
+          "channel_id": "UC4cAInsd6wz3VrmarExWGVQ",
+          "published_at": "2026-08-11T15:30:34+00:00",
+          "title": "5 FREE Unlimited AI Video Generators \u2013 Forget Paid AI!",
+          "url": "https://www.youtube.com/watch?v=Q2EIpeuPASQ",
+          "video_id": "Q2EIpeuPASQ"
+        },
+        {
+          "channel_id": "UCyzH12riFZl-vKdb456JQ1A",
+          "published_at": "2026-07-13T15:00:16+00:00",
+          "title": "5 Free AI Video Generators That Are Actually Unlimited",
+          "url": "https://www.youtube.com/watch?v=NcJZUIFIujU",
+          "video_id": "NcJZUIFIujU"
+        },
+        {
+          "channel_id": "UCz2rZczhUv9wQjQ3pIJ6l4w",
+          "published_at": "2026-07-20T07:32:17+00:00",
+          "title": "5 FREE AI Video Generators Better Than Most Paid Ones (No GPU Needed) ",
+          "url": "https://www.youtube.com/watch?v=TgLTCtusd28",
+          "video_id": "TgLTCtusd28"
+        }
+      ],
+      "evidence_pre_audit": {
+        "independent_channel_count": 3,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": false,
+        "raw_video_count": 3,
+        "reason_codes": [
+          "no_shared_concrete_anchor"
+        ],
+        "representative_video_ids": [
+          "NcJZUIFIujU",
+          "Q2EIpeuPASQ",
+          "TgLTCtusd28"
+        ],
+        "shared_anchor_concepts": [],
+        "strongest_anchor_family_count": 1,
+        "title_family_count": 3
+      },
+      "internal_rank_score": 1.0983265026,
+      "product_boundary": "shadow_only_no_act_no_probability",
+      "product_release_ready": false,
+      "rank": 6,
+      "required_agent_sequence": [
+        "evidence_analyst",
+        "trend_taxonomist",
+        "skeptic_auditor",
+        "creator_strategist_after_workspace_fit"
+      ],
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "topic_key": "semantic-d4f392900969707dbe"
+    },
+    {
+      "agent_audit_status": "eligible_for_agent_audit",
+      "diagnostic_representative_title": "Is Clone Voice AI The Best? Quick",
+      "evidence": [
+        {
+          "channel_id": "UChjjIANf2hDuLvL-Z_PDf8w",
+          "published_at": "2026-07-31T16:25:55+00:00",
+          "title": "Is Clone Voice AI The Best? | Quick Review",
+          "url": "https://www.youtube.com/watch?v=AachllJ9lHM",
+          "video_id": "AachllJ9lHM"
+        },
+        {
+          "channel_id": "UChjjIANf2hDuLvL-Z_PDf8w",
+          "published_at": "2026-07-15T18:25:22+00:00",
+          "title": "Clone Voice AI Full Review (Updated) - Testing All Features of Clone Voice | Elevenlabs Alternative",
+          "url": "https://www.youtube.com/watch?v=qqpJpkV7wBw",
+          "video_id": "qqpJpkV7wBw"
+        },
+        {
+          "channel_id": "UChjjIANf2hDuLvL-Z_PDf8w",
+          "published_at": "2026-07-26T17:02:11+00:00",
+          "title": "How to Build an AI Podcast Fast with Clone Voice AI + Talking Photos AI",
+          "url": "https://www.youtube.com/watch?v=k8L4rTTuKvU",
+          "video_id": "k8L4rTTuKvU"
+        },
+        {
+          "channel_id": "UC7ddZXGM7W2DKrs5lJXTwtw",
+          "published_at": "2026-08-07T19:39:45+00:00",
+          "title": "CloneVoice 4.0: New Update Tutorial (Unlimited AI Voice & Music App)",
+          "url": "https://www.youtube.com/watch?v=n4IByP_M490",
+          "video_id": "n4IByP_M490"
+        }
+      ],
+      "evidence_pre_audit": {
+        "independent_channel_count": 2,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": true,
+        "raw_video_count": 4,
+        "reason_codes": [
+          "eligible_for_taxonomist_and_skeptic"
+        ],
+        "representative_video_ids": [
+          "AachllJ9lHM",
+          "k8L4rTTuKvU",
+          "n4IByP_M490",
+          "qqpJpkV7wBw"
+        ],
+        "shared_anchor_concepts": [
+          "clone",
+          "voice"
+        ],
+        "strongest_anchor_family_count": 4,
+        "title_family_count": 4
+      },
+      "internal_rank_score": 1.0546104738,
+      "product_boundary": "shadow_only_no_act_no_probability",
+      "product_release_ready": false,
+      "rank": 7,
+      "required_agent_sequence": [
+        "evidence_analyst",
+        "trend_taxonomist",
+        "skeptic_auditor",
+        "creator_strategist_after_workspace_fit"
+      ],
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "topic_key": "semantic-3aa38e73b8fdb073a9"
+    },
+    {
+      "agent_audit_status": "eligible_for_agent_audit",
+      "diagnostic_representative_title": "Best Local AI Models For Every VRAM Tier",
+      "evidence": [
+        {
+          "channel_id": "UCgUfJoPtkt7-RiiuYh4vmGA",
+          "published_at": "2026-08-11T10:30:29+00:00",
+          "title": "Best Local AI Models For Every VRAM Tier",
+          "url": "https://www.youtube.com/watch?v=mn7CD0JjVpw",
+          "video_id": "mn7CD0JjVpw"
+        },
+        {
+          "channel_id": "UCWkhQT-wv5QNq64oEw5wG4w",
+          "published_at": "2026-07-26T21:38:33+00:00",
+          "title": "Top Local AI Models For Your GPU Right Now",
+          "url": "https://www.youtube.com/watch?v=yJ3TUKtQeQ0",
+          "video_id": "yJ3TUKtQeQ0"
+        }
+      ],
+      "evidence_pre_audit": {
+        "independent_channel_count": 2,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": true,
+        "raw_video_count": 2,
+        "reason_codes": [
+          "eligible_for_taxonomist_and_skeptic"
+        ],
+        "representative_video_ids": [
+          "mn7CD0JjVpw",
+          "yJ3TUKtQeQ0"
+        ],
+        "shared_anchor_concepts": [
+          "local"
+        ],
+        "strongest_anchor_family_count": 2,
+        "title_family_count": 2
+      },
+      "internal_rank_score": 0.9617462543,
+      "product_boundary": "shadow_only_no_act_no_probability",
+      "product_release_ready": false,
+      "rank": 8,
+      "required_agent_sequence": [
+        "evidence_analyst",
+        "trend_taxonomist",
+        "skeptic_auditor",
+        "creator_strategist_after_workspace_fit"
+      ],
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "topic_key": "semantic-55a95379d93e6e3f83"
+    },
+    {
+      "agent_audit_status": "eligible_for_agent_audit",
+      "diagnostic_representative_title": "Seedance 2.0 FREE & Unlimited AI Video Generator Create AI Videos Without Limits \ud83d\ude80",
+      "evidence": [
+        {
+          "channel_id": "UCCXi5bHuS_skqiTWZrz5n8g",
+          "published_at": "2026-07-20T00:34:11+00:00",
+          "title": "Seedance 2.0 FREE & Unlimited AI Video Generator | Create AI Videos Without Limits \ud83d\ude80",
+          "url": "https://www.youtube.com/watch?v=qvtTZ1splng",
+          "video_id": "qvtTZ1splng"
+        },
+        {
+          "channel_id": "UCeFgbHIZIDUfWY9PR3obHzQ",
+          "published_at": "2026-08-11T14:40:32+00:00",
+          "title": "2 FREE AI Video Generators Using Seedance 2 (No Money Needed!)",
+          "url": "https://www.youtube.com/watch?v=gnJy8ARcVWQ",
+          "video_id": "gnJy8ARcVWQ"
+        },
+        {
+          "channel_id": "UCCXi5bHuS_skqiTWZrz5n8g",
+          "published_at": "2026-07-23T00:30:25+00:00",
+          "title": "Seedance 2.0 FREE & Unlimited No Credits Required \ud83d\udd25 | Create AI Videos for FREE",
+          "url": "https://www.youtube.com/watch?v=tmwQPJV-UpE",
+          "video_id": "tmwQPJV-UpE"
+        },
+        {
+          "channel_id": "UCCXi5bHuS_skqiTWZrz5n8g",
+          "published_at": "2026-07-25T00:30:17+00:00",
+          "title": "Seedance 2.0 FREE & UNLIMITED \ud83d\udd25 No limits | Create AI Videos Like a Pro",
+          "url": "https://www.youtube.com/watch?v=B6J-I8vMerU",
+          "video_id": "B6J-I8vMerU"
+        },
+        {
+          "channel_id": "UCCXi5bHuS_skqiTWZrz5n8g",
+          "published_at": "2026-07-15T01:30:28+00:00",
+          "title": "Best Free AI Video Generators Unlimited | Seedance 2.0 Free",
+          "url": "https://www.youtube.com/watch?v=KBzpTUAE5QA",
+          "video_id": "KBzpTUAE5QA"
+        }
+      ],
+      "evidence_pre_audit": {
+        "independent_channel_count": 2,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": true,
+        "raw_video_count": 5,
+        "reason_codes": [
+          "eligible_for_taxonomist_and_skeptic"
+        ],
+        "representative_video_ids": [
+          "B6J-I8vMerU",
+          "KBzpTUAE5QA",
+          "gnJy8ARcVWQ",
+          "qvtTZ1splng",
+          "tmwQPJV-UpE"
+        ],
+        "shared_anchor_concepts": [
+          "seedance"
+        ],
+        "strongest_anchor_family_count": 5,
+        "title_family_count": 5
+      },
+      "internal_rank_score": 0.934736938,
+      "product_boundary": "shadow_only_no_act_no_probability",
+      "product_release_ready": false,
+      "rank": 9,
+      "required_agent_sequence": [
+        "evidence_analyst",
+        "trend_taxonomist",
+        "skeptic_auditor",
+        "creator_strategist_after_workspace_fit"
+      ],
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "topic_key": "semantic-127b76e84b0ebaa7f1"
+    },
+    {
+      "agent_audit_status": "eligible_for_agent_audit",
+      "diagnostic_representative_title": "Fish Audio I Tested AI Voice Cloning, Emotion Tags & Voice Designer",
+      "evidence": [
+        {
+          "channel_id": "UCO59_5OmxcBkKfG412X9uiw",
+          "published_at": "2026-08-12T16:43:26+00:00",
+          "title": "Fish Audio | I Tested AI Voice Cloning, Emotion Tags & Voice Designer",
+          "url": "https://www.youtube.com/watch?v=im3NRAUp58Y",
+          "video_id": "im3NRAUp58Y"
+        },
+        {
+          "channel_id": "UCp1mMtCnO_11BC4dbGv4BSA",
+          "published_at": "2026-08-02T07:01:05+00:00",
+          "title": "Fish Audio \u2013 Can AI Voices Finally Sound Human?",
+          "url": "https://www.youtube.com/watch?v=6uvpmuyAyK4",
+          "video_id": "6uvpmuyAyK4"
+        },
+        {
+          "channel_id": "UCO59_5OmxcBkKfG412X9uiw",
+          "published_at": "2026-08-02T22:50:42+00:00",
+          "title": "Fish Audio S2.1 | AI Voices, Voice Cloning & Free API",
+          "url": "https://www.youtube.com/watch?v=pPp-f0wXIic",
+          "video_id": "pPp-f0wXIic"
+        },
+        {
+          "channel_id": "UCNFrPN8weVeh4vUM3vCuS5Q",
+          "published_at": "2026-07-18T12:30:31+00:00",
+          "title": "This Free AI Voiceover Tool Sounds Way Too Human",
+          "url": "https://www.youtube.com/watch?v=e5XoIegUwWA",
+          "video_id": "e5XoIegUwWA"
+        },
+        {
+          "channel_id": "UCKW1UkS5szOItFnKKsWzVRQ",
+          "published_at": "2026-07-24T17:30:07+00:00",
+          "title": "Is FREE AI Text to Speech and Voice Cloning Finally Good? (Fish Audio)",
+          "url": "https://www.youtube.com/watch?v=pRFm2-pS4Ew",
+          "video_id": "pRFm2-pS4Ew"
+        }
+      ],
+      "evidence_pre_audit": {
+        "independent_channel_count": 4,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": true,
+        "raw_video_count": 5,
+        "reason_codes": [
+          "eligible_for_taxonomist_and_skeptic"
+        ],
+        "representative_video_ids": [
+          "6uvpmuyAyK4",
+          "e5XoIegUwWA",
+          "im3NRAUp58Y",
+          "pPp-f0wXIic",
+          "pRFm2-pS4Ew"
+        ],
+        "shared_anchor_concepts": [
+          "audio",
+          "cloning",
+          "fish",
+          "human",
+          "voice"
+        ],
+        "strongest_anchor_family_count": 4,
+        "title_family_count": 5
+      },
+      "internal_rank_score": 0.8997175494,
+      "product_boundary": "shadow_only_no_act_no_probability",
+      "product_release_ready": false,
+      "rank": 10,
+      "required_agent_sequence": [
+        "evidence_analyst",
+        "trend_taxonomist",
+        "skeptic_auditor",
+        "creator_strategist_after_workspace_fit"
+      ],
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "topic_key": "semantic-6b5a7af5e989c583e1"
+    },
+    {
+      "agent_audit_status": "eligible_for_agent_audit",
+      "diagnostic_representative_title": "This AI Video Generator Is FREE & Runs Locally! Minimax H3",
+      "evidence": [
+        {
+          "channel_id": "UCb5P7PAo68ZN5fyP0cMYP0w",
+          "published_at": "2026-08-08T17:01:59+00:00",
+          "title": "This AI Video Generator Is FREE & Runs Locally! | Minimax H3 Tutorial",
+          "url": "https://www.youtube.com/watch?v=0brPzRxYuII",
+          "video_id": "0brPzRxYuII"
+        },
+        {
+          "channel_id": "UCEMcXLQX6oY6maHtzp3OgAg",
+          "published_at": "2026-08-08T15:53:48+00:00",
+          "title": "This AI Video Generator Is FREE & UNLIMITED! \ud83e\udd2f Run It Locally",
+          "url": "https://www.youtube.com/watch?v=H-md2wRO5hA",
+          "video_id": "H-md2wRO5hA"
+        }
+      ],
+      "evidence_pre_audit": {
+        "independent_channel_count": 2,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": true,
+        "raw_video_count": 2,
+        "reason_codes": [
+          "eligible_for_taxonomist_and_skeptic"
+        ],
+        "representative_video_ids": [
+          "0brPzRxYuII",
+          "H-md2wRO5hA"
+        ],
+        "shared_anchor_concepts": [
+          "local"
+        ],
+        "strongest_anchor_family_count": 2,
+        "title_family_count": 2
+      },
+      "internal_rank_score": 0.7956286541,
+      "product_boundary": "shadow_only_no_act_no_probability",
+      "product_release_ready": false,
+      "rank": 11,
+      "required_agent_sequence": [
+        "evidence_analyst",
+        "trend_taxonomist",
+        "skeptic_auditor",
+        "creator_strategist_after_workspace_fit"
+      ],
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "topic_key": "semantic-2d8146e3289c67ef53"
+    },
+    {
+      "agent_audit_status": "eligible_for_agent_audit",
+      "diagnostic_representative_title": "Tripo3D AI-Powered 3D Asset Creation",
+      "evidence": [
+        {
+          "channel_id": "UCnsRgu_dyifU4WjXUkWqQnA",
+          "published_at": "2026-07-27T11:00:49+00:00",
+          "title": "Tripo3D Review: AI-Powered 3D Asset Creation",
+          "url": "https://www.youtube.com/watch?v=3rzHGTCNRqM",
+          "video_id": "3rzHGTCNRqM"
+        },
+        {
+          "channel_id": "UC48xho-b_aQF97ai1pFOYgg",
+          "published_at": "2026-07-26T23:28:45+00:00",
+          "title": "Tripo AI Review: Create Stunning 3D Models from Text & Images in Seconds!",
+          "url": "https://www.youtube.com/watch?v=X1_4xESIH8Q",
+          "video_id": "X1_4xESIH8Q"
+        },
+        {
+          "channel_id": "UCaKxVO258W0eImG09jGps6A",
+          "published_at": "2026-08-10T18:35:30+00:00",
+          "title": "I Tested Tripo 3D: AI 3D Modeling That Actually Holds Up Close",
+          "url": "https://www.youtube.com/watch?v=Ly7LpF6EtOs",
+          "video_id": "Ly7LpF6EtOs"
+        },
+        {
+          "channel_id": "UCypXkiAYzkq5uPEpQwkjpMQ",
+          "published_at": "2026-07-21T03:23:15+00:00",
+          "title": "Stop Modeling 3D Assets Manually | TRIPO AI H3.1 Review",
+          "url": "https://www.youtube.com/watch?v=IJJ9WmEKgrE",
+          "video_id": "IJJ9WmEKgrE"
+        },
+        {
+          "channel_id": "UCl0GcD6NCXcmjg6cmO1c_9g",
+          "published_at": "2026-07-26T17:02:20+00:00",
+          "title": "Tripo AI eBook Review \ud83d\udcd8 | Best AI 3D Creation Guide for Beginners & Creators #Shorts #ugccreator",
+          "url": "https://www.youtube.com/watch?v=ESNu8y3DLG8",
+          "video_id": "ESNu8y3DLG8"
+        }
+      ],
+      "evidence_pre_audit": {
+        "independent_channel_count": 5,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": true,
+        "raw_video_count": 5,
+        "reason_codes": [
+          "eligible_for_taxonomist_and_skeptic"
+        ],
+        "representative_video_ids": [
+          "3rzHGTCNRqM",
+          "ESNu8y3DLG8",
+          "IJJ9WmEKgrE",
+          "Ly7LpF6EtOs",
+          "X1_4xESIH8Q"
+        ],
+        "shared_anchor_concepts": [
+          "3d",
+          "creation",
+          "modeling",
+          "tripo"
+        ],
+        "strongest_anchor_family_count": 5,
+        "title_family_count": 5
+      },
+      "internal_rank_score": 0.787200555,
+      "product_boundary": "shadow_only_no_act_no_probability",
+      "product_release_ready": false,
+      "rank": 12,
+      "required_agent_sequence": [
+        "evidence_analyst",
+        "trend_taxonomist",
+        "skeptic_auditor",
+        "creator_strategist_after_workspace_fit"
+      ],
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "topic_key": "semantic-03b56e93e6fb1849d8"
+    },
+    {
+      "agent_audit_status": "abstain_deterministic_pre_audit",
+      "diagnostic_representative_title": "Google Flow aur Gemini AI ko FREE me kaise use kare Google flow Free Unlimited Google ai Free",
+      "evidence": [
+        {
+          "channel_id": "UC4zcMHmYlBprvU7cskLyAyA",
+          "published_at": "2026-07-28T07:22:15+00:00",
+          "title": "Google Flow aur Gemini AI ko FREE me kaise use kare | Google flow Free Unlimited | Google ai Free",
+          "url": "https://www.youtube.com/watch?v=ffm6nq7dU6I",
+          "video_id": "ffm6nq7dU6I"
+        },
+        {
+          "channel_id": "UC4zcMHmYlBprvU7cskLyAyA",
+          "published_at": "2026-08-05T11:32:03+00:00",
+          "title": "Google AI \u0938\u0947 FREE \u092e\u0947\u0902 Unlimited Video \u092c\u0928\u093e\u090f\u0902 | Google Gemini AI 12 Months FREE | Gemini Flow AI Free",
+          "url": "https://www.youtube.com/watch?v=FuXbX1cXwlY",
+          "video_id": "FuXbX1cXwlY"
+        },
+        {
+          "channel_id": "UC2ZMiuXsWi9xrm66WEBPuZQ",
+          "published_at": "2026-08-07T04:30:07+00:00",
+          "title": "How to Get Google Gemini Flow Ultra FREE Access (Hindi)",
+          "url": "https://www.youtube.com/watch?v=6LSgPzIxxw4",
+          "video_id": "6LSgPzIxxw4"
+        }
+      ],
+      "evidence_pre_audit": {
+        "independent_channel_count": 2,
+        "non_english_family_count": 2,
+        "non_english_share": 0.666667,
+        "pre_audit_passed": false,
+        "raw_video_count": 3,
+        "reason_codes": [
+          "non_english_evidence_majority"
+        ],
+        "representative_video_ids": [
+          "6LSgPzIxxw4",
+          "FuXbX1cXwlY",
+          "ffm6nq7dU6I"
+        ],
+        "shared_anchor_concepts": [
+          "flow",
+          "gemini",
+          "google"
+        ],
+        "strongest_anchor_family_count": 3,
+        "title_family_count": 3
+      },
+      "internal_rank_score": 0.7399081664,
+      "product_boundary": "shadow_only_no_act_no_probability",
+      "product_release_ready": false,
+      "rank": 13,
+      "required_agent_sequence": [
+        "evidence_analyst",
+        "trend_taxonomist",
+        "skeptic_auditor",
+        "creator_strategist_after_workspace_fit"
+      ],
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "topic_key": "semantic-b7fda92a01bcf7de05"
+    },
+    {
+      "agent_audit_status": "eligible_for_agent_audit",
+      "diagnostic_representative_title": "Unlimited Grok Generate free and unlimited AI videos with Grok and Veo3 No Limits",
+      "evidence": [
+        {
+          "channel_id": "UCjSbPZN5yAJxeqrwk-HaJIw",
+          "published_at": "2026-07-28T09:15:13+00:00",
+          "title": "Unlimited Grok | Generate free and unlimited AI videos with Grok and Veo3 (No Limits)",
+          "url": "https://www.youtube.com/watch?v=Scm7FVdD53o",
+          "video_id": "Scm7FVdD53o"
+        },
+        {
+          "channel_id": "UCjSbPZN5yAJxeqrwk-HaJIw",
+          "published_at": "2026-07-23T08:36:59+00:00",
+          "title": "THE-END of Grok | Generate Free and Unlimited AI videos with Meta AI",
+          "url": "https://www.youtube.com/watch?v=HPHpSry4_yg",
+          "video_id": "HPHpSry4_yg"
+        },
+        {
+          "channel_id": "UC2V8oeptoGJ6buQvIlkD2zw",
+          "published_at": "2026-07-27T06:24:30+00:00",
+          "title": "Grok AI FREE & UNLIMITED | 2 AI Video Generators + Dialogue \ud83e\udd2f ",
+          "url": "https://www.youtube.com/watch?v=dGlPM_lnguA",
+          "video_id": "dGlPM_lnguA"
+        },
+        {
+          "channel_id": "UCaZZNN-gwd0rjvt-5p-L4kg",
+          "published_at": "2026-08-07T18:20:10+00:00",
+          "title": "Grok AI 100% FREE Alternative | Generate Unlimited AI Videos Like Grok AI | No Limits, No Watermarks",
+          "url": "https://www.youtube.com/watch?v=HezZt_W0ibQ",
+          "video_id": "HezZt_W0ibQ"
+        },
+        {
+          "channel_id": "UCjSbPZN5yAJxeqrwk-HaJIw",
+          "published_at": "2026-07-30T08:55:34+00:00",
+          "title": "Generate unlimited AI videos using grok and Veo 3 | Free and unlimited AI videos",
+          "url": "https://www.youtube.com/watch?v=SC_E9-dghFI",
+          "video_id": "SC_E9-dghFI"
+        }
+      ],
+      "evidence_pre_audit": {
+        "independent_channel_count": 2,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": true,
+        "raw_video_count": 5,
+        "reason_codes": [
+          "eligible_for_taxonomist_and_skeptic"
+        ],
+        "representative_video_ids": [
+          "HPHpSry4_yg",
+          "Scm7FVdD53o",
+          "SC_E9-dghFI",
+          "dGlPM_lnguA"
+        ],
+        "shared_anchor_concepts": [
+          "grok"
+        ],
+        "strongest_anchor_family_count": 4,
+        "title_family_count": 4
+      },
+      "internal_rank_score": 0.6101781571,
+      "product_boundary": "shadow_only_no_act_no_probability",
+      "product_release_ready": false,
+      "rank": 14,
+      "required_agent_sequence": [
+        "evidence_analyst",
+        "trend_taxonomist",
+        "skeptic_auditor",
+        "creator_strategist_after_workspace_fit"
+      ],
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "topic_key": "semantic-da07d56182cbc5dc75"
+    },
+    {
+      "agent_audit_status": "abstain_deterministic_pre_audit",
+      "diagnostic_representative_title": "10 AI Tools That Saved Me 25 Hours Every Week!",
+      "evidence": [
+        {
+          "channel_id": "UCBuEcHYBNx4Wgbqvp9zf_4w",
+          "published_at": "2026-08-04T17:47:32+00:00",
+          "title": "10 AI Tools That Saved Me 25 Hours Every Week!",
+          "url": "https://www.youtube.com/watch?v=8_pW1yl0-qU",
+          "video_id": "8_pW1yl0-qU"
+        },
+        {
+          "channel_id": "UCexSubSrfFTvzRVgTjfnPng",
+          "published_at": "2026-08-01T14:34:15+00:00",
+          "title": "10 AI Tools That Will Save You 20 Hours Every Week",
+          "url": "https://www.youtube.com/watch?v=Ejlbt_lDlI4",
+          "video_id": "Ejlbt_lDlI4"
+        },
+        {
+          "channel_id": "UC0yHbz4OxdQFwmVX2BBQqLg",
+          "published_at": "2026-07-25T13:57:31+00:00",
+          "title": "10 AI Productivity Tools for Everyday Life (Work Less)",
+          "url": "https://www.youtube.com/watch?v=tIttdEx_adw",
+          "video_id": "tIttdEx_adw"
+        },
+        {
+          "channel_id": "UC_1xdqLpb0fssHdsyBkj08A",
+          "published_at": "2026-08-07T21:00:18+00:00",
+          "title": "10 FREE AI Tools Nobody Uses (Tested for 1 Week)",
+          "url": "https://www.youtube.com/watch?v=eNi1h7kjZHQ",
+          "video_id": "eNi1h7kjZHQ"
+        }
+      ],
+      "evidence_pre_audit": {
+        "independent_channel_count": 4,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": false,
+        "raw_video_count": 4,
+        "reason_codes": [
+          "no_shared_concrete_anchor"
+        ],
+        "representative_video_ids": [
+          "8_pW1yl0-qU",
+          "Ejlbt_lDlI4",
+          "eNi1h7kjZHQ",
+          "tIttdEx_adw"
+        ],
+        "shared_anchor_concepts": [],
+        "strongest_anchor_family_count": 1,
+        "title_family_count": 4
+      },
+      "internal_rank_score": 0.5397213156,
+      "product_boundary": "shadow_only_no_act_no_probability",
+      "product_release_ready": false,
+      "rank": 15,
+      "required_agent_sequence": [
+        "evidence_analyst",
+        "trend_taxonomist",
+        "skeptic_auditor",
+        "creator_strategist_after_workspace_fit"
+      ],
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "topic_key": "semantic-fd84acddf93cdffdf1"
+    },
+    {
+      "agent_audit_status": "abstain_deterministic_pre_audit",
+      "diagnostic_representative_title": "\"This FREE AI Video Generator Has NO Limits No Login, No Card Needed! \"",
+      "evidence": [
+        {
+          "channel_id": "UC40_YctfFcKr0P4580LC2NQ",
+          "published_at": "2026-08-12T09:00:04+00:00",
+          "title": "\"This FREE AI Video Generator Has NO Limits (No Login, No Card Needed!)\"",
+          "url": "https://www.youtube.com/watch?v=aNh4rAH3x4g",
+          "video_id": "aNh4rAH3x4g"
+        },
+        {
+          "channel_id": "UCbbFPvG47IhbuEZD-_BZDng",
+          "published_at": "2026-08-05T17:30:09+00:00",
+          "title": "Free AI Video Generator Crushes Sora 2 & Veo 3 \u2014 No Limits, No Paywalls!",
+          "url": "https://www.youtube.com/watch?v=vGSN338vKHY",
+          "video_id": "vGSN338vKHY"
+        }
+      ],
+      "evidence_pre_audit": {
+        "independent_channel_count": 2,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": false,
+        "raw_video_count": 2,
+        "reason_codes": [
+          "no_shared_concrete_anchor"
+        ],
+        "representative_video_ids": [
+          "aNh4rAH3x4g",
+          "vGSN338vKHY"
+        ],
+        "shared_anchor_concepts": [],
+        "strongest_anchor_family_count": 1,
+        "title_family_count": 2
+      },
+      "internal_rank_score": 0.5245581098,
+      "product_boundary": "shadow_only_no_act_no_probability",
+      "product_release_ready": false,
+      "rank": 16,
+      "required_agent_sequence": [
+        "evidence_analyst",
+        "trend_taxonomist",
+        "skeptic_auditor",
+        "creator_strategist_after_workspace_fit"
+      ],
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "topic_key": "semantic-b5e28ead4d1c2e5150"
+    },
+    {
+      "agent_audit_status": "eligible_for_agent_audit",
+      "diagnostic_representative_title": "Is AI really the reason for recent layoffs?",
+      "evidence": [
+        {
+          "channel_id": "UC45PZeCA1uWF6LBbU04Y-4w",
+          "published_at": "2026-08-03T01:12:45+00:00",
+          "title": "Is AI really the reason for recent layoffs?",
+          "url": "https://www.youtube.com/watch?v=cIZ3YVFuXxQ",
+          "video_id": "cIZ3YVFuXxQ"
+        },
+        {
+          "channel_id": "UCnPTou0HvsmTJXmdIke7Xiw",
+          "published_at": "2026-08-06T03:05:31+00:00",
+          "title": "The AI Layoff Trap",
+          "url": "https://www.youtube.com/watch?v=fWKW4Yo9UTY",
+          "video_id": "fWKW4Yo9UTY"
+        },
+        {
+          "channel_id": "UCt2MrdKDvX5xPorMjiySnhw",
+          "published_at": "2026-08-07T18:05:47+00:00",
+          "title": "Companies Are Laying Off Thousands: Is AI the Real Reason?",
+          "url": "https://www.youtube.com/watch?v=3MAS-z_4MwA",
+          "video_id": "3MAS-z_4MwA"
+        }
+      ],
+      "evidence_pre_audit": {
+        "independent_channel_count": 3,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": true,
+        "raw_video_count": 3,
+        "reason_codes": [
+          "eligible_for_taxonomist_and_skeptic"
+        ],
+        "representative_video_ids": [
+          "3MAS-z_4MwA",
+          "cIZ3YVFuXxQ",
+          "fWKW4Yo9UTY"
+        ],
+        "shared_anchor_concepts": [
+          "layoffs"
+        ],
+        "strongest_anchor_family_count": 2,
+        "title_family_count": 3
+      },
+      "internal_rank_score": 0.4925822984,
+      "product_boundary": "shadow_only_no_act_no_probability",
+      "product_release_ready": false,
+      "rank": 17,
+      "required_agent_sequence": [
+        "evidence_analyst",
+        "trend_taxonomist",
+        "skeptic_auditor",
+        "creator_strategist_after_workspace_fit"
+      ],
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "topic_key": "semantic-47689c8b6924e49dae"
+    },
+    {
+      "agent_audit_status": "eligible_for_agent_audit",
+      "diagnostic_representative_title": "How to Turn AI Video Into a Real Storyboard AI tool",
+      "evidence": [
+        {
+          "channel_id": "UCErBeTMHPfeNyXYMDiiq50Q",
+          "published_at": "2026-08-08T08:02:51+00:00",
+          "title": "How to Turn AI Video Into a Real Storyboard (AI tool)",
+          "url": "https://www.youtube.com/watch?v=2Z9RlPx-ql4",
+          "video_id": "2Z9RlPx-ql4"
+        },
+        {
+          "channel_id": "UCErBeTMHPfeNyXYMDiiq50Q",
+          "published_at": "2026-08-11T08:03:26+00:00",
+          "title": "The AI Tool That Auto-Builds Your Storyboard From Video",
+          "url": "https://www.youtube.com/watch?v=vZHe8yEZLbA",
+          "video_id": "vZHe8yEZLbA"
+        },
+        {
+          "channel_id": "UCErBeTMHPfeNyXYMDiiq50Q",
+          "published_at": "2026-08-09T08:03:22+00:00",
+          "title": "The AI Video Tool Every Creator Is Sleeping On",
+          "url": "https://www.youtube.com/watch?v=LjKexyo2aA4",
+          "video_id": "LjKexyo2aA4"
+        },
+        {
+          "channel_id": "UC591tOYZgpj-evI5I84BmNg",
+          "published_at": "2026-07-23T15:53:15+00:00",
+          "title": "AI Video Creation Workflow: Script to Storyboard [85/100]]",
+          "url": "https://www.youtube.com/watch?v=eynzuXDDq6I",
+          "video_id": "eynzuXDDq6I"
+        }
+      ],
+      "evidence_pre_audit": {
+        "independent_channel_count": 2,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": true,
+        "raw_video_count": 4,
+        "reason_codes": [
+          "eligible_for_taxonomist_and_skeptic"
+        ],
+        "representative_video_ids": [
+          "2Z9RlPx-ql4",
+          "LjKexyo2aA4",
+          "eynzuXDDq6I",
+          "vZHe8yEZLbA"
+        ],
+        "shared_anchor_concepts": [
+          "storyboard"
+        ],
+        "strongest_anchor_family_count": 3,
+        "title_family_count": 4
+      },
+      "internal_rank_score": 0.4663101735,
+      "product_boundary": "shadow_only_no_act_no_probability",
+      "product_release_ready": false,
+      "rank": 18,
+      "required_agent_sequence": [
+        "evidence_analyst",
+        "trend_taxonomist",
+        "skeptic_auditor",
+        "creator_strategist_after_workspace_fit"
+      ],
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "topic_key": "semantic-60d2079e9334b3f924"
+    },
+    {
+      "agent_audit_status": "eligible_for_agent_audit",
+      "diagnostic_representative_title": "I Replaced Every AI Subscription I Pay For",
+      "evidence": [
+        {
+          "channel_id": "UCgUfJoPtkt7-RiiuYh4vmGA",
+          "published_at": "2026-08-03T10:30:32+00:00",
+          "title": "I Replaced Every AI Subscription I Pay For",
+          "url": "https://www.youtube.com/watch?v=MgHQncHjDhs",
+          "video_id": "MgHQncHjDhs"
+        },
+        {
+          "channel_id": "UCeS_8gc9xD1NMdGw20k2PKA",
+          "published_at": "2026-08-12T05:15:37+00:00",
+          "title": "I Replaced 4 AI Subscriptions With ONE for $20/Month",
+          "url": "https://www.youtube.com/watch?v=SvBQpqjiYyQ",
+          "video_id": "SvBQpqjiYyQ"
+        },
+        {
+          "channel_id": "UCNZXIcexbWmY5jhXhv9ZG3A",
+          "published_at": "2026-08-04T03:52:39+00:00",
+          "title": "I Cancelled ALL My AI Subscriptions. Here's My Setup",
+          "url": "https://www.youtube.com/watch?v=o--in1CGFn8",
+          "video_id": "o--in1CGFn8"
+        }
+      ],
+      "evidence_pre_audit": {
+        "independent_channel_count": 3,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": true,
+        "raw_video_count": 3,
+        "reason_codes": [
+          "eligible_for_taxonomist_and_skeptic"
+        ],
+        "representative_video_ids": [
+          "MgHQncHjDhs",
+          "SvBQpqjiYyQ",
+          "o--in1CGFn8"
+        ],
+        "shared_anchor_concepts": [
+          "subscription"
+        ],
+        "strongest_anchor_family_count": 3,
+        "title_family_count": 3
+      },
+      "internal_rank_score": 0.4635454962,
+      "product_boundary": "shadow_only_no_act_no_probability",
+      "product_release_ready": false,
+      "rank": 19,
+      "required_agent_sequence": [
+        "evidence_analyst",
+        "trend_taxonomist",
+        "skeptic_auditor",
+        "creator_strategist_after_workspace_fit"
+      ],
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "topic_key": "semantic-91018f53122ab58bef"
+    },
+    {
+      "agent_audit_status": "eligible_for_agent_audit",
+      "diagnostic_representative_title": "12 BEST AI Video Generators Seedance 2.0 vs Veo vs Kling 3.0 vs Sora 2 & More",
+      "evidence": [
+        {
+          "channel_id": "UCIcnYEnoWTaKD0XRzdH8Rtw",
+          "published_at": "2026-07-17T17:54:43+00:00",
+          "title": "12 BEST AI Video Generators (Seedance 2.0 vs Veo vs Kling 3.0 vs Sora 2 & More)",
+          "url": "https://www.youtube.com/watch?v=vD3_Y_zT9aA",
+          "video_id": "vD3_Y_zT9aA"
+        },
+        {
+          "channel_id": "UCSkIzFDXmRLSrpjPV19Bbew",
+          "published_at": "2026-08-12T14:55:48+00:00",
+          "title": "Ultimate AI Video Comparison: Seedance 2.0 vs Kling 3.0 vs Veo 3.1 vs Sora 2",
+          "url": "https://www.youtube.com/watch?v=ZIIh6LU8rKI",
+          "video_id": "ZIIh6LU8rKI"
+        }
+      ],
+      "evidence_pre_audit": {
+        "independent_channel_count": 2,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": true,
+        "raw_video_count": 2,
+        "reason_codes": [
+          "eligible_for_taxonomist_and_skeptic"
+        ],
+        "representative_video_ids": [
+          "ZIIh6LU8rKI",
+          "vD3_Y_zT9aA"
+        ],
+        "shared_anchor_concepts": [
+          "kling",
+          "seedance",
+          "sora",
+          "veo",
+          "vs"
+        ],
+        "strongest_anchor_family_count": 2,
+        "title_family_count": 2
+      },
+      "internal_rank_score": 0.4477084781,
+      "product_boundary": "shadow_only_no_act_no_probability",
+      "product_release_ready": false,
+      "rank": 20,
+      "required_agent_sequence": [
+        "evidence_analyst",
+        "trend_taxonomist",
+        "skeptic_auditor",
+        "creator_strategist_after_workspace_fit"
+      ],
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "topic_key": "semantic-c6c52c9ffffb812090"
+    },
+    {
+      "agent_audit_status": "eligible_for_agent_audit",
+      "diagnostic_representative_title": "The Pay-Per-Use Trap Why AI Subscriptions Are Breaking",
+      "evidence": [
+        {
+          "channel_id": "UCWw67bpUTy_1aVbM80OSZTA",
+          "published_at": "2026-08-09T17:15:10+00:00",
+          "title": "The Pay-Per-Use Trap: Why AI Subscriptions Are Breaking",
+          "url": "https://www.youtube.com/watch?v=WCjNngQqPvA",
+          "video_id": "WCjNngQqPvA"
+        },
+        {
+          "channel_id": "UCWw67bpUTy_1aVbM80OSZTA",
+          "published_at": "2026-08-05T16:00:15+00:00",
+          "title": "The Subscription Trap: Why AI Pricing Is Breaking",
+          "url": "https://www.youtube.com/watch?v=K8ftOsCRl4E",
+          "video_id": "K8ftOsCRl4E"
+        },
+        {
+          "channel_id": "UCXPFJEG9KBZ-aA8c7hHKMXg",
+          "published_at": "2026-08-02T06:00:05+00:00",
+          "title": "The Economics of an AI Subscription - Why Every App Costs More",
+          "url": "https://www.youtube.com/watch?v=0sTeSjslVpE",
+          "video_id": "0sTeSjslVpE"
+        }
+      ],
+      "evidence_pre_audit": {
+        "independent_channel_count": 2,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": true,
+        "raw_video_count": 3,
+        "reason_codes": [
+          "eligible_for_taxonomist_and_skeptic"
+        ],
+        "representative_video_ids": [
+          "0sTeSjslVpE",
+          "K8ftOsCRl4E",
+          "WCjNngQqPvA"
+        ],
+        "shared_anchor_concepts": [
+          "subscription"
+        ],
+        "strongest_anchor_family_count": 3,
+        "title_family_count": 3
+      },
+      "internal_rank_score": 0.3841308415,
+      "product_boundary": "shadow_only_no_act_no_probability",
+      "product_release_ready": false,
+      "rank": 21,
+      "required_agent_sequence": [
+        "evidence_analyst",
+        "trend_taxonomist",
+        "skeptic_auditor",
+        "creator_strategist_after_workspace_fit"
+      ],
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "topic_key": "semantic-f89be6ba3d56708271"
+    },
+    {
+      "agent_audit_status": "eligible_for_agent_audit",
+      "diagnostic_representative_title": "Stop making PowerPoint slides manually! \ud83d\uded1 Try THIS AI \ud83d\udcca",
+      "evidence": [
+        {
+          "channel_id": "UC82svmCGFOkCUUqGJmFRGLA",
+          "published_at": "2026-07-30T15:40:14+00:00",
+          "title": "Stop making PowerPoint slides manually! \ud83d\uded1 Try THIS AI \ud83d\udcca",
+          "url": "https://www.youtube.com/watch?v=muHXs6osGzM",
+          "video_id": "muHXs6osGzM"
+        },
+        {
+          "channel_id": "UC82svmCGFOkCUUqGJmFRGLA",
+          "published_at": "2026-08-04T14:37:08+00:00",
+          "title": "Stop formatting slides manually! \ud83d\uded1 Try THIS AI \ud83d\udcca #shorts",
+          "url": "https://www.youtube.com/watch?v=QzK52Z5K7_8",
+          "video_id": "QzK52Z5K7_8"
+        },
+        {
+          "channel_id": "UCQ-rZd0NpjXYTpB3y5BNxPw",
+          "published_at": "2026-07-23T05:28:47+00:00",
+          "title": "I Turned a Boring PowerPoint Into This Using AI (Gamma)",
+          "url": "https://www.youtube.com/watch?v=Qm1-fddLpVE",
+          "video_id": "Qm1-fddLpVE"
+        },
+        {
+          "channel_id": "UCW0en28QcFGUh0rLKx_hQCA",
+          "published_at": "2026-07-26T16:00:14+00:00",
+          "title": "Gamma AI Review: Better Than PowerPoint?",
+          "url": "https://www.youtube.com/watch?v=KTGC9W7i-aU",
+          "video_id": "KTGC9W7i-aU"
+        },
+        {
+          "channel_id": "UCjVeIml6nxxQA05OFPsFSAw",
+          "published_at": "2026-08-06T13:12:57+00:00",
+          "title": "Dokie AI vs Gamma",
+          "url": "https://www.youtube.com/watch?v=bc7TJ_8FqRk",
+          "video_id": "bc7TJ_8FqRk"
+        }
+      ],
+      "evidence_pre_audit": {
+        "independent_channel_count": 4,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": true,
+        "raw_video_count": 5,
+        "reason_codes": [
+          "eligible_for_taxonomist_and_skeptic"
+        ],
+        "representative_video_ids": [
+          "KTGC9W7i-aU",
+          "Qm1-fddLpVE",
+          "QzK52Z5K7_8",
+          "bc7TJ_8FqRk",
+          "muHXs6osGzM"
+        ],
+        "shared_anchor_concepts": [
+          "gamma",
+          "powerpoint",
+          "slides"
+        ],
+        "strongest_anchor_family_count": 3,
+        "title_family_count": 5
+      },
+      "internal_rank_score": 0.3836471076,
+      "product_boundary": "shadow_only_no_act_no_probability",
+      "product_release_ready": false,
+      "rank": 22,
+      "required_agent_sequence": [
+        "evidence_analyst",
+        "trend_taxonomist",
+        "skeptic_auditor",
+        "creator_strategist_after_workspace_fit"
+      ],
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "topic_key": "semantic-3c1250dad24e7fa6ce"
+    },
+    {
+      "agent_audit_status": "eligible_for_agent_audit",
+      "diagnostic_representative_title": "Mark Zuckerberg Reveals New Meta AI Model In Bold Open Tech Strategy Shift DWS News AI14",
+      "evidence": [
+        {
+          "channel_id": "UCrrXvYmau-9oMA6XJKZS2fQ",
+          "published_at": "2026-08-10T12:02:02+00:00",
+          "title": "Mark Zuckerberg Reveals New Meta AI Model In Bold Open Tech Strategy Shift | DWS News | AI14",
+          "url": "https://www.youtube.com/watch?v=VNHgR3xECdY",
+          "video_id": "VNHgR3xECdY"
+        },
+        {
+          "channel_id": "UCE2606prvXQc_noEqKxVJXA",
+          "published_at": "2026-08-10T15:24:33+00:00",
+          "title": "Zuckerberg video launches Meta's new open-weight AI model",
+          "url": "https://www.youtube.com/watch?v=_cVFyjOWfQ8",
+          "video_id": "_cVFyjOWfQ8"
+        },
+        {
+          "channel_id": "UCrrXvYmau-9oMA6XJKZS2fQ",
+          "published_at": "2026-08-10T13:16:17+00:00",
+          "title": "Mark Zuckerberg Reveals Meta AI Breakthrough With Open Weight Model Launch | DWS News | AI14",
+          "url": "https://www.youtube.com/watch?v=Lq4IEz3Wkvg",
+          "video_id": "Lq4IEz3Wkvg"
+        },
+        {
+          "channel_id": "UC8p1vwvWtl6T73JiExfWs1g",
+          "published_at": "2026-08-10T19:06:40+00:00",
+          "title": "Meta launches new AI model for home as Mark Zuckerberg pushes for open-source strategy",
+          "url": "https://www.youtube.com/watch?v=9hLtWvPlnX8",
+          "video_id": "9hLtWvPlnX8"
+        },
+        {
+          "channel_id": "UCiZUHSoLvRsKBCobr0D4xTg",
+          "published_at": "2026-08-11T14:00:27+00:00",
+          "title": "Meta Open-Weight AI Pivot: 30B Model Runs on a Laptop #Shorts",
+          "url": "https://www.youtube.com/watch?v=TbLJ3V3aHEc",
+          "video_id": "TbLJ3V3aHEc"
+        }
+      ],
+      "evidence_pre_audit": {
+        "independent_channel_count": 4,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": true,
+        "raw_video_count": 5,
+        "reason_codes": [
+          "eligible_for_taxonomist_and_skeptic"
+        ],
+        "representative_video_ids": [
+          "9hLtWvPlnX8",
+          "Lq4IEz3Wkvg",
+          "TbLJ3V3aHEc",
+          "VNHgR3xECdY",
+          "_cVFyjOWfQ8"
+        ],
+        "shared_anchor_concepts": [
+          "ai14",
+          "dws",
+          "launches",
+          "mark",
+          "meta",
+          "reveals",
+          "strategy",
+          "weight",
+          "zuckerberg"
+        ],
+        "strongest_anchor_family_count": 5,
+        "title_family_count": 5
+      },
+      "internal_rank_score": 0.2088537544,
+      "product_boundary": "shadow_only_no_act_no_probability",
+      "product_release_ready": false,
+      "rank": 23,
+      "required_agent_sequence": [
+        "evidence_analyst",
+        "trend_taxonomist",
+        "skeptic_auditor",
+        "creator_strategist_after_workspace_fit"
+      ],
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "topic_key": "semantic-a5958ef0d831ba72a4"
+    },
+    {
+      "agent_audit_status": "eligible_for_agent_audit",
+      "diagnostic_representative_title": "Open-Source AI is WINNING - QWEN 3.8 MAX",
+      "evidence": [
+        {
+          "channel_id": "UCPTIzIjxEdJTGO3h4FOt9MA",
+          "published_at": "2026-08-06T03:04:47+00:00",
+          "title": "Open-Source AI is WINNING - QWEN 3.8 MAX",
+          "url": "https://www.youtube.com/watch?v=Gpf5uCymVhk",
+          "video_id": "Gpf5uCymVhk"
+        },
+        {
+          "channel_id": "UCpoCFyZKqdeWTYvcdEfIkBA",
+          "published_at": "2026-08-07T00:11:20+00:00",
+          "title": "Alibaba Drops Qwen 3.8 Max: China's AI Is Now OPEN! #shorts",
+          "url": "https://www.youtube.com/watch?v=Te31VfLY84M",
+          "video_id": "Te31VfLY84M"
+        }
+      ],
+      "evidence_pre_audit": {
+        "independent_channel_count": 2,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": true,
+        "raw_video_count": 2,
+        "reason_codes": [
+          "eligible_for_taxonomist_and_skeptic"
+        ],
+        "representative_video_ids": [
+          "Gpf5uCymVhk",
+          "Te31VfLY84M"
+        ],
+        "shared_anchor_concepts": [
+          "max",
+          "qwen"
+        ],
+        "strongest_anchor_family_count": 2,
+        "title_family_count": 2
+      },
+      "internal_rank_score": 0.2001021547,
+      "product_boundary": "shadow_only_no_act_no_probability",
+      "product_release_ready": false,
+      "rank": 24,
+      "required_agent_sequence": [
+        "evidence_analyst",
+        "trend_taxonomist",
+        "skeptic_auditor",
+        "creator_strategist_after_workspace_fit"
+      ],
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "topic_key": "semantic-8c8c9d1c50e206c231"
+    },
+    {
+      "agent_audit_status": "eligible_for_agent_audit",
+      "diagnostic_representative_title": "Clone Any Voice with AI in Seconds Voice Cloning with Vocallab AI",
+      "evidence": [
+        {
+          "channel_id": "UCwN04QfV0USMgjzqCm1ztYA",
+          "published_at": "2026-07-20T06:07:01+00:00",
+          "title": "Clone Any Voice with AI in Seconds | Voice Cloning Demo with Vocallab AI",
+          "url": "https://www.youtube.com/watch?v=DXDZtrbsgMc",
+          "video_id": "DXDZtrbsgMc"
+        },
+        {
+          "channel_id": "UCDkU1vRm7Z4FNo2zQKOFsCg",
+          "published_at": "2026-08-12T10:36:37+00:00",
+          "title": "I Cloned My Voice With AI\u2026 And It Sounds Shockingly Real | ElevenLabs Review",
+          "url": "https://www.youtube.com/watch?v=PaBNv7hACG8",
+          "video_id": "PaBNv7hACG8"
+        },
+        {
+          "channel_id": "UCEEHkVadk93BfSH_HZEr6fw",
+          "published_at": "2026-07-29T16:18:56+00:00",
+          "title": "VoiceMax \u2014 Clone a Voice & Dub in 600+ Languages | AI Voice Generator Demo",
+          "url": "https://www.youtube.com/watch?v=z3hD0zY7ejY",
+          "video_id": "z3hD0zY7ejY"
+        }
+      ],
+      "evidence_pre_audit": {
+        "independent_channel_count": 3,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": true,
+        "raw_video_count": 3,
+        "reason_codes": [
+          "eligible_for_taxonomist_and_skeptic"
+        ],
+        "representative_video_ids": [
+          "DXDZtrbsgMc",
+          "PaBNv7hACG8",
+          "z3hD0zY7ejY"
+        ],
+        "shared_anchor_concepts": [
+          "clone",
+          "voice"
+        ],
+        "strongest_anchor_family_count": 3,
+        "title_family_count": 3
+      },
+      "internal_rank_score": 0.1719180281,
+      "product_boundary": "shadow_only_no_act_no_probability",
+      "product_release_ready": false,
+      "rank": 25,
+      "required_agent_sequence": [
+        "evidence_analyst",
+        "trend_taxonomist",
+        "skeptic_auditor",
+        "creator_strategist_after_workspace_fit"
+      ],
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "topic_key": "semantic-aa30a7a6046afe1505"
+    },
+    {
+      "agent_audit_status": "abstain_deterministic_pre_audit",
+      "diagnostic_representative_title": "Google AI Studio Text to Speech Is Unlimited",
+      "evidence": [
+        {
+          "channel_id": "UCoa7V8fdK_6vm-nCO0bffAg",
+          "published_at": "2026-07-30T05:36:13+00:00",
+          "title": "Google AI Studio Text to Speech Is Unlimited",
+          "url": "https://www.youtube.com/watch?v=1gfrhFoIXfM",
+          "video_id": "1gfrhFoIXfM"
+        },
+        {
+          "channel_id": "UCt90rbE5_mh-8FtsY211Guw",
+          "published_at": "2026-08-07T12:48:31+00:00",
+          "title": "Generate Unlimited AI Voice Over for FREE (No Limits)",
+          "url": "https://www.youtube.com/watch?v=R2nW422hPr4",
+          "video_id": "R2nW422hPr4"
+        }
+      ],
+      "evidence_pre_audit": {
+        "independent_channel_count": 2,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": false,
+        "raw_video_count": 2,
+        "reason_codes": [
+          "no_shared_concrete_anchor"
+        ],
+        "representative_video_ids": [
+          "1gfrhFoIXfM",
+          "R2nW422hPr4"
+        ],
+        "shared_anchor_concepts": [],
+        "strongest_anchor_family_count": 1,
+        "title_family_count": 2
+      },
+      "internal_rank_score": 0.1599473706,
+      "product_boundary": "shadow_only_no_act_no_probability",
+      "product_release_ready": false,
+      "rank": 26,
+      "required_agent_sequence": [
+        "evidence_analyst",
+        "trend_taxonomist",
+        "skeptic_auditor",
+        "creator_strategist_after_workspace_fit"
+      ],
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "topic_key": "semantic-c3d237a17b560fa0e5"
+    },
+    {
+      "agent_audit_status": "abstain_deterministic_pre_audit",
+      "diagnostic_representative_title": "I Tested the 5 Best AI Video Generators The Winner Shocked Me",
+      "evidence": [
+        {
+          "channel_id": "UCe3NYrN9pKwGzlSNSkFQaMg",
+          "published_at": "2026-07-29T20:13:41+00:00",
+          "title": "I Tested the 5 Best AI Video Generators \u2014 The Winner Shocked Me",
+          "url": "https://www.youtube.com/watch?v=zzyM4ziCwwo",
+          "video_id": "zzyM4ziCwwo"
+        },
+        {
+          "channel_id": "UC3GMCEqmje5CAbKN__cffBw",
+          "published_at": "2026-08-12T12:01:06+00:00",
+          "title": "I Tested the Best AI Video Generators So You Don\u2019t Have To (Raw Results)",
+          "url": "https://www.youtube.com/watch?v=6z7zd4xVnaM",
+          "video_id": "6z7zd4xVnaM"
+        }
+      ],
+      "evidence_pre_audit": {
+        "independent_channel_count": 2,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": false,
+        "raw_video_count": 2,
+        "reason_codes": [
+          "no_shared_concrete_anchor"
+        ],
+        "representative_video_ids": [
+          "6z7zd4xVnaM",
+          "zzyM4ziCwwo"
+        ],
+        "shared_anchor_concepts": [],
+        "strongest_anchor_family_count": 1,
+        "title_family_count": 2
+      },
+      "internal_rank_score": 0.1407214262,
+      "product_boundary": "shadow_only_no_act_no_probability",
+      "product_release_ready": false,
+      "rank": 27,
+      "required_agent_sequence": [
+        "evidence_analyst",
+        "trend_taxonomist",
+        "skeptic_auditor",
+        "creator_strategist_after_workspace_fit"
+      ],
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "topic_key": "semantic-fceb63b104d3ce81d1"
+    },
+    {
+      "agent_audit_status": "eligible_for_agent_audit",
+      "diagnostic_representative_title": "Gemini 3.6 Flash & 3.5 Flash-Lite Faster AI Models &Lower Costs",
+      "evidence": [
+        {
+          "channel_id": "UCqTgDC1Sfah8Y7X1OJiMbFg",
+          "published_at": "2026-07-24T01:30:21+00:00",
+          "title": "Gemini 3.6 Flash & 3.5 Flash-Lite Faster AI Models &Lower Costs",
+          "url": "https://www.youtube.com/watch?v=mlqwmFv3ZU4",
+          "video_id": "mlqwmFv3ZU4"
+        },
+        {
+          "channel_id": "UChJSSS0xZ7qFz5hGFjKQu5Q",
+          "published_at": "2026-07-22T13:30:19+00:00",
+          "title": "Google Just Dropped Three AI Models in One Day \u2014 And Started Building Gemini 4",
+          "url": "https://www.youtube.com/watch?v=fb4-E5fd_7E",
+          "video_id": "fb4-E5fd_7E"
+        },
+        {
+          "channel_id": "UCN658bWh6RP_qAuC5Nn50FQ",
+          "published_at": "2026-07-23T09:52:59+00:00",
+          "title": "Gemini 3.6 Flash Is Here: Google's New AI Agent Army Explained (3.5 Flash Lite + Cyber)",
+          "url": "https://www.youtube.com/watch?v=PkV_McIQfAo",
+          "video_id": "PkV_McIQfAo"
+        },
+        {
+          "channel_id": "UCrmyxB-9Vp6qRLwf8epKeVg",
+          "published_at": "2026-08-06T22:57:25+00:00",
+          "title": "Gemini 3 Flash: The BEST Lite AI Model Revealed!",
+          "url": "https://www.youtube.com/watch?v=dmGH-P4DACY",
+          "video_id": "dmGH-P4DACY"
+        }
+      ],
+      "evidence_pre_audit": {
+        "independent_channel_count": 4,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": true,
+        "raw_video_count": 4,
+        "reason_codes": [
+          "eligible_for_taxonomist_and_skeptic"
+        ],
+        "representative_video_ids": [
+          "PkV_McIQfAo",
+          "dmGH-P4DACY",
+          "fb4-E5fd_7E",
+          "mlqwmFv3ZU4"
+        ],
+        "shared_anchor_concepts": [
+          "flash",
+          "gemini",
+          "google",
+          "lite"
+        ],
+        "strongest_anchor_family_count": 4,
+        "title_family_count": 4
+      },
+      "internal_rank_score": 0.1372794281,
+      "product_boundary": "shadow_only_no_act_no_probability",
+      "product_release_ready": false,
+      "rank": 28,
+      "required_agent_sequence": [
+        "evidence_analyst",
+        "trend_taxonomist",
+        "skeptic_auditor",
+        "creator_strategist_after_workspace_fit"
+      ],
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "topic_key": "semantic-d4efb0175e934359e2"
+    },
+    {
+      "agent_audit_status": "abstain_deterministic_pre_audit",
+      "diagnostic_representative_title": "China Just Shocked the AI World With a 10 Trillion-Parameter Model",
+      "evidence": [
+        {
+          "channel_id": "UC2Vaw2oBCNDpvnhy0wkOVuw",
+          "published_at": "2026-08-08T07:26:21+00:00",
+          "title": "China Just Shocked the AI World With a 10 Trillion-Parameter Model",
+          "url": "https://www.youtube.com/watch?v=ILGHhOvO3Qo",
+          "video_id": "ILGHhOvO3Qo"
+        },
+        {
+          "channel_id": "UC5l7RouTQ60oUjLjt1Nh-UQ",
+          "published_at": "2026-08-08T00:27:17+00:00",
+          "title": "China Just Shocked Everyone With a 10 Trillion Parameter AI Model",
+          "url": "https://www.youtube.com/watch?v=MEw7TrAUEPQ",
+          "video_id": "MEw7TrAUEPQ"
+        },
+        {
+          "channel_id": "UCNZCHse55fz7zFTnG7Nobqg",
+          "published_at": "2026-08-11T02:45:15+00:00",
+          "title": "China is winning the AI arms race. Here's what it means for you \ud83d\udc47#AIModels #DeepTech #Shorts",
+          "url": "https://www.youtube.com/watch?v=NS_Qcw-6V4Y",
+          "video_id": "NS_Qcw-6V4Y"
+        }
+      ],
+      "evidence_pre_audit": {
+        "independent_channel_count": 2,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": false,
+        "raw_video_count": 3,
+        "reason_codes": [
+          "no_shared_concrete_anchor"
+        ],
+        "representative_video_ids": [
+          "MEw7TrAUEPQ",
+          "NS_Qcw-6V4Y"
+        ],
+        "shared_anchor_concepts": [],
+        "strongest_anchor_family_count": 1,
+        "title_family_count": 2
+      },
+      "internal_rank_score": 0.0459380442,
+      "product_boundary": "shadow_only_no_act_no_probability",
+      "product_release_ready": false,
+      "rank": 29,
+      "required_agent_sequence": [
+        "evidence_analyst",
+        "trend_taxonomist",
+        "skeptic_auditor",
+        "creator_strategist_after_workspace_fit"
+      ],
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "topic_key": "semantic-62a572e77e4a363ec2"
+    },
+    {
+      "agent_audit_status": "eligible_for_agent_audit",
+      "diagnostic_representative_title": "AI is in deep trouble The Economics are Broken",
+      "evidence": [
+        {
+          "channel_id": "UCMN_Dq8h5MM_sktY43pmy5A",
+          "published_at": "2026-08-08T16:17:18+00:00",
+          "title": "AI is in deep trouble: The Economics are Broken",
+          "url": "https://www.youtube.com/watch?v=f4_PjECpXZ0",
+          "video_id": "f4_PjECpXZ0"
+        },
+        {
+          "channel_id": "UCy3FJCBrSoXSfgZBAC4msxw",
+          "published_at": "2026-08-04T19:00:34+00:00",
+          "title": "The AI Economy Has a Hidden Problem",
+          "url": "https://www.youtube.com/watch?v=Ly-3n8WAl4M",
+          "video_id": "Ly-3n8WAl4M"
+        },
+        {
+          "channel_id": "UC_iEmYXdZJvjxdUMehwSXqw",
+          "published_at": "2026-07-23T12:16:43+00:00",
+          "title": "AI Is About to Crash. Here\u2019s Why.",
+          "url": "https://www.youtube.com/watch?v=xKuDvRRE7Bc",
+          "video_id": "xKuDvRRE7Bc"
+        },
+        {
+          "channel_id": "UCy3FJCBrSoXSfgZBAC4msxw",
+          "published_at": "2026-07-24T14:28:18+00:00",
+          "title": "\"The AI Debt Wave Nobody Sees Coming\".",
+          "url": "https://www.youtube.com/watch?v=dfR7JxJzxTs",
+          "video_id": "dfR7JxJzxTs"
+        }
+      ],
+      "evidence_pre_audit": {
+        "independent_channel_count": 3,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": true,
+        "raw_video_count": 4,
+        "reason_codes": [
+          "eligible_for_taxonomist_and_skeptic"
+        ],
+        "representative_video_ids": [
+          "Ly-3n8WAl4M",
+          "dfR7JxJzxTs",
+          "f4_PjECpXZ0",
+          "xKuDvRRE7Bc"
+        ],
+        "shared_anchor_concepts": [
+          "economy"
+        ],
+        "strongest_anchor_family_count": 2,
+        "title_family_count": 4
+      },
+      "internal_rank_score": 0.018040413,
+      "product_boundary": "shadow_only_no_act_no_probability",
+      "product_release_ready": false,
+      "rank": 30,
+      "required_agent_sequence": [
+        "evidence_analyst",
+        "trend_taxonomist",
+        "skeptic_auditor",
+        "creator_strategist_after_workspace_fit"
+      ],
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "topic_key": "semantic-e447839060abdc4011"
+    },
+    {
+      "agent_audit_status": "eligible_for_agent_audit",
+      "diagnostic_representative_title": "How to Make Consistent AI Characters in Higgsfield",
+      "evidence": [
+        {
+          "channel_id": "UCZ3KGRwOA_uONNE_6VGG2bA",
+          "published_at": "2026-08-09T15:10:06+00:00",
+          "title": "How to Make Consistent AI Characters in Higgsfield",
+          "url": "https://www.youtube.com/watch?v=tWbhETXRV9w",
+          "video_id": "tWbhETXRV9w"
+        },
+        {
+          "channel_id": "UCaNk22cLid93kifuVbVapcQ",
+          "published_at": "2026-07-12T13:25:58+00:00",
+          "title": "The Gemini + Higgsfield System for Consistent AI Videos",
+          "url": "https://www.youtube.com/watch?v=ljYT9yX9Z00",
+          "video_id": "ljYT9yX9Z00"
+        }
+      ],
+      "evidence_pre_audit": {
+        "independent_channel_count": 2,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": true,
+        "raw_video_count": 2,
+        "reason_codes": [
+          "eligible_for_taxonomist_and_skeptic"
+        ],
+        "representative_video_ids": [
+          "ljYT9yX9Z00",
+          "tWbhETXRV9w"
+        ],
+        "shared_anchor_concepts": [
+          "consistent",
+          "higgsfield"
+        ],
+        "strongest_anchor_family_count": 2,
+        "title_family_count": 2
+      },
+      "internal_rank_score": 0.0021212854,
+      "product_boundary": "shadow_only_no_act_no_probability",
+      "product_release_ready": false,
+      "rank": 31,
+      "required_agent_sequence": [
+        "evidence_analyst",
+        "trend_taxonomist",
+        "skeptic_auditor",
+        "creator_strategist_after_workspace_fit"
+      ],
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "topic_key": "semantic-db4c605736d3a1cd13"
+    },
+    {
+      "agent_audit_status": "abstain_deterministic_pre_audit",
+      "diagnostic_representative_title": "16 AI Filmmaking News Updates You Missed",
+      "evidence": [
+        {
+          "channel_id": "UClnFtyUEaxQOCd1s5NKYGFA",
+          "published_at": "2026-08-07T22:45:29+00:00",
+          "title": "16 AI Filmmaking News Updates You Missed",
+          "url": "https://www.youtube.com/watch?v=N7zh3PoMeSk",
+          "video_id": "N7zh3PoMeSk"
+        },
+        {
+          "channel_id": "UClnFtyUEaxQOCd1s5NKYGFA",
+          "published_at": "2026-07-24T20:47:25+00:00",
+          "title": "I found the craziest AI Film Tools you need to see...",
+          "url": "https://www.youtube.com/watch?v=uiYnWs6Wcqs",
+          "video_id": "uiYnWs6Wcqs"
+        },
+        {
+          "channel_id": "UCXyqlW3MOTbhpQIMapXMOSQ",
+          "published_at": "2026-07-31T13:30:45+00:00",
+          "title": "25 Ways to Use AI for Filmmaking",
+          "url": "https://www.youtube.com/watch?v=EqJSmJ6ZN5M",
+          "video_id": "EqJSmJ6ZN5M"
+        }
+      ],
+      "evidence_pre_audit": {
+        "independent_channel_count": 2,
+        "non_english_family_count": 0,
+        "non_english_share": 0.0,
+        "pre_audit_passed": false,
+        "raw_video_count": 3,
+        "reason_codes": [
+          "no_shared_concrete_anchor"
+        ],
+        "representative_video_ids": [
+          "EqJSmJ6ZN5M",
+          "N7zh3PoMeSk",
+          "uiYnWs6Wcqs"
+        ],
+        "shared_anchor_concepts": [],
+        "strongest_anchor_family_count": 1,
+        "title_family_count": 3
+      },
+      "internal_rank_score": -0.0343694738,
+      "product_boundary": "shadow_only_no_act_no_probability",
+      "product_release_ready": false,
+      "rank": 32,
+      "required_agent_sequence": [
+        "evidence_analyst",
+        "trend_taxonomist",
+        "skeptic_auditor",
+        "creator_strategist_after_workspace_fit"
+      ],
+      "score_semantics": "uncalibrated_raw_logit_not_a_probability",
+      "topic_key": "semantic-2385bb338774297403"
+    }
+  ],
+  "eligible_for_agent_audit_count": 23,
+  "evidence_quality_source_sha256": "44f70ccb5e880ab934116e9e6b1c6a20e8134ca7a1e46b8ccb1af942d385e67d",
+  "frozen_at": "2026-08-13T18:02:58.143987+00:00",
+  "protocol_sha256": "476855b8625c728d54752e0642ff565d581454314af11fd51c52f45aa3d780fb",
+  "release_policy": {
+    "maximum_non_english_share": 0.34,
+    "minimum_anchor_families": 2,
+    "minimum_independent_channels": 2,
+    "minimum_title_families": 2,
+    "near_duplicate_containment": 0.82,
+    "near_duplicate_jaccard": 0.72
+  },
+  "release_queue_script_sha256": "50fb8267e6739bf888708323f1615a47d406e7cc7cb015b57c328cbeae97cfff",
+  "score_boundary": "the source raw logit and rank are copied unchanged; evidence quality is a separate abstention layer",
+  "source_artifact_sha256": "855196773f240b1024ba429ff804c2da284c336cad31f4b1204d6bb144a6a539",
+  "source_checkpoint": "2026-08-12T23:59:59+00:00",
+  "source_outcome_embargo": "2026-09-24T00:00:00+00:00",
+  "status": "FROZEN_AWAITING_AGENT_AUDIT_AND_OUTCOMES"
+}

@@ -1,0 +1,622 @@
+{
+  "generated_at": "2026-08-09T19:02:55.672575+00:00",
+  "primary": {
+    "gate": {
+      "checks": {
+        "beats_base_rate": false,
+        "complete_followup": true,
+        "future_video_baseline_coverage": true,
+        "holdout_split": true,
+        "median_lead": false,
+        "not_worse_than_each_simple_baseline": true,
+        "outcome_baseline_coverage": true,
+        "positive_outcome_support": false,
+        "precision_at_10": false
+      },
+      "verdict": "INSUFFICIENT_OUTCOME_SUPPORT"
+    },
+    "metrics": {
+      "candidate_base_rate_percent": 0.0,
+      "candidate_topics": 16,
+      "checkpoint_count": 36,
+      "fired_candidate_topics": 0,
+      "rankings": {
+        "acceleration": {
+          "fired": 0,
+          "future_video_baseline_coverage_percent": 94.25,
+          "median_lead_days": null,
+          "precision_at_10_percent": 0.0,
+          "prediction_outcome_baseline_coverage_percent": 81.25,
+          "predictions": 16,
+          "recall_percent": null
+        },
+        "channels": {
+          "fired": 0,
+          "future_video_baseline_coverage_percent": 94.25,
+          "median_lead_days": null,
+          "precision_at_10_percent": 0.0,
+          "prediction_outcome_baseline_coverage_percent": 81.25,
+          "predictions": 16,
+          "recall_percent": null
+        },
+        "method": {
+          "fired": 0,
+          "future_video_baseline_coverage_percent": 94.25,
+          "median_lead_days": null,
+          "precision_at_10_percent": 0.0,
+          "prediction_outcome_baseline_coverage_percent": 81.25,
+          "predictions": 16,
+          "recall_percent": null
+        },
+        "random": {
+          "fired": 0,
+          "future_video_baseline_coverage_percent": 94.25,
+          "median_lead_days": null,
+          "precision_at_10_percent": 0.0,
+          "prediction_outcome_baseline_coverage_percent": 81.25,
+          "predictions": 16,
+          "recall_percent": null
+        },
+        "supply": {
+          "fired": 0,
+          "future_video_baseline_coverage_percent": 94.25,
+          "median_lead_days": null,
+          "precision_at_10_percent": 0.0,
+          "prediction_outcome_baseline_coverage_percent": 81.25,
+          "predictions": 16,
+          "recall_percent": null
+        }
+      }
+    }
+  },
+  "primary_was_frozen_before_robustness": true,
+  "schema_version": "youniverse-holdout-robustness-v1",
+  "selected_primary_policy": {
+    "episode_cooldown_days": 42,
+    "maximum_active_videos": 25,
+    "minimum_channels": 3,
+    "name": "fallback_2",
+    "recent_window_days": 14
+  },
+  "variants": [
+    {
+      "gate": {
+        "checks": {
+          "beats_base_rate": false,
+          "complete_followup": true,
+          "future_video_baseline_coverage": true,
+          "holdout_split": true,
+          "median_lead": false,
+          "not_worse_than_each_simple_baseline": true,
+          "outcome_baseline_coverage": true,
+          "positive_outcome_support": false,
+          "precision_at_10": false
+        },
+        "verdict": "INSUFFICIENT_OUTCOME_SUPPORT"
+      },
+      "metrics": {
+        "candidate_base_rate_percent": 0.0,
+        "candidate_topics": 8,
+        "checkpoint_count": 36,
+        "fired_candidate_topics": 0,
+        "rankings": {
+          "acceleration": {
+            "fired": 0,
+            "future_video_baseline_coverage_percent": 94.44,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "prediction_outcome_baseline_coverage_percent": 87.5,
+            "predictions": 8,
+            "recall_percent": null
+          },
+          "channels": {
+            "fired": 0,
+            "future_video_baseline_coverage_percent": 94.44,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "prediction_outcome_baseline_coverage_percent": 87.5,
+            "predictions": 8,
+            "recall_percent": null
+          },
+          "method": {
+            "fired": 0,
+            "future_video_baseline_coverage_percent": 94.44,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "prediction_outcome_baseline_coverage_percent": 87.5,
+            "predictions": 8,
+            "recall_percent": null
+          },
+          "random": {
+            "fired": 0,
+            "future_video_baseline_coverage_percent": 94.44,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "prediction_outcome_baseline_coverage_percent": 87.5,
+            "predictions": 8,
+            "recall_percent": null
+          },
+          "supply": {
+            "fired": 0,
+            "future_video_baseline_coverage_percent": 94.44,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "prediction_outcome_baseline_coverage_percent": 87.5,
+            "predictions": 8,
+            "recall_percent": null
+          }
+        }
+      },
+      "report_sha256": "2080094ed5214f25e208312d56ba481c4814e46af879a6aa5c5072acc252268c",
+      "variant": {
+        "episode_cooldown_days": 42,
+        "maximum_active_videos": 25,
+        "minimum_channels": 5,
+        "name": "minimum_channels_5",
+        "recent_window_days": 14
+      }
+    },
+    {
+      "gate": {
+        "checks": {
+          "beats_base_rate": false,
+          "complete_followup": true,
+          "future_video_baseline_coverage": true,
+          "holdout_split": true,
+          "median_lead": false,
+          "not_worse_than_each_simple_baseline": true,
+          "outcome_baseline_coverage": false,
+          "positive_outcome_support": false,
+          "precision_at_10": false
+        },
+        "verdict": "INSUFFICIENT_OUTCOME_SUPPORT"
+      },
+      "metrics": {
+        "candidate_base_rate_percent": 0.0,
+        "candidate_topics": 14,
+        "checkpoint_count": 36,
+        "fired_candidate_topics": 0,
+        "rankings": {
+          "acceleration": {
+            "fired": 0,
+            "future_video_baseline_coverage_percent": 93.75,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "prediction_outcome_baseline_coverage_percent": 78.57,
+            "predictions": 14,
+            "recall_percent": null
+          },
+          "channels": {
+            "fired": 0,
+            "future_video_baseline_coverage_percent": 93.75,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "prediction_outcome_baseline_coverage_percent": 78.57,
+            "predictions": 14,
+            "recall_percent": null
+          },
+          "method": {
+            "fired": 0,
+            "future_video_baseline_coverage_percent": 93.75,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "prediction_outcome_baseline_coverage_percent": 78.57,
+            "predictions": 14,
+            "recall_percent": null
+          },
+          "random": {
+            "fired": 0,
+            "future_video_baseline_coverage_percent": 93.75,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "prediction_outcome_baseline_coverage_percent": 78.57,
+            "predictions": 14,
+            "recall_percent": null
+          },
+          "supply": {
+            "fired": 0,
+            "future_video_baseline_coverage_percent": 93.75,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "prediction_outcome_baseline_coverage_percent": 78.57,
+            "predictions": 14,
+            "recall_percent": null
+          }
+        }
+      },
+      "report_sha256": "a032bc2dd23bda8f5c3f4e112a2e5679e4471ad5b622e0c667b2be3f8ec8ed86",
+      "variant": {
+        "episode_cooldown_days": 42,
+        "maximum_active_videos": 15,
+        "minimum_channels": 3,
+        "name": "maximum_active_videos_15",
+        "recent_window_days": 14
+      }
+    },
+    {
+      "gate": {
+        "checks": {
+          "beats_base_rate": false,
+          "complete_followup": true,
+          "future_video_baseline_coverage": true,
+          "holdout_split": true,
+          "median_lead": false,
+          "not_worse_than_each_simple_baseline": true,
+          "outcome_baseline_coverage": true,
+          "positive_outcome_support": false,
+          "precision_at_10": false
+        },
+        "verdict": "INSUFFICIENT_OUTCOME_SUPPORT"
+      },
+      "metrics": {
+        "candidate_base_rate_percent": 0.0,
+        "candidate_topics": 17,
+        "checkpoint_count": 36,
+        "fired_candidate_topics": 0,
+        "rankings": {
+          "acceleration": {
+            "fired": 0,
+            "future_video_baseline_coverage_percent": 94.79,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "prediction_outcome_baseline_coverage_percent": 82.35,
+            "predictions": 17,
+            "recall_percent": null
+          },
+          "channels": {
+            "fired": 0,
+            "future_video_baseline_coverage_percent": 94.79,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "prediction_outcome_baseline_coverage_percent": 82.35,
+            "predictions": 17,
+            "recall_percent": null
+          },
+          "method": {
+            "fired": 0,
+            "future_video_baseline_coverage_percent": 94.79,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "prediction_outcome_baseline_coverage_percent": 82.35,
+            "predictions": 17,
+            "recall_percent": null
+          },
+          "random": {
+            "fired": 0,
+            "future_video_baseline_coverage_percent": 94.79,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "prediction_outcome_baseline_coverage_percent": 82.35,
+            "predictions": 17,
+            "recall_percent": null
+          },
+          "supply": {
+            "fired": 0,
+            "future_video_baseline_coverage_percent": 94.79,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "prediction_outcome_baseline_coverage_percent": 82.35,
+            "predictions": 17,
+            "recall_percent": null
+          }
+        }
+      },
+      "report_sha256": "1fdb25402c2623bd4af932beb75ac18036bf08e20219e374b8b989ba4cc1f00b",
+      "variant": {
+        "episode_cooldown_days": 28,
+        "maximum_active_videos": 25,
+        "minimum_channels": 3,
+        "name": "episode_cooldown_28",
+        "recent_window_days": 14
+      }
+    },
+    {
+      "gate": {
+        "checks": {
+          "beats_base_rate": false,
+          "complete_followup": true,
+          "future_video_baseline_coverage": true,
+          "holdout_split": true,
+          "median_lead": false,
+          "not_worse_than_each_simple_baseline": true,
+          "outcome_baseline_coverage": true,
+          "positive_outcome_support": false,
+          "precision_at_10": false
+        },
+        "verdict": "INSUFFICIENT_OUTCOME_SUPPORT"
+      },
+      "metrics": {
+        "candidate_base_rate_percent": 0.0,
+        "candidate_topics": 15,
+        "checkpoint_count": 36,
+        "fired_candidate_topics": 0,
+        "rankings": {
+          "acceleration": {
+            "fired": 0,
+            "future_video_baseline_coverage_percent": 95.24,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "prediction_outcome_baseline_coverage_percent": 86.67,
+            "predictions": 15,
+            "recall_percent": null
+          },
+          "channels": {
+            "fired": 0,
+            "future_video_baseline_coverage_percent": 95.24,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "prediction_outcome_baseline_coverage_percent": 86.67,
+            "predictions": 15,
+            "recall_percent": null
+          },
+          "method": {
+            "fired": 0,
+            "future_video_baseline_coverage_percent": 95.24,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "prediction_outcome_baseline_coverage_percent": 86.67,
+            "predictions": 15,
+            "recall_percent": null
+          },
+          "random": {
+            "fired": 0,
+            "future_video_baseline_coverage_percent": 95.24,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "prediction_outcome_baseline_coverage_percent": 86.67,
+            "predictions": 15,
+            "recall_percent": null
+          },
+          "supply": {
+            "fired": 0,
+            "future_video_baseline_coverage_percent": 95.24,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "prediction_outcome_baseline_coverage_percent": 86.67,
+            "predictions": 15,
+            "recall_percent": null
+          }
+        }
+      },
+      "report_sha256": "e929401cec2c17530b573212affe78dbbe92b07391632119072c371c29a9f17b",
+      "variant": {
+        "episode_cooldown_days": 56,
+        "maximum_active_videos": 25,
+        "minimum_channels": 3,
+        "name": "episode_cooldown_56",
+        "recent_window_days": 14
+      }
+    },
+    {
+      "gate": {
+        "checks": {
+          "beats_base_rate": false,
+          "complete_followup": true,
+          "future_video_baseline_coverage": true,
+          "holdout_split": true,
+          "median_lead": false,
+          "not_worse_than_each_simple_baseline": true,
+          "outcome_baseline_coverage": true,
+          "positive_outcome_support": false,
+          "precision_at_10": false
+        },
+        "verdict": "INSUFFICIENT_OUTCOME_SUPPORT"
+      },
+      "metrics": {
+        "candidate_base_rate_percent": 0.0,
+        "candidate_topics": 11,
+        "checkpoint_count": 36,
+        "fired_candidate_topics": 0,
+        "rankings": {
+          "acceleration": {
+            "fired": 0,
+            "future_video_baseline_coverage_percent": 94.44,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "prediction_outcome_baseline_coverage_percent": 81.82,
+            "predictions": 11,
+            "recall_percent": null
+          },
+          "channels": {
+            "fired": 0,
+            "future_video_baseline_coverage_percent": 94.44,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "prediction_outcome_baseline_coverage_percent": 81.82,
+            "predictions": 11,
+            "recall_percent": null
+          },
+          "method": {
+            "fired": 0,
+            "future_video_baseline_coverage_percent": 94.44,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "prediction_outcome_baseline_coverage_percent": 81.82,
+            "predictions": 11,
+            "recall_percent": null
+          },
+          "random": {
+            "fired": 0,
+            "future_video_baseline_coverage_percent": 94.44,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "prediction_outcome_baseline_coverage_percent": 81.82,
+            "predictions": 11,
+            "recall_percent": null
+          },
+          "supply": {
+            "fired": 0,
+            "future_video_baseline_coverage_percent": 94.44,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "prediction_outcome_baseline_coverage_percent": 81.82,
+            "predictions": 11,
+            "recall_percent": null
+          }
+        }
+      },
+      "report_sha256": "1ab9859e64d7cde5fb5cd5e05139147a76a7a3f68803180d2d0c0b83c57f39df",
+      "variant": {
+        "episode_cooldown_days": 42,
+        "maximum_active_videos": 25,
+        "minimum_channels": 3,
+        "name": "recent_window_7",
+        "recent_window_days": 7
+      }
+    },
+    {
+      "gate": {
+        "checks": {
+          "beats_base_rate": false,
+          "complete_followup": true,
+          "future_video_baseline_coverage": true,
+          "holdout_split": true,
+          "median_lead": false,
+          "not_worse_than_each_simple_baseline": true,
+          "outcome_baseline_coverage": true,
+          "positive_outcome_support": false,
+          "precision_at_10": false
+        },
+        "verdict": "INSUFFICIENT_OUTCOME_SUPPORT"
+      },
+      "metrics": {
+        "candidate_base_rate_percent": 0.0,
+        "candidate_topics": 16,
+        "checkpoint_count": 36,
+        "fired_candidate_topics": 0,
+        "rankings": {
+          "acceleration": {
+            "fired": 0,
+            "future_video_baseline_coverage_percent": 94.25,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "prediction_outcome_baseline_coverage_percent": 81.25,
+            "predictions": 16,
+            "recall_percent": null
+          },
+          "channels": {
+            "fired": 0,
+            "future_video_baseline_coverage_percent": 94.25,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "prediction_outcome_baseline_coverage_percent": 81.25,
+            "predictions": 16,
+            "recall_percent": null
+          },
+          "method": {
+            "fired": 0,
+            "future_video_baseline_coverage_percent": 94.25,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "prediction_outcome_baseline_coverage_percent": 81.25,
+            "predictions": 16,
+            "recall_percent": null
+          },
+          "random": {
+            "fired": 0,
+            "future_video_baseline_coverage_percent": 94.25,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "prediction_outcome_baseline_coverage_percent": 81.25,
+            "predictions": 16,
+            "recall_percent": null
+          },
+          "supply": {
+            "fired": 0,
+            "future_video_baseline_coverage_percent": 94.25,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "prediction_outcome_baseline_coverage_percent": 81.25,
+            "predictions": 16,
+            "recall_percent": null
+          }
+        }
+      },
+      "report_sha256": "ea7908318cc067676f2ef3b332b772dd8c14ee9a0b26fe3b859251e2d80e5f97",
+      "variant": {
+        "episode_cooldown_days": 42,
+        "maximum_active_videos": 40,
+        "minimum_channels": 3,
+        "name": "maximum_active_videos_40",
+        "recent_window_days": 14
+      }
+    },
+    {
+      "gate": {
+        "checks": {
+          "beats_base_rate": false,
+          "complete_followup": true,
+          "future_video_baseline_coverage": true,
+          "holdout_split": true,
+          "median_lead": false,
+          "not_worse_than_each_simple_baseline": true,
+          "outcome_baseline_coverage": true,
+          "positive_outcome_support": false,
+          "precision_at_10": false
+        },
+        "verdict": "INSUFFICIENT_OUTCOME_SUPPORT"
+      },
+      "metrics": {
+        "candidate_base_rate_percent": 0.0,
+        "candidate_topics": 18,
+        "checkpoint_count": 36,
+        "fired_candidate_topics": 0,
+        "rankings": {
+          "acceleration": {
+            "fired": 0,
+            "future_video_baseline_coverage_percent": 92.86,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "prediction_outcome_baseline_coverage_percent": 83.33,
+            "predictions": 18,
+            "recall_percent": null
+          },
+          "channels": {
+            "fired": 0,
+            "future_video_baseline_coverage_percent": 92.86,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "prediction_outcome_baseline_coverage_percent": 83.33,
+            "predictions": 18,
+            "recall_percent": null
+          },
+          "method": {
+            "fired": 0,
+            "future_video_baseline_coverage_percent": 92.86,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "prediction_outcome_baseline_coverage_percent": 83.33,
+            "predictions": 18,
+            "recall_percent": null
+          },
+          "random": {
+            "fired": 0,
+            "future_video_baseline_coverage_percent": 92.86,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "prediction_outcome_baseline_coverage_percent": 83.33,
+            "predictions": 18,
+            "recall_percent": null
+          },
+          "supply": {
+            "fired": 0,
+            "future_video_baseline_coverage_percent": 92.86,
+            "median_lead_days": null,
+            "precision_at_10_percent": 0.0,
+            "prediction_outcome_baseline_coverage_percent": 83.33,
+            "predictions": 18,
+            "recall_percent": null
+          }
+        }
+      },
+      "report_sha256": "bad2b722ea27995631a8e983bb90578d42e46413d6718ab7ee8b82a48c2893aa",
+      "variant": {
+        "episode_cooldown_days": 42,
+        "maximum_active_videos": 25,
+        "minimum_channels": 2,
+        "name": "minimum_channels_2",
+        "recent_window_days": 14
+      }
+    }
+  ]
+}

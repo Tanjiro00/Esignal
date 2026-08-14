@@ -1,0 +1,1754 @@
+{
+  "calibration_boundary": "2026-05-03T23:59:59+00:00",
+  "calibration_episode_count": 108,
+  "cohort_sha256": "33d2950fcf1a980ed1d405132e450be56e776d413c443bd569e11671be327aff",
+  "complete_outcomes_through": "2026-07-02T16:28:22+00:00",
+  "embedded_video_count": 14233,
+  "embeddings_sha256": "effe29f799cf02756c0957d6aa51adcc016d21727a58b0155685790f3f565bd0",
+  "fitting_episode_count": 162,
+  "generated_at": "2026-08-13T17:02:13.594919+00:00",
+  "model": {
+    "calibrated": true,
+    "calibration_intercept": 0.5244632975,
+    "calibration_slope": 1.250847543,
+    "coefficients": [
+      -0.0710505119,
+      0.0,
+      -0.1242956165,
+      0.0,
+      0.3496530474,
+      0.3366765223,
+      0.1480904667,
+      0.2506951967,
+      0.5218433099,
+      -0.1870057685,
+      0.0843860345,
+      0.4977932546,
+      0.3905088278,
+      0.4977932546,
+      0.1598720076
+    ],
+    "feature_names": [
+      "channel_entropy",
+      "channel_size_coverage",
+      "creator_diversity",
+      "large_creator_share",
+      "log_active_supply",
+      "log_distinct_creators",
+      "log_previous_weekly_supply",
+      "log_recent_supply",
+      "log_topic_age_days",
+      "new_creator_share",
+      "recent_creator_share",
+      "semantic_mean_similarity",
+      "semantic_minimum_similarity",
+      "specificity",
+      "supply_acceleration"
+    ],
+    "intercept": -2.6813524896,
+    "means": [
+      0.9810589877,
+      0.0,
+      0.933744856,
+      0.0,
+      1.2657875041,
+      1.2043387162,
+      0.2531948812,
+      0.85382097,
+      3.2145872758,
+      0.8986625514,
+      0.5779835391,
+      0.9208786975,
+      0.9098791667,
+      0.9208786975,
+      1.112037037
+    ],
+    "model_version": "earlysignal-probability-head-v1",
+    "positive_examples": 16,
+    "scales": [
+      0.0461117181,
+      1e-06,
+      0.1428443019,
+      1e-06,
+      0.2342636331,
+      0.2022729136,
+      0.173114949,
+      0.2344298128,
+      0.8757531152,
+      0.2763418342,
+      0.2175800179,
+      0.0273547791,
+      0.0409508911,
+      0.0273547791,
+      0.7616341584
+    ],
+    "training_examples": 162
+  },
+  "policy": {
+    "active_window_days": 35,
+    "adoption_minimum_future_videos": 4,
+    "adoption_minimum_new_channel_share": 0.4,
+    "adoption_minimum_new_future_channels": 2,
+    "adoption_supply_growth_threshold": 1.25,
+    "cluster_selection_method": "leaf",
+    "episode_cooldown_days": 42,
+    "future_centroid_similarity": 0.74,
+    "future_exemplar_similarity": 0.78,
+    "maximum_active_videos": 60,
+    "minimum_channels": 2,
+    "minimum_cluster_size": 2,
+    "minimum_mean_similarity": 0.72,
+    "minimum_member_similarity": 0.62,
+    "minimum_recent_videos": 1,
+    "minimum_samples": 2,
+    "minimum_videos": 2,
+    "outcome_horizon_days": 42,
+    "recent_window_days": 7,
+    "structural_lookback_days": 180,
+    "track_centroid_similarity": 0.84,
+    "track_minimum_jaccard": 0.1
+  },
+  "protocol_sha256": "16eefeb8a00e0542e80012c769a36dad6286aaea5c0129a975f25afb34c6d642",
+  "replay_version": "semantic-adoption-replay-v1",
+  "result": {
+    "checks": {
+      "average_precision_beats_base_rate": true,
+      "brier_beats_constant": true,
+      "calibration_error": false,
+      "lift_at_top_quintile": true,
+      "median_lead": true,
+      "not_worse_than_simple_rankings": true,
+      "positive_support": true
+    },
+    "lift_topic_bootstrap_95": {
+      "lower": 1.928989,
+      "median": 2.226724,
+      "resamples": 500,
+      "upper": 2.553949
+    },
+    "predictions": [
+      {
+        "checkpoint_at": "2026-06-29T23:59:59+00:00",
+        "diagnostic_label": "Seedance 2.0 4K Cinematic AI for Professional Filmmakers",
+        "evidence": [
+          {
+            "title": "Seedance 2.0 4K | Cinematic AI for Professional Filmmakers",
+            "url": "https://www.youtube.com/watch?v=Tf6GPm3gnwI",
+            "video_id": "Tf6GPm3gnwI"
+          },
+          {
+            "title": "Seedance 2.5 Just Changed AI Video (See for Yourself)",
+            "url": "https://www.youtube.com/watch?v=6xHG9bRWLNQ",
+            "video_id": "6xHG9bRWLNQ"
+          },
+          {
+            "title": "Seedance 2.0 4K Just Changed AI Video Forever",
+            "url": "https://www.youtube.com/watch?v=XEaMhK9NPn0",
+            "video_id": "XEaMhK9NPn0"
+          },
+          {
+            "title": "First Look at Seedance 2.5 & Testing Seedance 4K for AI Filmmaking",
+            "url": "https://www.youtube.com/watch?v=bmb_kVSh2y4",
+            "video_id": "bmb_kVSh2y4"
+          },
+          {
+            "title": "I Added Insane AI VFX to Real Footage in 4K(Seedance 2.0)",
+            "url": "https://www.youtube.com/watch?v=Yte-UGhYkPQ",
+            "video_id": "Yte-UGhYkPQ"
+          }
+        ],
+        "future_video_count": 19,
+        "lead_days": 2.782,
+        "new_future_channel_count": 9,
+        "outcome": true,
+        "probability": 0.966808,
+        "topic_key": "semantic-182fe9946bf3bde0ba"
+      },
+      {
+        "checkpoint_at": "2026-06-29T23:59:59+00:00",
+        "diagnostic_label": "How to Make AI Videos From a Storyboard Full",
+        "evidence": [
+          {
+            "title": "How to Make AI Videos From a Storyboard (Full Guide)",
+            "url": "https://www.youtube.com/watch?v=U30xZxf_9aw",
+            "video_id": "U30xZxf_9aw"
+          },
+          {
+            "title": "How to Make Motivational Videos with AI (Step by Step)",
+            "url": "https://www.youtube.com/watch?v=dvc-P2swyFc",
+            "video_id": "dvc-P2swyFc"
+          },
+          {
+            "title": "How to Create Your Own Cartoon Show with AI",
+            "url": "https://www.youtube.com/watch?v=vwL_c5U0F3Y",
+            "video_id": "vwL_c5U0F3Y"
+          },
+          {
+            "title": "How to Make Your First AI Movie (Full Guide)",
+            "url": "https://www.youtube.com/watch?v=fs5S867VQzg",
+            "video_id": "fs5S867VQzg"
+          },
+          {
+            "title": "How to Make AI Whiteboard Animation Videos (Full Guide)",
+            "url": "https://www.youtube.com/watch?v=z1IDrWd8i6g",
+            "video_id": "z1IDrWd8i6g"
+          }
+        ],
+        "future_video_count": 46,
+        "lead_days": 7.154,
+        "new_future_channel_count": 20,
+        "outcome": true,
+        "probability": 0.927002,
+        "topic_key": "semantic-3a581d50279df35440"
+      },
+      {
+        "checkpoint_at": "2026-06-01T23:59:59+00:00",
+        "diagnostic_label": "Create Viral Videos in 1 Click with This AI Tool",
+        "evidence": [
+          {
+            "title": "Create Viral Videos in 1 Click with This AI Tool",
+            "url": "https://www.youtube.com/watch?v=0x_Furx1XoI",
+            "video_id": "0x_Furx1XoI"
+          },
+          {
+            "title": "How to Create Viral Documentary Videos with 100% FREE AI Tools",
+            "url": "https://www.youtube.com/watch?v=Zeg01SqH0w0",
+            "video_id": "Zeg01SqH0w0"
+          },
+          {
+            "title": "How I Make Viral AI Videos for FREE in 8 Minutes | Full Course",
+            "url": "https://www.youtube.com/watch?v=eBXx4UbqQ-I",
+            "video_id": "eBXx4UbqQ-I"
+          },
+          {
+            "title": "Best AI Video Generator 2026 \ud83d\udd25 Create Viral Videos with Just ONE Click",
+            "url": "https://www.youtube.com/watch?v=nxryhltlNF8",
+            "video_id": "nxryhltlNF8"
+          }
+        ],
+        "future_video_count": 40,
+        "lead_days": 4.468,
+        "new_future_channel_count": 18,
+        "outcome": true,
+        "probability": 0.841685,
+        "topic_key": "semantic-8fc9cf3f116e257bb4"
+      },
+      {
+        "checkpoint_at": "2026-06-01T23:59:59+00:00",
+        "diagnostic_label": "Claude Code Dynamic Workflows Clearly",
+        "evidence": [
+          {
+            "title": "Claude Code Dynamic Workflows Clearly Explained",
+            "url": "https://www.youtube.com/watch?v=jZgcWCzxh1I",
+            "video_id": "jZgcWCzxh1I"
+          },
+          {
+            "title": "Claude Code Advanced Workflow - Build & Ship Real Apps",
+            "url": "https://www.youtube.com/watch?v=zVZotTk6ZWU",
+            "video_id": "zVZotTk6ZWU"
+          },
+          {
+            "title": "Claude Code Just Dropped Workflows (An Actual Game Changer)",
+            "url": "https://www.youtube.com/watch?v=ua2YA7TiLEk",
+            "video_id": "ua2YA7TiLEk"
+          },
+          {
+            "title": "3 AMAZING Claude Code Dynamic Workflows (Opus 4.8)",
+            "url": "https://www.youtube.com/watch?v=9_ExDZFlaNc",
+            "video_id": "9_ExDZFlaNc"
+          },
+          {
+            "title": "My GitHub AI Workflow: Codex + Claude Code",
+            "url": "https://www.youtube.com/watch?v=zdeZGePZMuE",
+            "video_id": "zdeZGePZMuE"
+          }
+        ],
+        "future_video_count": 11,
+        "lead_days": 7.521,
+        "new_future_channel_count": 6,
+        "outcome": true,
+        "probability": 0.841581,
+        "topic_key": "semantic-08997f5cfc0194678d"
+      },
+      {
+        "checkpoint_at": "2026-06-22T23:59:59+00:00",
+        "diagnostic_label": "Higgsfield AI is DEAD Use This FREE HeyGen Ai Trick Instead",
+        "evidence": [
+          {
+            "title": "Higgsfield AI is DEAD | Use This FREE HeyGen Ai Trick Instead",
+            "url": "https://www.youtube.com/watch?v=S6NiXMznNf4",
+            "video_id": "S6NiXMznNf4"
+          },
+          {
+            "title": "Higgsfield AI is DEAD \ud83d\ude31 | Use This FREE HeyGen Ai Trick Instead",
+            "url": "https://www.youtube.com/watch?v=YNeYb_zPESU",
+            "video_id": "YNeYb_zPESU"
+          }
+        ],
+        "future_video_count": 7,
+        "lead_days": 30.489,
+        "new_future_channel_count": 7,
+        "outcome": true,
+        "probability": 0.829928,
+        "topic_key": "semantic-e91ddf0a8fb917dc4e"
+      },
+      {
+        "checkpoint_at": "2026-06-08T23:59:59+00:00",
+        "diagnostic_label": "Make AI Videos with FREE AI Video Generator \u2728Voice + Lip Sync\ud83d\udd25AI Video kaise banaye Ritika AI",
+        "evidence": [
+          {
+            "title": "Make AI Videos with FREE AI Video Generator \u2728Voice + Lip Sync\ud83d\udd25AI Video kaise banaye | Ritika AI",
+            "url": "https://www.youtube.com/watch?v=rv-HvCsvia4",
+            "video_id": "rv-HvCsvia4"
+          },
+          {
+            "title": "FREE AI Video Generators\ud83d\udd25FREE AI Videos Kaise Banaye \ud83c\udfacImage to Video AI free tools without watermark",
+            "url": "https://www.youtube.com/watch?v=bfVIAdseLn8",
+            "video_id": "bfVIAdseLn8"
+          },
+          {
+            "title": "Top 5 FREE UNLIMITED AI Video Generator | ai video kaise banaye free mein |  Text-to-Video AI 2026",
+            "url": "https://www.youtube.com/watch?v=QY_Xx4vnnjI",
+            "video_id": "QY_Xx4vnnjI"
+          },
+          {
+            "title": "Make HORROR AI Videos for FREE\ud83d\udd25AI video kaise banaye with FREE AI Video Generator \ud83d\udd25 #ai #aivideos",
+            "url": "https://www.youtube.com/watch?v=GvcWbWM1UJA",
+            "video_id": "GvcWbWM1UJA"
+          }
+        ],
+        "future_video_count": 21,
+        "lead_days": 33.074,
+        "new_future_channel_count": 8,
+        "outcome": true,
+        "probability": 0.820302,
+        "topic_key": "semantic-8ed98af5f729a1c4ed"
+      },
+      {
+        "checkpoint_at": "2026-06-01T23:59:59+00:00",
+        "diagnostic_label": "How I Made a Cinematic AI Film With One AI Agent Full Workflow",
+        "evidence": [
+          {
+            "title": "How I Made a Cinematic AI Film With One AI Agent (Full Workflow)",
+            "url": "https://www.youtube.com/watch?v=SKmK83smtQ0",
+            "video_id": "SKmK83smtQ0"
+          },
+          {
+            "title": "I Gave This AI Agent One Idea, It Made a Full Cinematic Video",
+            "url": "https://www.youtube.com/watch?v=IxGs-OAKYhg",
+            "video_id": "IxGs-OAKYhg"
+          }
+        ],
+        "future_video_count": 10,
+        "lead_days": 6.49,
+        "new_future_channel_count": 9,
+        "outcome": true,
+        "probability": 0.816314,
+        "topic_key": "semantic-23fa12a3c0125c5959"
+      },
+      {
+        "checkpoint_at": "2026-06-29T23:59:59+00:00",
+        "diagnostic_label": "Seedance 2.0 FREE & UNLIMITED \ud83d\udd25 Generate Unlimited AI Videos Legally 2026",
+        "evidence": [
+          {
+            "title": "Seedance 2.0 FREE & UNLIMITED \ud83d\udd25 | Generate Unlimited AI Videos Legally (2026)",
+            "url": "https://www.youtube.com/watch?v=tqIAQKAE4S4",
+            "video_id": "tqIAQKAE4S4"
+          },
+          {
+            "title": "Seedance 2.0 is INSANE: Create 4K AI Videos in Seconds! \ud83d\ude80 Best Ai Video Generator",
+            "url": "https://www.youtube.com/watch?v=zesdqG30OAE",
+            "video_id": "zesdqG30OAE"
+          },
+          {
+            "title": "Seedance 2.5 Released? Get Unlimited 4K AI Videos with Seedance 2.0 | Unlimited Generation",
+            "url": "https://www.youtube.com/watch?v=6gfWlDVaHYU",
+            "video_id": "6gfWlDVaHYU"
+          }
+        ],
+        "future_video_count": 40,
+        "lead_days": 5.563,
+        "new_future_channel_count": 18,
+        "outcome": true,
+        "probability": 0.806374,
+        "topic_key": "semantic-f2b0851ff816169928"
+      },
+      {
+        "checkpoint_at": "2026-06-01T23:59:59+00:00",
+        "diagnostic_label": "The New BEST 3 FREE AI Video Generators You NEED in 2026",
+        "evidence": [
+          {
+            "title": "The New BEST 3 FREE AI Video Generators You NEED in 2026",
+            "url": "https://www.youtube.com/watch?v=90ZK9izYhBg",
+            "video_id": "90ZK9izYhBg"
+          },
+          {
+            "title": "The New BEST 3 FREE AI Video Generators You NEED in 2026 (No Skill Needed)",
+            "url": "https://www.youtube.com/watch?v=MKvTS0BpxVw",
+            "video_id": "MKvTS0BpxVw"
+          }
+        ],
+        "future_video_count": 61,
+        "lead_days": 3.542,
+        "new_future_channel_count": 24,
+        "outcome": true,
+        "probability": 0.794638,
+        "topic_key": "semantic-da893e839cbdd9ac89"
+      },
+      {
+        "checkpoint_at": "2026-06-29T23:59:59+00:00",
+        "diagnostic_label": "Turn Any Storyboard Into a Full AI Movie with Google Flow 100% FREE",
+        "evidence": [
+          {
+            "title": "Turn Any Storyboard Into a Full AI Movie with Google Flow (100% FREE)",
+            "url": "https://www.youtube.com/watch?v=gvxvuEDIoYI",
+            "video_id": "gvxvuEDIoYI"
+          },
+          {
+            "title": "Turn Any Storyboard Into a Full AI Movie with Google Flow (100% FREE)",
+            "url": "https://www.youtube.com/watch?v=lzhjDmEejow",
+            "video_id": "lzhjDmEejow"
+          },
+          {
+            "title": "Create Full AI Cartoons in Minutes with Google Flow | Complete Workflow",
+            "url": "https://www.youtube.com/watch?v=c3ocwOnJKwo",
+            "video_id": "c3ocwOnJKwo"
+          }
+        ],
+        "future_video_count": 25,
+        "lead_days": 6.649,
+        "new_future_channel_count": 15,
+        "outcome": true,
+        "probability": 0.774231,
+        "topic_key": "semantic-185151d11b51d73e48"
+      },
+      {
+        "checkpoint_at": "2026-06-29T23:59:59+00:00",
+        "diagnostic_label": "Best AI Video Prompt Generator 2026 FREE",
+        "evidence": [
+          {
+            "title": "Best AI Video Prompt Generator 2026 (FREE)",
+            "url": "https://www.youtube.com/watch?v=oT-2VO8Jzpk",
+            "video_id": "oT-2VO8Jzpk"
+          },
+          {
+            "title": "Best AI Video PROMPT Generator 2026 (100% FREE)",
+            "url": "https://www.youtube.com/watch?v=845tkAaCBqM",
+            "video_id": "845tkAaCBqM"
+          },
+          {
+            "title": "How To Make AI Videos - Prompting Guide For Beginners",
+            "url": "https://www.youtube.com/watch?v=1JkmT6L2CmA",
+            "video_id": "1JkmT6L2CmA"
+          }
+        ],
+        "future_video_count": 16,
+        "lead_days": 22.706,
+        "new_future_channel_count": 12,
+        "outcome": true,
+        "probability": 0.766664,
+        "topic_key": "semantic-7de2d824852c27eb41"
+      },
+      {
+        "checkpoint_at": "2026-06-15T23:59:59+00:00",
+        "diagnostic_label": "COPY THIS CHANNEL 100% FREE AI METHOD",
+        "evidence": [
+          {
+            "title": "COPY THIS CHANNEL (100% FREE AI METHOD)",
+            "url": "https://www.youtube.com/watch?v=aDTpU7XFqcs",
+            "video_id": "aDTpU7XFqcs"
+          },
+          {
+            "title": "I Copied an $8.7M/Month Kids Channel Using 100% Free AI",
+            "url": "https://www.youtube.com/watch?v=55iiNEtSqfU",
+            "video_id": "55iiNEtSqfU"
+          }
+        ],
+        "future_video_count": 3,
+        "lead_days": null,
+        "new_future_channel_count": 3,
+        "outcome": false,
+        "probability": 0.763991,
+        "topic_key": "semantic-2c54cb1e857e0d0469"
+      },
+      {
+        "checkpoint_at": "2026-06-29T23:59:59+00:00",
+        "diagnostic_label": "How to Create Professional AI Marketing Ads in Filmora 15 AI Image to Video",
+        "evidence": [
+          {
+            "title": "How to Create Professional AI Marketing Ads in Filmora 15 | AI Image to Video Tutorial",
+            "url": "https://www.youtube.com/watch?v=b2mk4JABVOI",
+            "video_id": "b2mk4JABVOI"
+          },
+          {
+            "title": "How to Create Your First AI Movie in Filmora 15 | Complete Beginner's Guide (Step-by-Step)",
+            "url": "https://www.youtube.com/watch?v=1WFHe82EhJQ",
+            "video_id": "1WFHe82EhJQ"
+          },
+          {
+            "title": "How to Create AI UGC Ads Using Al Influencers (Full Workflow)",
+            "url": "https://www.youtube.com/watch?v=k_02LRzqZZU",
+            "video_id": "k_02LRzqZZU"
+          }
+        ],
+        "future_video_count": 3,
+        "lead_days": null,
+        "new_future_channel_count": 0,
+        "outcome": false,
+        "probability": 0.736745,
+        "topic_key": "semantic-1929f3b030acde65cf"
+      },
+      {
+        "checkpoint_at": "2026-06-01T23:59:59+00:00",
+        "diagnostic_label": "Create Cinematic AI Videos in Minutes No Editing Skills Needed",
+        "evidence": [
+          {
+            "title": "Create Cinematic AI Videos in Minutes: No Editing Skills Needed",
+            "url": "https://www.youtube.com/watch?v=XPOkjBdmjuk",
+            "video_id": "XPOkjBdmjuk"
+          },
+          {
+            "title": "This AI Makes Full Videos for You Automatically in Minutes",
+            "url": "https://www.youtube.com/watch?v=Qvo7NhRBqp8",
+            "video_id": "Qvo7NhRBqp8"
+          },
+          {
+            "title": "AI Studios: Turn Scripts Into Full AI Avatar Videos",
+            "url": "https://www.youtube.com/watch?v=qrRDXZouAUc",
+            "video_id": "qrRDXZouAUc"
+          }
+        ],
+        "future_video_count": 11,
+        "lead_days": 7.683,
+        "new_future_channel_count": 9,
+        "outcome": true,
+        "probability": 0.704692,
+        "topic_key": "semantic-c512aedaa38a25191c"
+      },
+      {
+        "checkpoint_at": "2026-06-15T23:59:59+00:00",
+        "diagnostic_label": "I Made a Cinematic Faceless YouTube Video with Unlimited Seedance 2.0 Loova AI",
+        "evidence": [
+          {
+            "title": "I Made a Cinematic Faceless YouTube Video with Unlimited Seedance 2.0 (Loova AI Tutorial)",
+            "url": "https://www.youtube.com/watch?v=iK3QJWOb97c",
+            "video_id": "iK3QJWOb97c"
+          },
+          {
+            "title": "Unlimited Seedance 2.0: Make LONG Cinematic AI Videos with Loova!",
+            "url": "https://www.youtube.com/watch?v=RuryoVYRT1Q",
+            "video_id": "RuryoVYRT1Q"
+          }
+        ],
+        "future_video_count": 14,
+        "lead_days": 9.572,
+        "new_future_channel_count": 10,
+        "outcome": true,
+        "probability": 0.697874,
+        "topic_key": "semantic-8f0c6f7bc29851686a"
+      },
+      {
+        "checkpoint_at": "2026-06-29T23:59:59+00:00",
+        "diagnostic_label": "Claude Tag AI Agent Living in Slack",
+        "evidence": [
+          {
+            "title": "Claude Tag Tutorial: AI Agent Living in Slack",
+            "url": "https://www.youtube.com/watch?v=_cdX8xkKj_s",
+            "video_id": "_cdX8xkKj_s"
+          },
+          {
+            "title": "Anthropic Secretly Built an AI That Codes With Your Team #ainews #ai",
+            "url": "https://www.youtube.com/watch?v=I4My6JjeWmA",
+            "video_id": "I4My6JjeWmA"
+          },
+          {
+            "title": "Claude just changed the way we use AI forever (Claude Tag)",
+            "url": "https://www.youtube.com/watch?v=zZ316L2TKxI",
+            "video_id": "zZ316L2TKxI"
+          },
+          {
+            "title": "Anthropic's NEW Open Source Repo Builds AI Agents in MINUTES!",
+            "url": "https://www.youtube.com/watch?v=Bex_292yJfU",
+            "video_id": "Bex_292yJfU"
+          }
+        ],
+        "future_video_count": 4,
+        "lead_days": 30.986,
+        "new_future_channel_count": 4,
+        "outcome": true,
+        "probability": 0.693464,
+        "topic_key": "semantic-5bcd730d9d53c25214"
+      },
+      {
+        "checkpoint_at": "2026-06-08T23:59:59+00:00",
+        "diagnostic_label": "How to Create Stickman Animation with AI 100% FREE",
+        "evidence": [
+          {
+            "title": "How to Create Stickman Animation with AI 100% FREE",
+            "url": "https://www.youtube.com/watch?v=T3YN0sxjAaQ",
+            "video_id": "T3YN0sxjAaQ"
+          },
+          {
+            "title": "How I Create UNLIMITED Viral Stickman Videos with AI | 100% FREE",
+            "url": "https://www.youtube.com/watch?v=vWt0oDmAUwA",
+            "video_id": "vWt0oDmAUwA"
+          },
+          {
+            "title": "How I Turned a Stickman Into a Cinematic AI Animation (FREE AI Video Generator)",
+            "url": "https://www.youtube.com/watch?v=8Spa70uLwKo",
+            "video_id": "8Spa70uLwKo"
+          },
+          {
+            "title": "Create UNLIMITED Stickman Animations with AI | 100% FREE Forever",
+            "url": "https://www.youtube.com/watch?v=XZjag0_TiWc",
+            "video_id": "XZjag0_TiWc"
+          }
+        ],
+        "future_video_count": 9,
+        "lead_days": 25.5,
+        "new_future_channel_count": 4,
+        "outcome": true,
+        "probability": 0.692332,
+        "topic_key": "semantic-07f20b8760f98401a9"
+      },
+      {
+        "checkpoint_at": "2026-06-15T23:59:59+00:00",
+        "diagnostic_label": "The New Claude AI Side Hustle That ACTUALLY Works",
+        "evidence": [
+          {
+            "title": "The New Claude AI Side Hustle That ACTUALLY Works",
+            "url": "https://www.youtube.com/watch?v=m79bwFM4Mp0",
+            "video_id": "m79bwFM4Mp0"
+          },
+          {
+            "title": "Beginners Guide To Making Money with Claude AI",
+            "url": "https://www.youtube.com/watch?v=TP9lJvE87Zg",
+            "video_id": "TP9lJvE87Zg"
+          },
+          {
+            "title": "How to Use Claude Code as a Designer and Actually Make Money",
+            "url": "https://www.youtube.com/watch?v=zLfGiFuJiEc",
+            "video_id": "zLfGiFuJiEc"
+          },
+          {
+            "title": "I Found the Most Profitable Claude AI Side Hustle Right Now",
+            "url": "https://www.youtube.com/watch?v=uzNf29Yw3H8",
+            "video_id": "uzNf29Yw3H8"
+          },
+          {
+            "title": "How to Build Your First Game with Claude Code",
+            "url": "https://www.youtube.com/watch?v=-uhbipf1bn0",
+            "video_id": "-uhbipf1bn0"
+          }
+        ],
+        "future_video_count": 36,
+        "lead_days": 15.594,
+        "new_future_channel_count": 14,
+        "outcome": true,
+        "probability": 0.678856,
+        "topic_key": "semantic-bcc9ee6d11aa81cfb5"
+      },
+      {
+        "checkpoint_at": "2026-06-15T23:59:59+00:00",
+        "diagnostic_label": "Best 6 AI Tools Every Content Creator Should Use",
+        "evidence": [
+          {
+            "title": "Best 6 AI Tools Every Content Creator Should Use",
+            "url": "https://www.youtube.com/watch?v=bzzU8IHFKkI",
+            "video_id": "bzzU8IHFKkI"
+          },
+          {
+            "title": "10 Best Free AI Tools In 2026",
+            "url": "https://www.youtube.com/watch?v=SNEfbsdEJz8",
+            "video_id": "SNEfbsdEJz8"
+          }
+        ],
+        "future_video_count": 30,
+        "lead_days": 11.625,
+        "new_future_channel_count": 25,
+        "outcome": true,
+        "probability": 0.667035,
+        "topic_key": "semantic-84949860aa9c1936d7"
+      },
+      {
+        "checkpoint_at": "2026-06-22T23:59:59+00:00",
+        "diagnostic_label": "Will AI Replace QA Testers? The Truth About QA Jobs",
+        "evidence": [
+          {
+            "title": "Will AI Replace QA Testers? The Truth About QA Jobs",
+            "url": "https://www.youtube.com/watch?v=Ycynnf6V84U",
+            "video_id": "Ycynnf6V84U"
+          },
+          {
+            "title": "Why Half of QA Teams Are Already Being Replaced by AI",
+            "url": "https://www.youtube.com/watch?v=526JDZW1Lbg",
+            "video_id": "526JDZW1Lbg"
+          },
+          {
+            "title": "These QA Testers Will Be Replaced by AI #softwaretesting #ai #jobs",
+            "url": "https://www.youtube.com/watch?v=maB8UWgeNeM",
+            "video_id": "maB8UWgeNeM"
+          },
+          {
+            "title": "AI Replacing Entire QA Workflow? BearQ Explored! #qa #softwaretesting #smartbear #aitesting",
+            "url": "https://www.youtube.com/watch?v=QLxtqB7d2nI",
+            "video_id": "QLxtqB7d2nI"
+          },
+          {
+            "title": "6 AI Workflows Every QA Engineer Should Be Using in 2026",
+            "url": "https://www.youtube.com/watch?v=ScWiHlApp6E",
+            "video_id": "ScWiHlApp6E"
+          }
+        ],
+        "future_video_count": 13,
+        "lead_days": 23.38,
+        "new_future_channel_count": 6,
+        "outcome": true,
+        "probability": 0.658689,
+        "topic_key": "semantic-fa62a4eaf11ccac658"
+      },
+      {
+        "checkpoint_at": "2026-06-29T23:59:59+00:00",
+        "diagnostic_label": "I just solved the biggest AI Filmmaking Issue Voice Consistency",
+        "evidence": [
+          {
+            "title": "I just solved the biggest AI Filmmaking Issue: Voice Consistency",
+            "url": "https://www.youtube.com/watch?v=3qDL7A4sS2k",
+            "video_id": "3qDL7A4sS2k"
+          },
+          {
+            "title": "How To Get Realistic Dialogue & Consistent Voices In AI Videos",
+            "url": "https://www.youtube.com/watch?v=duItlDZL7_4",
+            "video_id": "duItlDZL7_4"
+          }
+        ],
+        "future_video_count": 8,
+        "lead_days": 31.527,
+        "new_future_channel_count": 8,
+        "outcome": true,
+        "probability": 0.645497,
+        "topic_key": "semantic-457dd30f0cd2470a1a"
+      },
+      {
+        "checkpoint_at": "2026-06-29T23:59:59+00:00",
+        "diagnostic_label": "Seedance 2.0 Turned My ChatGPT AI Storyboard Into a Full 4K AI Video in Minutes",
+        "evidence": [
+          {
+            "title": "Seedance 2.0 Turned My ChatGPT AI Storyboard Into a Full 4K AI Video in Minutes",
+            "url": "https://www.youtube.com/watch?v=cRdZD7ABLGw",
+            "video_id": "cRdZD7ABLGw"
+          },
+          {
+            "title": "Seedance 2.0 Turned My Claude AI Storyboard Into a Full AI Video in Minutes",
+            "url": "https://www.youtube.com/watch?v=96q3KHK9KEE",
+            "video_id": "96q3KHK9KEE"
+          }
+        ],
+        "future_video_count": 10,
+        "lead_days": 30.437,
+        "new_future_channel_count": 4,
+        "outcome": true,
+        "probability": 0.641313,
+        "topic_key": "semantic-882d02a6bcbfb51fbb"
+      },
+      {
+        "checkpoint_at": "2026-06-22T23:59:59+00:00",
+        "diagnostic_label": "11 Best FREE AI Video Generators in 2026 That Actually Work",
+        "evidence": [
+          {
+            "title": "11 Best FREE AI Video Generators in 2026 (That Actually Work)",
+            "url": "https://www.youtube.com/watch?v=YC2ouzkknBg",
+            "video_id": "YC2ouzkknBg"
+          },
+          {
+            "title": "The Best 6 Free AI Video Tools in 2026 (No Credit Limits)",
+            "url": "https://www.youtube.com/watch?v=ETJT7c4rpfk",
+            "video_id": "ETJT7c4rpfk"
+          }
+        ],
+        "future_video_count": 14,
+        "lead_days": 22.063,
+        "new_future_channel_count": 6,
+        "outcome": true,
+        "probability": 0.637704,
+        "topic_key": "semantic-b3053dfad6ac8ba386"
+      },
+      {
+        "checkpoint_at": "2026-06-22T23:59:59+00:00",
+        "diagnostic_label": "How to Create Talking AI Avatars for FREE ChatGPT + TikTok",
+        "evidence": [
+          {
+            "title": "How to Create Talking AI Avatars for FREE (ChatGPT + TikTok)",
+            "url": "https://www.youtube.com/watch?v=5Ux7Yi62rhw",
+            "video_id": "5Ux7Yi62rhw"
+          },
+          {
+            "title": "Create Unlimited AI Videos for Free | Step-by-Step Guide \ud83d\ude80",
+            "url": "https://www.youtube.com/watch?v=RRK4rEg0U-I",
+            "video_id": "RRK4rEg0U-I"
+          },
+          {
+            "title": "    How To Create Unlimited AI Talking Videos With One image (Step By Step)",
+            "url": "https://www.youtube.com/watch?v=-0JhpavkbhI",
+            "video_id": "-0JhpavkbhI"
+          },
+          {
+            "title": "This AI Workflow Creates 500 YouTube Shorts in 5 Minutes (ChatGPT + Canva)",
+            "url": "https://www.youtube.com/watch?v=XJucelrn-sg",
+            "video_id": "XJucelrn-sg"
+          }
+        ],
+        "future_video_count": 50,
+        "lead_days": 7.438,
+        "new_future_channel_count": 30,
+        "outcome": true,
+        "probability": 0.635498,
+        "topic_key": "semantic-a5aae4b3099946e991"
+      },
+      {
+        "checkpoint_at": "2026-06-22T23:59:59+00:00",
+        "diagnostic_label": "Will AI Replace Programmers? The Truth Nobody Tells You",
+        "evidence": [
+          {
+            "title": "Will AI Replace Programmers? The Truth Nobody Tells You.",
+            "url": "https://www.youtube.com/watch?v=R_usB9n3Fs8",
+            "video_id": "R_usB9n3Fs8"
+          },
+          {
+            "title": "AI Was Supposed to Replace Developers But This Happened",
+            "url": "https://www.youtube.com/watch?v=n5W7yg2VrZA",
+            "video_id": "n5W7yg2VrZA"
+          },
+          {
+            "title": "AI Won\u2019t Replace Junior Developers. It Will Do Something Worse.",
+            "url": "https://www.youtube.com/watch?v=z_pnfterY5U",
+            "video_id": "z_pnfterY5U"
+          }
+        ],
+        "future_video_count": 7,
+        "lead_days": 33.5,
+        "new_future_channel_count": 7,
+        "outcome": true,
+        "probability": 0.63508,
+        "topic_key": "semantic-a45bb9b9f7683f319b"
+      },
+      {
+        "checkpoint_at": "2026-06-08T23:59:59+00:00",
+        "diagnostic_label": "How to use Google OMNI \ud83e\udd2f VERY EASY \ud83d\udd25Create Viral AI Videos Free #ai #omni",
+        "evidence": [
+          {
+            "title": "How to use Google OMNI \ud83e\udd2f VERY EASY \ud83d\udd25Create Viral AI Videos Free #ai #omni",
+            "url": "https://www.youtube.com/watch?v=UHE2UoDnLVg",
+            "video_id": "UHE2UoDnLVg"
+          },
+          {
+            "title": "Create Realistic AI Videos With Your Face FREE \ud83d\ude31 Google Omni Flash Full Tutorial",
+            "url": "https://www.youtube.com/watch?v=Qt6H23bhUas",
+            "video_id": "Qt6H23bhUas"
+          }
+        ],
+        "future_video_count": 16,
+        "lead_days": 21.156,
+        "new_future_channel_count": 15,
+        "outcome": true,
+        "probability": 0.634113,
+        "topic_key": "semantic-c299339efc7040b63d"
+      },
+      {
+        "checkpoint_at": "2026-06-15T23:59:59+00:00",
+        "diagnostic_label": "I Tested 4 FREE AI Video Generators Here\u2019s the Best One",
+        "evidence": [
+          {
+            "title": "I Tested 4 FREE AI Video Generators \u2014 Here\u2019s the Best One",
+            "url": "https://www.youtube.com/watch?v=qty0CibKNlw",
+            "video_id": "qty0CibKNlw"
+          },
+          {
+            "title": "I Tried AI Filmmaking With Free AI Video Generators (actually good?)",
+            "url": "https://www.youtube.com/watch?v=bbSqsAVsDxI",
+            "video_id": "bbSqsAVsDxI"
+          }
+        ],
+        "future_video_count": 7,
+        "lead_days": 16.017,
+        "new_future_channel_count": 5,
+        "outcome": true,
+        "probability": 0.624675,
+        "topic_key": "semantic-2918e1f72fba033dec"
+      },
+      {
+        "checkpoint_at": "2026-06-22T23:59:59+00:00",
+        "diagnostic_label": "Best AI Video Translator & Dubbing Tool Text to Speech with Lip sync VMEG",
+        "evidence": [
+          {
+            "title": "Best AI Video Translator & Dubbing Tool | Text to Speech with Lip sync | VMEG",
+            "url": "https://www.youtube.com/watch?v=tjx0Jy3jLP0",
+            "video_id": "tjx0Jy3jLP0"
+          },
+          {
+            "title": "Elevenlabs is finished | fREE AI Tool for Video Translation, AI Dubbing & Text-to-Speech",
+            "url": "https://www.youtube.com/watch?v=X6b1QGt9Xdk",
+            "video_id": "X6b1QGt9Xdk"
+          },
+          {
+            "title": "Vozo AI Video Localization: Dubbing, Lip Sync, Subtitles & On-Screen Text Translation",
+            "url": "https://www.youtube.com/watch?v=XdY2JdcdJiE",
+            "video_id": "XdY2JdcdJiE"
+          }
+        ],
+        "future_video_count": 5,
+        "lead_days": 36.584,
+        "new_future_channel_count": 5,
+        "outcome": true,
+        "probability": 0.6234,
+        "topic_key": "semantic-938859d97dc9506b8b"
+      },
+      {
+        "checkpoint_at": "2026-06-22T23:59:59+00:00",
+        "diagnostic_label": "Dreamina Seedance 2.0 Mini & Seedance 2.0 4K Fast Batch AI Video Generator",
+        "evidence": [
+          {
+            "title": "Dreamina Seedance 2.0 Mini & Seedance 2.0 4K: Fast Batch AI Video Generator",
+            "url": "https://www.youtube.com/watch?v=KqdDs4ilU8k",
+            "video_id": "KqdDs4ilU8k"
+          },
+          {
+            "title": "\ud83d\udd25CapCut AI Video Generator: Seedance 2.0 Mini & 4K Videos\ud83d\udd25",
+            "url": "https://www.youtube.com/watch?v=qUqdEhOHa9c",
+            "video_id": "qUqdEhOHa9c"
+          },
+          {
+            "title": "From Text to Finished Film in Minutes | CapCut's New AI",
+            "url": "https://www.youtube.com/watch?v=M_B1aFnqk_Y",
+            "video_id": "M_B1aFnqk_Y"
+          }
+        ],
+        "future_video_count": 16,
+        "lead_days": 8.176,
+        "new_future_channel_count": 11,
+        "outcome": true,
+        "probability": 0.589921,
+        "topic_key": "semantic-5b7e38dc7b12f1291f"
+      },
+      {
+        "checkpoint_at": "2026-06-08T23:59:59+00:00",
+        "diagnostic_label": "4 Best AI Video Generators for Social Media in 2026",
+        "evidence": [
+          {
+            "title": "4 Best AI Video Generators for Social Media in 2026",
+            "url": "https://www.youtube.com/watch?v=gr3-gxYO4TY",
+            "video_id": "gr3-gxYO4TY"
+          },
+          {
+            "title": "Best AI Video Generators in 2026 (Most Realistic)",
+            "url": "https://www.youtube.com/watch?v=bmoZ8C8EcbI",
+            "video_id": "bmoZ8C8EcbI"
+          }
+        ],
+        "future_video_count": 5,
+        "lead_days": 27.529,
+        "new_future_channel_count": 5,
+        "outcome": true,
+        "probability": 0.587838,
+        "topic_key": "semantic-a64001cd5f2cac016a"
+      },
+      {
+        "checkpoint_at": "2026-06-08T23:59:59+00:00",
+        "diagnostic_label": "Generate FREE & UNLIMITED AI Videos Seedance 2.0, Grok, VEO 3",
+        "evidence": [
+          {
+            "title": "Generate FREE & UNLIMITED AI Videos: Seedance 2.0, Grok, VEO 3 Tutorial",
+            "url": "https://www.youtube.com/watch?v=uuX6yO0nYf4",
+            "video_id": "uuX6yO0nYf4"
+          },
+          {
+            "title": "Generate UNLIMITED AI Videos for Free \u2014 Veo 3 1, Seedance 2 & Grok in One Place",
+            "url": "https://www.youtube.com/watch?v=IiHidAQzAFI",
+            "video_id": "IiHidAQzAFI"
+          }
+        ],
+        "future_video_count": 19,
+        "lead_days": 10.543,
+        "new_future_channel_count": 11,
+        "outcome": true,
+        "probability": 0.583083,
+        "topic_key": "semantic-1fd22e92ad519c15e3"
+      },
+      {
+        "checkpoint_at": "2026-06-01T23:59:59+00:00",
+        "diagnostic_label": "I Found the Best FREE AI Video Generator Seedance 2.0 Viral",
+        "evidence": [
+          {
+            "title": "I Found the Best FREE AI Video Generator: Seedance 2.0 Viral Tutorial",
+            "url": "https://www.youtube.com/watch?v=sACuxorqfQk",
+            "video_id": "sACuxorqfQk"
+          },
+          {
+            "title": "STOP Paying for AI Video: Seedance Is FREE & UNLIMITED",
+            "url": "https://www.youtube.com/watch?v=3FhOu3j4fAA",
+            "video_id": "3FhOu3j4fAA"
+          }
+        ],
+        "future_video_count": 20,
+        "lead_days": 14.412,
+        "new_future_channel_count": 10,
+        "outcome": true,
+        "probability": 0.573724,
+        "topic_key": "semantic-6c1f22ff894f5dd921"
+      },
+      {
+        "checkpoint_at": "2026-06-08T23:59:59+00:00",
+        "diagnostic_label": "Create 30-Minute Faceless Videos Completely FREE With Anijam AI From A Single Prompt",
+        "evidence": [
+          {
+            "title": "Create 30-Minute Faceless Videos Completely FREE With Anijam AI From A Single Prompt",
+            "url": "https://www.youtube.com/watch?v=5iljYCychYg",
+            "video_id": "5iljYCychYg"
+          },
+          {
+            "title": "I Made a Full AI Cartoon Animation Video With Anijam AI [FREE Credits]",
+            "url": "https://www.youtube.com/watch?v=N2zUYm8LOMg",
+            "video_id": "N2zUYm8LOMg"
+          }
+        ],
+        "future_video_count": 9,
+        "lead_days": 28.778,
+        "new_future_channel_count": 6,
+        "outcome": true,
+        "probability": 0.54604,
+        "topic_key": "semantic-e3025568da7c637a06"
+      },
+      {
+        "checkpoint_at": "2026-06-22T23:59:59+00:00",
+        "diagnostic_label": "OpenArt Director Mode Created This AI Animation Trailer",
+        "evidence": [
+          {
+            "title": "OpenArt Director Mode Created This AI Animation Trailer",
+            "url": "https://www.youtube.com/watch?v=inKUQtDxlDk",
+            "video_id": "inKUQtDxlDk"
+          },
+          {
+            "title": "AI Music Video Workflow: OpenArt Vibe Directing Tutorial / create here : https://tolt.link/muska",
+            "url": "https://www.youtube.com/watch?v=gp3ba2WJxhw",
+            "video_id": "gp3ba2WJxhw"
+          }
+        ],
+        "future_video_count": 11,
+        "lead_days": 17.607,
+        "new_future_channel_count": 9,
+        "outcome": true,
+        "probability": 0.545398,
+        "topic_key": "semantic-126c0a6a5554fd6dba"
+      },
+      {
+        "checkpoint_at": "2026-06-15T23:59:59+00:00",
+        "diagnostic_label": "Stop your YouTube thumbnails from looking like ChatGPT made them",
+        "evidence": [
+          {
+            "title": "Stop your YouTube thumbnails from looking like ChatGPT made them",
+            "url": "https://www.youtube.com/watch?v=2Nnu6zL8FlQ",
+            "video_id": "2Nnu6zL8FlQ"
+          },
+          {
+            "title": "Stop Making BAD Thumbnails! Use This AI Instead",
+            "url": "https://www.youtube.com/watch?v=0HHBFhHr9hg",
+            "video_id": "0HHBFhHr9hg"
+          }
+        ],
+        "future_video_count": 6,
+        "lead_days": 33.587,
+        "new_future_channel_count": 5,
+        "outcome": true,
+        "probability": 0.527264,
+        "topic_key": "semantic-7a18bbe6a616d80776"
+      },
+      {
+        "checkpoint_at": "2026-06-29T23:59:59+00:00",
+        "diagnostic_label": "When AI Video Generators COMPLETELY Break! \ud83e\udd23",
+        "evidence": [
+          {
+            "title": "When AI Video Generators COMPLETELY Break! \ud83e\udd23 (Part 2)",
+            "url": "https://www.youtube.com/watch?v=XwLD7Quon_I",
+            "video_id": "XwLD7Quon_I"
+          },
+          {
+            "title": "AI Video Generation Fails: When AI Goes Horribly Wrong (Part 3)",
+            "url": "https://www.youtube.com/watch?v=zmZSdY_emew",
+            "video_id": "zmZSdY_emew"
+          },
+          {
+            "title": "When AI Video Generators BREAK \ud83e\udd16\ud83d\udc80",
+            "url": "https://www.youtube.com/watch?v=v3yuCFO_FCk",
+            "video_id": "v3yuCFO_FCk"
+          },
+          {
+            "title": "The Real Reason Your AI Videos Are Failing",
+            "url": "https://www.youtube.com/watch?v=CE0DgDGBreM",
+            "video_id": "CE0DgDGBreM"
+          }
+        ],
+        "future_video_count": 2,
+        "lead_days": null,
+        "new_future_channel_count": 2,
+        "outcome": false,
+        "probability": 0.524432,
+        "topic_key": "semantic-6843ea64b33c9a5e83"
+      },
+      {
+        "checkpoint_at": "2026-06-22T23:59:59+00:00",
+        "diagnostic_label": "How to Create FIFA World Cup 2026 Videos Using AI Step-by-Step",
+        "evidence": [
+          {
+            "title": "How to Create FIFA World Cup 2026 Videos Using AI | Step-by-Step",
+            "url": "https://www.youtube.com/watch?v=nK7AYv6RRqM",
+            "video_id": "nK7AYv6RRqM"
+          },
+          {
+            "title": "\ud83d\udea8 FIFA World Cup 2026 = Massive YouTube Opportunity \ud83d\udcb0\u26bd | Create Viral Football AI Videos",
+            "url": "https://www.youtube.com/watch?v=X_x7lUZtDpQ",
+            "video_id": "X_x7lUZtDpQ"
+          },
+          {
+            "title": "\ud83d\udea8 FIFA World Cup 2026 = Biggest YouTube Opportunity \ud83d\udcb0\u26bd | Create Viral AI Videos",
+            "url": "https://www.youtube.com/watch?v=nMzqnS7S9AU",
+            "video_id": "nMzqnS7S9AU"
+          },
+          {
+            "title": "How I\u2019d Build a World Cup 2026 AI Channel Before Everyone Else",
+            "url": "https://www.youtube.com/watch?v=ermP2kwv-oM",
+            "video_id": "ermP2kwv-oM"
+          },
+          {
+            "title": "How To Make Faceless World Cup Videos With AI (3 Visual Styles)",
+            "url": "https://www.youtube.com/watch?v=-RuVY6MWHHc",
+            "video_id": "-RuVY6MWHHc"
+          }
+        ],
+        "future_video_count": 3,
+        "lead_days": null,
+        "new_future_channel_count": 3,
+        "outcome": false,
+        "probability": 0.496608,
+        "topic_key": "semantic-07e62124390fd78ea5"
+      },
+      {
+        "checkpoint_at": "2026-06-29T23:59:59+00:00",
+        "diagnostic_label": "AI Hurts Open Source Software",
+        "evidence": [
+          {
+            "title": "AI Hurts Open Source Software",
+            "url": "https://www.youtube.com/watch?v=MhSy7FTBoX4",
+            "video_id": "MhSy7FTBoX4"
+          },
+          {
+            "title": "AI is Destroying Software (and it's getting worse)",
+            "url": "https://www.youtube.com/watch?v=kIq7i_Pyt34",
+            "video_id": "kIq7i_Pyt34"
+          }
+        ],
+        "future_video_count": 0,
+        "lead_days": null,
+        "new_future_channel_count": 0,
+        "outcome": false,
+        "probability": 0.486378,
+        "topic_key": "semantic-4072139f03e052ac9c"
+      },
+      {
+        "checkpoint_at": "2026-06-08T23:59:59+00:00",
+        "diagnostic_label": "How to Make AI Music Videos with Perfect Lip Sync Full Workflow",
+        "evidence": [
+          {
+            "title": "How to Make AI Music Videos with Perfect Lip Sync (Full Workflow)",
+            "url": "https://www.youtube.com/watch?v=CghKYofqzfI",
+            "video_id": "CghKYofqzfI"
+          },
+          {
+            "title": "This AI Workflow Does EVERYTHING: Music, Video & Lip Sync",
+            "url": "https://www.youtube.com/watch?v=nrUtrNbnHt0",
+            "video_id": "nrUtrNbnHt0"
+          }
+        ],
+        "future_video_count": 9,
+        "lead_days": 26.461,
+        "new_future_channel_count": 8,
+        "outcome": true,
+        "probability": 0.480017,
+        "topic_key": "semantic-5eabd63897632f7dc4"
+      },
+      {
+        "checkpoint_at": "2026-06-29T23:59:59+00:00",
+        "diagnostic_label": "Google Flow AI Image Tools - I Tested Them ALL",
+        "evidence": [
+          {
+            "title": "Google Flow AI Image Tools - I Tested Them ALL",
+            "url": "https://www.youtube.com/watch?v=oIb4K_cnM8A",
+            "video_id": "oIb4K_cnM8A"
+          },
+          {
+            "title": "Google Flow AI Image Tools: Complete Guide",
+            "url": "https://www.youtube.com/watch?v=FctyURHJhak",
+            "video_id": "FctyURHJhak"
+          },
+          {
+            "title": "Google Flow AI Video Tools - I Tested Them ALL",
+            "url": "https://www.youtube.com/watch?v=NdK6SYl9DXk",
+            "video_id": "NdK6SYl9DXk"
+          }
+        ],
+        "future_video_count": 5,
+        "lead_days": 32.601,
+        "new_future_channel_count": 3,
+        "outcome": true,
+        "probability": 0.479598,
+        "topic_key": "semantic-72bc9963f2f026c863"
+      },
+      {
+        "checkpoint_at": "2026-06-29T23:59:59+00:00",
+        "diagnostic_label": "How I Created AI Videos Using YouTube\u2019s New AI Tools",
+        "evidence": [
+          {
+            "title": "How I Created AI Videos Using YouTube\u2019s New AI Tools (Beginner Guide)",
+            "url": "https://www.youtube.com/watch?v=JUU2oLdpvuk",
+            "video_id": "JUU2oLdpvuk"
+          },
+          {
+            "title": "How to Create AI Voiceovers for YouTube Videos",
+            "url": "https://www.youtube.com/watch?v=eTY_bcki-Pk",
+            "video_id": "eTY_bcki-Pk"
+          }
+        ],
+        "future_video_count": 37,
+        "lead_days": 14.719,
+        "new_future_channel_count": 23,
+        "outcome": true,
+        "probability": 0.479422,
+        "topic_key": "semantic-e42c7dbdf4b8830d0b"
+      },
+      {
+        "checkpoint_at": "2026-06-15T23:59:59+00:00",
+        "diagnostic_label": "How To Make History Videos Using AI For Free",
+        "evidence": [
+          {
+            "title": "How To Make History Documentary Videos Using AI For Free",
+            "url": "https://www.youtube.com/watch?v=q7A_3LVQ8uY",
+            "video_id": "q7A_3LVQ8uY"
+          },
+          {
+            "title": "I Made a Full History Documentary with AI for FREE",
+            "url": "https://www.youtube.com/watch?v=RGg8RZedVrw",
+            "video_id": "RGg8RZedVrw"
+          }
+        ],
+        "future_video_count": 2,
+        "lead_days": null,
+        "new_future_channel_count": 2,
+        "outcome": false,
+        "probability": 0.47791,
+        "topic_key": "semantic-630c8cd47c20a430a6"
+      },
+      {
+        "checkpoint_at": "2026-06-22T23:59:59+00:00",
+        "diagnostic_label": "How To Create a Professional Website Using AI No Coding Required! \ud83d\udd25",
+        "evidence": [
+          {
+            "title": "How To Create a Professional Website Using AI (No Coding Required!) \ud83d\udd25",
+            "url": "https://www.youtube.com/watch?v=Y08JkvkkWYs",
+            "video_id": "Y08JkvkkWYs"
+          },
+          {
+            "title": "How i build a professional website in 20 mins Using AI\u2705 No Coding Required",
+            "url": "https://www.youtube.com/watch?v=8os10HFo06o",
+            "video_id": "8os10HFo06o"
+          }
+        ],
+        "future_video_count": 3,
+        "lead_days": null,
+        "new_future_channel_count": 2,
+        "outcome": false,
+        "probability": 0.47671,
+        "topic_key": "semantic-44f449a0a9f9e114c0"
+      },
+      {
+        "checkpoint_at": "2026-06-29T23:59:59+00:00",
+        "diagnostic_label": "How to Create High Quality AI Videos With Claude",
+        "evidence": [
+          {
+            "title": "How to Create High Quality AI Videos With Claude",
+            "url": "https://www.youtube.com/watch?v=v0qHM4Wr8Bo",
+            "video_id": "v0qHM4Wr8Bo"
+          },
+          {
+            "title": "How I Create Realistic AI Videos with Higgsfield AI",
+            "url": "https://www.youtube.com/watch?v=6hrzJHnMQRc",
+            "video_id": "6hrzJHnMQRc"
+          },
+          {
+            "title": "Claude AI + Higgsfield AI: I Built a Video Engine on Autopilot",
+            "url": "https://www.youtube.com/watch?v=wscAqernDKE",
+            "video_id": "wscAqernDKE"
+          }
+        ],
+        "future_video_count": 27,
+        "lead_days": 4.792,
+        "new_future_channel_count": 17,
+        "outcome": true,
+        "probability": 0.465876,
+        "topic_key": "semantic-ad16aef9eb755ef9b0"
+      },
+      {
+        "checkpoint_at": "2026-06-29T23:59:59+00:00",
+        "diagnostic_label": "Create Long AI Videos Just in 1 Click\ud83d\ude31 with Dialogue + BG Music",
+        "evidence": [
+          {
+            "title": "Create Long AI Videos Just in 1 Click\ud83d\ude31 (with Dialogue + BG Music)",
+            "url": "https://www.youtube.com/watch?v=6DMXGEgYRbE",
+            "video_id": "6DMXGEgYRbE"
+          },
+          {
+            "title": "Create 60-Minute AI Videos with One Click | Best AI Video Generator 2026",
+            "url": "https://www.youtube.com/watch?v=I-EqxpZcOCE",
+            "video_id": "I-EqxpZcOCE"
+          }
+        ],
+        "future_video_count": 29,
+        "lead_days": 2.5,
+        "new_future_channel_count": 20,
+        "outcome": true,
+        "probability": 0.458568,
+        "topic_key": "semantic-395bc0e13bdf3fd001"
+      },
+      {
+        "checkpoint_at": "2026-06-15T23:59:59+00:00",
+        "diagnostic_label": "AI Engineer Roadmap 2026 Step-by-Step",
+        "evidence": [
+          {
+            "title": "AI Engineer Roadmap 2026: Step-by-Step Guide for Beginners",
+            "url": "https://www.youtube.com/watch?v=HwtvD5SgI6I",
+            "video_id": "HwtvD5SgI6I"
+          },
+          {
+            "title": "AI Engineer Complete RoadMap for 2026 | from basics to AI/ML Advanced",
+            "url": "https://www.youtube.com/watch?v=TOHNb42t0iE",
+            "video_id": "TOHNb42t0iE"
+          }
+        ],
+        "future_video_count": 12,
+        "lead_days": 23.576,
+        "new_future_channel_count": 9,
+        "outcome": true,
+        "probability": 0.457991,
+        "topic_key": "semantic-b363198ce2d952f398"
+      },
+      {
+        "checkpoint_at": "2026-06-29T23:59:59+00:00",
+        "diagnostic_label": "How To Make 2D Animation Videos Using AI 2D Videos Kaise Banaye",
+        "evidence": [
+          {
+            "title": "How To Make 2D Animation Documentary Videos Using AI | 2D Documentary Videos Kaise Banaye",
+            "url": "https://www.youtube.com/watch?v=Bukj-O1YkiQ",
+            "video_id": "Bukj-O1YkiQ"
+          },
+          {
+            "title": "2D Documentary Videos Kaise Banaye FREE \ud83d\udd25 | AniDoc Style AI Documentary Full Course 2026",
+            "url": "https://www.youtube.com/watch?v=rsTxFRkzNok",
+            "video_id": "rsTxFRkzNok"
+          }
+        ],
+        "future_video_count": 5,
+        "lead_days": 35.177,
+        "new_future_channel_count": 5,
+        "outcome": true,
+        "probability": 0.4569,
+        "topic_key": "semantic-06ef39709c98220386"
+      },
+      {
+        "checkpoint_at": "2026-06-22T23:59:59+00:00",
+        "diagnostic_label": "The Only AI Tools You Need in 2026",
+        "evidence": [
+          {
+            "title": "The Only AI Tools Guide You Need in 2026",
+            "url": "https://www.youtube.com/watch?v=_kTtHOZEvNg",
+            "video_id": "_kTtHOZEvNg"
+          },
+          {
+            "title": "The AI Tools You'll ACTUALLY Use in 2026!",
+            "url": "https://www.youtube.com/watch?v=FhtzROwyung",
+            "video_id": "FhtzROwyung"
+          }
+        ],
+        "future_video_count": 28,
+        "lead_days": 7.034,
+        "new_future_channel_count": 24,
+        "outcome": true,
+        "probability": 0.444631,
+        "topic_key": "semantic-2304a2e11e7ec76ad0"
+      },
+      {
+        "checkpoint_at": "2026-06-15T23:59:59+00:00",
+        "diagnostic_label": "How To Stop Paying For Multiple AI Tools",
+        "evidence": [
+          {
+            "title": "How To Stop Paying For Multiple AI Tools",
+            "url": "https://www.youtube.com/watch?v=nVagmN32lOI",
+            "video_id": "nVagmN32lOI"
+          },
+          {
+            "title": "Stop Paying for Multiple AI Subscriptions",
+            "url": "https://www.youtube.com/watch?v=XPcO6uRyfbQ",
+            "video_id": "XPcO6uRyfbQ"
+          },
+          {
+            "title": "Get cheaper access to AI today! #shorts",
+            "url": "https://www.youtube.com/watch?v=2MKRKFRHah8",
+            "video_id": "2MKRKFRHah8"
+          },
+          {
+            "title": "Stop Paying for Multiple AI Tools \u2013 Use Magic Hour AI ",
+            "url": "https://www.youtube.com/watch?v=1OXunwbJgao",
+            "video_id": "1OXunwbJgao"
+          }
+        ],
+        "future_video_count": 6,
+        "lead_days": 33.19,
+        "new_future_channel_count": 5,
+        "outcome": true,
+        "probability": 0.443296,
+        "topic_key": "semantic-9a01aaf0033c6fd0a7"
+      },
+      {
+        "checkpoint_at": "2026-06-29T23:59:59+00:00",
+        "diagnostic_label": "I Built Full AI UGC Ads Using Vidu AI And It Changed My Workflow",
+        "evidence": [
+          {
+            "title": "I Built Full AI UGC Ads Using Vidu AI \u2014 And It Changed My Workflow",
+            "url": "https://www.youtube.com/watch?v=2gEf7HSZ70k",
+            "video_id": "2gEf7HSZ70k"
+          },
+          {
+            "title": "Vidu AI UGC Ads | I Built a Complete Skincare Commercial With AI",
+            "url": "https://www.youtube.com/watch?v=yJ2xeql-6zE",
+            "video_id": "yJ2xeql-6zE"
+          }
+        ],
+        "future_video_count": 2,
+        "lead_days": null,
+        "new_future_channel_count": 2,
+        "outcome": false,
+        "probability": 0.442099,
+        "topic_key": "semantic-8670872390fd12d699"
+      },
+      {
+        "checkpoint_at": "2026-06-29T23:59:59+00:00",
+        "diagnostic_label": "Microsoft 365 Copilot Gets a Brand-New Look!",
+        "evidence": [
+          {
+            "title": "Microsoft 365 Copilot Gets a Brand-New Look!",
+            "url": "https://www.youtube.com/watch?v=djXLtsHzye8",
+            "video_id": "djXLtsHzye8"
+          },
+          {
+            "title": "What's new in Microsoft 365 Copilot | June 2026",
+            "url": "https://www.youtube.com/watch?v=YB8o-ybmk2w",
+            "video_id": "YB8o-ybmk2w"
+          }
+        ],
+        "future_video_count": 1,
+        "lead_days": null,
+        "new_future_channel_count": 1,
+        "outcome": false,
+        "probability": 0.436674,
+        "topic_key": "semantic-dcb0a16411283ba2d4"
+      },
+      {
+        "checkpoint_at": "2026-06-01T23:59:59+00:00",
+        "diagnostic_label": "Artlist AI Talking Avatar Create Realistic UGC Ads With Heygen 4",
+        "evidence": [
+          {
+            "title": "Artlist AI Talking Avatar : Create Realistic UGC Ads With Heygen 4",
+            "url": "https://www.youtube.com/watch?v=Sol1Q5UbFTE",
+            "video_id": "Sol1Q5UbFTE"
+          },
+          {
+            "title": "I Tested HeyGen AI Avatar Video Generator To Create Viral UGC Ads",
+            "url": "https://www.youtube.com/watch?v=Np4U1z350Vg",
+            "video_id": "Np4U1z350Vg"
+          },
+          {
+            "title": "The ONLY Way To Create Realistic AI Avatars (Full Workflow)",
+            "url": "https://www.youtube.com/watch?v=DpyPk8SREbQ",
+            "video_id": "DpyPk8SREbQ"
+          }
+        ],
+        "future_video_count": 4,
+        "lead_days": 30.625,
+        "new_future_channel_count": 4,
+        "outcome": true,
+        "probability": 0.430866,
+        "topic_key": "semantic-979c7fdae5a8970172"
+      },
+      {
+        "checkpoint_at": "2026-06-08T23:59:59+00:00",
+        "diagnostic_label": "How To Create Viral AI Story Videos Like Radha Hub AI Videos Kaise Banaye",
+        "evidence": [
+          {
+            "title": "How To Create Viral AI Story Videos Like Radha Hub | AI Videos Kaise Banaye",
+            "url": "https://www.youtube.com/watch?v=6MlyxWvz7t4",
+            "video_id": "6MlyxWvz7t4"
+          },
+          {
+            "title": "Create Viral Dadaji AI Story Videos in Minutes (Complete Guide)",
+            "url": "https://www.youtube.com/watch?v=d2jbXNonTuU",
+            "video_id": "d2jbXNonTuU"
+          }
+        ],
+        "future_video_count": 6,
+        "lead_days": 24.365,
+        "new_future_channel_count": 5,
+        "outcome": true,
+        "probability": 0.430289,
+        "topic_key": "semantic-af30dd70a214e278f4"
+      },
+      {
+        "checkpoint_at": "2026-06-15T23:59:59+00:00",
+        "diagnostic_label": "Claude Fable 5 is HERE The New AI King And Why It\u2019s About to Get Insanely Expensive",
+        "evidence": [
+          {
+            "title": "Claude Fable 5 is HERE: The New AI King (And Why It\u2019s About to Get Insanely Expensive)",
+            "url": "https://www.youtube.com/watch?v=YIBV2L-Fui8",
+            "video_id": "YIBV2L-Fui8"
+          },
+          {
+            "title": "Claude Fable 5 Broke The AI Industry. Here's What Happens Next.",
+            "url": "https://www.youtube.com/watch?v=evPb9pOShNk",
+            "video_id": "evPb9pOShNk"
+          },
+          {
+            "title": "Anthropic's best model ever... that you're not allowed to use: Fable 5 #ai #claude #chatgpt",
+            "url": "https://www.youtube.com/watch?v=Oli0x0Q-Fno",
+            "video_id": "Oli0x0Q-Fno"
+          },
+          {
+            "title": "Claude Fable 5 BANNED - Is OPEN SOURCE AI NEXT?",
+            "url": "https://www.youtube.com/watch?v=afcKPe6zKdo",
+            "video_id": "afcKPe6zKdo"
+          },
+          {
+            "title": "Anthropic begged the world to stop AI\u2026 then shipped this",
+            "url": "https://www.youtube.com/watch?v=1PBRhm5ZnjU",
+            "video_id": "1PBRhm5ZnjU"
+          }
+        ],
+        "future_video_count": 15,
+        "lead_days": 19.108,
+        "new_future_channel_count": 14,
+        "outcome": true,
+        "probability": 0.425255,
+        "topic_key": "semantic-f8df30949c5ef5061a"
+      },
+      {
+        "checkpoint_at": "2026-06-22T23:59:59+00:00",
+        "diagnostic_label": "Best AI Agent Tools Step By Step 2026",
+        "evidence": [
+          {
+            "title": "Best AI Agent Tools (Step By Step Guide 2026)",
+            "url": "https://www.youtube.com/watch?v=M3nOfwbmpc4",
+            "video_id": "M3nOfwbmpc4"
+          },
+          {
+            "title": "New AI Tools (Step By Step Guide 2026)",
+            "url": "https://www.youtube.com/watch?v=UFk-sXCp-cY",
+            "video_id": "UFk-sXCp-cY"
+          },
+          {
+            "title": "Best AI Video Generator (Step By Step Guide 2026)",
+            "url": "https://www.youtube.com/watch?v=kFJ9nG_6jwE",
+            "video_id": "kFJ9nG_6jwE"
+          },
+          {
+            "title": "Top AI Tools for AI Agents and Workflow Automation",
+            "url": "https://www.youtube.com/watch?v=bvnm5VasrZc",
+            "video_id": "bvnm5VasrZc"
+          }
+        ],
+        "future_video_count": 29,
+        "lead_days": 13.546,
+        "new_future_channel_count": 4,
+        "outcome": true,
+        "probability": 0.424561,
+        "topic_key": "semantic-1b0a0d28f6b6aa5075"
+      },
+      {
+        "checkpoint_at": "2026-06-01T23:59:59+00:00",
+        "diagnostic_label": "I Made Viral AI Videos With Using One Prompt Only!",
+        "evidence": [
+          {
+            "title": "I Made Viral AI Documentary Videos With Using One Prompt Only!",
+            "url": "https://www.youtube.com/watch?v=2-ljlkgiJ44",
+            "video_id": "2-ljlkgiJ44"
+          },
+          {
+            "title": "I Created a FULL AI Story Video with Just ONE Prompt ( Best AI Video Generator of 2026 \ud83d\ude31)",
+            "url": "https://www.youtube.com/watch?v=t1fVGyztvYQ",
+            "video_id": "t1fVGyztvYQ"
+          }
+        ],
+        "future_video_count": 14,
+        "lead_days": 8.82,
+        "new_future_channel_count": 10,
+        "outcome": true,
+        "probability": 0.420664,
+        "topic_key": "semantic-26bd2387e8d1f14a64"
+      },
+      {
+        "checkpoint_at": "2026-06-29T23:59:59+00:00",
+        "diagnostic_label": "Framer AI Agents for Web Design",
+        "evidence": [
+          {
+            "title": "Framer AI Agents for Web Design",
+            "url": "https://www.youtube.com/watch?v=vN5dQYv7mTE",
+            "video_id": "vN5dQYv7mTE"
+          },
+          {
+            "title": "Framer AI Agents - A Huge Change to Vibe Web Design! (compared to Bolt, Lovable & Replit)",
+            "url": "https://www.youtube.com/watch?v=icsRb4-AZjQ",
+            "video_id": "icsRb4-AZjQ"
+          },
+          {
+            "title": "Framer AI Agents = Build Websites Faster than Ever!",
+            "url": "https://www.youtube.com/watch?v=zckgCAvxlXs",
+            "video_id": "zckgCAvxlXs"
+          }
+        ],
+        "future_video_count": 5,
+        "lead_days": 28.584,
+        "new_future_channel_count": 2,
+        "outcome": true,
+        "probability": 0.416093,
+        "topic_key": "semantic-edcf92b7ab572aa319"
+      },
+      {
+        "checkpoint_at": "2026-06-15T23:59:59+00:00",
+        "diagnostic_label": "The Smartest Way to Grow on LinkedIn Dynal.AI",
+        "evidence": [
+          {
+            "title": "The Smartest Way to Grow on LinkedIn | Dynal.AI",
+            "url": "https://www.youtube.com/watch?v=VGI7S3hSfBM",
+            "video_id": "VGI7S3hSfBM"
+          },
+          {
+            "title": "The Ultimate AI for LinkedIn: Dynal AI Full Tutorial",
+            "url": "https://www.youtube.com/watch?v=flKPCJqM8Zg",
+            "video_id": "flKPCJqM8Zg"
+          }
+        ],
+        "future_video_count": 2,
+        "lead_days": null,
+        "new_future_channel_count": 2,
+        "outcome": false,
+        "probability": 0.409898,
+        "topic_key": "semantic-29cea2d1ef3c0eea78"
+      }
+    ],
+    "probability_metrics": {
+      "average_precision": 0.817906,
+      "base_rate": 0.369338,
+      "brier_score": 0.167518,
+      "constant_brier_score": 0.232927,
+      "examples": 287,
+      "expected_calibration_error": 0.157727,
+      "lift_at_k": 2.240729,
+      "log_loss": 0.492461,
+      "positives": 106,
+      "precision_at_k": 0.827586
+    },
+    "rankings": {
+      "acceleration": {
+        "lift": 1.027001,
+        "median_lead_days": 22.349,
+        "positives": 22,
+        "precision": 0.37931,
+        "predictions": 58,
+        "recall": 0.207547
+      },
+      "creator_breadth": {
+        "lift": 1.540501,
+        "median_lead_days": 21.76,
+        "positives": 33,
+        "precision": 0.568966,
+        "predictions": 58,
+        "recall": 0.311321
+      },
+      "probability_model": {
+        "lift": 2.240729,
+        "median_lead_days": 18.358,
+        "positives": 48,
+        "precision": 0.827586,
+        "predictions": 58,
+        "recall": 0.45283
+      },
+      "recent_supply": {
+        "lift": 1.120364,
+        "median_lead_days": 21.237,
+        "positives": 24,
+        "precision": 0.413793,
+        "predictions": 58,
+        "recall": 0.226415
+      },
+      "semantic_cohesion": {
+        "lift": 1.867274,
+        "median_lead_days": 22.313,
+        "positives": 40,
+        "precision": 0.689655,
+        "predictions": 58,
+        "recall": 0.377358
+      }
+    },
+    "test_checkpoints": [
+      {
+        "base_rate": 0.261905,
+        "checkpoint_at": "2026-06-01T23:59:59+00:00",
+        "episodes": 42,
+        "positives": 11
+      },
+      {
+        "base_rate": 0.390244,
+        "checkpoint_at": "2026-06-08T23:59:59+00:00",
+        "episodes": 41,
+        "positives": 16
+      },
+      {
+        "base_rate": 0.377358,
+        "checkpoint_at": "2026-06-15T23:59:59+00:00",
+        "episodes": 53,
+        "positives": 20
+      },
+      {
+        "base_rate": 0.4,
+        "checkpoint_at": "2026-06-22T23:59:59+00:00",
+        "episodes": 70,
+        "positives": 28
+      },
+      {
+        "base_rate": 0.382716,
+        "checkpoint_at": "2026-06-29T23:59:59+00:00",
+        "episodes": 81,
+        "positives": 31
+      }
+    ],
+    "test_episode_count": 287,
+    "test_topic_count": 287,
+    "train_episode_count": 270,
+    "train_positive_count": 37,
+    "verdict": "FAIL"
+  },
+  "selection_bias": "current-monitoring-universe-retrospective-development",
+  "test_range": [
+    "2026-06-01T23:59:59+00:00",
+    "2026-06-29T23:59:59+00:00"
+  ],
+  "train_range": [
+    "2026-03-01T23:59:59+00:00",
+    "2026-05-24T23:59:59+00:00"
+  ],
+  "video_count": 42610
+}

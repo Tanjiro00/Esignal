@@ -1,0 +1,58 @@
+- generic [active] [ref=e1] [box=0,0,1200,1005]:
+  - button "Open Next.js Dev Tools" [ref=e16] [cursor=pointer] [box=22,600,32,32]
+  - alert [ref=e20] [box=-1,-1,1,1]
+  - generic [ref=e21] [box=0,0,1200,1005]:
+    - complementary [ref=e22] [box=0,0,236,654]:
+      - link "EarlySignal Today" [ref=e23] [cursor=pointer] [box=16,24,203,28]:
+        - /url: /today
+        - generic [ref=e26] [box=62,25,91,27]: EarlySignal
+      - navigation "Primary navigation" [ref=e27] [box=16,92,203,240]:
+        - link "Today" [ref=e28] [cursor=pointer] [box=16,92,203,44]:
+          - /url: /today
+        - link "Library" [ref=e31] [cursor=pointer] [box=16,140,203,44]:
+          - /url: /opportunities
+        - link "Video plans" [ref=e40] [cursor=pointer] [box=16,188,203,44]:
+          - /url: /briefs
+        - link "Performance" [ref=e44] [cursor=pointer] [box=16,236,203,44]:
+          - /url: /results
+        - link "Settings" [ref=e47] [cursor=pointer] [box=16,284,203,44]:
+          - /url: /settings
+      - group [ref=e51] [box=16,360,203,61]:
+        - generic "Admin tools" [ref=e52] [cursor=pointer] [box=16,377,203,44]
+      - generic [ref=e56] [box=16,513,203,117]:
+        - paragraph [ref=e57] [box=16,513,203,40]: Demo workspace · synthetic evidence is isolated from live data.
+        - group [ref=e58] [box=16,569,203,61]:
+          - generic "AL Avery Chen Atlas Labs" [ref=e59] [cursor=pointer] [box=16,582,203,48]:
+            - generic [ref=e60] [box=24,588,36,36]: AL
+            - generic [ref=e61] [box=72,588,113,37]:
+              - strong [ref=e62] [box=72,588,113,17]: Avery Chen
+              - generic [ref=e63] [box=72,608,113,17]: Atlas Labs
+    - main [ref=e66] [box=0,0,1200,1005]:
+      - generic [ref=e67] [box=236,0,964,1005]:
+        - link "All ideas" [ref=e68] [cursor=pointer] [box=268,40,67,44]:
+          - /url: /opportunities
+        - generic [ref=e71] [box=268,96,900,84]:
+          - paragraph [ref=e72] [box=268,96,900,15]: Understand the idea, then choose what happens next
+          - navigation "Opportunity detail sections" [ref=e73] [box=268,131,900,48]:
+            - tab "Overview" [selected] [ref=e74] [box=268,131,99,48]
+            - tab "Sources" [ref=e75] [box=371,131,91,48]
+            - tab "Timing" [ref=e76] [box=465,131,79,48]
+        - tabpanel [ref=e77] [box=268,180,900,728]:
+          - article [ref=e78] [box=268,208,900,590]:
+            - generic [ref=e79] [box=269,209,898,588]:
+              - generic [ref=e80] [box=269,209,598,588]:
+                - generic [ref=e81] [box=297,237,542,32]
+                - heading "Local video generation on consumer GPUs" [level=2] [ref=e87] [box=297,285,542,71]
+                - paragraph [ref=e88] [box=297,368,542,48]: New compressed video models are making useful local generation plausible on consumer graphics cards, but setup evidence is still fragmented.
+                - region "What to cover" [ref=e89] [box=297,436,542,126]
+                - generic [ref=e94] [box=297,582,542,130]
+                - group [ref=e121] [box=297,724,542,45]
+              - complementary [ref=e125] [box=867,209,300,588]:
+                - generic [ref=e126] [box=892,233,251,39]
+                - generic [ref=e129] [box=892,292,251,174]
+                - paragraph [ref=e149] [box=892,481,251,40]: Fit is the match with your channel history. Window risk is the chance the useful moment closes before you can publish.
+                - generic [ref=e151] [box=892,562,251,158]
+          - group [ref=e165] [box=268,822,900,58]:
+            - generic "See how this differs from existing coverageoptional analysis" [ref=e166] [cursor=pointer] [box=268,823,900,56]
+        - group [ref=e170] [box=268,908,900,57]:
+          - generic "Technical details" [ref=e171] [cursor=pointer] [box=268,909,900,56]

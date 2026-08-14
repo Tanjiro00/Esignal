@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "id": "UCFIXTURE00000000000001",
+      "snippet": {
+        "title": "Fixture AI",
+        "description": "Sanitized AI and technology channel fixture.",
+        "publishedAt": "2020-01-02T03:04:05Z",
+        "country": "US",
+        "defaultLanguage": "en"
+      },
+      "statistics": {
+        "viewCount": "4000000",
+        "subscriberCount": "120000",
+        "videoCount": "240"
+      }
+    }
+  ]
+}

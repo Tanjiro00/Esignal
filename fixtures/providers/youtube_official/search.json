@@ -1,0 +1,26 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "fixture-search-etag",
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fixture-item-etag",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "abc123xyz89"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-26T10:30:00Z",
+        "channelId": "UCFIXTURE00000000000001",
+        "title": "AI coding agent benchmark",
+        "description": "Fixture discovery result.",
+        "channelTitle": "Fixture AI Lab",
+        "liveBroadcastContent": "none"
+      }
+    }
+  ]
+}
