@@ -1,0 +1,16 @@
+# EarlySignal panel collection.
+#
+# Feeds are free and outside the API quota, so the whole panel is polled daily.
+# Comment collection runs more often because demand items are what the product
+# sells and freshness is part of their value.
+#
+# Install: crontab -l | cat - deploy/esignal-panel.cron | crontab -
+
+# Poll every panel channel's upload feed, once a day, spread over the night.
+17 2 * * * docker exec earlysignal-api-1 sh -lc 'cd /app && uv run python -m scripts.crawl_panel --limit 3000 --apply' >> /var/log/esignal-panel.log 2>&1
+
+# Collect viewer comments across the panel, four times a day.
+23 */6 * * * docker exec earlysignal-api-1 sh -lc 'cd /app && uv run python -m scripts.crawl_comments --limit 400 --selection panel --apply' >> /var/log/esignal-comments.log 2>&1
+
+# Re-apply membership rules weekly: admit new channels, retire dormant ones.
+41 4 * * 1 docker exec earlysignal-api-1 sh -lc 'cd /app && uv run python -m scripts.refresh_panel --apply' >> /var/log/esignal-panel.log 2>&1
