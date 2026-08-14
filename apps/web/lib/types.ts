@@ -1342,3 +1342,38 @@ export type TranscriptIntelligenceRun = {
   failed: number;
   segments: number;
 };
+
+export type DemandEvidence = {
+  comment_id: string;
+  text: string;
+  published_at: string;
+  like_count: number;
+  video_id: string;
+  video_title: string;
+  video_url: string;
+  channel_title: string;
+};
+
+export type DemandItem = {
+  id: string;
+  headline: string;
+  question: string;
+  subject: string;
+  distinct_askers: number;
+  distinct_channels: number;
+  total_likes: number;
+  volume_score: number;
+  first_asked_at: string;
+  last_asked_at: string;
+  age_days: number;
+  answered: boolean;
+  verified: boolean;
+  anchors: string[];
+  evidence: DemandEvidence[];
+};
+
+export type DemandFeedResponse = {
+  as_of: string | null;
+  total: number;
+  items: DemandItem[];
+};

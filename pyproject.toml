@@ -8,6 +8,10 @@ dependencies = [
   "cryptography>=45,<46",
   "fastapi>=0.116,<1",
   "httpx>=0.28,<1",
+  # es_core is production code: clustering and ranking ship with the API and
+  # worker, so these are runtime dependencies rather than evaluation extras.
+  "numpy>=2.2,<3",
+  "scikit-learn>=1.7,<2",
   "pydantic-settings>=2.10,<3",
   "psycopg[binary]>=3.2,<4",
   "sqlalchemy>=2.0.41,<3",

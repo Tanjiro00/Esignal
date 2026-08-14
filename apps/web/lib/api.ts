@@ -1,5 +1,6 @@
 import type {
   AnalyticsSummary,
+  DemandFeedResponse,
   AuthSession,
   Brief,
   BriefDocument,
@@ -845,4 +846,8 @@ export function runTranscriptIntelligence(): Promise<TranscriptIntelligenceRun> 
   return request("/admin/transcript-intelligence/run?limit=8", {
     method: "POST",
   });
+}
+
+export function getDemandFeed(limit = 20): Promise<DemandFeedResponse> {
+  return request<DemandFeedResponse>(`/demand/feed?limit=${limit}`);
 }
