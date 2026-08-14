@@ -80,10 +80,25 @@ def _aware(value: datetime) -> datetime:
 
 
 def _openai_key(settings: Settings) -> str:
-    key = getattr(settings, "openai_api_key", "") or os.environ.get("OPENAI_API_KEY", "")
+    """Read the key, unwrapping pydantic's SecretStr.
+
+    Interpolating a SecretStr into a string yields "**********", which the API
+    accepts as a well-formed header and rejects with 401 — a failure that looks
+    like a credentials problem rather than a code one.
+    """
+
+    raw = getattr(settings, "openai_api_key", "")
+    key = raw.get_secret_value() if hasattr(raw, "get_secret_value") else str(raw)
+    key = key or os.environ.get("OPENAI_API_KEY", "")
     if not key:
         raise RuntimeError("OPENAI_API_KEY is required for the demand feed")
     return key
+
+
+def _openai_model(settings: Settings) -> str:
+    raw = getattr(settings, "openai_model", "")
+    model = raw.get_secret_value() if hasattr(raw, "get_secret_value") else str(raw)
+    return model or "gpt-4.1-mini"
 
 
 def _post(url: str, payload: dict[str, object], key: str, *, timeout: int = 120) -> dict:
@@ -276,7 +291,7 @@ class DemandFeedService:
         if not items:
             return ()
         key = _openai_key(self._settings)
-        model = getattr(self._settings, "openai_model", "") or "gpt-4.1-mini"
+        model = _openai_model(self._settings)
         verdicts = []
         for item in items[:VERIFY_BATCH]:
             request = build_request(item)
