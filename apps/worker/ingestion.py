@@ -505,6 +505,78 @@ class IngestionService:
             self._session.commit()
             raise
 
+    async def ingest_panel_channel(
+        self,
+        channel: YoutubeChannel,
+        *,
+        max_results: int = 15,
+        lookback_days: int = 30,
+    ) -> IngestionResult:
+        """Poll one panel channel's upload feed.
+
+        The workspace-scoped variant exists because ingestion used to be driven
+        by a customer adding channels. The panel is a property of the product,
+        not of any one workspace, so this path takes the channel directly. The
+        feed itself is free and outside the API quota, which is what makes
+        polling thousands of channels daily affordable.
+        """
+
+        now = datetime.now(tz=UTC)
+        bucket = int(now.timestamp()) // 3600
+        idempotency_key = f"panel:{channel.youtube_channel_id}:{bucket}"
+        existing = self._session.scalar(
+            select(DiscoveryRun).where(DiscoveryRun.idempotency_key == idempotency_key)
+        )
+        if existing is not None:
+            return self._result(existing, f"panel:{channel.youtube_channel_id}")
+
+        run = DiscoveryRun(
+            id=str(uuid4()),
+            query_id=None,
+            channel_id=channel.id,
+            provider="panel",
+            idempotency_key=idempotency_key,
+            started_at=now,
+            completed_at=None,
+            status="running",
+            result_count=0,
+            unique_video_count=0,
+            retained_video_count=0,
+            estimated_cost=0,
+            error_code=None,
+            error_message=None,
+        )
+        self._session.add(run)
+        self._session.commit()
+        try:
+            discovered = list(
+                await self._recent_router.recent_uploads(
+                    channel.youtube_channel_id,
+                    published_after=now - timedelta(days=lookback_days),
+                    limit=max_results,
+                )
+            )
+            normalized = await self._enrich_and_normalize(
+                discovered,
+                query=None,
+                country=channel.country,
+                language=channel.default_language,
+            )
+            self._complete_run(run, discovered=discovered, normalized=normalized)
+            self._session.commit()
+            return self._result(run, f"panel:{channel.youtube_channel_id}")
+        except Exception as error:
+            self._session.rollback()
+            failed_run = self._session.get(DiscoveryRun, run.id)
+            if failed_run is None:
+                raise
+            failed_run.status = "failed"
+            failed_run.completed_at = datetime.now(tz=UTC)
+            failed_run.error_code = type(error).__name__
+            failed_run.error_message = str(error)[:1000]
+            self._session.commit()
+            raise
+
     async def run_due(self, *, limit: int = 5) -> list[IngestionResult]:
         now = datetime.now(tz=UTC)
         queries = list(
