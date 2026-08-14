@@ -26,6 +26,7 @@ from apps.api.lifecycle import get_signal_earlyness
 from apps.api.models import (
     ChannelProfile,
     ContentBrief,
+    DemandItemComment,
     DemandPipelineRun,
     DigestRun,
     DigestSubscription,
@@ -58,7 +59,11 @@ from apps.api.models import (
     WorkspaceOnboarding,
     WorkspaceSignalScore,
     YoutubeChannel,
+    YoutubeComment,
     YoutubeVideo,
+)
+from apps.api.models import (
+    DemandItem as DemandItemRow,
 )
 from apps.api.onboarding import OnboardingService, slugify
 from apps.api.packaging import ensure_signal_packaging, regenerate_signal_packaging
@@ -85,8 +90,11 @@ from apps.api.schemas import (
     ChannelProfileUpdate,
     CommentTopicRelevanceOverrideRequest,
     CommentTopicRelevanceResponse,
+    DemandEvidence,
+    DemandFeedResponse,
     DemandIntelligenceMetrics,
     DemandIntelligenceRunResponse,
+    DemandItemResponse,
     DemandReclassifyRequest,
     DemandReclassifyResponse,
     DemoContext,
@@ -332,6 +340,90 @@ def demo_context(session: DbSession) -> DemoContext:
     if not settings.demo_mode:
         raise HTTPException(404, "Demo mode is disabled")
     return _workspace_context(session)
+
+
+def _age_days(moment: datetime, now: datetime) -> float:
+    aware = moment.replace(tzinfo=UTC) if moment.tzinfo is None else moment
+    return round((now - aware).total_seconds() / 86_400, 2)
+
+
+@app.get("/api/v1/demand/feed", response_model=DemandFeedResponse)
+def demand_feed(
+    session: DbSession,
+    limit: int = 20,
+    include_answered: bool = False,
+    only_verified: bool = True,
+) -> DemandFeedResponse:
+    """Unanswered questions from real viewers, newest checkpoint first.
+
+    The feed is read, never computed here: a job stores it so every response is
+    the same evidence the audit saw.
+    """
+
+    latest = session.scalar(select(func.max(DemandItemRow.as_of)))
+    if latest is None:
+        return DemandFeedResponse(as_of=None, total=0, items=[])
+
+    query = select(DemandItemRow).where(DemandItemRow.as_of == latest)
+    if only_verified:
+        query = query.where(DemandItemRow.verified.is_(True))
+    if not include_answered:
+        query = query.where(DemandItemRow.answered.is_(False))
+    rows = list(
+        session.scalars(
+            query.order_by(DemandItemRow.volume_score.desc()).limit(max(1, min(limit, 100)))
+        )
+    )
+    if not rows:
+        return DemandFeedResponse(as_of=latest, total=0, items=[])
+
+    links = list(
+        session.execute(
+            select(DemandItemComment, YoutubeComment, YoutubeVideo, YoutubeChannel)
+            .join(YoutubeComment, YoutubeComment.id == DemandItemComment.comment_id)
+            .join(YoutubeVideo, YoutubeVideo.id == YoutubeComment.video_id)
+            .join(YoutubeChannel, YoutubeChannel.id == YoutubeVideo.channel_id)
+            .where(DemandItemComment.demand_item_id.in_([row.id for row in rows]))
+            .order_by(DemandItemComment.position)
+        ).all()
+    )
+    evidence_by_item: dict[str, list[DemandEvidence]] = {}
+    for link, comment, video, channel in links:
+        evidence_by_item.setdefault(link.demand_item_id, []).append(
+            DemandEvidence(
+                comment_id=comment.id,
+                text=comment.text[:600],
+                published_at=comment.published_at,
+                like_count=comment.like_count or 0,
+                video_id=video.youtube_video_id,
+                video_title=video.title,
+                video_url=f"https://www.youtube.com/watch?v={video.youtube_video_id}",
+                channel_title=channel.title,
+            )
+        )
+
+    now = datetime.now(tz=UTC)
+    items = [
+        DemandItemResponse(
+            id=row.id,
+            headline=row.need or row.question,
+            question=row.question,
+            subject=row.subject,
+            distinct_askers=row.distinct_askers,
+            distinct_channels=row.distinct_channels,
+            total_likes=row.total_likes,
+            volume_score=row.volume_score,
+            first_asked_at=row.first_asked_at,
+            last_asked_at=row.last_asked_at,
+            age_days=_age_days(row.last_asked_at, now),
+            answered=row.answered,
+            verified=row.verified,
+            anchors=[str(anchor.get("term", "")) for anchor in row.anchors_json],
+            evidence=evidence_by_item.get(row.id, [])[:12],
+        )
+        for row in rows
+    ]
+    return DemandFeedResponse(as_of=latest, total=len(items), items=items)
 
 
 @app.post(

@@ -138,6 +138,72 @@ class YoutubeChannel(Base):
     )
 
 
+class CommentEmbedding(Base):
+    """Comment vectors in the same space as video vectors.
+
+    Sharing the space is what makes "does a video already answer this?" a
+    nearest-neighbour lookup rather than a keyword match.
+    """
+
+    __tablename__ = "comment_embeddings"
+
+    comment_id: Mapped[str] = mapped_column(
+        String(36), ForeignKey("youtube_comments.id"), primary_key=True
+    )
+    embedding_version: Mapped[str] = mapped_column(String(40), primary_key=True)
+    model_name: Mapped[str] = mapped_column(String(80))
+    dimensions: Mapped[int] = mapped_column(Integer)
+    vector_json: Mapped[list[float]] = mapped_column(JSON)
+    source_hash: Mapped[str] = mapped_column(String(64))
+    calculated_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), index=True)
+
+
+class DemandItem(Base):
+    """A group of viewers asking the same unanswered question.
+
+    This is the unit the product sells, so it is computed by a job and stored,
+    not derived per request. Its evidence is real comments, linked below.
+    """
+
+    __tablename__ = "demand_items"
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True)
+    item_key: Mapped[str] = mapped_column(String(32), index=True)
+    as_of: Mapped[datetime] = mapped_column(DateTime(timezone=True))
+    question: Mapped[str] = mapped_column(Text)
+    need: Mapped[str] = mapped_column(Text, default="")
+    subject: Mapped[str] = mapped_column(String(200), default="")
+    distinct_askers: Mapped[int] = mapped_column(Integer)
+    distinct_videos: Mapped[int] = mapped_column(Integer)
+    distinct_channels: Mapped[int] = mapped_column(Integer)
+    total_likes: Mapped[int] = mapped_column(Integer)
+    first_asked_at: Mapped[datetime] = mapped_column(DateTime(timezone=True))
+    last_asked_at: Mapped[datetime] = mapped_column(DateTime(timezone=True))
+    mean_similarity: Mapped[float] = mapped_column(Float)
+    volume_score: Mapped[float] = mapped_column(Float)
+    answered: Mapped[bool] = mapped_column(Boolean, default=False)
+    answer_video_ids_json: Mapped[list[str]] = mapped_column(JSON, default=list)
+    anchors_json: Mapped[list[dict[str, object]]] = mapped_column(JSON, default=list)
+    centroid_json: Mapped[list[float]] = mapped_column(JSON, default=list)
+    verified: Mapped[bool] = mapped_column(Boolean, default=False)
+    verifier_version: Mapped[str | None] = mapped_column(String(40), nullable=True)
+    pipeline_version: Mapped[str] = mapped_column(String(40))
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+
+
+class DemandItemComment(Base):
+    __tablename__ = "demand_item_comments"
+
+    demand_item_id: Mapped[str] = mapped_column(
+        String(36), ForeignKey("demand_items.id", ondelete="CASCADE"), primary_key=True
+    )
+    comment_id: Mapped[str] = mapped_column(
+        String(36), ForeignKey("youtube_comments.id"), primary_key=True
+    )
+    is_evidence: Mapped[bool] = mapped_column(Boolean, default=False)
+    position: Mapped[int] = mapped_column(Integer, default=0)
+
+
 class PanelMembership(Base):
     """The observed population, recorded as dated facts.
 

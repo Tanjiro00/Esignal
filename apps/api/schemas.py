@@ -1288,3 +1288,42 @@ class TranscriptIntelligenceRunResponse(BaseModel):
     unavailable: int
     failed: int
     segments: int
+
+
+class DemandEvidence(BaseModel):
+    """A real comment the customer can click through and read."""
+
+    comment_id: str
+    text: str
+    published_at: datetime
+    like_count: int
+    video_id: str
+    video_title: str
+    video_url: str
+    channel_title: str
+
+
+class DemandItemResponse(BaseModel):
+    """One unanswered question, with the proof that people asked it."""
+
+    id: str
+    headline: str
+    question: str
+    subject: str
+    distinct_askers: int
+    distinct_channels: int
+    total_likes: int
+    volume_score: float
+    first_asked_at: datetime
+    last_asked_at: datetime
+    age_days: float
+    answered: bool
+    verified: bool
+    anchors: list[str]
+    evidence: list[DemandEvidence]
+
+
+class DemandFeedResponse(BaseModel):
+    as_of: datetime | None
+    total: int
+    items: list[DemandItemResponse]
