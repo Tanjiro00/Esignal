@@ -18,7 +18,7 @@ import argparse
 import base64
 import json
 import struct
-from datetime import UTC, datetime, timedelta
+from datetime import UTC, datetime
 from pathlib import Path
 
 import numpy as np

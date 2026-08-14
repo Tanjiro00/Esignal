@@ -19,7 +19,6 @@ from es_core.feed import build_feed, overlap, overlap_vs_chance
 from es_core.verification import apply as apply_verifications
 from es_core.verification import parse_response
 from es_eval import dataset as dataset_module
-
 from scripts.build_demand_items import load_comments
 
 

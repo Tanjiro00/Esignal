@@ -20,10 +20,10 @@ from pathlib import Path
 from es_core.entity import EntityEvidence, resolve
 from es_core.identity import TopicRegistry
 from es_core.pipeline import build_candidates
+from es_eval import dataset as dataset_module
 from es_ingest.upstream.base import HttpCache, UpstreamMention
 from es_ingest.upstream.github import GitHubSource
 from es_ingest.upstream.hackernews import HackerNewsSource
-from es_eval import dataset as dataset_module
 
 PRE_WINDOW_DAYS = 30
 BASELINE_OFFSET_DAYS = 365

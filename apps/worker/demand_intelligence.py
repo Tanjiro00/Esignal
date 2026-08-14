@@ -23,6 +23,7 @@ from apps.api.models import (
     DemandClusterComment,
     DemandPipelineRun,
     FieldProvenance,
+    PanelMembership,
     ProviderFetch,
     Signal,
     Topic,
@@ -210,6 +211,7 @@ class DemandIntelligenceService:
         *,
         force: bool = False,
         limit: int | None = None,
+        selection: str = "signal",
     ) -> DemandRunResult:
         started_at = datetime.now(tz=UTC)
         bucket = int(started_at.timestamp()) // PIPELINE_INTERVAL_SECONDS
@@ -259,9 +261,10 @@ class DemandIntelligenceService:
         self._session.add(run)
         self._session.commit()
         try:
-            candidates = self.select_candidates(
-                limit=limit or self._settings.comment_candidate_limit
+            chooser = (
+                self.select_panel_candidates if selection == "panel" else self.select_candidates
             )
+            candidates = chooser(limit=limit or self._settings.comment_candidate_limit)
             run.candidate_video_count = len(candidates)
             fetched_videos = 0
             for video in candidates:
@@ -319,6 +322,46 @@ class DemandIntelligenceService:
             failed_run.provider_failure_count = self._provider_failures_since(started_at)
             self._session.commit()
             raise
+
+    def select_panel_candidates(self, *, limit: int) -> list[YoutubeVideo]:
+        """Recent panel uploads that have comments, ranked by reach.
+
+        The original selection required a video to belong to an active v1
+        signal. That is why only 13k comments were ever collected: comment
+        coverage was gated behind a scorer that never worked, so the demand
+        evidence the product sells could only exist where the broken score had
+        already fired.
+
+        Demand items need the opposite — broad coverage of what the observed
+        population actually published, with reach deciding the order.
+        """
+
+        latest = (
+            select(
+                VideoSnapshot.video_id,
+                func.max(VideoSnapshot.view_count).label("view_count"),
+                func.max(VideoSnapshot.comment_count).label("comment_count"),
+            )
+            .group_by(VideoSnapshot.video_id)
+            .subquery()
+        )
+        return list(
+            self._session.scalars(
+                select(YoutubeVideo)
+                .join(PanelMembership, PanelMembership.channel_id == YoutubeVideo.channel_id)
+                .outerjoin(latest, latest.c.video_id == YoutubeVideo.id)
+                .where(
+                    PanelMembership.left_at.is_(None),
+                    YoutubeVideo.published_at >= datetime.now(tz=UTC) - timedelta(days=30),
+                    func.coalesce(latest.c.comment_count, 0) > 0,
+                )
+                .order_by(
+                    desc(func.coalesce(latest.c.view_count, 0)),
+                    desc(YoutubeVideo.published_at),
+                )
+                .limit(max(1, limit))
+            )
+        )
 
     def select_candidates(self, *, limit: int) -> list[YoutubeVideo]:
         latest_comments = (

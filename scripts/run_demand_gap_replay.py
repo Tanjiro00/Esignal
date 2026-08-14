@@ -95,13 +95,14 @@ def main() -> None:
             if candidate.evidence.status == "accepted" and candidate.anchors
         ]
         future = [video for video in data.videos if checkpoint < video.published_at <= outcome_end]
+        checkpoint_day = checkpoint.date().isoformat()
         fired = 0
         for candidate in publishable:
             topic_future = replay_module._topic_future(candidate, future, data)
             outcome = evaluate_demand_gap(
                 as_of=checkpoint,
                 future_videos=topic_future,
-                lift_of=lambda video: model_at_outcome.normalized_lift(
+                lift_of=lambda video, model=model_at_outcome: model.normalized_lift(
                     video.video_id, channel_id=channel_of.get(video.video_id, "")
                 ),
                 policy=demand_policy,
@@ -123,7 +124,7 @@ def main() -> None:
             )
         print(
             f"{checkpoint.date()}: candidates={len(candidates)} publishable={len(publishable)} "
-            f"labelled={sum(1 for row in rows if row['checkpoint'] == checkpoint.date().isoformat())} "
+            f"labelled={sum(1 for row in rows if row['checkpoint'] == checkpoint_day)} "
             f"fired={fired} baseline_channels={model_at_outcome.covered_channels}"
         )
 
