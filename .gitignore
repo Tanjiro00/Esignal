@@ -18,3 +18,4 @@ test-results/
 dist/
 build/
 var/
+outreach/leads_raw.csv
